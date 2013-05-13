@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+  <!-- hbs → eng --> 
+
+  <mode name="hbs-eng" install="yes">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="hbs-eng.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="hbs-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="hbs-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="hbs-eng.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-hbs-eng.hbs-eng.t1x"/>
+        <file name="hbs-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-hbs-eng.hbs-eng.t2x"/>
+        <file name="hbs-eng.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-hbs-eng.hbs-eng.t3x"/>
+        <file name="hbs-eng.t3x.bin"/>
+      </program>
+      <program name="hfst-proc $1">
+        <file name="hbs-eng.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="hbs-eng-debug" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="hbs-eng.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="hbs-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="hbs-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="hbs-eng.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-hbs-eng.hbs-eng.t1x"/>
+        <file name="hbs-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-hbs-eng.hbs-eng.t2x"/>
+        <file name="hbs-eng.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-hbs-eng.hbs-eng.t3x"/>
+        <file name="hbs-eng.t3x.bin"/>
+      </program>
+      <program name="hfst-proc -d">
+        <file name="hbs-eng.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+ 
+  
+  <mode name="hbs-eng-morph" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="hbs-eng.automorf.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="hbs-eng-disam" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="hbs-eng.automorf.hfst"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="hbs-eng.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="hbs-eng-tagger" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="hbs-eng.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="hbs-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="hbs-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="hbs-eng-biltrans" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="hbs-eng.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="hbs-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="hbs-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="hbs-eng.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="hbs-eng-lextor" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="hbs-eng.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="hbs-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="hbs-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="hbs-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -t">
+        <file name="hbs-eng.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="hbs-eng-transfer" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="hbs-eng.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="hbs-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="hbs-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="hbs-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="hbs-eng.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-hbs-eng.hbs-eng.t1x"/>
+        <file name="hbs-eng.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="hbs-eng-interchunk" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="hbs-eng.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="hbs-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="hbs-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="hbs-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="hbs-eng.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-hbs-eng.hbs-eng.t1x"/>
+        <file name="hbs-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-hbs-eng.hbs-eng.t2x"/>
+        <file name="hbs-eng.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="hbs-eng-postchunk" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="hbs-eng.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="hbs-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="hbs-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="hbs-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="hbs-eng.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-hbs-eng.hbs-eng.t1x"/>
+        <file name="hbs-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-hbs-eng.hbs-eng.t2x"/>
+        <file name="hbs-eng.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-hbs-eng.hbs-eng.t3x"/>
+        <file name="hbs-eng.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- eng → hbs -->
+
+  <mode name="eng-hbs" install="yes">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="eng-hbs.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="eng-hbs.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-hbs.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-hbs.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-hbs-eng.eng-hbs.t1x"/>
+        <file name="eng-hbs.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-hbs-eng.eng-hbs.t2x"/>
+        <file name="eng-hbs.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-hbs-eng.eng-hbs.t3x"/>
+        <file name="eng-hbs.t3x.bin"/>
+      </program>
+      <program name="hfst-proc $1">
+        <file name="eng-hbs.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-hbs-debug" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="eng-hbs.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="eng-hbs.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-hbs.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-hbs.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-hbs-eng.eng-hbs.t1x"/>
+        <file name="eng-hbs.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-hbs-eng.eng-hbs.t2x"/>
+        <file name="eng-hbs.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-hbs-eng.eng-hbs.t3x"/>
+        <file name="eng-hbs.t3x.bin"/>
+      </program>
+      <program name="hfst-proc -d">
+        <file name="eng-hbs.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+  <mode name="eng-hbs-morph" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="eng-hbs.automorf.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-hbs-disam" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="eng-hbs.automorf.hfst"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="eng-hbs.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="eng-hbs-tagger" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="eng-hbs.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="eng-hbs.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-hbs.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-hbs-biltrans" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="eng-hbs.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="eng-hbs.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-hbs.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-hbs.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-hbs-lextor" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="eng-hbs.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="eng-hbs.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-hbs.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-hbs.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="eng-hbs.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-hbs-transfer" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="eng-hbs.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="eng-hbs.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-hbs.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-hbs.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-hbs-eng.eng-hbs.t1x"/>
+        <file name="eng-hbs.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-hbs-interchunk" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="eng-hbs.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="eng-hbs.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-hbs.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-hbs.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-hbs-eng.eng-hbs.t1x"/>
+        <file name="eng-hbs.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-hbs-eng.eng-hbs.t2x"/>
+        <file name="eng-hbs.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-hbs-postchunk" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="eng-hbs.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="eng-hbs.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-hbs.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-hbs.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-hbs-eng.eng-hbs.t1x"/>
+        <file name="eng-hbs.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-hbs-eng.eng-hbs.t2x"/>
+        <file name="eng-hbs.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-hbs-eng.eng-hbs.t3x"/>
+        <file name="eng-hbs.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
+
+</modes>
+
+
