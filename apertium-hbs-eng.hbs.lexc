@@ -1,16 +1,554 @@
-
+!            -*- coding: utf-8-unix; -*-
 Multichar_Symbols
 
-%<n%>   ! Имя существительное · Noun
+%<n%>   ! Noun
+%<v%>   ! Verb
+%<adv%>	! Adjective
+%<conj%>	! Conjunction
+%<pres%>	! Present tense
+%<name%>	! Proper noun
+%<adj%>	! Adverb
+%<pt%>	! Particle
+%<sg%>	! Singular
+%<pl%>	! Plural
+%<pt%>	! Particle
+%<pp%>	! Preposition
+%<ii%>	! Inanimate
+%<aa%>	! Animate
+%<m%>	! Masculine
+%<f%>	! Feminine
+%<nt%>	! Neuter
+%<ppron%>	! Personal pronoun
+%<nom%>	! Nominative
+%<gen%>	! Genitive
+%<loc%> ! Locative/Dative
+%<voc%> ! Vocative
+%<acc%>	! Accusative
+%<ins%> ! Instrumental
+%<posspr%>	! Possessive pronoun
+%<1p%>	! 1st person
+%<2p%>	! 2nd person
+%<3p%>	! 3rd person
+%<clt%>	! Clitic
+%<num%>	! Number
+
+%<iv%>	! Intransitive verb
+%<tv%>	! Intransitive verb
+%<past%>	! Past Participle
+%<refl%>	! Reflexive
+lj nj dž {K} {G} {H} {A} {E} {Â} {J}
+% 
 
 LEXICON Root
 
-Nouns ; 
+Nouns ;
+Verbs ;
+Adjectives ;
+Adverbs ;
+Conjunctions ;
+Prepositions ;
+Possessive_Pronouns ;
+Particles ;
+Reflexive ;
+Number ;
+Pronouns ;
 
-LEXICON N1
+LEXICON N_MASC
 
-%<n%>: # ;
+%<sg%>%<nom%>: # ;
+%<sg%>%<gen%>:a # ;
+%<sg%>%<loc%>:u # ;
+%<sg%>%<ins%>:{E}m # ;
+%<pl%>%<nom%>:i # ;
+%<pl%>%<gen%>:{Â} # ;
+%<pl%>%<loc%>:ima #;
+%<pl%>%<acc%>:e # ;
+%<pl%>%<ins%>:ima # ;
+
+LEXICON N_MASC_ANIMATE
+
+%<n%>%<m%>%<aa%>%<sg%>%<acc%>:a # ;
+%<n%>%<m%>%<aa%>%<sg%>%<voc%>:e # ;
+%<n%>%<m%>%<aa%>: N_MASC ;
+
+LEXICON N_MASC_INANIMATE
+
+%<n%>%<m%>%<ii%>%<sg%>%<acc%>: # ;
+%<n%>%<m%>%<ii%>%<sg%>%<voc%>: # ;
+%<n%>%<m%>%<ii%>: N_MASC ;
+
+LEXICON N_MASC_EV_PLURAL
+
+%<n%>%<m%>%<sg%>%<nom%>: # ;
+%<n%>%<m%>%<sg%>%<gen%>:a # ;
+%<n%>%<m%>%<sg%>%<loc%>:u # ;
+%<n%>%<m%>%<sg%>%<acc%>: # ;
+%<n%>%<m%>%<sg%>%<ins%>:{E}m # ;
+%<n%>%<m%>%<pl%>%<nom%>:{E}vi # :
+%<n%>%<m%>%<pl%>%<gen%>:{E}v{Â} # ;
+%<n%>%<m%>%<pl%>%<loc%>:{E}vima # ;
+%<n%>%<m%>%<pl%>%<acc%>:{E}ve # ;
+%<n%>%<m%>%<pl%>%<ins%>:{E}vima # ;
+
+LEXICON N_NEUTER
+
+%<sg%>%<gen%>:a # ;
+%<sg%>%<loc%>:u # ;
+%<pl%>%<nom%>:a # ;
+%<pl%>%<gen%>:{Â} # ;
+%<pl%>%<loc%>:ima # ;
+%<pl%>%<acc%>:a # ;
+%<pl%>%<ins%>:ima # ;
+
+LEXICON N_NEUTER_E
+
+%<n%>%<nt%>%<sg%>%<nom%>:e # ;
+%<n%>%<nt%>%<sg%>%<acc%>:e # ;
+%<n%>%<nt%>%<sg%>%<ins%>:em # ;
+%<n%>%<nt%>: N_NEUTER ;
+
+LEXICON N_NEUTER_O
+
+%<n%>%<nt%>%<sg%>%<nom%>:o # ;
+%<n%>%<nt%>%<sg%>%<acc%>:o # ;
+%<n%>%<nt%>%<sg%>%<ins%>:om # ;
+%<n%>%<nt%>: N_NEUTER ;
+
+LEXICON N_NEUTER_VOWEL_ROOT
+
+%<n%>%<nt%>%<sg%>%<nom%>: # ;
+%<n%>%<nt%>%<sg%>%<acc%>: # ;
+
+LEXICON N_NEUTER_CONS_ROOT
+
+%<n%>%<nt%>%<sg%>%<gen%>:a # ;
+%<n%>%<nt%>%<sg%>%<loc%>:u  # ;
+%<n%>%<nt%>%<sg%>%<ins%>:om  # ;
+%<n%>%<nt%>%<pl%>%<nom%>:a # ;
+%<n%>%<nt%>%<pl%>%<gen%>:{Â} # ;
+%<n%>%<nt%>%<pl%>%<acc%>:a # ;
+%<n%>%<nt%>%<pl%>%<loc%>:ima # ;
+%<n%>%<nt%>%<pl%>%<ins%>:ima # ;
+
+LEXICON N_FEM_A
+
+%<n%>%<f%>: N_A ;
+
+LEXICON NAME_MASCULINE_A
+
+%<n%>%<name%>%<m%>: N_A ;
+
+LEXICON NAME_FEMININE_A
+
+%<n%>%<name%>%<m%>: N_A ;
+
+LEXICON N_PLURALIA_A
+
+%<n%>%<f%>%<pl%>%<nom%>:a # ;
+%<n%>%<f%>%<pl%>%<gen%>:e # ;
+%<n%>%<f%>%<pl%>%<loc%>:i #;
+%<n%>%<f%>%<pl%>%<acc%>:u # ;
+%<n%>%<f%>%<pl%>%<ins%>:om # ;
+
+LEXICON N_A
+
+%<sg%>%<nom%>:a # ;
+%<sg%>%<gen%>:e # ;
+%<sg%>%<loc%>:i # ;
+%<sg%>%<acc%>:u # ;
+%<sg%>%<ins%>:om # ;
+%<pl%>%<nom%>:e # ;
+%<pl%>%<gen%>:{Â} # ;
+%<pl%>%<loc%>:ama #;
+%<pl%>%<acc%>:e # ;
+%<pl%>%<ins%>:ama # ;
+
+LEXICON N_DUAL
+
+%<n%>%<nt%>%<sg%>%<nom%>:o # ;
+%<n%>%<nt%>%<sg%>%<gen%>:a # ;
+%<n%>%<nt%>%<sg%>%<loc%>:u # ;
+%<n%>%<nt%>%<sg%>%<acc%>:o # ;
+%<n%>%<nt%>%<sg%>%<ins%>:om # ;
+%<n%>%<f%>%<pl%>%<nom%>:{J}i # ;
+%<n%>%<f%>%<pl%>%<gen%>:{J}iju # ;
+%<n%>%<f%>%<pl%>%<loc%>:{J}ima #;
+%<n%>%<f%>%<pl%>%<acc%>:{J}i # ;
+%<n%>%<f%>%<pl%>%<ins%>:{J}ima # ;
 
 LEXICON Nouns
 
-pas N1 ; ! ""
+dan:dan N_MASC_INANIMATE ; 
+drvo:drvo N_NEUTER_VOWEL_ROOT ; 
+vrijeme:vrijeme N_NEUTER_VOWEL_ROOT ;
+drvo:drvet N_NEUTER_CONS_ROOT ; 
+vrijeme:vremen N_NEUTER_CONS_ROOT ; 
+pitanje:pitanj N_NEUTER_E ; 
+brojanje:brojanj N_NEUTER_E ; 
+selo:sel N_NEUTER_O ;
+odgovor:odgovor N_MASC_INANIMATE ; 
+prozor:prozor N_MASC_INANIMATE ; 
+dječak:dječa{K} N_MASC_ANIMATE ; 
+pas:p{A}s N_MASC_ANIMATE ; 
+stolac:stol{A}c N_MASC_INANIMATE ; 
+stol:stol N_MASC_EV_PLURAL ; 
+vrt:vrt N_MASC_EV_PLURAL ; 
+kuća:kuć N_FEM_A ; 
+mačka:mač{A}k N_FEM_A ; 
+majka:maj{A}{K} N_FEM_A ; 
+ptica:ptic N_FEM_A ; 
+Marica:Maric NAME_FEMININE_A ; 
+ruka:ru{K} N_FEM_A ; 
+igra:igr N_FEM_A ; 
+sestra:sest{A}r N_FEM_A ; 
+djeca:djec N_PLURALIA_A ; 
+godina:godin N_FEM_A ; 
+djevojčica:djevojčic N_FEM_A ; 
+oko:ok N_DUAL;
+uho:uh N_DUAL;
+Ivica:Ivic NAME_MASCULINE_A ;
+
+LEXICON ADJ_GENDER
+
+%<adj%>%<m%>: ADJ_MN ;
+%<adj%>%<nt%>: ADJ_MN ;
+%<adj%>%<f%>: ADJ_FEM ;
+%<adj%>%<m%>%<ii%>%<sg%>%<nom%>: # ;
+%<adj%>%<m%>%<aa%>%<sg%>%<acc%>:{E}ga # ;
+%<adj%>%<m%>%<aa%>%<sg%>%<acc%>:{E}g # ;
+%<adj%>%<m%>%<pl%>%<nom%>:i # ;
+%<adj%>%<m%>%<pl%>%<acc%>:e # ;
+%<adj%>%<nt%>%<sg%>%<nom%>:{E} # ;
+%<adj%>%<nt%>%<sg%>%<acc%>:{E} # ;
+%<adj%>%<nt%>%<pl%>%<acc%>:a # ;
+
+LEXICON ADJ_FEM
+
+%<sg%>%<nom%>:a # ;
+%<sg%>%<gen%>:e # ;
+%<sg%>%<loc%>:oj # ;
+%<sg%>%<acc%>:u # ;
+%<sg%>%<ins%>:im # ;
+%<pl%>%<nom%>:e # ;
+%<pl%>%<gen%>:ih # ;
+%<pl%>%<loc%>:im #;
+%<pl%>%<acc%>:e # ;
+%<pl%>%<ins%>:im # ;
+
+LEXICON ADJ_MN
+
+%<sg%>%<gen%>:{E}ga # ;
+%<sg%>%<gen%>:{E}g # ;
+%<sg%>%<loc%>:{E}m # ;
+%<sg%>%<ins%>:im # ;
+%<pl%>%<gen%>:ih # ;
+%<pl%>%<loc%>:im #;
+%<pl%>%<ins%>:im # ;
+
+LEXICON Adjectives
+
+hladan:hlad{A}n ADJ_GENDER ;
+star:star ADJ_GENDER ;
+lijep:lijep ADJ_GENDER ;
+veliki:velik ADJ_GENDER ;
+mali:mal ADJ_GENDER ;
+loš:loš ADJ_GENDER ;
+topao:top{A}l ADJ_GENDER ;
+sretan:sret{A}n ADJ_GENDER ;
+malen:malen ADJ_GENDER ;
+
+LEXICON POSSP
+
+%<posspr%>: ADJ_GENDER ;
+
+LEXICON Possessive_Pronouns
+
+njegov:njegov POSSP ; 
+njezin:njezin POSSP ; 
+njen:njen POSSP ; 
+njihov:njihov POSSP ; 
+moj:moj POSSP ;
+tvoj:tvoj POSSP ; 
+naš:naš POSSP ; 
+vaš:vaš POSSP ;
+svoj:svoj POSSP ;
+
+LEXICON ADV 
+
+%<adv%>: # ;
+
+LEXICON Adverbs
+
+vani ADV ;
+jučer ADV ;
+danas ADV ;
+uvijek ADV ;
+onda ADV ;
+jako ADV ;
+zajedno ADV ;
+sada ADV ;
+sad ADV ;
+još% uvek ADV;
+
+
+LEXICON NUM
+
+%<num%>: # ;
+
+LEXICON Number
+
+dva NUM ;
+dve NUM ;
+pet NUM ;
+šest NUM ;
+
+
+LEXICON RFX
+
+%<refl%>: # ;
+
+LEXICON Reflexive
+
+se RFX ;
+
+
+
+LEXICON PT 
+
+%<pt%>: # ;
+
+LEXICON Particles
+
+no PT ;
+i PT ;
+
+
+
+
+LEXICON PP
+
+%<pp%>: # ;
+
+LEXICON Prepositions
+
+u PP ;
+na PP ;
+ispred PP ;
+blizu PP ;
+od PP ;
+do PP ;
+prije PP ;
+kroz PP ;
+s PP ;
+sa PP ;
+iza PP ;
+
+
+
+
+
+LEXICON CONJ
+
+%<conj%>: # ;
+
+LEXICON Conjunctions
+
+a CONJ ;
+ali CONJ ;
+i CONJ ;
+niti CONJ ;
+
+
+
+
+
+LEXICON V_ENDINGS
+
+%<sg%>%<1p%>:m # ;
+%<sg%>%<2p%>:š # ;
+%<sg%>%<3p%>: # ;
+%<pl%>%<1p%>:mo # ;
+%<pl%>%<2p%>:te # ;
+
+LEXICON V-A-COMMON
+
+%<pres%>: V_ENDINGS ;
+%<pres%>%<pl%>%<3p%>:ju #;
+%<past%>: V_PARTICIPLE ;
+%<inf%>:ti # ;
+
+LEXICON V-I-COMMON
+
+%<pres%>:i V_ENDINGS ;
+%<pres%>%<pl%>%<3p%>:e #;
+%<past%>:i V_PARTICIPLE ;
+%<inf%>:iti # ;
+
+LEXICON V_COPULA
+
+%<v%>%<iv%>%<pres%>%<clt%>%<sg%>%<1p%>:sam # ;
+%<v%>%<iv%>%<pres%>%<clt%>%<sg%>%<2p%>:si # ;
+%<v%>%<iv%>%<pres%>%<clt%>%<sg%>%<3p%>:je # ;
+%<v%>%<iv%>%<pres%>%<clt%>%<pl%>%<1p%>:smo # ;
+%<v%>%<iv%>%<pres%>%<clt%>%<pl%>%<2p%>:ste # ;
+%<v%>%<iv%>%<pres%>%<clt%>%<pl%>%<3p%>:su # ;
+%<v%>%<iv%>%<pres%>%<sg%>%<1p%>:jesam # ;
+%<v%>%<iv%>%<pres%>%<sg%>%<2p%>:jesi # ;
+%<v%>%<iv%>%<pres%>%<sg%>%<3p%>:jeste # ;
+%<v%>%<iv%>%<pres%>%<pl%>%<1p%>:jesmo # ;
+%<v%>%<iv%>%<pres%>%<pl%>%<2p%>:jeste # ;
+%<v%>%<iv%>%<pres%>%<pl%>%<3p%>:jesu # ;
+%<v%>%<iv%>%<past%>:bi V_PARTICIPLE ;
+%<v%>%<iv%>%<inf%>:biti # ;
+
+LEXICON V_PARTICIPLE
+
+%<sg%>%<m%>:o # ;
+%<sg%>%<f%>:la # ;
+%<sg%>%<nt%>:lo # ;
+%<pl%>%<m%>:li # ;
+%<pl%>%<f%>:le # ;
+%<pl%>%<nt%>:la # ;
+
+LEXICON V-JE-COMMON
+
+%<pres%>:i V_ENDINGS ;
+%<past%>%<sg%>%<m%>:io # ;
+%<past%>%<sg%>%<f%>:jela # ;
+%<past%>%<sg%>%<nt%>:jelo # ;
+%<past%>%<pl%>%<m%>:jeli # ;
+%<past%>%<pl%>%<f%>:jele # ;
+%<past%>%<pl%>%<nt%>:jela # ;
+%<inf%>:jeti # ;
+
+LEXICON V_HTJETI
+
+%<v%>%<iv%>%<pres%>%<sg%>%<1p%>:hoću # ;
+%<v%>%<iv%>%<pres%>%<sg%>%<2p%>:hoćeš # ;
+%<v%>%<iv%>%<pres%>%<sg%>%<3p%>:hoće # ;
+%<v%>%<iv%>%<pres%>%<pl%>%<1p%>:hoćemo # ;
+%<v%>%<iv%>%<pres%>%<pl%>%<2p%>:hoćete # ;
+%<v%>%<iv%>%<pres%>%<pl%>%<3p%>:hoće # ;
+%<v%>%<iv%>%<past%>%<sg%>%<m%>:htio # ;
+%<v%>%<iv%>%<past%>%<sg%>%<f%>:htjela # ;
+%<v%>%<iv%>%<past%>%<sg%>%<nt%>:htjelo # ;
+%<v%>%<iv%>%<past%>%<pl%>%<m%>:htjeli # ;
+%<v%>%<iv%>%<past%>%<pl%>%<f%>:htjele # ;
+%<v%>%<iv%>%<past%>%<pl%>%<nt%>:htjela # ;
+%<v%>%<iv%>%<inf%>:htjeti # ;
+
+LEXICON V_MOCI
+
+%<v%>%<iv%>%<pres%>%<sg%>%<1p%>:mogu # ;
+%<v%>%<iv%>%<pres%>%<sg%>%<2p%>:možeš # ;
+%<v%>%<iv%>%<pres%>%<sg%>%<3p%>:može # ;
+%<v%>%<iv%>%<pres%>%<pl%>%<1p%>:možemo # ;
+%<v%>%<iv%>%<pres%>%<pl%>%<2p%>:možete # ;
+%<v%>%<iv%>%<pres%>%<pl%>%<3p%>:mogu # ;
+%<v%>%<iv%>%<past%>%<sg%>%<m%>:mogao # ;
+%<v%>%<iv%>%<past%>%<sg%>%<f%>:mogla # ;
+%<v%>%<iv%>%<past%>%<sg%>%<nt%>:moglo # ;
+%<v%>%<iv%>%<past%>%<pl%>%<m%>:mogli # ;
+%<v%>%<iv%>%<past%>%<pl%>%<f%>:mogle # ;
+%<v%>%<iv%>%<past%>%<pl%>%<nt%>:mogla # ;
+%<v%>%<iv%>%<inf%>:moći # ;
+
+LEXICON V-TV-A
+
+%<v%>%<tv%>: V-A-COMMON ; 
+
+LEXICON V-IV-A
+
+%<v%>%<iv%>: V-A-COMMON ; 
+
+LEXICON V-TV-I
+
+%<v%>%<tv%>: V-I-COMMON ; 
+
+LEXICON V-IV-I
+
+%<v%>%<iv%>: V-I-COMMON ; 
+
+LEXICON V-TV-JE
+
+%<v%>%<tv%>: V-JE-COMMON ; 
+
+LEXICON V-IV-JE
+
+%<v%>%<iv%>: V-JE-COMMON ; 
+
+LEXICON Verbs
+
+obožavati:obožava V-TV-A ;
+igrati:igra V-IV-A ;
+igrati:igra V-TV-A ;
+biti: V_COPULA ;
+gledati:gleda V-TV-A ;
+gledati:gleda V-IV-A ;
+spavati:spava V-IV-A ;
+nemati:nema V-TV-A ;
+dobivati:dobiva V-TV-A ;
+imati:ima V-TV-A ;
+skrivati:skriva V-IV-A ;
+znati:zna V-IV-A ;
+znati:zna V-TV-A ;
+misliti:misl V-IV-I ;
+raditi:rad V-IV-I ;
+vidjeti:vid V-TV-JE ;
+voljeti:vol V-TV-JE ;
+htjeti: V_HTJETI ;
+moći: V_MOCI ;
+
+LEXICON PRON_NOM
+
+%<%ppron>%<nom%>: # ;
+
+LEXICON PRON_ACC
+
+%<%ppron>%<acc%>: # ;
+ 
+LEXICON PRON_OBL_F
+
+%<acc%>:u # ;
+%<gen%>:e # ;
+%<ins%>:om # ;
+%<loc%>:oj # ;
+
+LEXICON PRON_OBL_MN
+
+%<gen%>:{E}ga # ;
+%<ins%>:im # ;
+%<ins%>:ime # ;
+%<loc%>:emu # ;
+
+LEXICON PRON_OBL_PL
+
+%<gen%>:ih # ;
+%<ins%>:ima # ;
+%<loc%>:ima # ;
+
+LEXICON PRON_GENDER
+
+%<%qpron>%<m%>%<sg%>%<nom%>:on #;
+%<%qpron>%<m%>%<sg%>:nj PRON_OBL_MN ;
+%<%qpron>%<m%>%<pl%>%<nom%>:oni #;
+%<%qpron>%<m%>%<pl%>:nj PRON_OBL_PL ;
+%<%qpron>%<nt%>%<sg%>%<nom%>:ono #;
+%<%qpron>%<nt%>%<sg%>:nj PRON_OBL_MN ;
+%<%qpron>%<nt%>%<pl%>%<nom%>:ona #;
+%<%qpron>%<nt%>%<pl%>:nj PRON_OBL_PL ;
+%<%qpron>%<f%>%<sg%>%<nom%>:ona #;
+%<%qpron>%<f%>%<sg%>:nj PRON_OBL_F ;
+
+LEXICON PRON_STO
+
+%<%qpron>%<nt%>%<sg%>%<nom%>:što #;
+%<%qpron>%<nt%>%<sg%>%<acc%>:što #;
+%<%qpron>%<nt%>%<sg%>:č PRON_OBL_MN ;
+
+LEXICON Pronouns
+on: PRON_GENDER_ON ;
+što: PRON_STO ;
+
+
+

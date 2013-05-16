@@ -1,5 +1,12 @@
 <rules>
   <rule>
-    <match lemma="pas" tags="n.*"><select lemma="dog" tags="n.*"/></match>
-  </rule>
+       <or>
+	    <match lemma="lijepo" tags="*"/>
+	    <match lemma="ružno" tags="*"/>
+       </or>
+	  <match lemma="vrijeme" tags="n.*">
+	    <select lemma="weather" tags="n.*"/>
+	  </match>
+	</rule>
+
 </rules>
