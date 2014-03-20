@@ -5,11 +5,13 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-hbs-eng.eng-hbs.lrx -text
 /apertium-hbs-eng.eng-hbs.rlx -text
 /apertium-hbs-eng.eng-hbs.t1x -text
 /apertium-hbs-eng.eng-hbs.t2x -text
 /apertium-hbs-eng.eng-hbs.t3x -text
+/apertium-hbs-eng.eng-hbs_BS.lrx -text
+/apertium-hbs-eng.eng-hbs_HR.lrx -text
+/apertium-hbs-eng.eng-hbs_SR.lrx -text
 /apertium-hbs-eng.eng.dix -text
 /apertium-hbs-eng.hbs-eng.dix -text
 /apertium-hbs-eng.hbs-eng.lrx -text
