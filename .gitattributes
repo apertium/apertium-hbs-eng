@@ -23,6 +23,7 @@
 /apertium-hbs-eng.post-eng.dix -text
 /autogen.sh -text
 /configure.ac -text
+dev/apertium-sh-en.sh-en.dix -text
 /eng-hbs.prob -text svneol=unset#unset
 /hbs-eng.prob -text svneol=unset#unset
 /modes.xml -text
