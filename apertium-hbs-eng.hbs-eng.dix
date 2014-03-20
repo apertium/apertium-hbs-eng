@@ -2,19 +2,21 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"  c="noun"/>
-    <sdef n="name"  c="proper noun"/>
-    <sdef n="v"  c="verb"/>
+    <sdef n="np"  c="proper noun"/>
+    <sdef n="vblex"  c="verb"/>
     <sdef n="adj" c="adjective"/>
     <sdef n="m"	 c="masculine"/>
+    <sdef n="ant"	 c="person name"/>
     <sdef n="f"	 c="feminine"/>
     <sdef n="nt" c="neuter"/>
-    <sdef n="aa" c="animate"/>
-    <sdef n="ii" c="inanimate"/>
+    <sdef n="ma" c="masc. animate"/>
+    <sdef n="mi" c="masc. inanimate"/>
     <sdef n="adv" c="adverb"/>
     <sdef n="pt" c="particle"/>
-    <sdef n="pp" c="preposition"/>
-    <sdef n="posspr" c="possessive pronoun"/>
-    <sdef n="refl" c="reflexive pronoun"/>
+    <sdef n="pr" c="preposition"/>
+    <sdef n="prn" c="pronoun"/>
+    <sdef n="pos" c="possessive"/>
+    <sdef n="ref" c="reflexive pronoun"/>
     <sdef n="conj" c="conjunction"/>
     <sdef n="tv" c="transitive"/>
     <sdef n="iv" c="intransitive"/>
@@ -25,9 +27,9 @@
     <!-- NOUNS -->
     
     <e><p><l>mačka<s n="n"/><s n="f"/></l><r>cat<s n="n"/></r></p></e>
-    <e><p><l>pas<s n="n"/><s n="m"/><s n="aa"/></l><r>dog<s n="n"/></r></p></e>
+    <e><p><l>pas<s n="n"/><s n="ma"/></l><r>dog<s n="n"/></r></p></e>
     <e><p><l>stol<s n="n"/><s n="m"/></l><r>table<s n="n"/></r></p></e>
-    <e><p><l>stolac<s n="n"/><s n="m"/><s n="ii"/></l><r>chair<s n="n"/></r></p></e>
+    <e><p><l>stolac<s n="n"/><s n="mi"/></l><r>chair<s n="n"/></r></p></e>
     <e><p><l>majka<s n="n"/><s n="f"/></l><r>mother<s n="n"/></r></p></e>
     <e><p><l>drvo<s n="n"/><s n="nt"/></l><r>tree<s n="n"/></r></p></e>
     <e><p><l>oko<s n="n"/><s n="nt"/></l><r>eye<s n="n"/></r></p></e>
@@ -35,15 +37,15 @@
     <e><p><l>brojanje<s n="n"/><s n="nt"/></l><r>counting<s n="n"/></r></p></e>
     <e><p><l>vrijeme<s n="n"/><s n="nt"/></l><r>time<s n="n"/></r></p></e>
     <e><p><l>vrijeme<s n="n"/><s n="nt"/></l><r>weather<s n="n"/></r></p></e>
-    <e><p><l>prozor<s n="n"/><s n="m"/><s n="ii"/></l><r>window<s n="n"/></r></p></e>
-    <e><p><l>dječak<s n="n"/><s n="m"/><s n="aa"/></l><r>boy<s n="n"/></r></p></e>
+    <e><p><l>prozor<s n="n"/><s n="mi"/></l><r>window<s n="n"/></r></p></e>
+    <e><p><l>dječak<s n="n"/><s n="ma"/></l><r>boy<s n="n"/></r></p></e>
     <e><p><l>djevojčica<s n="n"/><s n="f"/></l><r>girl<s n="n"/></r></p></e>
     <e><p><l>djeca<s n="n"/><s n="f"/></l><r>children<s n="n"/></r></p></e>
     <e><p><l>igra<s n="n"/><s n="f"/></l><r>game<s n="n"/></r></p></e>
-    <e><p><l>dan<s n="n"/><s n="m"/><s n="ii"/></l><r>day<s n="n"/></r></p></e>
+    <e><p><l>dan<s n="n"/><s n="mi"/></l><r>day<s n="n"/></r></p></e>
     <e><p><l>vrt<s n="n"/><s n="m"/></l><r>garden<s n="n"/></r></p></e>
-    <e><p><l>Ivica<s n="n"/><s n="name"/><s n="m"/></l><r>Ivica<s n="n"/></r></p></e>
-    <e><p><l>Marica<s n="n"/><s n="name"/><s n="f"/></l><r>Marica<s n="n"/></r></p></e>
+    <e><p><l>Ivica<s n="np"/><s n="ant"/><s n="m"/></l><r>Ivica<s n="n"/></r></p></e>
+    <e><p><l>Marica<s n="np"/><s n="ant"/><s n="f"/></l><r>Marica<s n="n"/></r></p></e>
     <e><p><l>kuća<s n="n"/><s n="f"/></l><r>house<s n="n"/></r></p></e>
     <e><p><l>ruka<s n="n"/><s n="f"/></l><r>hand<s n="n"/></r></p></e>
     <e><p><l>godina<s n="n"/><s n="f"/></l><r>year<s n="n"/></r></p></e>
@@ -75,29 +77,29 @@
 
     <!-- VERBS -->
     
-    <e><p><l>biti<s n="v"/><s n="iv"/></l><r>be<s n="v"/></r></p></e>
-    <e><p><l>igrati<s n="v"/><s n="iv"/></l><r>play<s n="v"/></r></p></e>
-    <e><p><l>igrati<s n="v"/><s n="tv"/></l><r>dance<s n="v"/></r></p></e>
-    <e><p><l>imati<s n="v"/><s n="tv"/></l><r>have<s n="v"/></r></p></e>
-    <e><p><l>nemati<s n="v"/><s n="tv"/></l><r>not have<s n="v"/></r></p></e>
-    <e><p><l>obožavati<s n="v"/><s n="tv"/></l><r>love<s n="v"/></r></p></e>
-    <e><p><l>gledati<s n="v"/><s n="tv"/></l><r>look<s n="v"/></r></p></e>
-    <e><p><l>gledati<s n="v"/><s n="iv"/></l><r>look<s n="v"/></r></p></e>
-    <e><p><l>gledati<s n="v"/><s n="tv"/></l><r>watch<s n="v"/></r></p></e>
-    <e><p><l>gledati<s n="v"/><s n="iv"/></l><r>watch<s n="v"/></r></p></e>
-    <e><p><l>obožavati<s n="v"/><s n="tv"/></l><r>worship<s n="v"/></r></p></e>
-    <e><p><l>spavati<s n="v"/><s n="iv"/></l><r>sleep<s n="v"/></r></p></e>
-    <e><p><l>moći<s n="v"/><s n="iv"/></l><r>can<s n="v"/></r></p></e>
-    <e><p><l>vidjeti<s n="v"/><s n="tv"/></l><r>see<s n="v"/></r></p></e>
-    <e><p><l>voljeti<s n="v"/><s n="tv"/></l><r>like<s n="v"/></r></p></e>
-    <e><p><l>moći<s n="v"/></l><r>can<s n="v"/></r></p></e>
-    <e><p><l>misliti<s n="v"/><s n="iv"/></l><r>think<s n="v"/></r></p></e>
-    <e><p><l>raditi<s n="v"/><s n="iv"/></l><r>do<s n="v"/></r></p></e>
-    <e><p><l>raditi<s n="v"/><s n="iv"/></l><r>work<s n="v"/></r></p></e>
+    <e><p><l>biti<s n="vblex"/><s n="iv"/></l><r>be<s n="vblex"/></r></p></e>
+    <e><p><l>igrati<s n="vblex"/><s n="iv"/></l><r>play<s n="vblex"/></r></p></e>
+    <e><p><l>igrati<s n="vblex"/><s n="tv"/></l><r>dance<s n="vblex"/></r></p></e>
+    <e><p><l>imati<s n="vblex"/><s n="tv"/></l><r>have<s n="vblex"/></r></p></e>
+    <e><p><l>nemati<s n="vblex"/><s n="tv"/></l><r>not have<s n="vblex"/></r></p></e>
+    <e><p><l>obožavati<s n="vblex"/><s n="tv"/></l><r>love<s n="vblex"/></r></p></e>
+    <e><p><l>gledati<s n="vblex"/><s n="tv"/></l><r>look<s n="vblex"/></r></p></e>
+    <e><p><l>gledati<s n="vblex"/><s n="iv"/></l><r>look<s n="vblex"/></r></p></e>
+    <e><p><l>gledati<s n="vblex"/><s n="tv"/></l><r>watch<s n="vblex"/></r></p></e>
+    <e><p><l>gledati<s n="vblex"/><s n="iv"/></l><r>watch<s n="vblex"/></r></p></e>
+    <e><p><l>obožavati<s n="vblex"/><s n="tv"/></l><r>worship<s n="vblex"/></r></p></e>
+    <e><p><l>spavati<s n="vblex"/><s n="iv"/></l><r>sleep<s n="vblex"/></r></p></e>
+    <e><p><l>moći<s n="vblex"/><s n="iv"/></l><r>can<s n="vblex"/></r></p></e>
+    <e><p><l>vidjeti<s n="vblex"/><s n="tv"/></l><r>see<s n="vblex"/></r></p></e>
+    <e><p><l>voljeti<s n="vblex"/><s n="tv"/></l><r>like<s n="vblex"/></r></p></e>
+    <e><p><l>moći<s n="vblex"/></l><r>can<s n="vblex"/></r></p></e>
+    <e><p><l>misliti<s n="vblex"/><s n="iv"/></l><r>think<s n="vblex"/></r></p></e>
+    <e><p><l>raditi<s n="vblex"/><s n="iv"/></l><r>do<s n="vblex"/></r></p></e>
+    <e><p><l>raditi<s n="vblex"/><s n="iv"/></l><r>work<s n="vblex"/></r></p></e>
     
     <!-- MISC -->
 
-    <e><p><l>se<s n="refl"/></l><r><s n="refl"/></r></p></e>
+    <e><p><l>se<s n="ref"/></l><r><s n="ref"/></r></p></e>
 
     <e><p><l>no<s n="pt"/></l><r>but<s n="pt"/></r></p></e>
     <e><p><l>i<s n="pt"/></l><r>also<s n="pt"/></r></p></e>
@@ -108,31 +110,31 @@
 
     <!-- PREPOSITIONS -->
 
-    <e><p><l>u<s n="pp"/></l><r>in<s n="pp"/></r></p></e>
-    <e><p><l>u<s n="pp"/></l><r>to<s n="pp"/></r></p></e>
-    <e><p><l>kroz<s n="pp"/></l><r>through<s n="pp"/></r></p></e>
-    <e><p><l>ispred<s n="pp"/></l><r>in front of<s n="pp"/></r></p></e>
-    <e><p><l>s<s n="pp"/></l><r>with<s n="pp"/></r></p></e>
-    <e><p><l>iza<s n="pp"/></l><r>behind<s n="pp"/></r></p></e>
-    <e><p><l>blizu<s n="pp"/></l><r>near<s n="pp"/></r></p></e>
-    <e><p><l>do<s n="pp"/></l><r>to<s n="pp"/></r></p></e>
-    <e><p><l>od<s n="pp"/></l><r>from<s n="pp"/></r></p></e>
+    <e><p><l>u<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>u<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+    <e><p><l>kroz<s n="pr"/></l><r>through<s n="pr"/></r></p></e>
+    <e><p><l>ispred<s n="pr"/></l><r>in front of<s n="pr"/></r></p></e>
+    <e><p><l>s<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+    <e><p><l>iza<s n="pr"/></l><r>behind<s n="pr"/></r></p></e>
+    <e><p><l>blizu<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
+    <e><p><l>do<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+    <e><p><l>od<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
 
     <!-- POSSESSIVE ADJECTIVES -->
 
-    <e><p><l>njegov<s n="posspr"/></l><r>his<s n="posspr"/></r></p></e>
-    <e><p><l>njezin<s n="posspr"/></l><r>her<s n="posspr"/></r></p></e>
-    <e><p><l>njen<s n="posspr"/></l><r>her<s n="posspr"/></r></p></e>
-    <e><p><l>njihov<s n="posspr"/></l><r>their<s n="posspr"/></r></p></e>
-    <e><p><l>naš<s n="posspr"/></l><r>our<s n="posspr"/></r></p></e>
-    <e><p><l>vaš<s n="posspr"/></l><r>your<s n="posspr"/></r></p></e>
-    <e><p><l>moj<s n="posspr"/></l><r>my<s n="posspr"/></r></p></e>
-    <e><p><l>tvoj<s n="posspr"/></l><r>your<s n="posspr"/></r></p></e>
-    <e><p><l>svoj<s n="posspr"/></l><r>her (own)<s n="posspr"/></r></p></e>
-    <e><p><l>svoj<s n="posspr"/></l><r>his (own=<s n="posspr"/></r></p></e>
-    <e><p><l>svoj<s n="posspr"/></l><r>their (own)<s n="posspr"/></r></p></e>
-    <e><p><l>svoj<s n="posspr"/></l><r>my (own)<s n="posspr"/></r></p></e>
-    <e><p><l>svoj<s n="posspr"/></l><r>your (own=<s n="posspr"/></r></p></e>
+    <e><p><l>njegov<s n="prn"/><s n="pos"/></l><r>his<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>her<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>njen<s n="prn"/><s n="pos"/></l><r>her<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>njihov<s n="prn"/><s n="pos"/></l><r>their<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>naš<s n="prn"/><s n="pos"/></l><r>our<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>vaš<s n="prn"/><s n="pos"/></l><r>your<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>moj<s n="prn"/><s n="pos"/></l><r>my<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>tvoj<s n="prn"/><s n="pos"/></l><r>your<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>svoj<s n="prn"/><s n="pos"/></l><r>her (own)<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>svoj<s n="prn"/><s n="pos"/></l><r>his (own=<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>svoj<s n="prn"/><s n="pos"/></l><r>their (own)<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>svoj<s n="prn"/><s n="pos"/></l><r>my (own)<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>svoj<s n="prn"/><s n="pos"/></l><r>your (own=<s n="prn"/><s n="pos"/></r></p></e>
 
     <!-- CONJUNCTIONS -->
 
