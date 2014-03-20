@@ -79,21 +79,21 @@ $(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx
 $(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
 	lrx-comp $(BASENAME).$(PREFIX1).lrx $@
 
-$(PREFIX2a).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+$(PREFIX2a).autopgen.bin: $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	xsltproc --stringparam alt $(LANG1a) --stringparam var $(VAR1) $(AP_SRC1)/alt.xsl $(BASENAME).post-$(LANG1).dix >.deps/post-$(LANG1a).dix
+	xsltproc --stringparam alt $(LANG1a) --stringparam var $(VAR1) $(AP_SRC1)/alt.xsl $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix >.deps/post-$(LANG1a).dix
 	apertium-validate-dictionary .deps/post-$(LANG1a).dix
 	lt-comp lr .deps/post-$(LANG1a).dix $@ 
 
-$(PREFIX2b).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+$(PREFIX2b).autopgen.bin: $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	xsltproc --stringparam alt $(LANG1b) --stringparam var $(VAR1) $(AP_SRC1)/alt.xsl $(BASENAME).post-$(LANG1).dix >.deps/post-$(LANG1b).dix
+	xsltproc --stringparam alt $(LANG1b) --stringparam var $(VAR1) $(AP_SRC1)/alt.xsl $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix >.deps/post-$(LANG1b).dix
 	apertium-validate-dictionary .deps/post-$(LANG1b).dix
 	lt-comp lr .deps/post-$(LANG1b).dix $@ 
 
-$(PREFIX2c).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+$(PREFIX2c).autopgen.bin: $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	xsltproc --stringparam alt $(LANG1c) --stringparam var $(VAR1) $(AP_SRC1)/alt.xsl $(BASENAME).post-$(LANG1).dix >.deps/post-$(LANG1c).dix
+	xsltproc --stringparam alt $(LANG1c) --stringparam var $(VAR1) $(AP_SRC1)/alt.xsl $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix >.deps/post-$(LANG1c).dix
 	apertium-validate-dictionary .deps/post-$(LANG1c).dix
 	lt-comp lr .deps/post-$(LANG1c).dix $@ 
 
@@ -147,7 +147,7 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG1).tsx \
            $(BASENAME).$(LANG2).tsx  \
            $(BASENAME).$(LANG2).acx \
-           $(BASENAME).post-$(LANG2).dix $(BASENAME).post-$(LANG1).dix \
+           $(BASENAME).post-$(LANG2).dix \
            $(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(PREFIX1).lrx $(BASENAME).$(PREFIX2a).lrx $(BASENAME).$(PREFIX2b).lrx $(BASENAME).$(PREFIX2c).lrx \
            $(BASENAME).$(PREFIX1).rlx $(BASENAME).$(PREFIX2).rlx \
@@ -157,7 +157,7 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
            modes.xml
 
 #           $(LANG1)-tagger-data/README $(LANG2)-tagger-data/README 
-#           $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix 
+#           $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix 
 
 $(PREFIX1).mode: modes.xml
 	apertium-gen-modes modes.xml
