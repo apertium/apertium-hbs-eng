@@ -4,6 +4,7 @@
     <sdef n="n"  c="noun"/>
     <sdef n="np"  c="proper noun"/>
     <sdef n="vblex"  c="verb"/>
+    <sdef n="vbser"  c="verb 'to be'"/>
     <sdef n="adj" c="adjective"/>
     <sdef n="m"	 c="masculine"/>
     <sdef n="ant"	 c="person name"/>
@@ -77,7 +78,7 @@
 
     <!-- VERBS -->
     
-    <e><p><l>biti<s n="vblex"/><s n="iv"/></l><r>be<s n="vblex"/></r></p></e>
+    <e><p><l>biti<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
     <e><p><l>igrati<s n="vblex"/><s n="iv"/></l><r>play<s n="vblex"/></r></p></e>
     <e><p><l>igrati<s n="vblex"/><s n="tv"/></l><r>dance<s n="vblex"/></r></p></e>
     <e><p><l>imati<s n="vblex"/><s n="tv"/></l><r>have<s n="vblex"/></r></p></e>
