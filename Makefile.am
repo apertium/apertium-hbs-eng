@@ -70,8 +70,8 @@ $(PREFIX1).autogen.bin: $(BASENAME).$(LANG2).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
 	lt-comp rl $(BASENAME).$(LANG2).dix $@
 
-$(PREFIX1).rlx.bin: $(BASENAME).$(PREFIX1).rlx
-	cg-comp $(BASENAME).$(PREFIX1).rlx $@
+$(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
+	cg-comp $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx $@
 
 $(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx
 	cg-comp $(BASENAME).$(PREFIX2).rlx $@
@@ -150,7 +150,7 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
            $(BASENAME).post-$(LANG2).dix \
            $(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(PREFIX1).lrx $(BASENAME).$(PREFIX2a).lrx $(BASENAME).$(PREFIX2b).lrx $(BASENAME).$(PREFIX2c).lrx \
-           $(BASENAME).$(PREFIX1).rlx $(BASENAME).$(PREFIX2).rlx \
+           $(BASENAME).$(PREFIX2).rlx \
            $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
            $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
            $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
