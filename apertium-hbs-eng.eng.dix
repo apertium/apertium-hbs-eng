@@ -95,6 +95,19 @@
     <sdef n="sym" /> 
     <sdef n="ND" /> 
     <sdef n="GD" /> 
+    
+    <sdef n="probj"/>
+    <sdef n="plc"/>
+    <sdef n="time"/>
+    <sdef n="inst"/>
+    <sdef n="prperf"/>
+    <sdef n="prcont"/>
+    <sdef n="presneg"/>
+    <sdef n="p4"/>
+    <sdef n="conj"/>
+    <sdef n="punct"/>
+    <sdef n="stop"/>
+    
   </sdefs>
 
   <pardefs>    

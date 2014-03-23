@@ -31,10 +31,25 @@
     <sdef n="iv" c="intransitive"/>
     <sdef n="num" c="numeral"/>
     <sdef n="punct"/>
-    <sdef n="prepprn"/>
-    <sdef n="probj"/>
     <sdef n="expr"/>
     <sdef n="neg"/>
+    
+    <sdef n="probj"/>
+    <sdef n="plc"/>
+    <sdef n="time"/>
+    <sdef n="inst"/>
+    <sdef n="pres"/>
+    <sdef n="past"/>
+    <sdef n="prperf"/>
+    <sdef n="prcont"/>
+    <sdef n="inf"/>
+    <sdef n="presneg"/>
+    <sdef n="p4"/>
+    <sdef n="mf"/>
+    <sdef n="subj"/>
+    <sdef n="obj"/>
+    <sdef n="conj"/>
+    <sdef n="stop"/>
 
     <sdef n="sent"  c=""/>
     <sdef n="guio"  c=""/>
@@ -383,7 +398,6 @@
 			<e><p><l>odbrojavati<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
 			<e r="LR"><p><l>pogledati<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
 			<e><p><l>raditi<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
-			<e><p><l>prepprn<s n="prepprn"/></l><r>prepprn<s n="prepprn"/></r></p></e>
 
 
     <!-- NOUNS -->
