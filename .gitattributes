@@ -29,3 +29,4 @@ dev/apertium-sh-en.sh-en.dix -text
 /modes.xml -text
 texts/rasskaz.eng.txt -text
 texts/rasskaz.hbs.txt -text
+texts/wiki_let3.txt -text
