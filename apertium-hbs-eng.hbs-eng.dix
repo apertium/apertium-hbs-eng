@@ -35,6 +35,16 @@
     <sdef n="probj"/>
     <sdef n="expr"/>
     <sdef n="neg"/>
+
+    <sdef n="sent"  c=""/>
+    <sdef n="guio"  c=""/>
+    <sdef n="cm"  c=""/>
+    <sdef n="apos"  c=""/>
+    <sdef n="rquot"  c=""/>
+    <sdef n="lquot"  c=""/>
+    <sdef n="rpar"  c=""/>
+    <sdef n="lpar"  c=""/>
+
    </sdefs>
 
    <section id="main" type="standard">
@@ -494,6 +504,25 @@
     <e><p><l>a<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
     <e><p><l>a<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
     <e><p><l>niti<s n="cnjcoo"/></l><r>nor<s n="cnjcoo"/></r></p></e>
+
+    <!-- SECTION: Punctuation -->
+
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+    <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+    <e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
+    <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
+    <e><p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
+    <e><p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
+    <e><p><l>“<s n="lquot"/></l><r>“<s n="lquot"/></r></p></e>
+    <e><p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>–<s n="guio"/></l><r>–<s n="guio"/></r></p></e>
+    <e><p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+    <e><re>[.\?;:!"…]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
 
     </section>
 </dictionary>
