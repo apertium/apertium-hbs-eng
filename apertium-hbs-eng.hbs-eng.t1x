@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
   </section-def-cats>
+
   <section-def-attrs>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+      <attr-item tags="np"/>
     </def-attr>
+
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+    </def-attr>
+
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
@@ -20,7 +28,7 @@
       <attr-item tags="gen"/>
       <attr-item tags="loc"/>
       <attr-item tags="ins"/>
-      <attr-item tags="abl"/>
+      <attr-item tags="voc"/>
     </def-attr>
 
   </section-def-attrs>
@@ -30,10 +38,23 @@
   </section-def-vars>
   <section-def-macros>
     <def-macro n="test" npar="1">
-          <let>
-            <var n="number"/>
-            <lit v=""/>
-          </let>
+      <let>
+        <var n="number"/>
+        <lit v=""/>
+      </let>
+    </def-macro>
+
+    <!-- Adapter for nouns, strips the noun of gender and case -->
+    <def-macro n="nom_adapter" npar="1">
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_nom"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	</concat>
+      </let>
     </def-macro>
   </section-def-macros>
   <section-rules>
@@ -47,6 +68,25 @@
           <chunk name="sent" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SENT"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="noun">
+      <pattern>
+	<pattern-item n="nom"/>
+      </pattern>      
+      <action>
+	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="N"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
