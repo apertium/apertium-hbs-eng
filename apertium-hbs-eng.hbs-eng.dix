@@ -4,6 +4,7 @@
     <sdef n="art"  c="article"/>
     <sdef n="def"/>
 	<sdef n="ind"/>
+    <sdef n="part"  c="'Particle'"/> <!-- to be removed -->
     <sdef n="n"  c="noun"/>
     <sdef n="np"  c="proper noun"/>
     <sdef n="vblex"  c="verb"/>
@@ -19,8 +20,8 @@
     <sdef n="ma" c="masc. animate"/>
     <sdef n="mi" c="masc. inanimate"/>
     <sdef n="adv" c="adverb"/>
-    <sdef n="pt" c="particle"/>
     <sdef n="pr" c="preposition"/>
+    <sdef n="sint" c="Synthetic adjective"/>
     <sdef n="prn" c="pronoun"/>
     <sdef n="pos" c="possessive"/>
     <sdef n="ord" c="ordinal"/>
@@ -157,7 +158,7 @@
     <e><p><l>negdje<s n="adv"/></l><r>somewhere<s n="adv"/></r></p></e>  
     <e><p><l>nego<s n="cnjcoo"/></l><r>conj<s n="n"/></r></p></e>  
     <e><p><l>neponovljiv<s n="adj"/></l><r>outstanding<s n="adj"/></r></p></e>
-    <e><p><l>ni<s n="pt"/></l><r>even<s n="adv"/></r></p></e>  
+    <e><p><l>ni<s n="part"/></l><r>even<s n="adv"/></r></p></e>  
     <e><p><l>nikada<s n="adv"/></l><r>never<s n="adv"/></r></p></e>  
     <e><p><l>nivo<s n="n"/><s n="mi"/></l><r>level<s n="n"/></r></p></e>
     <e><p><l>obraditi<s n="n"/><s n="vblex"/></l><r>cover<s n="vblex"/></r></p></e>
@@ -168,7 +169,7 @@
     <e><p><l>okoliš<s n="n"/><s n="mi"/></l><r>environment<s n="n"/></r></p></e>
     <e><p><l>onaj<s n="prn"/></l><r>that<s n="prn"/></r></p></e>
     <e><p><l>oni<s n="prn"/><s n="nt"/></l><r>they<s n="prn"/></r></p></e>
-    <e><p><l>općenito<s n="adv"/></l><r>in general<s n="adv"/></r></p></e>
+    <e><p><l>općenito<s n="adv"/></l><r>in<b/>general<s n="adv"/></r></p></e>
     <e><p><l>osjećaj<s n="n"/><s n="mi"/></l><r>feeling<s n="n"/></r></p></e>
     <e><p><l>osnova<s n="n"/></l><r>basis<s n="n"/></r></p></e>
     <e><p><l>osobit<s n="adj"/></l><r>particular<s n="adj"/></r></p></e>
@@ -242,7 +243,7 @@
     <e><p><l>utemeljiti<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>  
     <e><p><l>veljača<s n="n"/></l><r>February<s n="n"/></r></p></e>
     <e><p><l>vidljiv<s n="adj"/></l><r>visible<s n="adj"/></r></p></e>
-    <e><p><l>visok<s n="adj"/></l><r>high<s n="adj"/></r></p></e>
+    <e><p><l>visok<s n="adj"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>više<s n="adj"/></l><r>several<s n="adj"/></r></p></e>  
     <e><p><l>višegodišnji<s n="adj"/></l><r>perennial<s n="adj"/></r></p></e>
     <e><p><l>vjeran<s n="adj"/></l><r>loyal<s n="adj"/></r></p></e>
@@ -250,12 +251,14 @@
     <e><p><l>za<s n="pr"/></l><r>for<s n="pr"/></r></p></e>  
     <e><p><l>zaista<s n="adv"/></l><r>truely<s n="adv"/></r></p></e>  
     <e><p><l>zajedno<s n="adj"/></l><r>together<s n="adj"/></r></p></e>  
-    <e><p><l>čemu<s n="pr"/></l><r>what<s n="pr"/></r></p></e>  
     <e><p><l>četiri<s n="num"/></l><r>four<s n="num"/></r></p></e>  
-    <e><p><l>čiji<s n="pr"/></l><r>whose<s n="pr"/></r></p></e>  
     <e><p><l>čudak<s n="n"/><s n="ma"/></l><r>weirdo<s n="n"/></r></p></e>
-    <e><p><l>kao što<s n="cnjcoo"/></l><r>like<s n="cnjcoo"/></r></p></e>  
     <e><p><l>štovatelj<s n="n"/><s n="ma"/></l><r>fan<s n="n"/></r></p></e>
+
+    <e><p><l>kao<b/>što<s n="cnjcoo"/></l><r>like<s n="cnjcoo"/></r></p></e>  
+
+    <e><p><l>čemu<s n="pr"/></l><r>what<s n="pr"/></r></p></e>  
+    <e><p><l>čiji<s n="pr"/></l><r>whose<s n="pr"/></r></p></e>  
     
         <!-- OLD -->
     
@@ -265,7 +268,7 @@
 			<e><p><l>pet<s n="num"/></l><r>five<s n="num"/></r></p></e>
 			<e><p><l>gdje<s n="adv"/></l><r>where<s n="adv"/></r></p></e>
 			<e><p><l>malo<s n="adv"/></l><r>some<s n="adv"/></r></p></e>
-			<e><p><l>neka<s n="pt"/></l><r>some<s n="pt"/></r></p></e>
+			<e><p><l>neka<s n="part"/></l><r>some<s n="part"/></r></p></e>
 			<e><p><l>Ivica<s n="np"/></l><r>James<s n="np"/></r></p></e>
 			<e><p><l>Marica<s n="np"/></l><r>Mary<s n="np"/></r></p></e>
 			<e><p><l>vrijeme<s n="n"/></l><r>weather<s n="n"/></r></p></e>
@@ -354,7 +357,7 @@
 			<e><p><l>zajedno<s n="adv"/></l><r>together<s n="adv"/></r></p></e>
 			<e><p><l>polako<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
 			<e><p><l>pazljivo<s n="adv"/></l><r>carefully<s n="adv"/></r></p></e>
-			<e><p><l>mozda<s n="pt"/></l><r>maybe<s n="pt"/></r></p></e>
+			<e><p><l>mozda<s n="part"/></l><r>maybe<s n="part"/></r></p></e>
 			<e><p><l>mora da je<s n="expr"/></l><r>must be<s n="expr"/></r></p></e>
 			<e><p><l>opet<s n="pr"/></l><r>again<s n="pr"/></r></p></e>
 			<e><p><l>do<s n="adv"/></l><r>to<s n="adv"/></r></p></e>
@@ -377,8 +380,8 @@
 			<e><p><l>blize<s n="pr"/></l><r>closer<s n="pr"/></r></p></e>
 			<e><p><l>tamo<s n="pr"/></l><r>there<s n="pr"/></r></p></e>
 			<e><p><l>posvuda<s n="pr"/></l><r>everywhere<s n="pr"/></r></p></e>
-			<e><p><l>da<s n="pt"/></l><r>that<s n="pt"/></r></p></e>
-			<e><p><l>tog<s n="pt"/></l><r>that<s n="pt"/></r></p></e>
+			<e><p><l>da<s n="part"/></l><r>that<s n="part"/></r></p></e>
+			<e><p><l>tog<s n="part"/></l><r>that<s n="part"/></r></p></e>
 			<e><p><l>uokolo<s n="adv"/></l><r>around<s n="adv"/></r></p></e>
 			<e><p><l>kako<s n="pr"/></l><r>how<s n="pr"/></r></p></e>
 			<e><p><l>zatim<s n="pr"/></l><r>then<s n="pr"/></r></p></e>
@@ -390,7 +393,7 @@
 			<e><p><l>odgovoriti<s n="vblex"/></l><r>respond<s n="vblex"/></r></p></e>
 			<e><p><l>naci<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
 			<e><p><l>dolaziti<s n="vblex"/></l><r>coming<s n="vblex"/></r></p></e>
-			<e><p><l>evo<s n="pt"/></l><r>here is<s n="pt"/></r></p></e>
+			<e><p><l>evo<s n="part"/></l><r>here is<s n="part"/></r></p></e>
 			<e><p><l>sjedi<s n="vblex"/></l><r>sit<s n="vblex"/></r></p></e>
 			<e><p><l>drzi<s n="vblex"/></l><r>hold<s n="vblex"/></r></p></e>
 			<e><p><l>zacuti<s n="vblex"/></l><r>hear<s n="vblex"/></r></p></e>
@@ -476,8 +479,8 @@
 
     <e><p><l>se<s n="ref"/></l><r><s n="ref"/></r></p></e>
 
-    <e><p><l>no<s n="pt"/></l><r>but<s n="pt"/></r></p></e>
-    <e><p><l>i<s n="pt"/></l><r>also<s n="pt"/></r></p></e>
+    <e><p><l>no<s n="part"/></l><r>but<s n="part"/></r></p></e>
+    <e><p><l>i<s n="part"/></l><r>also<s n="part"/></r></p></e>
     
     <e><p><l>dva<s n="num"/></l><r>two<s n="num"/></r></p></e>
     <e><p><l>pet<s n="num"/></l><r>five<s n="num"/></r></p></e>
