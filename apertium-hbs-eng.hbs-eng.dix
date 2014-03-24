@@ -97,7 +97,7 @@
     <e><p><l>bronca<s n="n"/></l><r>bronze<s n="n"/></r></p></e>
     <e><p><l>bučan<s n="adj"/></l><r>loud<s n="adj"/></r></p></e>
     <e><p><l>cijeli<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
-        <e><p><l>cijeli jedan<s n="adj"/></l><r>a whole<s n="adj"/></r></p></e>
+        <e><p><l>cijeli<b/>jedan<s n="adj"/></l><r>a whole<s n="adj"/></r></p></e>
     <e><p><l>da<s n="cnjcoo"/></l><r>that<s n="cnjcoo"/></r></p></e>
     <e><p><l>dio<s n="n"/><s n="mi"/></l><r>part<s n="n"/></r></p></e>
     <e><p><l>diskografski<s n="adj"/></l><r>discography<s n="n"/></r></p></e>
@@ -220,7 +220,7 @@
     <e><p><l>specifičan<s n="adj"/><s n="n"/></l><r>unique<s n="adj"/></r></p></e>
     <e><p><l>specifičnost<s n="n"/></l><r>uniqueness<s n="n"/></r></p></e>
     <e><p><l>spomenik<s n="n"/><s n="mi"/></l><r>monument<s n="n"/></r></p></e>
-    <e><p><l>stalno se<s n="adv"/></l><r>keep<s n="vblex"/></r></p></e>  
+    <e><p><l>stalno<b/>se<s n="adv"/></l><r>keep<s n="vblex"/></r></p></e>  
     <e><p><l>stilski<s n="adj"/></l><r>stylistic<s n="adj"/></r></p></e>
     <e><p><l>strukturni<s n="adj"/></l><r>structural<s n="adj"/></r></p></e>
     <e><p><l>svjestan<s n="adj"/></l><r>aware<s n="adj"/></r></p></e>
@@ -258,7 +258,24 @@
     <e><p><l>kao<b/>što<s n="cnjcoo"/></l><r>like<s n="cnjcoo"/></r></p></e>  
 
     <e><p><l>čemu<s n="pr"/></l><r>what<s n="pr"/></r></p></e>  
-    <e><p><l>čiji<s n="pr"/></l><r>whose<s n="pr"/></r></p></e>  
+    <e><p><l>čiji<s n="pr"/></l><r>whose<s n="pr"/></r></p></e> 
+    
+    
+    <e><p><l>bilježiti<s n="vblex"/></l><r>mark<s n="vblex"/></r></p></e>
+    <e><p><l>donirati<s n="vblex"/></l><r>donate<s n="vblex"/></r></p></e>
+    <e><p><l>mijenjati<s n="vblex"/></l><r>change<s n="vblex"/></r></p></e>
+    <e><p><l>nametnuti<s n="vblex"/></l><r>assert<s n="vblex"/></r></p></e>
+    <e><p><l>nastavljati<s n="vblex"/></l><r>continue<s n="vblex"/></r></p></e>
+    <e><p><l>negirati<s n="vblex"/></l><r>deny<s n="vblex"/></r></p></e>
+    <e><p><l>povlađivati<s n="vblex"/></l><r>indulge<s n="vblex"/></r></p></e>
+    <e><p><l>skupljati<s n="vblex"/></l><r>gather<s n="vblex"/></r></p></e>
+    <e><p><l>svirati<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
+    <e><p><l>uspjeti<s n="vblex"/></l><r>manage<s n="vblex"/></r></p></e>
+    <e><p><l>na<b/>koncu<s n="adv"/></l><r>eventually<s n="adv"/></r></p></e>
+    <e><p><l>istup<s n="n"/></l><r>appearance<s n="n"/></r></p></e>
+    <e><p><l>komentirati<s n="vblex"/></l><r>comment<s n="vblex"/></r></p></e>
+    <e><p><l>obraditi<s n="vblex"/></l><r>cover<s n="vblex"/></r></p></e>
+    
     
         <!-- OLD -->
     

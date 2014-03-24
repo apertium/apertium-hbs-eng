@@ -2824,7 +2824,7 @@
 <e lm="social"><i>social</i><par n="expensive__adj"/></e>
 <e lm="somewhere"><i>somewhere</i><par n="maybe__adv"/></e>
 <e lm="song"><i>song</i><par n="house__n"/></e>
-<e lm="stage appearance"><i>stage</i><i>appearance</i><par n="east__n"/></e>
+<e lm="stage appearance"><i>stage<b/>appearance</i><par n="east__n"/></e>
 <e lm="stage"><i>stag</i><par n="liv/e__vblex"/></e>
 <e lm="stage"><i>stage</i><par n="house__n"/></e>
 <e lm="starting"><i>starting</i><par n="expensive__adj"/></e>
@@ -2888,6 +2888,7 @@
 <e lm="become"><i>bec</i><par n="bec/ome__vblex"/></e>
 <e lm="parody"><i>parod</i><par n="appl/y__vblex"/></e>
 <e lm="cover"><i>cover</i><par n="accept__vblex"/></e>
+<e lm="indulge"><i>indulg</i><par n="liv/e__vblex"/></e>
 
 <e lm="in general"><i>in</i><i>general</i><par n="maybe__adv"/></e>
 	
