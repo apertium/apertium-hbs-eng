@@ -2641,7 +2641,7 @@
   <e lm="Damir"><i>Damir</i><par n="Mark__np"/></e>
 <e lm="February"><par n="Ff"/><i>ebruar</i><par n="bab/y__n"/></e>
 <e lm="February"><par n="Ff"/><i>ebruary</i><par n="expensive__adj"/></e>
-<e lm="LET"><i>LET</i><par n="BBC__n"/></e>
+<e lm="Let"><i>Let</i><par n="BBC__n"/></e>
 <e lm="Ljubljana"><i>Ljubljana</i><par n="Barcelona__np"/></e>
 <e lm="Ljubljana"><par n="Ll"/><i>jubljana</i><par n="expensive__adj"/></e>
 <e lm="Martinović"><i>Martinović</i><par n="Smith__np"/></e>
@@ -2891,6 +2891,7 @@
 <e lm="indulge"><i>indulg</i><par n="liv/e__vblex"/></e>
 
 <e lm="in general"><i>in</i><i>general</i><par n="maybe__adv"/></e>
+<e lm="around that time"><i>around<b/>that<b/>time</i><par n="maybe__adv"/></e>
 	
     <e r="RL"><p><l><a/>a</l><r>a</r></p><par n="a__det"/></e>
     <e r="LR"><i>a</i><par n="a__det"/></e>

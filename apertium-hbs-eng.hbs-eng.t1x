@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <transfer default="chunk">
+
   <section-def-cats>
+
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
+
+    <def-cat n="prn">
+      <cat-item tags="prn"/>
+      <cat-item tags="prn.*"/>
+    </def-cat>
+
+    <def-cat n="vb">
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vblex.*"/>
+      <cat-item tags="vbhaver.*"/>
+      <cat-item tags="vbmod.*"/>
+    </def-cat>
+
+    <def-cat n="adj">
+      <cat-item tags="adj.*"/>
+    </def-cat>
+
+    <def-cat n="num">
+      <cat-item tags="num"/>
+      <cat-item tags="num.*"/>
+    </def-cat>
+
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+
+    <def-cat n="godine">
+      <cat-item lemma="godina" tags="n"/>
+    </def-cat>
+
   </section-def-cats>
 
   <section-def-attrs>
@@ -31,7 +61,54 @@
       <attr-item tags="voc"/>
     </def-attr>
 
+    <def-attr n="a_num">
+      <attr-item tags="num"/>
+      <attr-item tags="num.ord"/>
+    </def-attr>
+
+    <def-attr n="a_prn">
+      <attr-item tags="prn"/>
+      <attr-item tags="prn.neg"/>
+      <attr-item tags="prn.emph"/>
+      <attr-item tags="prn.pos"/>
+      <attr-item tags="prn.ind"/>
+      <attr-item tags="prn.ind.neg"/>
+      <attr-item tags="prn.itg"/>
+      <attr-item tags="prn.dem"/>
+      <attr-item tags="prn.pers"/>
+      <attr-item tags="prn.pers.clt"/>
+      <attr-item tags="prn.tot"/>
+      <attr-item tags="prn.ref.pers"/>
+      <attr-item tags="prn.ref.pos"/>
+      <attr-item tags="prn.rel"/>
+    </def-attr>
+
+    <def-attr n="a_vb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbmod"/>
+    </def-attr>
+
+    <def-attr n="a_adj">
+      <attr-item tags="adj"/>
+    </def-attr>
+
+    <def-attr n="a_deg">
+      <attr-item tags="pst"/>
+      <attr-item tags="comp"/>
+      <attr-item tags="sup"/>
+      <attr-item tags="ssup"/>
+    </def-attr>
+
+    <def-attr n="prs">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
+
   </section-def-attrs>
+
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="current_verb"/>
@@ -56,6 +133,44 @@
 	</concat>
       </let>
     </def-macro>
+
+    <!-- Adapter for pronouns, strips the pronoun of gender and case -->
+    <def-macro n="prn_adapter" npar="1">
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_prn"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	</concat>
+      </let>
+    </def-macro>
+
+    <!-- Adapter for verbs -->
+    <def-macro n="vb_adapter" npar="1">
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_vb"/>
+	  <clip pos="1" side="tl" part="prs"/>
+	</concat>
+      </let>
+    </def-macro>
+
+    <!-- Adapter for adjectives -->
+    <def-macro n="adj_adapter" npar="1">
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_adj"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	</concat>
+      </let>
+    </def-macro>
+
   </section-def-macros>
   <section-rules>
 
@@ -91,6 +206,112 @@
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="pronoun">
+      <pattern>
+	<pattern-item n="prn"/>
+      </pattern>      
+      <action>
+	<call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="prn" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PRN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="verb">
+      <pattern>
+	<pattern-item n="vb"/>
+      </pattern>      
+      <action>
+	<call-macro n="vb_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="V"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="adj">
+      <pattern>
+	<pattern-item n="adj"/>
+      </pattern>      
+      <action>
+	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ADJ"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- visok 4 [metra] -->
+    <rule comment="adj_num">
+      <pattern>
+	<pattern-item n="adj"/>
+	<pattern-item n="num"/>
+      </pattern>      
+      <action>
+	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="adj_num" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ADJNUM"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	    <b pos="1"/>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- 1986. godine -->
+    <rule comment="num_year">
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="godine"/>
+      </pattern>      
+      <action>
+        <out>
+          <chunk name="num_year" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="NUMYEAR"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	    <b pos="1"/>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
           </chunk>
         </out>
       </action>
