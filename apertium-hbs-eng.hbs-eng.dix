@@ -61,6 +61,9 @@
     <sdef n="rpar"  c=""/>
     <sdef n="lpar"  c=""/>
 
+    <sdef n="sfx" c=""/>
+    <sdef n="gen" c=""/>
+
    </sdefs>
 
    <section id="main" type="standard">
@@ -84,6 +87,7 @@
     <e><p><l>Prodanović<s n="np"/></l><r>Prodanović<s n="np"/></r></p></e>
     <e><p><l>Pula<s n="np"/></l><r>Pula<s n="np"/></r></p></e>
     <e><p><l>Rijeka<s n="np"/></l><r>Rijeka<s n="np"/></r></p></e>
+    <e><p><l>rijeka<s n="n"/></l><r>river<s n="n"/></r></p></e>
     <e><p><l>Split<s n="np"/></l><r>Split<s n="np"/></r></p></e>
     <e><p><l>Texas<s n="np"/></l><r>Texas<s n="np"/></r></p></e>
     <e><p><l>Zagreb<s n="np"/></l><r>Zagreb<s n="np"/></r></p></e>
@@ -168,7 +172,7 @@
     <e><p><l>oformljavanje<s n="n"/></l><r>forming<s n="n"/></r></p></e>
     <e><p><l>okoliš<s n="n"/></l><r>environment<s n="n"/></r></p></e>
     <e><p><l>onaj<s n="prn"/></l><r>that<s n="prn"/></r></p></e>
-    <e><p><l>oni<s n="prn"/></l><r>they<s n="prn"/></r></p></e>
+    <e><p><l>PersonalPronoun<s n="prn"/></l><r>PersonalPronoun<s n="prn"/></r></p></e>
     <e><p><l>općenito<s n="adv"/></l><r>in<b/>general<s n="adv"/></r></p></e>
     <e><p><l>osjećaj<s n="n"/></l><r>feeling<s n="n"/></r></p></e>
     <e><p><l>osnova<s n="n"/></l><r>basis<s n="n"/></r></p></e>
@@ -206,7 +210,7 @@
     <e><p><l>razvijen<s n="adj"/></l><r>developed<s n="adj"/></r></p></e>
     <e><p><l>red<s n="n"/></l><r>line<s n="n"/></r></p></e>
     <e><p><l>regija<s n="n"/></l><r>region<s n="n"/></r></p></e>
-    <e><p><l>riječan<s n="n"/></l><r>riječan<s n="n"/></r></p></e>
+    <e><p><l>riječan<s n="n"/></l><r>citizen<b/>of<b/>Rijeka<s n="n"/></r></p></e>
     <e><p><l>riječki<s n="adj"/></l><r>Rijeka<s n="n"/></r></p></e>
     <e><p><l>rock<s n="n"/></l><r>rock<s n="n"/></r></p></e>
     <e><p><l>s<s n="pr"/></l><r>with<s n="pr"/></r></p></e>  
@@ -228,8 +232,8 @@
     <e><p><l>širiti<s n="vblex"/></l><r>expand<s n="vblex"/></r></p></e>
     <e><p><l>te<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>  
     <e><p><l>tekst<s n="n"/></l><r>lyrics<s n="n"/></r></p></e>
-    <e><p><l>Termit<s n="np"/></l><r>Termiti<s n="np"/></r></p></e>
-    <e><p><l>tijekom<s n="pr"/>></l><r>during<s n="pr"/></r></p></e>  
+    <e><p><l>Termiti<s n="np"/></l><r>Termiti<s n="np"/></r></p></e>
+    <e><p><l>tijekom<s n="pr"/></l><r>during<s n="pr"/></r></p></e>  
     <e><p><l>to<s n="prn"/></l><r>that<s n="prn"/></r></p></e>
     <e><p><l>točno<s n="adv"/></l><r>right<s n="adv"/></r></p></e>
     <e><p><l>trademark<s n="n"/></l><r>trademark<s n="n"/></r></p></e>
@@ -240,7 +244,7 @@
     <e><p><l>umjetnički<s n="adj"/></l><r>artistic<s n="adj"/></r></p></e>
     <e><p><l>unikatan<s n="adj"/></l><r>unique<s n="adj"/></r></p></e>
     <e><p><l>uvijek<s n="adv"/></l><r>always<s n="adv"/></r></p></e>  
-    <e><p><l>utemeljiti<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>  
+    <e><p><l>utemeljivati<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>  
     <e><p><l>veljača<s n="n"/></l><r>February<s n="n"/></r></p></e>
     <e><p><l>vidljiv<s n="adj"/></l><r>visible<s n="adj"/></r></p></e>
     <e><p><l>više<s n="adj"/></l><r>several<s n="adj"/></r></p></e>  
@@ -280,6 +284,7 @@
     <e><p><l>u to vrijeme<s n="adv"/></l><r>around that time<s n="adv"/></r></p></e>
     <e><p><l>na koncu<s n="adv"/></l><r>eventually<s n="adv"/></r></p></e>
     <e><p><l>svoj<s n="prn"/></l><r>his<s n="prn"/></r></p></e>
+    <e><p><l>-ih<s n="sfx"/></l><r>'s<s n="sfx"/></r></p></e>
     
     
         <!-- OLD -->

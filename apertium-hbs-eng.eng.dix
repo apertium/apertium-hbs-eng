@@ -107,6 +107,8 @@
     <sdef n="conj"/>
     <sdef n="punct"/>
     <sdef n="stop"/>
+
+    <sdef n="sfx"/>
     
   </sdefs>
 
@@ -721,7 +723,7 @@
     </pardef>
     
     <pardef n="'s__gen">
-      <e>      <p>        <l></l>        <r><s n="gen"/></r></p></e>
+      <e>      <p>        <l></l>        <r><s n="sfx"/><s n="gen"/></r></p></e>
     </pardef>
     
     <pardef n="hello__ij">
@@ -2811,7 +2813,7 @@
 <e lm="really"><i>really</i><par n="very__preadv"/></e>
 <e lm="refinement"><i>refinement</i><par n="east__n"/></e>
 <e lm="region"><i>region</i><par n="house__n"/></e>
-<e lm="riječan"><i>riječan</i><par n="east__n"/></e>
+<e lm="citizen of Rijeka"><i>citizen</i><par n="house__n"/><p><l><b/>of<b/>Rijeka</l><r><g><b/>of<b/>Rijeka</g></r></p></e>
 <e lm="rock"><i>rock</i><par n="accept__vblex"/></e>
 <e lm="rock"><i>rock</i><par n="house__n"/></e>
 <e lm="second"><i>second</i><par n="accept__vblex"/></e>
@@ -2877,7 +2879,7 @@
 <e lm="Let"><i>Let</i><par n="BBC__n"/></e>
 <e lm="humor"><i>humor</i><par n="house__n"/></e>
 <e lm="to him"><i>to</i><i>him</i><par n="probj__prn"/></e>
-<e lm="they"><i>they</i><par n="prsubj__prn"/></e>
+<e lm="PersonalPronoun"><i/><par n="prsubj__prn"/></e>
 <e lm="enchanted"><i>enchanted</i><par n="expensive__adj"/></e>
 <e lm="keep"><i>ke</i><par n="ke/ep__vblex"/></e>
 <e lm="whose"><i>whose</i><par n="whose__prn"/></e>
@@ -2892,6 +2894,8 @@
 
 <e lm="in general"><i>in</i><i>general</i><par n="maybe__adv"/></e>
 <e lm="around that time"><i>around<b/>that<b/>time</i><par n="maybe__adv"/></e>
+
+<e lm="hag's"><i>hag</i><par n="house__n"/></e>
 	
     <e r="RL"><p><l><a/>a</l><r>a</r></p><par n="a__det"/></e>
     <e r="LR"><i>a</i><par n="a__det"/></e>

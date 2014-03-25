@@ -7,6 +7,13 @@
 	  <match lemma="vrijeme" tags="n.*">
 	    <select lemma="weather" tags="n.*"/>
 	  </match>
-	</rule>
+  </rule>
+
+  <rule>
+	  <match lemma="grad" tags="n.*"/>
+	  <match lemma="Rijeka" tags="np.*">
+	    <select lemma="Rijeka" tags="np.*"/>
+	  </match>
+  </rule>
 
 </rules>
