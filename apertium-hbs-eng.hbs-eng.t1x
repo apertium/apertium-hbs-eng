@@ -25,6 +25,10 @@
       <cat-item tags="adj.*"/>
     </def-cat>
 
+    <def-cat n="pr">
+      <cat-item tags="pr.*"/>
+    </def-cat>
+
     <def-cat n="num">
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
@@ -40,6 +44,18 @@
 
     <def-cat n="clitic">
       <cat-item lemma="clitic" tags="prn.*"/>
+    </def-cat>
+
+    <def-cat n="od">
+	<cat-item lemma="od" tags="pr."/>
+    </def-cat>
+
+    <def-cat n="nom_ins">
+      <cat-item tags="n.*.*.ins"/>
+    </def-cat>
+
+    <def-cat n="adj_ins">
+      <cat-item tags="adj.*.*.*.ins.*"/>
     </def-cat>
 
   </section-def-cats>
@@ -272,6 +288,42 @@
       </action>
     </rule>
 
+    <rule comment="preposition">
+      <pattern>
+	<pattern-item n="pr"/>
+      </pattern>      
+      <action>
+        <out>
+          <chunk name="pr" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PR"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+<!--    <rule comment="od">
+      <pattern>
+	<pattern-item n="od"/>
+      </pattern>      
+      <action>
+        <out>
+          <chunk name="od" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="OD"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule> -->
+
     <!-- visok 4 [metra] -->
     <rule comment="adj_num">
       <pattern>
@@ -304,17 +356,18 @@
 	<pattern-item n="godine"/>
       </pattern>      
       <action>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
         <out>
           <chunk name="num_year" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="NUMYEAR"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="2" side="tl" part="whole"/>
             </lu>
 	    <b pos="1"/>
 	    <lu>
-	      <clip pos="2" side="tl" part="whole"/>
+	      <clip pos="1" side="tl" part="whole"/>
 	    </lu>
           </chunk>
         </out>
@@ -366,6 +419,60 @@
         </out>
       </action>
     </rule>
+
+<!-- od početka djelovanja -->
+<!--    <rule comment="od_nom_nom">
+      <pattern>
+	<pattern-item n="od"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="nom"/>
+      </pattern>      
+      <action>
+	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="vb_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="od_nom_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ODNOMNOM"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+	      <b pos="1"/>
+              <clip pos="2" side="tl" part="whole"/>
+	      <b pos="2"/>
+	      <clip pos="3" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule> -->
+
+<!-- Višegodišnjim beskompromisnim djelovanjem -->
+<!--    <rule comment="adjins_adjins_nomins">
+      <pattern>
+	<pattern-item n="adj_ins"/>
+	<pattern-item n="adj_ins"/>
+	<pattern-item n="nom_ins"/>
+      </pattern>      
+      <action>
+	<call-macro n="adj_adapter"><with-param pos="1"/><with-param pos="2"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="adjins_adjins_nomins" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ADJINSADJINSNOMINS"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+	      <b pos="1"/>
+              <clip pos="2" side="tl" part="whole"/>
+	      <b pos="2"/>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule> -->
 
   </section-rules>
 

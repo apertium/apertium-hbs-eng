@@ -285,6 +285,7 @@
     <e><p><l>na koncu<s n="adv"/></l><r>eventually<s n="adv"/></r></p></e>
     <e><p><l>svoj<s n="prn"/></l><r>his<s n="prn"/></r></p></e>
     <e><p><l>-ih<s n="sfx"/></l><r>'s<s n="sfx"/></r></p></e>
+    <e><p><l>od<s n="pr"/></l><r>since<s n="pr"/></r></p></e>
     
     
         <!-- OLD -->
@@ -389,7 +390,7 @@
 			<e><p><l>opet<s n="pr"/></l><r>again<s n="pr"/></r></p></e>
 			<e><p><l>do<s n="adv"/></l><r>to<s n="adv"/></r></p></e>
 			<e><p><l>nikad<s n="adv"/></l><r>never<s n="adv"/></r></p></e>
-			<e><p><l>od<s n="adv"/></l><r>from<s n="adv"/></r></p></e>
+<!--			<e><p><l>od<s n="adv"/></l><r>from<s n="adv"/></r></p></e> -->
 			<e><p><l>uvijek<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
 			<e><p><l>dobro<s n="adv"/></l><r>well<s n="adv"/></r></p></e>
 			<e><p><l>sad<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
