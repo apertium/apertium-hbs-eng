@@ -227,7 +227,8 @@
     <e><p><l>specifičan<s n="adj"/></l><r>unique<s n="adj"/></r></p></e>
     <e><p><l>specifičnost<s n="n"/></l><r>uniqueness<s n="n"/></r></p></e>
     <e><p><l>spomenik<s n="n"/></l><r>monument<s n="n"/></r></p></e>
-    <e><p><l>stalno<b/>se<s n="adv"/></l><r>keep<s n="vblex"/></r></p></e>  
+    <e><p><l>stalno<b/>se<s n="adv"/></l><r>keep<s n="vblex"/></r></p></e>
+    <e><p><l>stalno<s n="adv"/></l><r>constantly<s n="vblex"/></r></p></e>  
     <e><p><l>stilski<s n="adj"/></l><r>stylistic<s n="adj"/></r></p></e>
     <e><p><l>strukturni<s n="adj"/></l><r>structural<s n="adj"/></r></p></e>
     <e><p><l>svjestan<s n="adj"/></l><r>aware<s n="adj"/></r></p></e>
@@ -257,6 +258,7 @@
     <e><p><l>vrijeme<s n="n"/></l><r>time<s n="n"/></r></p></e>
     <e><p><l>za<s n="pr"/></l><r>for<s n="pr"/></r></p></e>  
     <e><p><l>zaista<s n="adv"/></l><r>truely<s n="adv"/></r></p></e>  
+    <e><p><l>zaista<s n="part"/></l><r>truely<s n="adv"/></r></p></e>  
     <e><p><l>zajedno<s n="adj"/></l><r>together<s n="adj"/></r></p></e>  
     <e><p><l>četiri<s n="num"/></l><r>four<s n="num"/></r></p></e>  
     <e><p><l>čudak<s n="n"/></l><r>weirdo<s n="n"/></r></p></e>
