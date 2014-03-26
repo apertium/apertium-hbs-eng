@@ -28,6 +28,7 @@
     <sdef n="ppos"/>
     <sdef n="ref" c="reflexive pronoun"/>
     <sdef n="cnjcoo" c="Coordinating conjunction"/>
+    <sdef n="cnjsub" c="Subrdinating conjunction"/>
     <sdef n="tv" c="transitive"/>
     <sdef n="iv" c="intransitive"/>
     <sdef n="num" c="numeral"/>
@@ -101,7 +102,8 @@
     <e><p><l>bronca<s n="n"/></l><r>bronze<s n="n"/></r></p></e>
     <e><p><l>bučan<s n="adj"/></l><r>loud<s n="adj"/></r></p></e>
     <e><p><l>cijeli<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
-    <e><p><l>cijeli<b/>jedan<s n="adj"/></l><r>a whole<s n="adj"/></r></p></e>
+    <e><p><l>cijel<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
+<!--    <e><p><l>cijeli<b/>jedan<s n="adj"/></l><r>a whole<s n="adj"/></r></p></e> -->
     <e><p><l>da<s n="cnjcoo"/></l><r>that<s n="cnjcoo"/></r></p></e>
     <e><p><l>dio<s n="n"/></l><r>part<s n="n"/></r></p></e>
     <e><p><l>diskografski<s n="adj"/></l><r>discography<s n="n"/></r></p></e>
@@ -126,6 +128,7 @@
     <e><p><l>humor<s n="n"/></l><r>humour<s n="n"/></r></p></e>
     <e><p><l>i<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
     <e><p><l>ili<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ili<s n="cnjsub"/></l><r>or<s n="cnjsub"/></r></p></e>
     <e><p><l>image<s n="n"/></l><r>image<s n="n"/></r></p></e>
     <e><p><l>ime<s n="n"/></l><r>name<s n="n"/></r></p></e>
     <e><p><l>indie<s n="adj"/></l><r>indie<s n="n"/></r></p></e>
@@ -201,7 +204,7 @@
     <e><p><l>prije<s n="pr"/></l><r>before<s n="pr"/></r></p></e>  
     <e><p><l>projekt<s n="n"/></l><r>project<s n="n"/></r></p></e>
     <e><p><l>prvi<s n="adj"/></l><r>first<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>prvorazredni<s n="adj"/></l><r>first-class<s n="adj"/></r></p></e>
+    <e><p><l>prvorazredan<s n="adj"/></l><r>first-class<s n="adj"/></r></p></e>
     <e><p><l>ptica<s n="n"/></l><r>bird<s n="n"/></r></p></e>
     <e><p><l>punk<s n="n"/></l><r>punk<s n="n"/></r></p></e>
     <e><p><l>rafiniranost<s n="n"/></l><r>refinement<s n="n"/></r></p></e>
@@ -213,7 +216,7 @@
     <e><p><l>riječan<s n="n"/></l><r>citizen<b/>of<b/>Rijeka<s n="n"/></r></p></e>
     <e><p><l>riječki<s n="adj"/></l><r>Rijeka<s n="n"/></r></p></e>
     <e><p><l>rock<s n="n"/></l><r>rock<s n="n"/></r></p></e>
-    <e><p><l>s<s n="pr"/></l><r>with<s n="pr"/></r></p></e>  
+    <e><p><l>sa<s n="pr"/></l><r>with<s n="pr"/></r></p></e>  
     <e><p><l>sam<s n="adj"/></l><r>very<s n="adj"/></r></p></e>
     <e><p><l>samo<s n="adv"/></l><r>only<s n="adv"/></r></p></e>  
     <e><p><l>sastav<s n="n"/></l><r>band<s n="n"/></r></p></e>
@@ -221,7 +224,7 @@
     <e><p><l>scenski<s n="adj"/></l><r>stage<s n="adj"/></r></p></e>
     <e><p><l>sljedeći<s n="adj"/></l><r>next<s n="adj"/></r></p></e>
     <e><p><l>socijalan<s n="adj"/></l><r>social<s n="adj"/></r></p></e>
-    <e><p><l>specifičan<s n="adj"/><s n="n"/></l><r>unique<s n="adj"/></r></p></e>
+    <e><p><l>specifičan<s n="adj"/></l><r>unique<s n="adj"/></r></p></e>
     <e><p><l>specifičnost<s n="n"/></l><r>uniqueness<s n="n"/></r></p></e>
     <e><p><l>spomenik<s n="n"/></l><r>monument<s n="n"/></r></p></e>
     <e><p><l>stalno<b/>se<s n="adv"/></l><r>keep<s n="vblex"/></r></p></e>  
@@ -286,6 +289,8 @@
     <e><p><l>svoj<s n="prn"/></l><r>his<s n="prn"/></r></p></e>
     <e><p><l>-ih<s n="sfx"/></l><r>'s<s n="sfx"/></r></p></e>
     <e><p><l>od<s n="pr"/></l><r>since<s n="pr"/></r></p></e>
+    <e><p><l>babin<s n="adj"/></l><r>hag's<s n="adj"/></r></p></e>
+    <e><p><l>biti<s n="vblex"/></l><r>be<s n="vbser"/></r></p></e>
     
     
         <!-- OLD -->
