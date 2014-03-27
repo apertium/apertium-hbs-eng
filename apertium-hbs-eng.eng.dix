@@ -2645,7 +2645,7 @@
 <e lm="February"><par n="Ff"/><i>ebruary</i><par n="expensive__adj"/></e>
 <e lm="Let"><i>Let</i><par n="BBC__n"/></e>
 <e lm="Ljubljana"><i>Ljubljana</i><par n="Barcelona__np"/></e>
-<e lm="Ljubljana"><par n="Ll"/><i>jubljana</i><par n="expensive__adj"/></e>
+<!--<e lm="Ljubljana"><par n="Ll"/><i>jubljana</i><par n="expensive__adj"/></e>-->
 <e lm="Martinović"><i>Martinović</i><par n="Smith__np"/></e>
 <e lm="Mrle"><i>Mrle</i><par n="Mark__np"/></e>
 <e lm="Paris"><i>Paris</i><par n="Barcelona__np"/></e>
@@ -2770,6 +2770,7 @@
 <e lm="lyrics"><i>lyrics</i><par n="east__n"/></e>
 <e lm="made"><i>made</i><par n="expensive__adj"/></e>
 <e lm="maturity"><i>maturit</i><par n="bab/y__n"/></e>
+<e lm="meter"><i>meter</i><par n="house__n"/></e>
 <e lm="monument"><i>monument</i><par n="house__n"/></e>
 <e lm="multimedia"><i>multimedia</i><par n="accept__vblex"/></e>
 <e lm="musical"><i>musical</i><par n="expensive__adj"/></e>
@@ -2850,7 +2851,6 @@
 <e lm="together"><i>together</i><par n="maybe__adv"/></e>
 <e lm="trademark"><i>trademark</i><par n="house__n"/></e>
 <e lm="truly"><i>truly</i><par n="maybe__adv"/></e>
-<e lm="truely"><i>truely</i><par n="maybe__adv"/></e>
 <e lm="two" r="RL"><i>two</i><par n="expensive__adj"/></e>
 <e lm="two"><i>two</i><par n="house__n"/></e>
 <e lm="two"><i>two</i><par n="two__num"/></e>
@@ -13967,6 +13967,7 @@
     <e lm="mediation"><i>mediation</i><par n="house__n"/></e>
     <e lm="merchant"><i>merchant</i><par n="house__n"/></e>
     <e lm="metaphysics"><i>metaphysics</i><par n="politics__n"/></e>
+    <e lm="meter"><i>meter</i><par n="house__n"/></e>
     <e lm="middleman"><i>middlem</i><par n="m/an__n"/></e>
     <e lm="mill"><i>mill</i><par n="house__n"/></e>
     <e lm="mimic"><i>mimic</i><par n="house__n"/></e>
@@ -17707,9 +17708,8 @@
     <e lm="meteorologist"><i>meteorologist</i><par n="house__n"/></e>
     <e lm="method"><i>method</i><par n="house__n"/></e>
     <e lm="methodology"><i>methodolog</i><par n="bab/y__n"/></e>
-    <e lm="square metre"><i>square<b/>metre</i><par n="house__n"/></e>
-    <e lm="meter"><i>meter</i><par n="house__n"/></e>
     <e lm="metre"><i>metre</i><par n="house__n"/></e>
+    <e lm="square metre"><i>square<b/>metre</i><par n="house__n"/></e>
     <e lm="metropolis"><i>metropol</i><par n="analys/is__n"/></e>
     <e lm="microbe"><i>microbe</i><par n="house__n"/></e>
     <e lm="microorganism"><i>microorganism</i><par n="house__n"/></e>
