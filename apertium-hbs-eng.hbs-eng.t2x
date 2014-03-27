@@ -11,37 +11,20 @@
       <cat-item tags="SN.*"/>
     </def-cat>
 
-    <def-cat n="N">
-      <cat-item tags="N"/>
+    <def-cat n="SV">
+      <cat-item tags="V"/>
+    </def-cat>
+
+    <def-cat n="ADJP">
+      <cat-item tags="ADJ"/>
     </def-cat>
 
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
     </def-cat>
 
-    <def-cat n="NUMYEAR">
-      <cat-item tags="NUMYEAR"/>
-    </def-cat>
-
-    <def-cat n="CLTVB">
-      <cat-item tags="CLTVB"/>
-    </def-cat>
-
-
-    <def-cat n="od_nom_nom">
-      <cat-item tags="od_nom_nom"/>
-    </def-cat>
-
-    <def-cat n="OD">
-      <cat-item tags="OD"/>
-    </def-cat>
-
     <def-cat n="PR">
       <cat-item tags="PR"/>
-    </def-cat>
-
-    <def-cat n="ADJINSADJINSNOMINS">
-      <cat-item tags="ADJINSADJINSNOMINS"/>
     </def-cat>
 
   </section-def-cats>
@@ -121,27 +104,7 @@
       </action>
     </rule> -->
 
-
-    <rule comment="REGLA: NUM YEAR">
-      <pattern>
-        <pattern-item n="NUMYEAR"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk>
-            <lit v="{^the"/>
-            <lit-tag v="det"/>
-            <lit v="$}"/>
-          </chunk>
-	  <b/>
-	  <chunk>
-            <clip pos="1" part="whole"/>
-	  </chunk>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: CLT VB">
+<!--    <rule comment="REGLA: CLT VB">
       <pattern>
         <pattern-item n="CLTVB"/>
       </pattern>
@@ -155,68 +118,6 @@
             <lit v="{^to"/>
             <lit-tag v="pr"/>
             <lit v="$}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-<!-- od početka djelovanja -->
-    <rule comment="REGLA: PR NOM NOM">
-      <pattern>
-        <pattern-item n="PR"/>
-	<pattern-item n="N"/>
-        <pattern-item n="N"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk>
-            <clip pos="1" part="whole"/>
-          </chunk>
-	  <b pos="1"/>
-	  <chunk>
-            <lit v="{^the"/>
-            <lit-tag v="det"/>
-            <lit v="$}"/>
-	  </chunk>
-	  <b/>
-	  <chunk>
-            <clip pos="2" part="whole"/>
-	  </chunk>
-	  <b pos="2"/>
-	  <chunk>
-            <lit v="{^of"/>
-            <lit-tag v="pr"/>
-            <lit v="$}"/>
-	  </chunk>
-	  <b/>
-	  <chunk>
-            <lit v="{^the"/>
-            <lit-tag v="det"/>
-            <lit v="$}"/>
-	  </chunk>
-	  <b/>
-	  <chunk>
-            <clip pos="3" part="whole"/>
-	  </chunk>
-        </out>
-      </action>
-    </rule>
-
-<!-- Višegodišnjim beskompromisnim djelovanjem -->
-<!--    <rule comment="REGLA: ADJINS ADJINS NOMINS">
-      <pattern>
-        <pattern-item n="ADJINSADJINSNOMINS"/>
-      </pattern>
-      <action>
-        <out>
-	  <chunk>
-            <lit v="{^with"/>
-            <lit-tag v="pr"/>
-            <lit v="$}"/>
-	  </chunk>
-	  <b/>
-          <chunk>
-            <clip pos="1" part="whole"/>
           </chunk>
         </out>
       </action>

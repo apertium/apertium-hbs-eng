@@ -64,6 +64,7 @@
 
     <sdef n="sfx" c=""/>
     <sdef n="gen" c=""/>
+    <sdef n="preadv" c=""/>
 
    </sdefs>
 
@@ -110,6 +111,7 @@
     <e><p><l>djelovanje<s n="n"/></l><r>activity<s n="n"/></r></p></e>
     <e><p><l>do<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>doista<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
+    <e><p><l>doista<s n="part"/></l><r>truly<s n="adv"/></r></p></e>
     <e><p><l>dorađenost<s n="n"/></l><r>maturity<s n="n"/></r></p></e>
     <e><p><l>dramaturški<s n="adj"/></l><r>dramaturgical<s n="adj"/></r></p></e>
     <e><p><l>drugi<s n="adj"/></l><r>second<s n="num"/></r></p></e>
@@ -131,7 +133,7 @@
     <e><p><l>ili<s n="cnjsub"/></l><r>or<s n="cnjsub"/></r></p></e>
     <e><p><l>image<s n="n"/></l><r>image<s n="n"/></r></p></e>
     <e><p><l>ime<s n="n"/></l><r>name<s n="n"/></r></p></e>
-    <e><p><l>indie<s n="adj"/></l><r>indie<s n="n"/></r></p></e>
+    <e><p><l>indie<s n="n"/></l><r>indie<s n="n"/></r></p></e>
     <e><p><l>iskustvo<s n="n"/></l><r>experience<s n="n"/></r></p></e>
     <e><p><l>iz<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     <e><p><l>izlaz<s n="n"/></l><r>output<s n="n"/></r></p></e>
@@ -177,6 +179,7 @@
     <e><p><l>onaj<s n="prn"/></l><r>that<s n="prn"/></r></p></e>
     <e><p><l>PersonalPronoun<s n="prn"/></l><r>PersonalPronoun<s n="prn"/></r></p></e>
     <e><p><l>općenito<s n="adv"/></l><r>in<b/>general<s n="adv"/></r></p></e>
+    <e><p><l>općenit<s n="adj"/></l><r>general<s n="adj"/></r></p></e>
     <e><p><l>osjećaj<s n="n"/></l><r>feeling<s n="n"/></r></p></e>
     <e><p><l>osnova<s n="n"/></l><r>basis<s n="n"/></r></p></e>
     <e><p><l>osobit<s n="adj"/></l><r>particular<s n="adj"/></r></p></e>
@@ -250,15 +253,15 @@
     <e><p><l>uvijek<s n="adv"/></l><r>always<s n="adv"/></r></p></e>  
     <e><p><l>utemeljivati<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>  
     <e><p><l>veljača<s n="n"/></l><r>February<s n="n"/></r></p></e>
-    <e><p><l>vidljiv<s n="adj"/></l><r>visible<s n="adj"/></r></p></e>
+    <e><p><l>vidljiv<s n="adj"/></l><r>obvious<s n="adj"/></r></p></e>
     <e><p><l>više<s n="adj"/></l><r>several<s n="adj"/></r></p></e>  
     <e><p><l>visok<s n="adj"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>višegodišnji<s n="adj"/></l><r>perennial<s n="adj"/></r></p></e>
     <e><p><l>vjeran<s n="adj"/></l><r>loyal<s n="adj"/></r></p></e>
     <e><p><l>vrijeme<s n="n"/></l><r>time<s n="n"/></r></p></e>
     <e><p><l>za<s n="pr"/></l><r>for<s n="pr"/></r></p></e>  
-    <e><p><l>zaista<s n="adv"/></l><r>truely<s n="adv"/></r></p></e>  
-    <e><p><l>zaista<s n="part"/></l><r>truely<s n="adv"/></r></p></e>  
+    <e><p><l>zaista<s n="adv"/></l><r>truly<s n="adv"/></r></p></e>  
+    <e><p><l>zaista<s n="part"/></l><r>truly<s n="adv"/></r></p></e>  
     <e><p><l>zajedno<s n="adj"/></l><r>together<s n="adj"/></r></p></e>  
     <e><p><l>četiri<s n="num"/></l><r>four<s n="num"/></r></p></e>  
     <e><p><l>čudak<s n="n"/></l><r>weirdo<s n="n"/></r></p></e>
@@ -293,6 +296,10 @@
     <e><p><l>od<s n="pr"/></l><r>since<s n="pr"/></r></p></e>
     <e><p><l>babin<s n="adj"/></l><r>hag's<s n="adj"/></r></p></e>
     <e><p><l>biti<s n="vblex"/></l><r>be<s n="vbser"/></r></p></e>
+    <e><p><l>napraviti<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
+    <e><p><l>razviti<s n="vblex"/></l><r>develop<s n="vblex"/></r></p></e>
+    <e><p><l>kao<b/>što<s n="cnjsub"/></l><r>just<b/>as<s n="preadv"/></r></p></e>
+    <e><p><l>istupati<s n="vblex"/></l><r>appear<s n="vblex"/></r></p></e>
     
     
         <!-- OLD -->

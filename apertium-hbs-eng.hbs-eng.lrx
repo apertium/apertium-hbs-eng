@@ -1,8 +1,8 @@
 <rules>
   <rule>
        <or>
-	    <match lemma="lijepo" tags="*"/>
-	    <match lemma="ružno" tags="*"/>
+	    <match lemma="lijepo" tags="adj.*"/>
+	    <match lemma="ružno" tags="adj.*"/>
        </or>
 	  <match lemma="vrijeme" tags="n.*">
 	    <select lemma="weather" tags="n.*"/>
@@ -11,7 +11,7 @@
 
   <rule>
 	  <match lemma="grad" tags="n.*"/>
-	  <match lemma="Rijeka" tags="np.*">
+	  <match lemma="rijeka" tags="n.*">
 	    <select lemma="Rijeka" tags="np.*"/>
 	  </match>
   </rule>
