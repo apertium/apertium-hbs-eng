@@ -58,6 +58,18 @@
       <cat-item lemma="visok" tags="adj.*"/>
     </def-cat>
 
+    <def-cat n="čiji">
+      <cat-item lemma="čiji" tags="prn.*"/>
+    </def-cat>
+
+    <def-cat n="biti">
+      <cat-item lemma="biti" tags="vbser.*"/>
+    </def-cat>
+
+    <def-cat n="htjeti">
+      <cat-item lemma="htjeti" tags="vbmod.*"/>
+    </def-cat>
+
     <def-cat n="nom_gen">
       <cat-item tags="n.*.*.gen"/>
     </def-cat>
@@ -401,11 +413,11 @@
             <tags>
               <tag><lit-tag v="PP"/></tag>
             </tags>
-            <lu>
+<!--            <lu>
               <lit v="of"/>
               <lit-tag v="pr"/>
             </lu>
-	    <b/>
+	    <b/> -->
             <lu>
               <lit v="the"/>
               <lit-tag v="det.def.sg"/>
@@ -581,11 +593,11 @@
             <tags>
               <tag><lit-tag v="SN"/></tag>
             </tags>
-            <lu>
+<!--            <lu>
               <lit v="the"/>
               <lit-tag v="det.def.sg"/>
             </lu>
-	      <b/>
+	      <b/> -->
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
@@ -629,6 +641,88 @@
 	      <b pos="1"/>
             <lu>
               <lit v="by"/>
+              <lit-tag v="pr"/>
+            </lu>
+	      <b/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+	      <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- čiji će -->
+    <rule comment="čiji__će">
+      <pattern>
+	<pattern-item n="čiji"/>
+	<pattern-item n="htjeti"/>
+      </pattern>      
+      <action>
+        <out>
+          <chunk name="čiji__će" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SubCl"/></tag>
+            </tags>
+            <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- donirali su -->
+    <rule comment="vb__su">
+      <pattern>
+	<pattern-item n="vb"/>
+	<pattern-item n="biti"/>
+      </pattern>      
+      <action>
+        <out>
+          <chunk name="vb__su" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+<!-- koji su odmah bili očarani -->
+    <rule comment="nom_adj_nom">
+      <pattern>
+	<pattern-item n="nom"/>
+	<pattern-item n="adj_gen"/>
+	<pattern-item n="nom_gen"/>
+      </pattern>      
+      <action>
+	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="adj_adapter"><with-param pos="2"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+	<out>
+          <chunk name="nom_adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+<!--            <lu>
+              <lit v="the"/>
+              <lit-tag v="det.def.sg"/>
+            </lu>
+	      <b/> -->
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	      <b pos="1"/>
+            <lu>
+              <lit v="of"/>
               <lit-tag v="pr"/>
             </lu>
 	      <b/>

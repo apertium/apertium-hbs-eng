@@ -111,7 +111,7 @@
     <e><p><l>djelovanje<s n="n"/></l><r>activity<s n="n"/></r></p></e>
     <e><p><l>do<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>doista<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
-    <e><p><l>doista<s n="part"/></l><r>truely<s n="adv"/></r></p></e>
+    <e><p><l>doista<s n="part"/></l><r>truly<s n="adv"/></r></p></e>
     <e><p><l>dorađenost<s n="n"/></l><r>maturity<s n="n"/></r></p></e>
     <e><p><l>dramaturški<s n="adj"/></l><r>dramaturgical<s n="adj"/></r></p></e>
     <e><p><l>drugi<s n="adj"/></l><r>second<s n="num"/></r></p></e>
@@ -146,7 +146,7 @@
     <e><p><l>kao<s n="pr"/></l><r>as<s n="pr"/></r></p></e>
     <e><p><l>karijera<s n="n"/></l><r>career<s n="n"/></r></p></e>
     <e><p><l>kasnije<s n="adv"/></l><r>later<s n="adv"/></r></p></e>
-    <e><p><l>koji<s n="cnjcoo"/></l><r>who<s n="cnjcoo"/></r></p></e> 
+    <e><p><l>koji<s n="cnjsub"/></l><r>who<s n="adv"/></r></p></e>  <!-- ? -->
     <e><p><l>kompilacija<s n="n"/></l><r>compilation<s n="n"/></r></p></e>
     <e><p><l>konac<s n="n"/></l><r>end<s n="n"/></r></p></e>
     <e><p><l>koncert<s n="n"/></l><r>concert<s n="n"/></r></p></e>
@@ -157,7 +157,7 @@
     <e><p><l>kurac<s n="n"/></l><r>cock<s n="n"/></r></p></e>
     <e><p><l>kvaliteta<s n="n"/></l><r>quality<s n="n"/></r></p></e>
     <e><p><l>metar<s n="n"/></l><r>metre<s n="n"/></r></p></e>
-    <e><p><l>mu<s n="prn"/></l><r>to him<s n="prn"/></r></p></e>  
+<!-- to be removed    <e><p><l>mu<s n="prn"/></l><r>to him<s n="prn"/></r></p></e> -->
     <e><p><l>multimedijalan<s n="adj"/></l><r>multimedia<s n="adj"/></r></p></e>
     <e><p><l>na<s n="pr"/></l><r>on<s n="pr"/></r></p></e>  
     <e><p><l>nadahnut<s n="adj"/></l><r>inspired<s n="adj"/></r></p></e>
@@ -165,7 +165,7 @@
     <e><p><l>napravljen<s n="adj"/></l><r>made<s n="adj"/></r></p></e>
     <e><p><l>nastavak<s n="n"/></l><r>continuation<s n="n"/></r></p></e>
     <e><p><l>negdje<s n="adv"/></l><r>somewhere<s n="adv"/></r></p></e>  
-    <e><p><l>nego<s n="cnjcoo"/></l><r>conj<s n="n"/></r></p></e>  
+    <e><p><l>nego<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>  
     <e><p><l>neponovljiv<s n="adj"/></l><r>outstanding<s n="adj"/></r></p></e>
     <e><p><l>ni<s n="part"/></l><r>even<s n="adv"/></r></p></e>  
     <e><p><l>nikada<s n="adv"/></l><r>never<s n="adv"/></r></p></e>  
@@ -260,8 +260,8 @@
     <e><p><l>vjeran<s n="adj"/></l><r>loyal<s n="adj"/></r></p></e>
     <e><p><l>vrijeme<s n="n"/></l><r>time<s n="n"/></r></p></e>
     <e><p><l>za<s n="pr"/></l><r>for<s n="pr"/></r></p></e>  
-    <e><p><l>zaista<s n="adv"/></l><r>truely<s n="adv"/></r></p></e>  
-    <e><p><l>zaista<s n="part"/></l><r>truely<s n="adv"/></r></p></e>  
+    <e><p><l>zaista<s n="adv"/></l><r>truly<s n="adv"/></r></p></e>  
+    <e><p><l>zaista<s n="part"/></l><r>truly<s n="adv"/></r></p></e>  
     <e><p><l>zajedno<s n="adj"/></l><r>together<s n="adj"/></r></p></e>  
     <e><p><l>četiri<s n="num"/></l><r>four<s n="num"/></r></p></e>  
     <e><p><l>čudak<s n="n"/></l><r>weirdo<s n="n"/></r></p></e>
@@ -292,7 +292,7 @@
     <e><p><l>u to vrijeme<s n="adv"/></l><r>around that time<s n="adv"/></r></p></e>
     <e><p><l>na koncu<s n="adv"/></l><r>eventually<s n="adv"/></r></p></e>
     <e><p><l>svoj<s n="prn"/></l><r>his<s n="prn"/></r></p></e>
-    <e><p><l>-ih<s n="sfx"/></l><r>'s<s n="sfx"/></r></p></e>
+    <e><p><l>-ih<s n="adj"/></l><r>'s<s n="sfx"/></r></p></e>
     <e><p><l>od<s n="pr"/></l><r>since<s n="pr"/></r></p></e>
     <e><p><l>babin<s n="adj"/></l><r>hag's<s n="adj"/></r></p></e>
     <e><p><l>biti<s n="vblex"/></l><r>be<s n="vbser"/></r></p></e>
@@ -300,8 +300,23 @@
     <e><p><l>razviti<s n="vblex"/></l><r>develop<s n="vblex"/></r></p></e>
     <e><p><l>kao<b/>što<s n="cnjsub"/></l><r>just<b/>as<s n="preadv"/></r></p></e>
     <e><p><l>istupati<s n="vblex"/></l><r>appear<s n="vblex"/></r></p></e>
-    
-    
+
+    <e><p><l>free<s n="prn"/></l><r>PersonalPronoun<s n="prn"/></r></p></e>
+    <e><p><l>što<s n="cnjsub"/></l><r>what<s n="cnjsub"/></r></p></e>
+
+	<!--AMBIGUITIES-->
+
+    <e><p><l>tijek<s n="n"/></l><r>course<s n="n"/></r></p></e>
+    <e><p><l>let<s n="n"/></l><r>flight<s n="n"/></r></p></e>
+    <e><p><l>kraj<s n="pr"/></l><r>next<b/>to<s n="pr"/></r></p></e>
+    <e><p><l>čiji<s n="prn"/></l><r>whose<s n="prn"/></r></p></e> 
+    <e><p><l>free<s n="prn"/></l><r>whose<s n="prn"/></r></p></e> 
+    <e><p><l>dati<s n="vblex"/></l><r>give<s n="vblex"/></r></p></e> 
+    <e><p><l>ne<s n="part"/></l><r>not<s n="adv"/></r></p></e> 
+    <e><p><l>ostati<s n="vblex"/></l><r>stay<s n="vblex"/></r></p></e> 
+    <e><p><l>clitic<s n="prn"/></l><r>pronoms<b/>personals<b/>d'objecte<s n="prn"/></r></p></e> 
+    <e><p><l>ni<s n="cnjcoo"/></l><r>nor<s n="cnjcoo"/></r></p></e> 
+     
         <!-- OLD -->
     
 			<e><p><l>punct<s n="punct"/></l><r>punct<s n="punct"/></r></p></e>
