@@ -174,6 +174,10 @@
       <attr-item tags="vbmod"/>
     </def-attr>
 
+    <def-attr n="a_typ">
+      <attr-item tags="pos"/>
+  </def-attr>
+
     <def-attr n="tns">
       <attr-item tags="inf"/>
       <attr-item tags="pres"/>
@@ -288,6 +292,28 @@
 
     <!-- Adapter for adjectives -->
     <def-macro n="adj_adapter" npar="1">
+
+        <choose>
+            <when>
+                <test>
+                    <equal><clip pos="1" side="tl" part="a_typ"/><lit-tag v="pos"/></equal>
+                </test>
+            <let>
+            	<clip pos="1" side="tl" part="whole"/>
+            	<concat>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <lit-tag v="n"/>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                  <lit v="$"/>
+                  <lit v="^"/>
+                  <lit v="'s"/>
+                  <lit-tag v="sfx"/>
+                  <lit-tag v="gen"/>
+        	    </concat>
+            </let>
+            </when>
+            <otherwise>
       <let>
 	<clip pos="1" side="tl" part="whole"/>
 	<concat>
@@ -295,7 +321,9 @@
 	  <clip pos="1" side="tl" part="a_adj"/>
 	  <clip pos="1" side="tl" part="lemq"/>
 	</concat>
-      </let>
+</let>
+</otherwise>
+</choose>
     </def-macro>
 
     <!-- Adapter for numbers -->
