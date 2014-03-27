@@ -25,6 +25,10 @@
       <cat-item tags="adj.*"/>
     </def-cat>
 
+    <def-cat n="adj_def">
+      <cat-item tags="adj.*.*.*.*.def"/>
+    </def-cat>
+
     <def-cat n="pr">
       <cat-item tags="pr.*"/>
     </def-cat>
@@ -99,6 +103,7 @@
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
     </def-attr>
 
     <def-attr n="a_cas">
@@ -116,6 +121,10 @@
       <attr-item tags="num.ord"/>
     </def-attr>
 
+    <def-attr n="a_pr">
+      <attr-item tags="pr"/>
+      <attr-item tags="pr.*"/>
+    </def-attr>
     <def-attr n="a_prn">
       <attr-item tags="prn"/>
       <attr-item tags="prn.neg"/>
@@ -137,11 +146,12 @@
       <attr-item tags="vblex"/>
       <attr-item tags="vbhaver"/>
       <attr-item tags="vbser"/>
-      <attr-item tags="vbmod"/>
+     <attr-item tags="vbmod"/>
     </def-attr>
 
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
+      <attr-item tags="adj.ord"/>
     </def-attr>
 
     <def-attr n="a_deg">
@@ -155,6 +165,11 @@
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
       <attr-item tags="p3"/>
+    </def-attr>
+
+    <def-attr n="def">
+      <attr-item tags="def"/>
+      <attr-item tags="ind"/>
     </def-attr>
 
   </section-def-attrs>
@@ -229,6 +244,18 @@
 	  <clip pos="1" side="tl" part="lemh"/>
 	  <clip pos="1" side="tl" part="a_nom"/>
 	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	</concat>
+      </let>
+  </def-macro>
+
+    <!-- Strips the case from the preposition -->
+    <def-macro n="pr_adapter" npar="1">
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_pr"/>
 	  <clip pos="1" side="tl" part="lemq"/>
 	</concat>
       </let>
@@ -312,6 +339,32 @@
       </action>
     </rule>
 
+
+  <rule comment="adj_def -> the adj">
+      <pattern>
+	<pattern-item n="adj_def"/>
+      </pattern>      
+      <action>
+	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="AdjP"/></tag>
+          </tags>            
+            <lu>
+                <lit v="the"/>
+                <lit-tag v="det.def"/>
+                <clip pos="1" side="sl" part="nbr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="adj">
       <pattern>
 	<pattern-item n="adj"/>
@@ -329,13 +382,17 @@
           </chunk>
         </out>
       </action>
-    </rule>
+  </rule>
+
+
+
 
     <rule comment="preposition">
       <pattern>
 	<pattern-item n="pr"/>
       </pattern>      
       <action>
+    	<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="pr" case="caseFirstWord">
             <tags>
