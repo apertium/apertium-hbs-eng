@@ -278,17 +278,43 @@
         <when> <!-- perf to past -->
 	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="perf"/></equal></test>
 	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
-        </when>
+	</when>
+        <when> <!-- the verb to be -->
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
+	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+	      <or>
+		<equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
+		<equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>		
+	      </or>
+	    </and>	    
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="prs"/>
+      	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>
+	<!-- TODO: other tenses -->
+	<otherwise>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</otherwise>
       </choose>
-      <let>
-	<clip pos="1" side="tl" part="whole"/>
-	<concat>
-	  <clip pos="1" side="tl" part="lemh"/>
-	  <clip pos="1" side="tl" part="a_vb"/>
-	  <clip pos="1" side="tl" part="tns"/>
-	  <clip pos="1" side="tl" part="lemq"/>
-	</concat>
-      </let>
     </def-macro>
 
     <!-- Adapter for adjectives -->
