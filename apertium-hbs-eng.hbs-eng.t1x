@@ -540,7 +540,7 @@
       <action>
 	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="num_adapter"><with-param pos="2"/></call-macro>
-	<call-macro n="adj_adapter"><with-param pos="3"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
         <out>
           <chunk name="visok_num_nom" case="caseFirstWord">
             <tags>

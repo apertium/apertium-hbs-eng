@@ -157,7 +157,7 @@
     <e><p><l>krug<s n="n"/></l><r>circle<s n="n"/></r></p></e>
     <e><p><l>kurac<s n="n"/></l><r>cock<s n="n"/></r></p></e>
     <e><p><l>kvaliteta<s n="n"/></l><r>quality<s n="n"/></r></p></e>
-    <e><p><l>metar<s n="n"/></l><r>metre<s n="n"/></r></p></e>
+    <e><p><l>metar<s n="n"/><s n="mi"/></l><r>metre<s n="n"/></r></p></e>
 <!-- to be removed    <e><p><l>mu<s n="prn"/></l><r>to him<s n="prn"/></r></p></e> -->
     <e><p><l>multimedijalan<s n="adj"/></l><r>multimedia<s n="adj"/></r></p></e>
     <e><p><l>na<s n="pr"/></l><r>on<s n="pr"/></r></p></e>  
