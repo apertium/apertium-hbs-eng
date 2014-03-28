@@ -35,6 +35,7 @@
     <sdef n="punct"/>
     <sdef n="expr"/>
     <sdef n="neg"/>
+    <sdef n="pl"/>
     
     <sdef n="probj"/>
     <sdef n="plc"/>
@@ -264,7 +265,8 @@
     <e><p><l>zaista<s n="adv"/></l><r>truely<s n="adv"/></r></p></e>  
     <e><p><l>zaista<s n="part"/></l><r>truely<s n="adv"/></r></p></e>  
     <e><p><l>zajedno<s n="adj"/></l><r>together<s n="adj"/></r></p></e>  
-    <e><p><l>četiri<s n="num"/></l><r>four<s n="num"/></r></p></e>  
+    <e r="LR"><p><l>četiri<s n="num"/></l><r>four<s n="num"/><s n="pl"/></r></p></e>  
+    <e r="RL"><p><l>četiri<s n="num"/></l><r>four<s n="num"/></r></p></e>  
     <e><p><l>čudak<s n="n"/></l><r>weirdo<s n="n"/></r></p></e>
     <e><p><l>štovatelj<s n="n"/></l><r>fan<s n="n"/></r></p></e>
 
