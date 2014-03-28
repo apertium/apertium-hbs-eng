@@ -721,7 +721,7 @@
       <pattern>
 	<pattern-item n="cijel"/>
 	<pattern-item n="jedan"/>
-	<pattern-item n="nom_sg"/>
+	<pattern-item n="nom"/>
       </pattern>      
       <action>
 	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
@@ -741,11 +741,11 @@
 	      <lit v="a"/>
 	      <lit-tag v="det.ind.sg"/>
 	    </lu>
-	    <b pos="2"/>
+	    <b/>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
-	      <b pos="3"/>
+	    <b pos="2"/>
 	    <lu>
               <clip pos="3" side="tl" part="whole"/>
             </lu>
