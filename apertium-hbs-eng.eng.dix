@@ -2775,7 +2775,7 @@
 <e lm="line"><i>line</i><par n="house__n"/></e>
 <e lm="loud"><i>loud</i><par n="long/__adj"/></e>
 <e lm="loyal"><i>loyal</i><par n="expensive__adj"/></e>
-<e lm="lyrics"><i>lyrics</i><par n="east__n"/></e>
+<e lm="lyrics"><i>lyrics</i><par n="personnel__n"/></e>
 <e lm="made"><i>made</i><par n="expensive__adj"/></e>
 <e lm="maturity"><i>maturit</i><par n="bab/y__n"/></e>
 <e lm="meter"><i>meter</i><par n="house__n"/></e>
@@ -2889,7 +2889,7 @@
 <e lm="year"><i>year</i><par n="house__n"/></e>
 
 <e lm="humor"><i>humor</i><par n="house__n"/></e>
-<e lm="PersonalPronoun"><i/><par n="prsubj__prn"/></e>
+<e lm="PersonalPronoun"><i>prpers</i><par n="prsubj__prn"/></e>
 <e lm="enchanted"><i>enchanted</i><par n="expensive__adj"/></e>
 <e lm="keep"><i>ke</i><par n="ke/ep__vblex"/></e>
 <e lm="whose"><i>whose</i><par n="whose__prn"/></e>
@@ -43550,8 +43550,8 @@
 
 
 	
-    <e lm="pronoms personals de subjecte"><i></i><par n="prsubj__prn"/></e>
-    <e lm="pronoms personals d'objecte"><i></i><par n="probj__prn"/></e>
+    <e lm="pronoms personals de subjecte"><i>prpers</i><par n="prsubj__prn"/></e>
+    <e lm="pronoms personals d'objecte"><i>prpers</i><par n="probj__prn"/></e>
     <e lm="myself"><p><l>myself</l><r>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="yourself"><p><l>yourself</l><r>yourself<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 
