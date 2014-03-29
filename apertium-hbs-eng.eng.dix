@@ -1031,6 +1031,10 @@
     <pardef n="Linux__np">
       <e>      <p>        <l></l>        <r><s n="np"/><s n="al"/><s n="sg"/></r></p></e>
     </pardef>
+
+    <pardef n="Termiti__np">
+      <e>      <p>        <l></l>        <r><s n="np"/><s n="al"/><s n="pl"/></r></p></e>
+    </pardef>
     
     <pardef n="one__num">
       <e>      <p>        <l></l>        <r><s n="num"/><s n="sg"/></r></p></e>
@@ -2839,7 +2843,7 @@
 <e lm="stylistic"><i>stylistic</i><par n="expensive__adj"/></e>
 <e lm="substantial"><i>substantial</i><par n="expensive__adj"/></e>
 <e lm="team"><i>team</i><par n="house__n"/></e>
-<e lm="Termiti"><i>Termiti</i><par n="Wikipedia__np"/></e>
+<e lm="Termiti"><i>Termiti</i><par n="Termiti__np"/></e>
 <e lm="that"><i>th</i><par n="th/at__det"/></e>
 <e lm="that"><i>th</i><par n="th/at__prn"/></e>
 <e lm="that"><i>that</i><par n="that__cnjsub"/></e>
@@ -2860,7 +2864,8 @@
 <e lm="two"><i>two</i><par n="house__n"/></e>
 <e lm="two"><i>two</i><par n="two__num"/></e>
 <e lm="uncompromising"><i>uncompromising</i><par n="expensive__adj"/></e>
-<e lm="unconformity"><i>unconformit</i><par n="bab/y__n"/></e>
+<e lm="nonconformity"><i>nonconformit</i><par n="bab/y__n"/></e>
+<e lm="unconformity"><i>unconformit</i><par n="bab/y__n"/></e> <!-- This is a term in geology -->
 <e lm="unique"><i>unique</i><par n="expensive__adj"/></e>
 <e lm="uniqueness"><i>uniqueness</i><par n="access__n"/></e>
 <e lm="very"><i>very</i><par n="maybe__adv"/></e>
