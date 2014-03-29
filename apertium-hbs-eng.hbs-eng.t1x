@@ -205,6 +205,10 @@
       <attr-item tags="adj.sint"/>
     </def-attr>
 
+    <def-attr n="a_adv">
+      <attr-item tags="adv"/>
+    </def-attr>
+
     <def-attr n="a_deg">
       <attr-item tags="pst"/>
       <attr-item tags="comp"/>
@@ -303,9 +307,48 @@
       <choose>
         <when>
           <test>
+	   <and>
 	    <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.ref.pos"/></equal>
+	    <or>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="f"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="ma"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="mi"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="nt"/></equal>
+	    </or>
+	   </and>
 	  </test>
 	  <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.pos"/></let>
+	  <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
+	  <let>
+	   <clip pos="1" side="tl" part="whole"/>
+	   <concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_prn"/>
+	  <clip pos="1" side="tl" part="gndr"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	   </concat>
+	  </let>
+	</when>
+        <when> <!-- temporary fix -->
+          <test>
+	   <and>
+	    <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.rel"/></equal>
+	    <or>
+	    <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+	    <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	    </or>
+	    <or>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="f"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="ma"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="mi"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="nt"/></equal>
+	    </or>
+	   </and>
+	  </test>
+	  <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.itg"/></let>
+	  <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
+	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
 	  <let>
 	   <clip pos="1" side="tl" part="whole"/>
 	   <concat>
@@ -323,6 +366,7 @@
 	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="f"/></equal>
 	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="ma"/></equal>
 	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="mi"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="nt"/></equal>
 	    </or>
 	  </test>
 	  <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
@@ -467,6 +511,18 @@
 </let>
 </otherwise>
 </choose>
+    </def-macro>
+
+   <!-- Adapter for adverbs -->
+    <def-macro n="adv_adapter" npar="1">
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_adv"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	</concat>
+      </let>
     </def-macro>
 
     <!-- Adapter for numbers -->
@@ -626,6 +682,25 @@
           <chunk name="adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="AdjP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="adv">
+      <pattern>
+	<pattern-item n="adv"/>
+      </pattern>      
+      <action>
+	<call-macro n="adv_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="Adv"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -993,6 +1068,7 @@
 	<pattern-item n="htjeti"/>
       </pattern>      
       <action>
+	<call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="čiji__će" case="caseFirstWord">
             <tags>
