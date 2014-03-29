@@ -130,6 +130,15 @@
       <attr-item tags="sp"/>
     </def-attr>
 
+    <def-attr n="gndr">
+      <attr-item tags="mf"/>
+      <attr-item tags="f"/>
+      <attr-item tags="m"/>
+      <attr-item tags="ma"/>
+      <attr-item tags="mi"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
@@ -210,7 +219,10 @@
     </def-attr>
 
     <def-attr n="proper">
+      <attr-item tags="ant"/>
+      <attr-item tags="cog"/>
       <attr-item tags="top"/>
+      <attr-item tags="al"/>
     </def-attr>
 
     <def-attr n="def">
@@ -245,18 +257,45 @@
       </let>
     </def-macro>
 
-    <!-- Adapter for np's, strips the noun of gender and case -->
+    <!-- Adapter for np's -->
     <def-macro n="np_adapter" npar="1">
-      <let>
-	<clip pos="1" side="tl" part="whole"/>
-	<concat>
-	  <clip pos="1" side="tl" part="lemh"/>
-	  <clip pos="1" side="tl" part="a_np"/>
-	  <clip pos="1" side="tl" part="proper"/>
-	  <clip pos="1" side="tl" part="nbr"/>
-	  <clip pos="1" side="tl" part="lemq"/>
-	</concat>
-      </let>
+      <choose>
+        <when> <!-- ant with gndr and nbr -->
+          <test>
+	   <and>
+	    <equal><clip pos="1" side="sl" part="proper"/><lit-tag v="ant"/></equal>
+	    <or>
+	     <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="ma"/></equal>
+	     <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="mi"/></equal>
+	    </or>
+	   </and>
+	  </test>
+	  <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="m"/></let>
+	  <let>
+	   <clip pos="1" side="tl" part="whole"/>
+	   <concat>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_np"/>
+	    <clip pos="1" side="tl" part="proper"/>
+	    <clip pos="1" side="tl" part="gndr"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="lemq"/>
+	   </concat>
+	  </let>
+	</when>
+	<otherwise>
+          <let>
+	   <clip pos="1" side="tl" part="whole"/>
+ 	   <concat>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_np"/>
+	    <clip pos="1" side="tl" part="proper"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="lemq"/>
+           </concat>
+          </let>
+	</otherwise>
+      </choose>
     </def-macro>
 
     <!-- Adapter for pronouns, strips the pronoun of gender and case -->
@@ -278,6 +317,15 @@
         <when> <!-- perf to past -->
 	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="perf"/></equal></test>
 	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+	<let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
 	</when>
         <when> <!-- the verb to be -->
 	  <test>

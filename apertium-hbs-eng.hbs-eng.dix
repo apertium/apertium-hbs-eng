@@ -81,8 +81,9 @@
     <e><p><l>26<s n="num"/></l><r>26<s n="num"/></r></p></e>
     <e><p><l>3<s n="num"/></l><r>3<s n="num"/></r></p></e>
     <e><p><l>Damir<s n="np"/></l><r>Damir<s n="np"/></r></p></e>
-    <e><p><l>LET<s n="np"/></l><r>LET<s n="np"/></r></p></e>
     <e><p><l>Let<s n="np"/></l><r>Let<s n="np"/></r></p></e>
+<!--    <e><p><l>Let<b/>2<s n="np"/></l><r>Let<b/>2<s n="np"/></r></p></e>
+    <e><p><l>Let<b/>3<s n="np"/></l><r>Let<b/>3<s n="np"/></r></p></e> -->
     <e><p><l>Ljubljana<s n="np"/></l><r>Ljubljana<s n="np"/></r></p></e>
     <e><p><l>Martinović<s n="np"/></l><r>Martinović<s n="np"/></r></p></e>
     <e><p><l>Mrle<s n="np"/></l><r>Mrle<s n="np"/></r></p></e>
@@ -214,7 +215,7 @@
     <e><p><l>punk<s n="n"/></l><r>punk<s n="n"/></r></p></e>
     <e><p><l>rafiniranost<s n="n"/></l><r>refinement<s n="n"/></r></p></e>
     <e><p><l>raspad<s n="n"/></l><r>breakup<s n="n"/></r></p></e>
-    <e><p><l>različitost<s n="n"/></l><r>nonconformity<s n="n"/></r></p></e>
+    <e><p><l>različitost<s n="n"/></l><r>unconformity<s n="n"/></r></p></e>
     <e><p><l>razvijen<s n="adj"/></l><r>developed<s n="adj"/></r></p></e>
     <e><p><l>red<s n="n"/></l><r>line<s n="n"/></r></p></e>
     <e><p><l>regija<s n="n"/></l><r>region<s n="n"/></r></p></e>
@@ -245,6 +246,7 @@
     <e><p><l>tijekom<s n="pr"/></l><r>during<s n="pr"/></r></p></e>  
     <e><p><l>to<s n="prn"/></l><r>that<s n="prn"/></r></p></e>
     <e><p><l>točno<s n="adv"/></l><r>right<s n="adv"/></r></p></e>
+    <e><p><l>točan<s n="adj"/></l><r>right<s n="adj"/></r></p></e>
     <e><p><l>trademark<s n="n"/></l><r>trademark<s n="n"/></r></p></e>
     <e><p><l>u<s n="pr"/></l><r>in<s n="pr"/></r></p></e>  
     <e><p><l>u<b/>to<b/>vrijeme<s n="adv"/></l><r>around<b/>that<b/>time<s n="adv"/></r></p></e>  
