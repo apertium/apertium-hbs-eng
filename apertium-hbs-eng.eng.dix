@@ -2647,10 +2647,8 @@
   <e lm="Damir"><i>Damir</i><par n="Mark__np"/></e>
 <e lm="February"><par n="Ff"/><i>ebruar</i><par n="bab/y__n"/></e>
 <e lm="February"><par n="Ff"/><i>ebruary</i><par n="expensive__adj"/></e>
-<e lm="Let"><i>Let</i><par n="Linux__np"/></e>
-<!-- <e lm="Let 3"><i>Let<b/>3</i><par n="Linux__np"/></e>
-    <e lm="Let 2"><i>Let</i><par n="Linux__np"/><p><l><b/>2</l><r><g><b/>2</g></r></p></e>
-    <e lm="Let 3"><i>Let</i><par n="Linux__np"/><p><l><b/>3</l><r><g><b/>3</g></r></p></e> -->
+<e lm="Let 3"><i>Let<b/>3</i><par n="Linux__np"/></e>
+<e lm="Let 2"><i>Let<b/>2</i><par n="Linux__np"/></e>
 <e lm="Ljubljana"><i>Ljubljana</i><par n="Barcelona__np"/></e>
 <!--<e lm="Ljubljana"><par n="Ll"/><i>jubljana</i><par n="expensive__adj"/></e>-->
 <e lm="Martinović"><i>Martinović</i><par n="Smith__np"/></e>
