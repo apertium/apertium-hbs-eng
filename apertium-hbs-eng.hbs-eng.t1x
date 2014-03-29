@@ -298,24 +298,59 @@
       </choose>
     </def-macro>
 
-    <!-- Adapter for pronouns, strips the pronoun of gender and case -->
+    <!-- Adapter for pronouns -->
     <def-macro n="prn_adapter" npar="1">
+      <choose>
+        <when>
+          <test>
+	   <and>
+	    <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.ref.pos"/></equal>
+	    <or>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="f"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="ma"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="mi"/></equal>
+	    </or>
+	   </and>
+	  </test>
+	  <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.pos"/></let>
+	  <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
+	  <let>
+	   <clip pos="1" side="tl" part="whole"/>
+	   <concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_prn"/>
+	  <clip pos="1" side="tl" part="gndr"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	   </concat>
+	  </let>
+	</when>
+	<otherwise>
       <let>
 	<clip pos="1" side="tl" part="whole"/>
 	<concat>
 	  <clip pos="1" side="tl" part="lemh"/>
 	  <clip pos="1" side="tl" part="a_prn"/>
+	  <clip pos="1" side="tl" part="gndr"/>
 	  <clip pos="1" side="tl" part="nbr"/>
 	  <clip pos="1" side="tl" part="lemq"/>
 	</concat>
       </let>
+      </otherwise>
+     </choose>
     </def-macro>
 
     <!-- Adapter for verbs -->
     <def-macro n="vb_adapter" npar="1">
       <choose>
         <when> <!-- perf to past -->
-	  <test><equal><clip pos="1" side="sl" part="tns"/><lit-tag v="perf"/></equal></test>
+	  <test>
+	   <or>
+	    <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="perf"/></equal>
+	    <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="imperf"/></equal>
+	    <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
+	   </or>
+	  </test>
 	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
 	<let>
 	    <clip pos="1" side="tl" part="whole"/>
@@ -336,6 +371,27 @@
 		<equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
 		<equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>		
 	      </or>
+	    </and>	    
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="prs"/>
+      	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>
+        <when> <!-- present -->
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vblex"/></equal>
+	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pres"/></equal>
+	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+		<equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>		
 	    </and>	    
 	  </test>
 	  <let>
@@ -934,6 +990,8 @@
 	<pattern-item n="biti"/>
       </pattern>      
       <action>
+	<call-macro n="vb_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="vb_adapter"><with-param pos="2"/></call-macro>
         <out>
           <chunk name="vb__su" case="caseFirstWord">
             <tags>
@@ -957,6 +1015,7 @@
 	<pattern-item n="adj"/>
       </pattern>      
       <action>
+	<call-macro n="vb_adapter"><with-param pos="2"/></call-macro>
 	<call-macro n="adj_adapter"><with-param pos="5"/></call-macro>
 	<out>
           <chunk name="prn_clt_adv_biti_adj" case="caseFirstWord">
