@@ -2664,6 +2664,7 @@
 <e lm="Pula"><i>Pula</i><par n="United_States__np"/></e>
 <e lm="Rijeka"><i>Rijeka</i><par n="Barcelona__np"/></e>
 <e lm="Rijeka"><i>Rijeka</i><par n="United_States__np"/></e>
+<e lm="Rijeka"><i>Rijeka</i><par n="expensive__adj"/></e>
 <e lm="Split"><i>Split</i><par n="Barcelona__np"/></e>
 <e lm="Split"><par n="Ss"/><i>plit</i><par n="expensive__adj"/></e>
 <e lm="Texas"><i>Texas</i><par n="Barcelona__np"/></e>
@@ -2700,6 +2701,7 @@
 <e lm="beginning"><i>beginning</i><par n="house__n"/></e>
 <e lm="bird"><i>bird</i><par n="house__n"/></e>
 <e lm="bizarre"><i>bizarre</i><par n="expensive__adj"/></e>
+<e lm="bizarrely"><i>bizarrely</i><par n="maybe__adv"/></e>
 <e lm="breakup"><i>breakup</i><par n="house__n"/></e>
 <e lm="bronze"><i>bronze</i><par n="house__n"/></e>
 <e lm="but"><i>but</i><par n="and__cnjcoo"/></e>
@@ -2719,6 +2721,7 @@
 <e lm="creative"><i>creative</i><par n="expensive__adj"/></e>
 <e lm="developed"><i>developed</i><par n="expensive__adj"/></e>
 <e lm="discography"><i>discograph</i><par n="bab/y__n"/></e>
+<e lm="discography"><i>discograph</i><par n="expensive__adj"/></e>
 <e lm="dog"><i>dog</i><par n="house__n"/></e>
 <e lm="dramaturgical"><i>dramaturgical</i><par n="expensive__adj"/></e>
 <e lm="during"><i>during</i><par n="at__pr"/></e>
@@ -2779,7 +2782,7 @@
 <e lm="maturity"><i>maturit</i><par n="bab/y__n"/></e>
 <e lm="meter"><i>meter</i><par n="house__n"/></e>
 <e lm="monument"><i>monument</i><par n="house__n"/></e>
-<e lm="multimedia"><i>multimedia</i><par n="accept__vblex"/></e>
+<e lm="multimedia"><i>multimedia</i><par n="expensive__adj"/></e>
 <e lm="musical"><i>musical</i><par n="expensive__adj"/></e>
 <e lm="musician"><i>musician</i><par n="house__n"/></e>
 <e lm="name"><i>nam</i><par n="liv/e__vblex"/></e>
@@ -2837,6 +2840,7 @@
 <e lm="stage appearance"><i>stage<b/>appearance</i><par n="east__n"/></e>
 <e lm="stage"><i>stag</i><par n="liv/e__vblex"/></e>
 <e lm="stage"><i>stage</i><par n="house__n"/></e>
+<e lm="stage"><i>stage</i><par n="expensive__adj"/></e>
 <e lm="starting"><i>starting</i><par n="expensive__adj"/></e>
 <e lm="street"><i>street</i><par n="house__n"/></e>
 <e lm="structural"><i>structural</i><par n="expensive__adj"/></e>
@@ -2892,6 +2896,7 @@
 <e lm="keep"><i>ke</i><par n="ke/ep__vblex"/></e>
 <e lm="whose"><i>whose</i><par n="whose__prn"/></e>
 <e lm="reveal"><i>reveal</i><par n="accept__vblex"/></e>
+<e lm="revealed"><i>revealed</i><par n="expensive__adj"/></e>
 <e lm="expand"><i>expand</i><par n="accept__vblex"/></e>
 <e lm="start"><i>start</i><par n="accept__vblex"/></e>
 <e lm="follow"><i>follow</i><par n="accept__vblex"/></e>

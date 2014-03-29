@@ -103,6 +103,7 @@
     <e><p><l>beskompromisan<s n="adj"/></l><r>uncompromising<s n="adj"/></r></p></e>
     <e><p><l>bitan<s n="adj"/></l><r>substantial<s n="adj"/></r></p></e>
     <e><p><l>bizaran<s n="adj"/></l><r>bizarre<s n="adj"/></r></p></e>
+    <e><p><l>bizarno<s n="adv"/></l><r>bizarrely<s n="adv"/></r></p></e>
     <e><p><l>bronca<s n="n"/></l><r>bronze<s n="n"/></r></p></e>
     <e><p><l>bučan<s n="adj"/></l><r>loud<s n="adj"/></r></p></e>
     <e><p><l>cijeli<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
@@ -110,7 +111,7 @@
 <!--    <e><p><l>cijeli<b/>jedan<s n="adj"/></l><r>a whole<s n="adj"/></r></p></e> -->
     <e><p><l>da<s n="cnjcoo"/></l><r>that<s n="cnjcoo"/></r></p></e>
     <e><p><l>dio<s n="n"/></l><r>part<s n="n"/></r></p></e>
-    <e><p><l>diskografski<s n="adj"/></l><r>discography<s n="n"/></r></p></e>
+    <e><p><l>diskografski<s n="adj"/></l><r>discography<s n="adj"/></r></p></e>
     <e><p><l>djelovanje<s n="n"/></l><r>activity<s n="n"/></r></p></e>
     <e><p><l>do<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>doista<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
@@ -187,7 +188,8 @@
     <e><p><l>osnova<s n="n"/></l><r>basis<s n="n"/></r></p></e>
     <e><p><l>osobit<s n="adj"/></l><r>particular<s n="adj"/></r></p></e>
     <e><p><l>ostali<s n="n"/></l><r>other<s n="n"/></r></p></e>
-    <e><p><l>otkriven<s n="adj"/></l><r>reveal<s n="vblex"/></r></p></e>
+    <e><p><l>otkriti<s n="vblex"/></l><r>reveal<s n="vblex"/></r></p></e>
+    <e><p><l>otkriven<s n="adj"/></l><r>revealed<s n="adj"/></r></p></e>
     <e><p><l>očaran<s n="adj"/></l><r>enchanted<s n="adj"/></r></p></e>
     <e><p><l>parodirati<s n="vblex"/></l><r>parody<s n="vblex"/></r></p></e>
     <e><p><l>pas<s n="n"/></l><r>dog<s n="n"/></r></p></e>
@@ -220,7 +222,7 @@
     <e><p><l>red<s n="n"/></l><r>line<s n="n"/></r></p></e>
     <e><p><l>regija<s n="n"/></l><r>region<s n="n"/></r></p></e>
     <e><p><l>riječan<s n="n"/></l><r>citizen<b/>of<b/>Rijeka<s n="n"/></r></p></e>
-    <e><p><l>riječki<s n="adj"/></l><r>Rijeka<s n="n"/></r></p></e>
+    <e><p><l>riječki<s n="adj"/></l><r>Rijeka<s n="adj"/></r></p></e>
     <e><p><l>rock<s n="n"/></l><r>rock<s n="n"/></r></p></e>
     <e><p><l>sa<s n="pr"/></l><r>with<s n="pr"/></r></p></e>  
     <e><p><l>sam<s n="adj"/></l><r>very<s n="adj"/></r></p></e>

@@ -303,16 +303,28 @@
       <choose>
         <when>
           <test>
-	   <and>
 	    <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.ref.pos"/></equal>
+	  </test>
+	  <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.pos"/></let>
+	  <let>
+	   <clip pos="1" side="tl" part="whole"/>
+	   <concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_prn"/>
+	  <clip pos="1" side="tl" part="gndr"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	   </concat>
+	  </let>
+	</when>
+        <when>
+          <test>
 	    <or>
 	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="f"/></equal>
 	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="ma"/></equal>
 	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="mi"/></equal>
 	    </or>
-	   </and>
 	  </test>
-	  <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.pos"/></let>
 	  <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
 	  <let>
 	   <clip pos="1" side="tl" part="whole"/>
@@ -579,7 +591,7 @@
       </action>
     </rule>
 
-  <rule comment="adj_def -> the adj">
+<!--  <rule comment="adj_def -> the adj"> Currently makes more mistakes than without
       <pattern>
 	<pattern-item n="adj_def"/>
       </pattern>      
@@ -602,7 +614,7 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule>  -->
 
     <rule comment="adj">
       <pattern>
@@ -772,6 +784,7 @@
 	<pattern-item n="nom"/>
       </pattern>      
       <action>
+	<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
 	<choose>
 	  <when>
