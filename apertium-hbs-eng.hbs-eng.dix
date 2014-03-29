@@ -308,7 +308,7 @@
     <e><p><l>kao<b/>što<s n="cnjsub"/></l><r>just<b/>as<s n="preadv"/></r></p></e>
     <e><p><l>istupati<s n="vblex"/></l><r>appear<s n="vblex"/></r></p></e>
 
-    <e><p><l>free<s n="prn"/><s n="pers"/></l><r>pronoms<b/>personals<b/>de<b/>subjecte<s n="prn"/><s n="subj"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/><s n="subj"/></r></p></e>
     <e><p><l>što<s n="cnjsub"/></l><r>what<s n="cnjsub"/></r></p></e>
 
 	<!--AMBIGUITIES-->
@@ -321,7 +321,7 @@
     <e><p><l>dati<s n="vblex"/></l><r>give<s n="vblex"/></r></p></e> 
     <e><p><l>ne<s n="part"/></l><r>not<s n="adv"/></r></p></e> 
     <e><p><l>ostati<s n="vblex"/></l><r>stay<s n="vblex"/></r></p></e> 
-    <e><p><l>clitic<s n="prn"/></l><r>pronoms<b/>personals<b/>d'objecte<s n="prn"/></r></p></e> 
+    <e><p><l>clitic<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e> 
     <e><p><l>ni<s n="cnjcoo"/></l><r>nor<s n="cnjcoo"/></r></p></e> 
      
         <!-- OLD -->
