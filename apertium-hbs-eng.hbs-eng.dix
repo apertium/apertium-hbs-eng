@@ -10,6 +10,9 @@
     <sdef n="vblex"  c="verb"/>
     <sdef n="vbser"  c="verb 'to be'"/>
     <sdef n="det"  c="Determiner"/>
+    <sdef n="rel"  c="Relative"/>
+    <sdef n="sp"  c="Singular/plural"/>
+    <sdef n="an"  c="Animate/inanimate"/>
     <sdef n="vbmod"  c="modal verb"/>
     <sdef n="vbhaver"/>
     <sdef n="adj" c="adjective"/>
@@ -151,8 +154,8 @@
     <e><p><l>kao<s n="pr"/></l><r>as<s n="pr"/></r></p></e>
     <e><p><l>karijera<s n="n"/></l><r>career<s n="n"/></r></p></e>
     <e><p><l>kasnije<s n="adv"/></l><r>later<s n="adv"/></r></p></e>
-    <e><p><l>koji<s n="cnjsub"/></l><r>who<s n="adv"/></r></p></e>  <!-- ? -->
-    <e><p><l>koji<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/></r></p></e>
+    <e><p><l>koji<s n="cnjsub"/></l><r>who<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>  <!-- ? -->
+    <e><p><l>koji<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>kompilacija<s n="n"/></l><r>compilation<s n="n"/></r></p></e>
     <e><p><l>konac<s n="n"/></l><r>end<s n="n"/></r></p></e>
     <e><p><l>koncert<s n="n"/></l><r>concert<s n="n"/></r></p></e>
