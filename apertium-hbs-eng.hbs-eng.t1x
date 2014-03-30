@@ -38,6 +38,7 @@
     </def-cat>
 
     <def-cat n="adv">
+      <cat-item tags="adv"/>
       <cat-item tags="adv.*"/>
     </def-cat>
 
@@ -55,6 +56,11 @@
     <def-cat n="num">
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
+    </def-cat>
+
+    <def-cat n="numord">
+      <cat-item tags="num.ord"/>
+      <cat-item tags="num.ord.*"/>
     </def-cat>
 
     <def-cat n="sent">
@@ -110,6 +116,10 @@
 
     <def-cat n="nom_sg">
       <cat-item tags="n.*.sg"/>
+    </def-cat>
+
+    <def-cat n="prnref">
+      <cat-item tags="prn.ref.pers.*"/>
     </def-cat>
 
   </section-def-cats>
@@ -339,12 +349,14 @@
 	    <or>
 	    <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
 	    <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	    <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
 	    </or>
 	    <or>
 	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="f"/></equal>
 	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="m"/></equal>
 	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="ma"/></equal>
 	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="mi"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="mfn"/></equal>
 	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="nt"/></equal>
 	    </or>
 	   </and>
@@ -855,6 +867,80 @@
       </action>
     </rule>
 
+    <!-- 26. veljače 2001. godine -->
+    <rule comment="date_year">
+      <pattern>
+	<pattern-item n="numord"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="numord"/>
+	<pattern-item n="godine"/>
+      </pattern>      
+      <action>
+	<call-macro n="num_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+	<call-macro n="num_adapter"><with-param pos="3"/></call-macro>
+        <out>
+          <chunk name="date_year" case="variableCase">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+	      <get-case-from pos ="1">
+              <lit v="on"/>
+	      </get-case-from>
+              <lit-tag v="pr"/>
+            </lu>
+	    <b/>
+            <lu>
+	      <get-case-from pos ="4">
+              <clip pos="2" side="tl" part="whole"/>
+	      </get-case-from>
+            </lu>
+	    <b pos="1"/>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	    <b pos="2"/>
+            <lu>
+              <lit v="of"/>
+              <lit-tag v="pr"/>
+            </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="3" side="tl" part="whole"/>
+	    </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- Prije 1986. godine -->
+    <rule comment="pr_num_year">
+      <pattern>
+	<pattern-item n="pr"/>
+	<pattern-item n="numord"/>
+	<pattern-item n="godine"/>
+      </pattern>      
+      <action>
+	<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="num_adapter"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="pr_num_year" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	    <b pos="1"/>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <!-- 1986. godine -->
     <rule comment="num_year">
       <pattern>
@@ -1179,6 +1265,33 @@
       </action>
     </rule>
 
+    <!-- stalno se širio -->
+<!--    <rule comment="adv_clt_vb">
+      <pattern>
+	<pattern-item n="adv"/>
+	<pattern-item n="clitic"/>
+	<pattern-item n="vb"/>
+      </pattern>      
+      <action>
+	<call-macro n="adv_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="vb_adapter"><with-param pos="3"/></call-macro>
+        <out>
+          <chunk name="adv_clt_vb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ASV"/></tag>
+            </tags>
+            <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	      <b pos="1"/>
+            <lu>
+	      <clip pos="3" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule> -->
+
 <!-- koji su odmah bili očarani -->
     <rule comment="prn_clt_adv_biti_adj">
       <pattern>
@@ -1190,6 +1303,7 @@
       </pattern>      
       <action>
 	<call-macro n="vb_adapter"><with-param pos="2"/></call-macro>
+	<call-macro n="adv_adapter"><with-param pos="5"/></call-macro>
 	<call-macro n="adj_adapter"><with-param pos="5"/></call-macro>
 	<out>
           <chunk name="prn_clt_adv_biti_adj" case="caseFirstWord">

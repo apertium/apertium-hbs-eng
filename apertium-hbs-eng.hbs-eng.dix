@@ -68,6 +68,7 @@
     <sdef n="preadv" c=""/>
     <sdef n="top" c=""/>
     <sdef n="pers" c=""/>
+    <sdef n="itg" c=""/>
 
    </sdefs>
 
@@ -105,7 +106,7 @@
     <e><p><l>bizaran<s n="adj"/></l><r>bizarre<s n="adj"/></r></p></e>
     <e><p><l>bizarno<s n="adv"/></l><r>bizarrely<s n="adv"/></r></p></e>
     <e><p><l>bronca<s n="n"/></l><r>bronze<s n="n"/></r></p></e>
-    <e><p><l>bučan<s n="adj"/></l><r>loud<s n="adj"/></r></p></e>
+    <e><p><l>bučan<s n="adj"/></l><r>loud<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>cijeli<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
     <e><p><l>cijel<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
 <!--    <e><p><l>cijeli<b/>jedan<s n="adj"/></l><r>a whole<s n="adj"/></r></p></e> -->
@@ -134,7 +135,7 @@
     <e><p><l>humor<s n="n"/></l><r>humour<s n="n"/></r></p></e>
     <e><p><l>i<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
     <e><p><l>ili<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
-    <e><p><l>ili<s n="cnjsub"/></l><r>or<s n="cnjsub"/></r></p></e>
+    <e><p><l>ili<s n="cnjsub"/></l><r>or<s n="cnjcoo"/></r></p></e>
     <e><p><l>image<s n="n"/></l><r>image<s n="n"/></r></p></e>
     <e><p><l>ime<s n="n"/></l><r>name<s n="n"/></r></p></e>
     <e><p><l>indie<s n="adj"/></l><r>indie<s n="adj"/></r></p></e>
@@ -151,6 +152,7 @@
     <e><p><l>karijera<s n="n"/></l><r>career<s n="n"/></r></p></e>
     <e><p><l>kasnije<s n="adv"/></l><r>later<s n="adv"/></r></p></e>
     <e><p><l>koji<s n="cnjsub"/></l><r>who<s n="adv"/></r></p></e>  <!-- ? -->
+    <e><p><l>koji<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/></r></p></e>
     <e><p><l>kompilacija<s n="n"/></l><r>compilation<s n="n"/></r></p></e>
     <e><p><l>konac<s n="n"/></l><r>end<s n="n"/></r></p></e>
     <e><p><l>koncert<s n="n"/></l><r>concert<s n="n"/></r></p></e>
@@ -225,7 +227,7 @@
     <e><p><l>riječki<s n="adj"/></l><r>Rijeka<s n="adj"/></r></p></e>
     <e><p><l>rock<s n="n"/></l><r>rock<s n="n"/></r></p></e>
     <e><p><l>sa<s n="pr"/></l><r>with<s n="pr"/></r></p></e>  
-    <e><p><l>sam<s n="adj"/></l><r>very<s n="adj"/></r></p></e>
+    <e><p><l>sam<s n="adj"/></l><r>very<s n="adv"/></r></p></e>
     <e><p><l>samo<s n="adv"/></l><r>only<s n="adv"/></r></p></e>  
     <e><p><l>sastav<s n="n"/></l><r>band<s n="n"/></r></p></e>
     <e><p><l>sceničnost<s n="n"/></l><r>stage<b/>appearance<s n="n"/></r></p></e>
@@ -236,7 +238,7 @@
     <e><p><l>specifičnost<s n="n"/></l><r>uniqueness<s n="n"/></r></p></e>
     <e><p><l>spomenik<s n="n"/></l><r>monument<s n="n"/></r></p></e>
     <e><p><l>stalno<b/>se<s n="adv"/></l><r>keep<s n="vblex"/></r></p></e>
-    <e><p><l>stalno<s n="adv"/></l><r>constantly<s n="vblex"/></r></p></e>  
+    <e><p><l>stalno<s n="adv"/></l><r>constantly<s n="adv"/></r></p></e>  
     <e><p><l>stilski<s n="adj"/></l><r>stylistic<s n="adj"/></r></p></e>
     <e><p><l>strukturni<s n="adj"/></l><r>structural<s n="adj"/></r></p></e>
     <e><p><l>svjestan<s n="adj"/></l><r>aware<s n="adj"/></r></p></e>
@@ -260,6 +262,7 @@
     <e><p><l>utemeljivati<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>  
     <e><p><l>veljača<s n="n"/></l><r>February<s n="n"/></r></p></e>
     <e><p><l>vidljiv<s n="adj"/></l><r>obvious<s n="adj"/></r></p></e>
+    <e><p><l>vidljivo<s n="adv"/></l><r>clearly<s n="adv"/></r></p></e>
     <e><p><l>više<s n="adj"/></l><r>several<s n="adj"/></r></p></e>  
     <e><p><l>visok<s n="adj"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>višegodišnji<s n="adj"/></l><r>perennial<s n="adj"/></r></p></e>
@@ -276,7 +279,8 @@
 
     <e><p><l>kao<b/>što<s n="cnjcoo"/></l><r>like<s n="cnjcoo"/></r></p></e>  
 
-    <e><p><l>čemu<s n="pr"/></l><r>what<s n="pr"/></r></p></e>  
+<!--    <e><p><l>čemu<s n="pr"/></l><r>what<s n="pr"/></r></p></e>  -->
+    <e><p><l>što<s n="prn"/></l><r>what<s n="prn"/></r></p></e>  
     <e><p><l>čiji<s n="cnjcoo"/></l><r>whose<s n="cnjcoo"/></r></p></e> 
     
     
@@ -319,7 +323,7 @@
     <e><p><l>čiji<s n="prn"/></l><r>whose<s n="prn"/></r></p></e> 
 <!--    <e><p><l>free<s n="prn"/><s n="ref"/></l><r>whose<s n="prn"/></r></p></e> -->
     <e><p><l>dati<s n="vblex"/></l><r>give<s n="vblex"/></r></p></e> 
-    <e><p><l>ne<s n="part"/></l><r>not<s n="adv"/></r></p></e> 
+    <e><p><l>ne<s n="part"/><s n="neg"/></l><r>not<s n="adv"/></r></p></e> 
     <e><p><l>ostati<s n="vblex"/></l><r>stay<s n="vblex"/></r></p></e> 
     <e><p><l>clitic<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e> 
     <e><p><l>ni<s n="cnjcoo"/></l><r>nor<s n="cnjcoo"/></r></p></e> 
