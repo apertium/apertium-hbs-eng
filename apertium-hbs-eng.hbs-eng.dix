@@ -154,7 +154,7 @@
     <e><p><l>kao<s n="pr"/></l><r>as<s n="pr"/></r></p></e>
     <e><p><l>karijera<s n="n"/></l><r>career<s n="n"/></r></p></e>
     <e><p><l>kasnije<s n="adv"/></l><r>later<s n="adv"/></r></p></e>
-    <e><p><l>koji<s n="cnjsub"/></l><r>who<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>  <!-- ? -->
+    <e><p><l>koji<s n="cnjsub"/></l><r>who<s n="prn"/><s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>  <!-- ? -->
     <e><p><l>koji<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>kompilacija<s n="n"/></l><r>compilation<s n="n"/></r></p></e>
     <e><p><l>konac<s n="n"/></l><r>end<s n="n"/></r></p></e>
@@ -230,7 +230,7 @@
     <e><p><l>riječki<s n="adj"/></l><r>Rijeka<s n="adj"/></r></p></e>
     <e><p><l>rock<s n="n"/></l><r>rock<s n="n"/></r></p></e>
     <e><p><l>sa<s n="pr"/></l><r>with<s n="pr"/></r></p></e>  
-    <e><p><l>sam<s n="adj"/></l><r>very<s n="adv"/></r></p></e>
+    <e><p><l>sam<s n="adj"/></l><r>very<s n="preadv"/></r></p></e>
     <e><p><l>samo<s n="adv"/></l><r>only<s n="adv"/></r></p></e>  
     <e><p><l>sastav<s n="n"/></l><r>band<s n="n"/></r></p></e>
     <e><p><l>sceničnost<s n="n"/></l><r>stage<b/>appearance<s n="n"/></r></p></e>

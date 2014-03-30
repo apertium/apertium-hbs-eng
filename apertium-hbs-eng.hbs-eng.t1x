@@ -40,6 +40,7 @@
     <def-cat n="adv">
       <cat-item tags="adv"/>
       <cat-item tags="adv.*"/>
+      <cat-item tags="preadv"/>
     </def-cat>
 
     <def-cat n="pr">
@@ -63,8 +64,26 @@
       <cat-item tags="num.ord.*"/>
     </def-cat>
 
+    <def-cat n="part">
+      <cat-item tags="part"/>
+      <cat-item tags="part.*"/>
+    </def-cat>
+
+    <def-cat n="punct">
+      <cat-item tags="sent"/>
+      <cat-item tags="cm"/>
+      <cat-item tags="lpar"/>
+      <cat-item tags="rpar"/>
+      <cat-item tags="apos"/>
+      <cat-item tags="guio"/>
+    </def-cat>
+
     <def-cat n="sent">
       <cat-item tags="sent"/>
+    </def-cat>
+
+    <def-cat n="cm">
+      <cat-item tags="cm"/>
     </def-cat>
 
     <def-cat n="godine">
@@ -186,6 +205,7 @@
       <attr-item tags="prn.ref.pos"/>
       <attr-item tags="prn.rel"/>
       <attr-item tags="prn.subj"/>
+      <attr-item tags="prn.obj"/>
     </def-attr>
 
     <def-attr n="a_vb">
@@ -219,6 +239,7 @@
 
     <def-attr n="a_adv">
       <attr-item tags="adv"/>
+      <attr-item tags="preadv"/>
     </def-attr>
 
     <def-attr n="a_deg">
@@ -336,6 +357,23 @@
 	   <concat>
 	  <clip pos="1" side="tl" part="lemh"/>
 	  <clip pos="1" side="tl" part="a_prn"/>
+	  <clip pos="1" side="tl" part="gndr"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	   </concat>
+	  </let>
+	</when>
+        <when> <!-- mu -> to him -->
+          <test>
+	    <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.pers.clt"/></equal>
+	  </test>
+	  <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.obj"/></let>
+	  <let>
+	   <clip pos="1" side="tl" part="whole"/>
+	   <concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_prn"/>
+	  <clip pos="1" side="tl" part="prs"/>
 	  <clip pos="1" side="tl" part="gndr"/>
 	  <clip pos="1" side="tl" part="nbr"/>
 	  <clip pos="1" side="tl" part="lemq"/>
@@ -600,7 +638,7 @@
 </choose>
     </def-macro>
 
-   <!-- Adapter for adverbs -->
+    <!-- Adapter for adverbs -->
     <def-macro n="adv_adapter" npar="1">
       <let>
 	<clip pos="1" side="tl" part="whole"/>
@@ -1014,7 +1052,7 @@
       </action>
     </rule>
 
-<!-- od početka djelovanja -->
+   <!-- od početka djelovanja -->
    <rule comment="pr_nom_nom">
       <pattern>
 	<pattern-item n="pr"/>
@@ -1066,7 +1104,7 @@
       </action>
     </rule>
 
-<!-- Višegodišnjim beskompromisnim djelovanjem -->
+    <!-- Višegodišnjim beskompromisnim djelovanjem -->
     <rule comment="adjins_adjins_nomins">
       <pattern>
 	<pattern-item n="adj_ins"/>
@@ -1107,7 +1145,63 @@
       </action>
     </rule>
 
-<!-- cijele jedne regije -->
+    <!-- bitnim kvalitetama riječana -->
+    <rule comment="adjins_nomins_nomgen">
+      <pattern>
+	<pattern-item n="adj_ins"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="nom_gen"/>
+      </pattern>      
+      <action>
+	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+        <out>
+          <chunk name="adjins_nomins_nomgen" case="variableCase">
+            <tags>
+              <tag><lit-tag v="PP"/></tag>
+            </tags>
+            <lu>
+	      <get-case-from pos ="1">
+              <lit v="with"/>
+	      </get-case-from>
+              <lit-tag v="pr"/>
+            </lu>
+	      <b/>
+            <lu>
+              <lit v="the"/>
+              <lit-tag v="det.def.sg"/>
+            </lu>
+	      <b/>
+            <lu>
+	      <get-case-from pos ="2">
+              <clip pos="1" side="tl" part="whole"/>
+	      </get-case-from>
+            </lu>
+	      <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+	      <b pos="2"/>
+            <lu>
+              <lit v="of"/>
+              <lit-tag v="pr"/>
+            </lu>
+	      <b/>
+            <lu>
+              <lit v="the"/>
+              <lit-tag v="det.def.sg"/>
+            </lu>
+	      <b/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- cijele jedne regije -->
     <rule comment="cijel_jedan_nom">
       <pattern>
 	<pattern-item n="cijel"/>
@@ -1145,7 +1239,7 @@
       </action>
     </rule>
 
-<!-- poklonika nadahnute različitosti -->
+    <!-- poklonika nadahnute različitosti -->
     <rule comment="nom_adj_nom">
       <pattern>
 	<pattern-item n="nom"/>
@@ -1187,7 +1281,7 @@
       </action>
     </rule>
 
-<!-- praćene specifičnim humorom -->
+    <!-- praćene specifičnim humorom -->
     <rule comment="adj_adjins_nomins">
       <pattern>
 	<pattern-item n="adj"/>
@@ -1268,10 +1362,10 @@
     </rule>
 
     <!-- stalno se širio -->
-<!--    <rule comment="adv_clt_vb">
+    <rule comment="adv_clt_vb">
       <pattern>
 	<pattern-item n="adv"/>
-	<pattern-item n="clitic"/>
+	<pattern-item n="prnref"/>
 	<pattern-item n="vb"/>
       </pattern>      
       <action>
@@ -1292,23 +1386,23 @@
           </chunk>
         </out>
       </action>
-    </rule> -->
+    </rule>
 
-<!-- koji su odmah bili očarani -->
-    <rule comment="prn_clt_adv_biti_adj">
+    <!-- koji su odmah bili očarani -->
+    <rule comment="conj_clt_adv_biti_adj">
       <pattern>
-	<pattern-item n="prn"/>
+	<pattern-item n="conj"/>
 	<pattern-item n="biti"/>
 	<pattern-item n="adv"/>
 	<pattern-item n="biti"/>
 	<pattern-item n="adj"/>
       </pattern>      
       <action>
-	<call-macro n="vb_adapter"><with-param pos="2"/></call-macro>
-	<call-macro n="adv_adapter"><with-param pos="5"/></call-macro>
+	<call-macro n="vb_adapter"><with-param pos="4"/></call-macro>
+	<call-macro n="adv_adapter"><with-param pos="3"/></call-macro>
 	<call-macro n="adj_adapter"><with-param pos="5"/></call-macro>
 	<out>
-          <chunk name="prn_clt_adv_biti_adj" case="caseFirstWord">
+          <chunk name="conj_clt_adv_biti_adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="RRelCl"/></tag>
             </tags>
@@ -1317,7 +1411,7 @@
             </lu>
 	      <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="whole"/>
+              <clip pos="4" side="tl" part="whole"/>
             </lu>
 	      <b pos="2"/>
             <lu>
@@ -1326,6 +1420,76 @@
 	      <b pos="3"/>
             <lu>
               <clip pos="5" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- nisu samo bizarni, bučni čudaci, nego -->
+    <rule comment="nisu_samo_nego">
+      <pattern>
+	<pattern-item n="part"/>
+	<pattern-item n="biti"/>
+	<pattern-item n="adj"/>
+	<pattern-item n="adj"/>
+	<pattern-item n="cm"/>
+	<pattern-item n="adj"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="cm"/>
+	<pattern-item n="conj"/>
+      </pattern>      
+      <action>
+	<call-macro n="vb_adapter"><with-param pos="2"/></call-macro>
+	<call-macro n="adj_adapter"><with-param pos="3"/></call-macro>
+	<call-macro n="adj_adapter"><with-param pos="4"/></call-macro>
+	<call-macro n="adj_adapter"><with-param pos="6"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="7"/></call-macro>
+	<out>
+          <chunk name="nisu_samo_nego" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ClSubCl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+	      <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	      <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+              <lit-tag v="preadv"/>
+            </lu>
+	      <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/>
+            </lu>
+	      <b pos="4"/>
+            <lu>
+              <clip pos="5" side="tl" part="whole"/>
+            </lu>
+	      <b pos="5"/>
+            <lu>
+              <clip pos="6" side="tl" part="whole"/>
+            </lu>
+	      <b pos="6"/>
+            <lu>
+              <clip pos="7" side="tl" part="whole"/>
+            </lu>
+	      <b pos="7"/>
+            <lu>
+              <clip pos="8" side="tl" part="whole"/>
+            </lu>
+	      <b pos="8"/>
+            <lu>
+              <clip pos="9" side="tl" part="whole"/>
+            </lu>
+	      <b/>
+            <lu>
+              <lit v="also"/>
+              <lit-tag v="adv"/>
             </lu>
           </chunk>
         </out>
