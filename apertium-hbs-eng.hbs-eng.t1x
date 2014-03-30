@@ -86,6 +86,14 @@
       <cat-item tags="cm"/>
     </def-cat>
 
+    <def-cat n="apos">
+      <cat-item tags="apos"/>
+    </def-cat>
+
+    <def-cat n="guio">
+      <cat-item tags="guio"/>
+    </def-cat>
+
     <def-cat n="godine">
       <cat-item lemma="godina" tags="n.*"/>
     </def-cat>
@@ -964,6 +972,7 @@
       <action>
 	<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="num_adapter"><with-param pos="2"/></call-macro>
+        <let><clip pos="2" side="tl" part="a_num"/><lit-tag v="num"/></let>
         <out>
           <chunk name="pr_num_year" case="caseFirstWord">
             <tags>
@@ -984,11 +993,13 @@
     <!-- 1986. godine -->
     <rule comment="num_year">
       <pattern>
-	<pattern-item n="num"/>
+	<pattern-item n="numord"/>
 	<pattern-item n="godine"/>
       </pattern>      
       <action>
+	<call-macro n="num_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num"/></let>
         <out>
           <chunk name="num_year" case="caseFirstWord">
             <tags>
@@ -1011,6 +1022,68 @@
 	    <lu>
 	      <clip pos="1" side="tl" part="whole"/>
 	    </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- 1980-ih -->
+    <rule comment="year-ih">
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="clitic"/>
+      </pattern>      
+      <action>
+        <out>
+          <chunk name="year-ih" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="YEAR"/></tag>
+            </tags>
+            <lu>
+              <lit v="of"/>
+              <lit-tag v="pr"/>
+            </lu>
+	    <b/>
+            <lu>
+              <lit v="the"/>
+              <lit-tag v="det.def.sg"/>
+            </lu>
+	    <b/>
+            <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <lu>
+              <lit v="'s"/>
+              <lit-tag v="sfx.gen"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- dvije pjesme -->
+    <rule comment="num_nom">
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="nom"/>
+      </pattern>      
+      <action>
+	<call-macro n="num_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.sg"/></let>
+        <out>
+          <chunk name="num_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	    <b pos="1"/>
+            <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+            </lu>
           </chunk>
         </out>
       </action>

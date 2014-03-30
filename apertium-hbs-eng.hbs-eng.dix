@@ -79,12 +79,7 @@
 
 
     <!-- BDUJMIC_DATA -->
-    <e><p><l>1970<s n="num"/></l><r>1970<s n="num"/></r></p></e>
-    <e><p><l>1986<s n="num"/></l><r>1986<s n="num"/></r></p></e>
-    <e><p><l>2<s n="num"/></l><r>2<s n="num"/></r></p></e>
-    <e><p><l>2001<s n="num"/></l><r>2001<s n="num"/></r></p></e>
-    <e><p><l>26<s n="num"/></l><r>26<s n="num"/></r></p></e>
-    <e><p><l>3<s n="num"/></l><r>3<s n="num"/></r></p></e>
+
     <e><p><l>Damir<s n="np"/></l><r>Damir<s n="np"/></r></p></e>
     <e><p><l>Let<b/>2<s n="np"/></l><r>Let<b/>2<s n="np"/></r></p></e>
     <e><p><l>Let<b/>3<s n="np"/></l><r>Let<b/>3<s n="np"/></r></p></e> 
