@@ -879,6 +879,8 @@
 	<call-macro n="num_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
 	<call-macro n="num_adapter"><with-param pos="3"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num"/></let>
+        <let><clip pos="3" side="tl" part="a_num"/><lit-tag v="num"/></let>
         <out>
           <chunk name="date_year" case="variableCase">
             <tags>
