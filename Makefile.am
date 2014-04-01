@@ -25,6 +25,7 @@ TARGETS_COMMON = $(BASENAME).$(LANG1a).dix  $(BASENAME).$(LANG1b).dix $(BASENAME
 	$(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
 	$(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
 	$(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes \
+	cyr-lat.autopmor.bin \
 	$(PREFIX1).autopgen.bin $(PREFIX2a).autopgen.bin $(PREFIX2b).autopgen.bin $(PREFIX2c).autopgen.bin
 
 #    $(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin 
@@ -61,6 +62,10 @@ $(PREFIX2c).autolex.bin: $(BASENAME).$(PREFIX2c).lrx
 
 $(BASENAME).$(LANG1).dix: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).metadix
 	xsltproc --stringparam alt $(LANG1) --stringparam var $(VAR1) $(AP_SRC1)/alt.xsl $(AP_SRC1)/apertium-$(LANG1).$(LANG1).metadix >$@ 
+
+cyr-lat.autopmor.bin: $(AP_SRC1)/apertium-$(LANG1).cyr-lat.dix
+	apertium-validate-dictionary $(AP_SRC1)/apertium-$(LANG1).cyr-lat.dix
+	lt-comp lr $^ $@
 
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
@@ -189,6 +194,7 @@ apertium_hbs_eng_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     $(PREFIX2b).autolex.bin \
                     $(PREFIX2c).autolex.bin \
                     $(PREFIX1).autolex.bin \
+		    cyr-lat.autopmor.bin \
                     $(PREFIX1).prob $(PREFIX2).prob \
 		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
 		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
