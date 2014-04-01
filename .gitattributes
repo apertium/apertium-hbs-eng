@@ -27,9 +27,9 @@ dev/apertium-sh-en.sh-en.t1x -text
 /eng-hbs.prob -text svneol=unset#unset
 /hbs-eng.prob -text svneol=unset#unset
 /modes.xml -text
-texts/MT.txt -text
 texts/eval-translator.txt -text
-texts/postedit.txt -text
 texts/rasskaz.eng.txt -text
 texts/rasskaz.hbs.txt -text
-texts/wiki_let3.txt -text
+texts/wiki_let3.eng.txt -text
+texts/wiki_let3.hbs-eng.txt -text
+texts/wiki_let3.hbs.txt -text
