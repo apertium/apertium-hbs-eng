@@ -433,6 +433,14 @@
     </pipeline>
   </mode>
 
+  <mode name="cyr-lat" install="yes">
+    <pipeline>
+      <program name="lt-proc -t">
+        <file name="cyr-lat.autopmor.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="hbs-eng" install="yes">
     <pipeline>
       <program name="lt-proc -w">
