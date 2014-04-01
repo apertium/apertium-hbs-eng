@@ -105,6 +105,7 @@
     <e><p><l>akcent<s n="n"/><s n="mi"/></l><r>accent<s n="n"/></r></p></e>
     <e><p><l>akcent<s n="n"/><s n="mi"/></l><r>emphasis<s n="n"/></r></p></e>
     <e><p><l>akcija<s n="n"/><s n="f"/></l><r>action<s n="n"/></r></p></e>
+    <e><p><l>akcija<s n="n"/><s n="f"/></l><r>share<s n="n"/></r></p></e>
     <e><p><l>akcionerstvo<s n="n"/><s n="nt"/></l><r>shareholding<s n="n"/></r></p></e>
     <e><p><l>aklimatizacija<s n="n"/><s n="f"/></l><r>acclimatisation<s n="n"/></r></p></e>
     <e><p><l>akreditacija<s n="n"/><s n="f"/></l><r>accreditation<s n="n"/></r></p></e>
@@ -133,12 +134,14 @@
     <e><p><l>amandman<s n="n"/><s n="mi"/></l><r>amendment<s n="n"/></r></p></e>
     <e><p><l>amaterizam<s n="n"/><s n="mi"/></l><r>amateurism<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>ambasada<s n="n"/><s n="f"/></l><r>embassy<s n="n"/></r></p></e>
+    <e><p><l>ambasadorica<s n="n"/><s n="f"/></l><r>ambassador<s n="n"/></r></p></e>
     <e><p><l>ambasadorka<s n="n"/><s n="f"/></l><r>ambassador<s n="n"/></r></p></e>
     <e><p><l>ambasador<s n="n"/><s n="ma"/></l><r>ambassador<s n="n"/></r></p></e>
     <e><p><l>ambicija<s n="n"/><s n="f"/></l><r>ambition<s n="n"/></r></p></e>
     <e><p><l>ambrozija<s n="n"/><s n="f"/></l><r>ambrosia<s n="n"/></r></p></e>
     <e><p><l>amnestija<s n="n"/><s n="f"/></l><r>amnesty<s n="n"/></r></p></e>
     <e><p><l>amortizacija<s n="n"/><s n="f"/></l><r>depreciation<s n="n"/></r></p></e>
+    <e><p><l>amortizacija<s n="n"/><s n="f"/></l><r>amortization<s n="n"/></r></p></e>
     <e><p><l>ampermetar<s n="n"/><s n="mi"/></l><r>ammeter<s n="n"/></r></p></e>
     <e><p><l>analitičar<s n="n"/><s n="ma"/></l><r>analyst<s n="n"/></r></p></e>
     <e><p><l>analiza<s n="n"/><s n="f"/></l><r>analysis<s n="n"/></r></p></e>
@@ -180,6 +183,7 @@
     <e><p><l>arhitektura<s n="n"/><s n="f"/></l><r>architecture<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>arhivarstvo<s n="n"/><s n="nt"/></l><r>archive<s n="n"/></r></p></e>
     <e><p><l>arhiv<s n="n"/><s n="mi"/></l><r>archive<s n="n"/></r></p></e>
+    <e><p><l>aristokracija<s n="n"/><s n="f"/></l><r>aristocracy<s n="n"/></r></p></e>
     <e><p><l>aristokratija<s n="n"/><s n="f"/></l><r>aristocracy<s n="n"/></r></p></e>
     <e><p><l>aristokrat<s n="n"/><s n="ma"/></l><r>aristocrat<s n="n"/></r></p></e>
     <e><p><l>armenac<s n="n"/><s n="ma"/></l><r>Armenian<s n="n"/></r></p></e>
@@ -192,7 +196,8 @@
     <e><p><l>as<s n="n"/><s n="mi"/></l><r>ace<s n="n"/></r></p></e>
     <e><p><l>astma<s n="n"/><s n="f"/></l><r>asthma<s n="n"/></r></p></e>
     <e><p><l>ateizam<s n="n"/><s n="mi"/></l><r>atheism<s n="n"/></r></p></e>
-    <e><p><l>atentat<s n="n"/><s n="mi"/></l><r>attempt<s n="n"/></r></p></e>
+    <e><p><l>atentat<s n="n"/><s n="mi"/></l><r>assassination<s n="n"/></r></p></e>
+    <e><p><l>atentat<s n="n"/><s n="mi"/></l><r>attack<s n="n"/></r></p></e>
     <e><p><l>atentat<s n="n"/><s n="mi"/></l><r>plot<s n="n"/></r></p></e>
     <e><p><l>atmosfera<s n="n"/><s n="f"/></l><r>atmosphere<s n="n"/></r></p></e>
     <e><p><l>atmosfera<s n="n"/><s n="f"/></l><r>climate<s n="n"/></r></p></e>
@@ -204,7 +209,9 @@
     <e><p><l>aukcija<s n="n"/><s n="f"/></l><r>auction<s n="n"/></r></p></e>
     <e><p><l>autentičnost<s n="n"/><s n="f"/></l><r>authenticity<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>autobus<s n="n"/></l><r>bus<s n="n"/></r></p></e>
+    <e><p><l>autocefalnost<s n="n"/><s n="f"/></l><r>independence<s n="n"/></r></p></e>
     <e><p><l>autokefalnost<s n="n"/><s n="f"/></l><r>independence<s n="n"/></r></p></e>
+    <e><p><l>autokracija<s n="n"/><s n="f"/></l><r>autocracy<s n="n"/></r></p></e>
     <e><p><l>autokratija<s n="n"/><s n="f"/></l><r>autocracy<s n="n"/></r></p></e>
     <e><p><l>autokrat<s n="n"/><s n="ma"/></l><r>autocrat<s n="n"/></r></p></e>
     <e><p><l>automobil<s n="n"/><s n="mi"/></l><r>automobile<s n="n"/></r></p></e>
@@ -216,6 +223,7 @@
     <e><p><l>autoput<s n="n"/><s n="mi"/></l><r>highway<s n="n"/></r></p></e>
     <e><p><l>autor<s n="n"/><s n="ma"/></l><r>author<s n="n"/></r></p></e>
     <e><p><l>autorstvo<s n="n"/><s n="nt"/></l><r>authorship<s n="n"/></r></p></e>
+    <e><p><l>august<s n="n"/><s n="mi"/></l><r>August<s n="n"/></r></p></e>
     <e><p><l>avgust<s n="n"/><s n="mi"/></l><r>August<s n="n"/></r></p></e>
     <e><p><l>avijacija<s n="n"/><s n="f"/></l><r>aviation<s n="n"/></r></p></e>
     <e><p><l>avion<s n="n"/><s n="mi"/></l><r>aeroplane<s n="n"/></r></p></e>
@@ -225,20 +233,25 @@
     <e><p><l>azbuka<s n="n"/><s n="f"/></l><r>alphabet<s n="n"/></r></p></e>
     <e><p><l>azil<s n="n"/><s n="mi"/></l><r>asylum<s n="n"/></r></p></e>
     <e><p><l>bacanje<s n="n"/><s n="nt"/></l><r>throw<s n="n"/></r></p></e>
-    <e><p><l>badem<s n="n"/><s n="mi"/></l><r>nut<s n="n"/></r></p></e>
+    <e><p><l>badem<s n="n"/><s n="mi"/></l><r>almond<s n="n"/></r></p></e>
     <e><p><l>bakterija<s n="n"/><s n="f"/></l><r>bacterium<s n="n"/></r></p></e>
     <e><p><l>Balkan<s n="n"/><s n="mi"/></l><r>Balkans<s n="n"/></r></p></e>
-    <e><p><l>bal<s n="n"/><s n="mi"/></l><r>balloon<s n="n"/></r></p></e>
+    <e><p><l>bal<s n="n"/><s n="mi"/></l><r>ball<s n="n"/></r></p></e>
+    <e><p><l>balon<s n="n"/><s n="mi"/></l><r>balloon<s n="n"/></r></p></e>
+    <e><p><l>balun<s n="n"/><s n="mi"/></l><r>balloon<s n="n"/></r></p></e>
     <e><p><l>banda<s n="n"/><s n="f"/></l><r>band<s n="n"/></r></p></e>
-    <e><p><l>bankarstvo<s n="n"/><s n="nt"/></l><r>insurance<s n="n"/></r></p></e>
+    <e><p><l>banda<s n="n"/><s n="f"/></l><r>group<s n="n"/></r></p></e>
+    <e><p><l>bankarstvo<s n="n"/><s n="nt"/></l><r>banking<s n="n"/></r></p></e>
     <e><p><l>banka<s n="n"/><s n="f"/></l><r>bank<s n="n"/></r></p></e>
     <e><p><l>bašibozuk<s n="n"/><s n="mi"/></l><r>bashi-bazouk<s n="n"/></r></p></e>
     <e><p><l>basna<s n="n"/><s n="f"/></l><r>fable<s n="n"/></r></p></e>
     <e><p><l>bas<s n="n"/><s n="mi"/></l><r>bass<s n="n"/></r></p></e>
     <e><p><l>bataljon<s n="n"/><s n="mi"/></l><r>batallion<s n="n"/></r></p></e>
+    <e><p><l>bataljun<s n="n"/><s n="mi"/></l><r>batallion<s n="n"/></r></p></e>
     <e><p><l>baza<s n="n"/><s n="f"/></l><r>base<s n="n"/></r></p></e>
     <e><p><l>baza<s n="n"/><s n="f"/></l><r>basis<s n="n"/></r></p></e>
     <e><p><l>beatifikacija<s n="n"/><s n="f"/></l><r>beatification<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>beneficija<s n="n"/><s n="f"/></l><r>beneficiary<s n="n"/></r></p></e>
     <e><p><l>beneficija<s n="n"/><s n="f"/></l><r>beneficiary<s n="n"/></r></p></e>
     <e><p><l>beskonačnost<s n="n"/><s n="f"/></l><r>infinity<s n="n"/></r></p></e>
     <e><p><l>beskrajnost<s n="n"/><s n="f"/></l><r>infinity<s n="n"/></r></p></e>
@@ -4076,6 +4089,8 @@
     <e><p><l>gust<s n="adj"/></l><r>dense<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gust<s n="adj"/></l><r>thick<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>guvernerski<s n="adj"/></l><r>governor<s n="adj"/></r></p></e>
+    <e><p><l>hapšenje<s n="n"/><s n="nt"/></l><r>arrest<s n="n"/></r></p></e>
+    <e><p><l>hapšenje<s n="n"/><s n="nt"/></l><r>capture<s n="n"/></r></p></e>
     <e><p><l>haški<s n="adj"/></l><r>Hague<s n="adj"/></r></p></e>
     <e><p><l>haskovski<s n="adj"/></l><r>Haskovo<s n="adj"/></r></p></e>
     <e><p><l>hebrejski<s n="adj"/></l><r>Jewish<s n="adj"/></r></p></e>
