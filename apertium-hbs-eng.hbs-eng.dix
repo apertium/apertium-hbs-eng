@@ -17,6 +17,7 @@
     <sdef n="vbhaver"/>
     <sdef n="unc"/>
     <sdef n="acr"/>
+    <sdef n="comp"/>
     <sdef n="adj" c="adjective"/>
     <sdef n="m"	 c="masculine"/>
     <sdef n="ant"	 c="person name"/>
