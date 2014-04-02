@@ -15,5 +15,12 @@
 	    <select lemma="Rijeka" tags="np.*"/>
 	  </match>
   </rule>
+    
+   <rule>
+	  <match lemma="sastav" tags="n.*">        
+	    <select lemma="composition" tags="n.*"/>
+      </match>
+	  <match tags="n.*.*.gen"/>	
+  </rule>
 
 </rules>

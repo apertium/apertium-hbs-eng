@@ -2798,9 +2798,10 @@
     <e><p><l>sastajanje<s n="n"/><s n="nt"/></l><r>retrieval<s n="n"/></r></p></e>
     <e><p><l>sastanak<s n="n"/><s n="mi"/></l><r>meeting<s n="n"/></r></p></e>
     <e><p><l>sastavljanje<s n="n"/><s n="nt"/></l><r>formation<s n="n"/></r></p></e>
+    <e><p><l>sastav<s n="n"/><s n="mi"/></l><r>band<s n="n"/></r></p></e>
     <e><p><l>sastav<s n="n"/><s n="mi"/></l><r>composition<s n="n"/></r></p></e>
     <e><p><l>sastav<s n="n"/><s n="mi"/></l><r>make<b/>up<s n="n"/></r></p></e>
-    <e><p><l>sastav<s n="n"/><s n="mi"/></l><r>structure<s n="n"/></r></p></e>
+    <!--<e><p><l>sastav<s n="n"/><s n="mi"/></l><r>structure<s n="n"/></r></p></e>--><!-- krvoje: Would say "struktura" is always a better translation-->
     <e><p><l>saveznik<s n="n"/><s n="ma"/></l><r>ally<s n="n"/></r></p></e>
     <e><p><l>saveznik<s n="n"/><s n="ma"/></l><r>supporter<s n="n"/></r></p></e>
     <e><p><l>savez<s n="n"/><s n="mi"/></l><r>alliance<s n="n"/></r></p></e>
@@ -5804,7 +5805,6 @@
     <e><p><l>sa<s n="pr"/></l><r>with<s n="pr"/></r></p></e>  
     <e><p><l>sam<s n="adj"/></l><r>very<s n="preadv"/></r></p></e>
     <e><p><l>samo<s n="adv"/></l><r>only<s n="adv"/></r></p></e>  
-    <e><p><l>sastav<s n="n"/></l><r>band<s n="n"/></r></p></e>
     <e><p><l>sceničnost<s n="n"/></l><r>stage<b/>appearance<s n="n"/></r></p></e>
     <e><p><l>scenski<s n="adj"/></l><r>stage<s n="adj"/></r></p></e>
     <e><p><l>sljedeći<s n="adj"/></l><r>next<s n="adj"/></r></p></e>
