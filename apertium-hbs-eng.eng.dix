@@ -2719,7 +2719,7 @@
 <e lm="creative"><i>creative</i><par n="expensive__adj"/></e>
 <e lm="developed"><i>developed</i><par n="expensive__adj"/></e>
 <e lm="discography"><i>discograph</i><par n="bab/y__n"/></e>
-<e lm="discography"><i>discography</i><par n="expensive__adj"/></e>
+<e lm="discographical"><i>discographical</i><par n="expensive__adj"/></e>
 <e lm="dog"><i>dog</i><par n="house__n"/></e>
 <e lm="dramaturgical"><i>dramaturgical</i><par n="expensive__adj"/></e>
 <e lm="during"><i>during</i><par n="at__pr"/></e>
@@ -2906,6 +2906,7 @@
 <e lm="around that time"><i>around<b/>that<b/>time</i><par n="maybe__adv"/></e>
 
 <e lm="hag's"><i>hag</i><par n="house__n"/></e>
+<e lm="more precisely"><i>more<b/>precisely</i><par n="maybe__adv"/></e>
 	
     <e r="RL"><p><l><a/>a</l><r>a</r></p><par n="a__det"/></e>
     <e r="LR"><i>a</i><par n="a__det"/></e>
@@ -63798,7 +63799,7 @@
     <e><par n="dates"/></e>
     <e><par n="emails"/></e>
     <e><par n="urls"/></e>
-	<e lm="parqupte"><i></i><par n="parquote"/></e>
+    <e lm="parquote"><i></i><par n="parquote"/></e>
 
   </section>
 

@@ -41,6 +41,7 @@
     <sdef n="punct"/>
     <sdef n="expr"/>
     <sdef n="neg"/>
+    <sdef n="sg"/>
     <sdef n="pl"/>
     
     <sdef n="probj"/>
@@ -5688,7 +5689,8 @@
 <!--    <e><p><l>cijeli<b/>jedan<s n="adj"/></l><r>a whole<s n="adj"/></r></p></e> -->
     <e><p><l>da<s n="cnjcoo"/></l><r>that<s n="cnjcoo"/></r></p></e>
     <e><p><l>dio<s n="n"/></l><r>part<s n="n"/></r></p></e>
-    <e><p><l>diskografski<s n="adj"/></l><r>discography<s n="adj"/></r></p></e>
+    <e><p><l>diskografija<s n="n"/></l><r>discography<s n="n"/></r></p></e>
+    <e><p><l>diskografski<s n="adj"/></l><r>discographical<s n="adj"/></r></p></e>
     <e><p><l>djelovanje<s n="n"/></l><r>activity<s n="n"/></r></p></e>
     <e><p><l>do<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>doista<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
@@ -5808,6 +5810,7 @@
     <e><p><l>sceničnost<s n="n"/></l><r>stage<b/>appearance<s n="n"/></r></p></e>
     <e><p><l>scenski<s n="adj"/></l><r>stage<s n="adj"/></r></p></e>
     <e><p><l>sljedeći<s n="adj"/></l><r>next<s n="adj"/></r></p></e>
+    <e><p><l>sljedeći<s n="adj"/></l><r>following<s n="adj"/></r></p></e>
     <e><p><l>socijalan<s n="adj"/></l><r>social<s n="adj"/></r></p></e>
     <e><p><l>specifičan<s n="adj"/></l><r>unique<s n="adj"/></r></p></e>
     <e><p><l>specifičnost<s n="n"/></l><r>uniqueness<s n="n"/></r></p></e>
