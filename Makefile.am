@@ -1,3 +1,7 @@
+###############################################################################
+## Makefile for Serbo-Croatian--English
+###############################################################################
+
 VERSION=0.5.0
 LANG1=hbs
 LANG1a=hbs_BS
@@ -14,21 +18,43 @@ PREFIX2c=$(LANG2)-$(LANG1c)
 
 BASENAME=apertium-$(PREFIX1)
 
-TARGETS_COMMON = $(BASENAME).$(LANG1a).dix  $(BASENAME).$(LANG1b).dix $(BASENAME).$(LANG1c).dix \
-	$(PREFIX2a).autogen.bin $(PREFIX2b).autogen.bin $(PREFIX2c).autogen.bin \
-	$(BASENAME).$(LANG1).dix $(PREFIX1).rlx.bin $(PREFIX1).autolex.bin \
-	$(PREFIX2).rlx.bin \
-	$(PREFIX2a).autolex.bin \
-	$(PREFIX2b).autolex.bin \
-	$(PREFIX2c).autolex.bin \
-	$(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
-	$(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
-	$(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
-	$(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes \
+TARGETS_COMMON = \
 	cyr-lat.autopmor.bin \
-	$(PREFIX1).autopgen.bin $(PREFIX2a).autopgen.bin $(PREFIX2b).autopgen.bin $(PREFIX2c).autopgen.bin
+	$(PREFIX1).autobil.bin \
+	$(PREFIX1).autogen.bin \
+	$(PREFIX1).autolex.bin \
+	$(PREFIX1).automorf.bin \
+	$(PREFIX1).autopgen.bin \
+	$(PREFIX1).prob \
+	$(PREFIX1).rlx.bin \
+	$(PREFIX1).t1x.bin \
+	$(PREFIX1).t2x.bin \
+	$(PREFIX1).t3x.bin \
+	$(PREFIX2a).autogen.bin \
+	$(PREFIX2a).autolex.bin \
+	$(PREFIX2a).autopgen.bin \
+	$(PREFIX2).autobil.bin \
+	$(PREFIX2).automorf.bin \
+	$(PREFIX2b).autogen.bin \
+	$(PREFIX2b).autolex.bin \
+	$(PREFIX2b).autopgen.bin \
+	$(PREFIX2c).autogen.bin \
+	$(PREFIX2c).autolex.bin \
+	$(PREFIX2c).autopgen.bin \
+	$(PREFIX2).prob \
+	$(PREFIX2).rlx.bin \
+	$(PREFIX2).t1x.bin \
+	$(PREFIX2).t2x.bin \
+	$(PREFIX2).t3x.bin
 
-#    $(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin 
+
+# This include defines goals for install-modes, .deps/.d and .mode files:
+@ap_include@
+
+###############################################################################
+## Transducers, disambiguation rules, transfer
+###############################################################################
+
 
 $(BASENAME).$(LANG1a).dix: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).metadix
 	xsltproc --stringparam alt $(LANG1a) --stringparam var $(VAR1) $(AP_SRC1)/alt.xsl $(AP_SRC1)/apertium-$(LANG1).$(LANG1).metadix >$@
@@ -84,20 +110,17 @@ $(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx
 $(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
 	lrx-comp $(BASENAME).$(PREFIX1).lrx $@
 
-$(PREFIX2a).autopgen.bin: $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+$(PREFIX2a).autopgen.bin: $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix .deps/.d
 	xsltproc --stringparam alt $(LANG1a) --stringparam var $(VAR1) $(AP_SRC1)/alt.xsl $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix >.deps/post-$(LANG1a).dix
 	apertium-validate-dictionary .deps/post-$(LANG1a).dix
 	lt-comp lr .deps/post-$(LANG1a).dix $@ 
 
-$(PREFIX2b).autopgen.bin: $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+$(PREFIX2b).autopgen.bin: $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix .deps/.d
 	xsltproc --stringparam alt $(LANG1b) --stringparam var $(VAR1) $(AP_SRC1)/alt.xsl $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix >.deps/post-$(LANG1b).dix
 	apertium-validate-dictionary .deps/post-$(LANG1b).dix
 	lt-comp lr .deps/post-$(LANG1b).dix $@ 
 
-$(PREFIX2c).autopgen.bin: $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+$(PREFIX2c).autopgen.bin: $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix .deps/.d
 	xsltproc --stringparam alt $(LANG1c) --stringparam var $(VAR1) $(AP_SRC1)/alt.xsl $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix >.deps/post-$(LANG1c).dix
 	apertium-validate-dictionary .deps/post-$(LANG1c).dix
 	lt-comp lr .deps/post-$(LANG1c).dix $@ 
@@ -148,6 +171,10 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t3x $@
 
 
+###############################################################################
+## Distribution
+###############################################################################
+
 EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG1).tsx \
            $(BASENAME).$(LANG2).tsx  \
@@ -161,64 +188,33 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
            modes.xml
 
-#           $(LANG1)-tagger-data/README $(LANG2)-tagger-data/README 
-#           $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix 
 
-$(PREFIX1).mode: modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
+###############################################################################
+## Installation
+###############################################################################
 
-$(PREFIX2a).mode: modes.xml 
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
+apertium_hbs_engdir=$(prefix)/share/apertium/$(BASENAME)/
 
-$(PREFIX2b).mode: modes.xml 
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
+# Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
+apertium_hbs_eng_DATA=$(TARGETS_COMMON) \
+	$(BASENAME).$(PREFIX1).t1x \
+	$(BASENAME).$(PREFIX1).t2x \
+	$(BASENAME).$(PREFIX1).t3x \
+	$(BASENAME).$(PREFIX2).t1x \
+	$(BASENAME).$(PREFIX2).t2x \
+	$(BASENAME).$(PREFIX2).t3x
 
-$(PREFIX2c).mode: modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
 
-modes: $(PREFIX1).mode
+# All modes are created by the same goal, listing several will just give problems with make -j2
+noinst_DATA=modes/$(PREFIX1).mode
 
-apertium_hbs_engmodesdir=$(prefix)/share/apertium/modes/
-apertium_hbs_engdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_hbs_eng_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
-		    $(PREFIX2a).autogen.bin $(PREFIX2b).autogen.bin $(PREFIX2c).autogen.bin \
-                    $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
-                    $(PREFIX1).autogen.bin \
-                    $(PREFIX1).rlx.bin \
-                    $(PREFIX2).rlx.bin \
-                    $(PREFIX2a).autolex.bin \
-                    $(PREFIX2b).autolex.bin \
-                    $(PREFIX2c).autolex.bin \
-                    $(PREFIX1).autolex.bin \
-		    cyr-lat.autopmor.bin \
-                    $(PREFIX1).prob $(PREFIX2).prob \
-		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
-		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
-		    $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(BASENAME).$(PREFIX1).t3x\
-		    $(BASENAME).$(PREFIX2).t1x $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x\
-		    $(PREFIX2a).autopgen.bin \
-		    $(PREFIX2b).autopgen.bin \
-		    $(PREFIX2c).autopgen.bin \
-		    $(PREFIX1).autopgen.bin \
-		    $(PREFIX1).mode $(PREFIX2a).mode $(PREFIX2b).mode $(PREFIX2c).mode
+install-data-local: install-modes
 
-#                    $(PREFIX1).autopgen.bin 
- #                   $(PREFIX2).autopgen.bin 
-# 		     $(PREFIX2).autogen.bin 
 
-install-data-local:
-	$(prefix)/bin/apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	test -d $(DESTDIR)$(apertium_hbs_engmodesdir) || mkdir $(DESTDIR)$(apertium_hbs_engmodesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_hbs_engmodesdir)
-	$(INSTALL_DATA) $(PREFIX2a).mode $(DESTDIR)$(apertium_hbs_engmodesdir)
-	$(INSTALL_DATA) $(PREFIX2b).mode $(DESTDIR)$(apertium_hbs_engmodesdir)
-	$(INSTALL_DATA) $(PREFIX2c).mode $(DESTDIR)$(apertium_hbs_engmodesdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_hbs_engdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_hbs_engdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_hbs_engdir)
+###############################################################################
+## Cleanup
+###############################################################################
 
-CLEANFILES = -r $(TARGETS_COMMON) *.mode 
+CLEANFILES = $(TARGETS_COMMON)
+clean-local: 
+	-rm -rf .deps modes
