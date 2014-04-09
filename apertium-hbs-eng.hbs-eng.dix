@@ -551,11 +551,12 @@
     <e><p><l>dirigent<s n="n"/><s n="ma"/></l><r>conductor<s n="n"/></r></p></e>
     <e><p><l>dirigentstvo<s n="n"/><s n="nt"/></l><r>baton<s n="n"/></r></p></e>
     <e><p><l>disanje<s n="n"/><s n="nt"/></l><r>breathing<s n="n"/></r></p></e>
-    <e><p><l>disertacija<s n="n"/><s n="f"/></l><r>dissertion<s n="n"/></r></p></e>
+    <e><p><l>disertacija<s n="n"/><s n="f"/></l><r>dissertation<s n="n"/></r></p></e>
     <e><p><l>disidentstvo<s n="n"/><s n="nt"/></l><r>dissent<s n="n"/></r></p></e>
     <e><p><l>disidentstvo<s n="n"/><s n="nt"/></l><r>dissidence<s n="n"/></r></p></e>
     <e><p><l>diskreditiranje<s n="n"/><s n="nt"/></l><r>discrediting<s n="n"/><s n="unc"/></r></p></e>
-    <e><p><l>diskretizacija<s n="n"/><s n="f"/></l><r>discrediting<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>diskreditacija<s n="n"/><s n="f"/></l><r>discrediting<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>diskretizacija<s n="n"/><s n="f"/></l><r>discrediting<s n="n"/><s n="unc"/></r></p></e>	<!-- Doesn't sound like an acutal word -->
     <e><p><l>diskriminacija<s n="n"/><s n="f"/></l><r>discrimination<s n="n"/></r></p></e>
     <e><p><l>diskusija<s n="n"/><s n="f"/></l><r>discussion<s n="n"/></r></p></e>
     <e><p><l>distanciranje<s n="n"/><s n="nt"/></l><r>distancing<s n="n"/><s n="unc"/></r></p></e>
@@ -563,11 +564,11 @@
     <e><p><l>diversifikacija<s n="n"/><s n="f"/></l><r>diversification<s n="n"/></r></p></e>
     <e><p><l>diverzifikacija<s n="n"/><s n="f"/></l><r>diversification<s n="n"/></r></p></e>
     <e><p><l>dizanje<s n="n"/><s n="nt"/></l><r>rise<s n="n"/></r></p></e>
-    <e><p><l>dječak<s n="n"/><s n="m"/></l><r>child<s n="n"/></r></p></e>
+    <e><p><l>dizanje<s n="n"/><s n="nt"/></l><r>rising<s n="n"/></r></p></e>
+    <e><p><l>dječak<s n="n"/><s n="m"/></l><r>boy<s n="n"/></r></p></e>
     <e><p><l>djelatnost<s n="n"/><s n="f"/></l><r>business<s n="n"/></r></p></e>
     <e><p><l>djelatnost<s n="n"/><s n="f"/></l><r>industry<s n="n"/></r></p></e>
     <e><p><l>djelo<s n="n"/><s n="nt"/></l><r>achievement<s n="n"/></r></p></e>
-    <e><p><l>djelo<s n="n"/><s n="nt"/></l><r>achievement<s n="n"/></r></p></e> 
     <e><p><l>djelo<s n="n"/><s n="nt"/></l><r>act<s n="n"/></r></p></e> 
     <e><p><l>djelo<s n="n"/><s n="nt"/></l><r>deed<s n="n"/></r></p></e> 
     <e><p><l>djelo<s n="n"/><s n="nt"/></l><r>work<s n="n"/></r></p></e>
@@ -577,6 +578,7 @@
     <e><p><l>djevojka<s n="n"/><s n="f"/></l><r>girl<s n="n"/></r></p></e>
     <e><p><l>dnevnik<s n="n"/><s n="mi"/></l><r>diary<s n="n"/></r></p></e>
     <e><p><l>dobivanje<s n="n"/><s n="nt"/></l><r>support<s n="n"/></r></p></e>
+    <e><p><l>dobro<s n="n"/><s n="nt"/></l><r>good<s n="n"/></r></p></e>
     <e><p><l>dobro<s n="n"/><s n="nt"/></l><r>commerce<s n="n"/></r></p></e>
     <e><p><l>dobrosusjedstvo<s n="n"/><s n="nt"/></l><r>neighbourly<b/>relations<s n="n"/></r></p></e>
     <e><p><l>dodjeljivanje<s n="n"/><s n="nt"/></l><r>allocation<s n="n"/></r></p></e>
@@ -590,14 +592,15 @@
     <e><p><l>dogovor<s n="n"/><s n="mi"/></l><r>treaty<s n="n"/></r></p></e>
     <e><p><l>dojka<s n="n"/><s n="f"/></l><r>bosom<s n="n"/></r></p></e>
     <e><p><l>dojka<s n="n"/><s n="f"/></l><r>breast<s n="n"/></r></p></e>
-    <e><p><l>dojka<s n="n"/><s n="f"/></l><r>thorax<s n="n"/></r></p></e>
     <e><p><l>dokaz<s n="n"/><s n="mi"/></l><r>evidence<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>dokaz<s n="n"/><s n="mi"/></l><r>proof<s n="n"/></r></p></e>
     <e><p><l>dokumentacija<s n="n"/><s n="f"/></l><r>documentation<s n="n"/></r></p></e>
     <e><p><l>dokumentiranje<s n="n"/><s n="nt"/></l><r>documentation<s n="n"/></r></p></e>
     <e><p><l>dokument<s n="n"/><s n="mi"/></l><r>document<s n="n"/></r></p></e>
     <e><p><l>dolar<s n="n"/><s n="mi"/></l><r>dollar<s n="n"/></r></p></e>
+    <e><p><l>dolazak<s n="n"/><s n="nt"/></l><r>arrival<s n="n"/></r></p></e>
     <e><p><l>dolaženje<s n="n"/><s n="nt"/></l><r>arrival<s n="n"/></r></p></e>
+    <e><p><l>dolaženje<s n="n"/><s n="nt"/></l><r>arriving<s n="n"/></r></p></e>
     <e><p><l>domaćin<s n="n"/><s n="ma"/></l><r>host<s n="n"/></r></p></e>
     <e><p><l>domaćinstvo<s n="n"/><s n="nt"/></l><r>household<s n="n"/></r></p></e>
     <e><p><l>dominacija<s n="n"/><s n="f"/></l><r>domination<s n="n"/></r></p></e>
@@ -608,8 +611,8 @@
     <e><p><l>donator<s n="n"/><s n="ma"/></l><r>donor<s n="n"/></r></p></e>
     <e><p><l>donkihotstvo<s n="n"/><s n="nt"/></l><r>quixotism<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>donkihotstvo<s n="n"/><s n="nt"/></l><r>quixotry<s n="n"/></r></p></e>
-    <e><p><l>donošenje<s n="n"/><s n="nt"/></l><r>decision-making<s n="n"/><s n="unc"/></r></p></e>
-    <e><p><l>don<s n="n"/><s n="ma"/></l><r>water<s n="n"/></r></p></e>
+    <e><p><l>donošenje<s n="n"/><s n="nt"/></l><r>decision-making<s n="n"/><s n="unc"/></r></p></e> <!-- depending on rules and examples, maybe add "odluka" -->
+    <e><p><l>don<s n="n"/><s n="ma"/></l><r>don<s n="n"/></r></p></e>
     <e><p><l>doprinos<s n="n"/><s n="mi"/></l><r>contribution<s n="n"/></r></p></e>
     <e><p><l>doručak<s n="n"/><s n="mi"/></l><r>breakfast<s n="n"/></r></p></e>
     <e><p><l>dosje<s n="n"/><s n="mi"/></l><r>file<s n="n"/></r></p></e>
@@ -617,8 +620,8 @@
     <e><p><l>dostupnost<s n="n"/><s n="f"/></l><r>accessibility<s n="n"/></r></p></e>
     <e><p><l>dostupnost<s n="n"/><s n="f"/></l><r>approachability<s n="n"/></r></p></e>
     <e><p><l>dostupnost<s n="n"/><s n="f"/></l><r>availability<s n="n"/></r></p></e>
-    <e><p><l>doživljaj<s n="n"/><s n="mi"/></l><r>development<s n="n"/></r></p></e>
     <e><p><l>doživljaj<s n="n"/><s n="mi"/></l><r>event<s n="n"/></r></p></e>
+    <e><p><l>doživljaj<s n="n"/><s n="mi"/></l><r>experience<s n="n"/></r></p></e>
     <e><p><l>dozvola<s n="n"/><s n="f"/></l><r>licence<s n="n"/></r></p></e>
     <e><p><l>dozvola<s n="n"/><s n="f"/></l><r>license<s n="n"/></r></p></e>
     <e><p><l>dozvola<s n="n"/><s n="f"/></l><r>permission<s n="n"/></r></p></e>
@@ -629,13 +632,14 @@
     <e><p><l>drugarstvo<s n="n"/><s n="nt"/></l><r>camaraderie<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>drug<s n="n"/><s n="ma"/></l><r>friend<s n="n"/></r></p></e>
     <e><p><l>društvo<s n="n"/><s n="nt"/></l><r>society<s n="n"/></r></p></e>
-    <e><p><l>drvodjeljstvo<s n="n"/><s n="nt"/></l><r>timber<s n="n"/><s n="unc"/></r></p></e>
-    <e><p><l>drvo<s n="n"/><s n="nt"/></l><r>piece<g><b/>of<b/>wood</g><s n="n"/></r></p></e> 
+    <e><p><l>drvodjeljstvo<s n="n"/><s n="nt"/></l><r>timber<s n="n"/><s n="unc"/></r></p></e> <!-- maybe not the best -->
+    <e><p><l>drvo<s n="n"/><s n="nt"/></l><r>wood<s n="n"/></r></p></e> 
     <e><p><l>drvo<s n="n"/><s n="nt"/></l><r>tree<s n="n"/></r></p></e> 
     <e><p><l>država<s n="n"/><s n="f"/></l><r>country<s n="n"/></r></p></e>
     <e><p><l>država<s n="n"/><s n="f"/></l><r>nation<s n="n"/></r></p></e>
     <e><p><l>država<s n="n"/><s n="f"/></l><r>state<s n="n"/></r></p></e>
     <e><p><l>državljan<s n="n"/><s n="ma"/></l><r>citizen<s n="n"/></r></p></e>
+    <e><p><l>državljanin<s n="n"/><s n="ma"/></l><r>citizen<s n="n"/></r></p></e>
     <e><p><l>državljanstvo<s n="n"/><s n="nt"/></l><r>citizenship<s n="n"/></r></p></e>
     <e><p><l>državnost<s n="n"/><s n="f"/></l><r>statehood<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>državotvornost<s n="n"/><s n="f"/></l><r>statehood<s n="n"/><s n="unc"/></r></p></e>
@@ -669,8 +673,6 @@
     <e><p><l>ekstradikcija<s n="n"/><s n="f"/></l><r>extradition<s n="n"/></r></p></e>
     <e><p><l>ekstradiranje<s n="n"/><s n="nt"/></l><r>arrest<s n="n"/></r></p></e>
     <e><p><l>ekstradiranje<s n="n"/><s n="nt"/></l><r>extradition<s n="n"/></r></p></e>
-    <e><p><l>ekstradiranje<s n="n"/><s n="nt"/></l><r>study<s n="n"/></r></p></e>
-    <e><p><l>ekstradiranje<s n="n"/><s n="nt"/></l><r>war<s n="n"/></r></p></e>
     <e><p><l>ekstrakcija<s n="n"/><s n="f"/></l><r>extraction<s n="n"/></r></p></e>
     <e><p><l>ekstravagancija<s n="n"/><s n="f"/></l><r>extravagance<s n="n"/></r></p></e>
     <e><p><l>ekstravagantnost<s n="n"/><s n="f"/></l><r>extravaganza<s n="n"/></r></p></e>
@@ -683,9 +685,10 @@
     <e><p><l>eliminacija<s n="n"/><s n="f"/></l><r>elimination<s n="n"/></r></p></e>
     <e><p><l>emancipacija<s n="n"/><s n="f"/></l><r>emancipation<s n="n"/></r></p></e>
     <e><p><l>emigracija<s n="n"/><s n="f"/></l><r>emigration<s n="n"/></r></p></e>
+    <e><p><l>emitiranje<s n="n"/><s n="nt"/></l><r>broadcast<s n="n"/></r></p></e>
+    <e><p><l>emitiranje<s n="n"/><s n="nt"/></l><r>emission<s n="n"/></r></p></e>
     <e><p><l>emitovanje<s n="n"/><s n="nt"/></l><r>broadcast<s n="n"/></r></p></e>
     <e><p><l>emitovanje<s n="n"/><s n="nt"/></l><r>emission<s n="n"/></r></p></e>
-    <e><p><l>emitovanje<s n="n"/><s n="nt"/></l><r>statement<s n="n"/></r></p></e>
     <e><p><l>enciklopedija<s n="n"/><s n="f"/></l><r>encyclopaedia<s n="n"/></r></p></e>
     <e><p><l>energičnost<s n="n"/><s n="f"/></l><r>vigour<s n="n"/></r></p></e>
     <e><p><l>energija<s n="n"/><s n="f"/></l><r>energy<s n="n"/></r></p></e>
@@ -700,7 +703,9 @@
     <e><p><l>evakuacija<s n="n"/><s n="f"/></l><r>evacuation<s n="n"/></r></p></e>
     <e><p><l>evaluacija<s n="n"/><s n="f"/></l><r>evaluation<s n="n"/></r></p></e>
     <e><p><l>evolucija<s n="n"/><s n="f"/></l><r>evolution<s n="n"/></r></p></e>
+    <e><p><l>europeizacija<s n="n"/><s n="f"/></l><r>European<b/>integration<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>evropeizacija<s n="n"/><s n="f"/></l><r>European<b/>integration<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>euro<s n="n"/><s n="mi"/></l><r>euro<s n="n"/></r></p></e>
     <e><p><l>evro<s n="n"/><s n="mi"/></l><r>euro<s n="n"/></r></p></e>
     <e><p><l>fabrika<s n="n"/><s n="f"/></l><r>factory<s n="n"/></r></p></e>
     <e><p><l>fabrika<s n="n"/><s n="f"/></l><r>plant<s n="n"/></r></p></e>
@@ -708,6 +713,7 @@
     <e><p><l>fakultet<s n="n"/><s n="mi"/></l><r>faculty<s n="n"/></r></p></e>
     <e><p><l>falsifikovanje<s n="n"/><s n="nt"/></l><r>falsification<s n="n"/></r></p></e>
     <e><p><l>falsifikovanje<s n="n"/><s n="nt"/></l><r>fraud<s n="n"/></r></p></e>
+<!-- *************** -->
     <e><p><l>fantazerstvo<s n="n"/><s n="nt"/></l><r>fantasy<s n="n"/></r></p></e>
     <e><p><l>farmacija<s n="n"/><s n="f"/></l><r>pharmacy<s n="n"/></r></p></e>
     <e><p><l>farmerstvo<s n="n"/><s n="nt"/></l><r>farming<s n="n"/></r></p></e>
