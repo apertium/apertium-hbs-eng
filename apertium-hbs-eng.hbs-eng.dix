@@ -247,7 +247,7 @@
     <e><p><l>gepek<s n="n"/></l><r>back<b/>compartment<s n="n"/></r></p></e>
     <e><p><l>prtljažnik<s n="n"/></l><r>back<b/>compartment<s n="n"/></r></p></e>
     <e><p><l>moždana<b/>ovojnica<s n="n"/></l><r>meninges<s n="n"/></r></p></e>
-    <e><p><l>klasična<b/>mehanika<s n="n"/></l><r>classical<b/>mechanics<s n="n"/></r></p></e><!-- fix: check translation --Y
+    <e><p><l>klasična<b/>mehanika<s n="n"/></l><r>classical<b/>mechanics<s n="n"/></r></p></e><!-- fix: check translation -->
     <e><p><l>svemirski<b/>brod<s n="n"/></l><r>spaceship<s n="n"/></r></p></e>
     <e><p><l>ratni<b/>brod<s n="n"/></l><r>warship<s n="n"/></r></p></e>
     <e><p><l>koplje<s n="n"/></l><r>spear<s n="n"/></r></p></e>
@@ -316,6 +316,78 @@
     <e><p><l>staja<s n="n"/></l><r>animal<b/>shed<s n="n"/></r></p></e>
     <e><p><l>slušni<b/>aparat<s n="n"/></l><r>hearing<b/>aid<s n="n"/></r></p></e>
     <e><p><l>karbonska<b/>kiselina<s n="n"/></l><r>carbonic<b/>acid<s n="n"/></r></p></e>
+    <e><p><l>magnetsko<b/>polje<s n="n"/></l><r>magnetic<b/>field<s n="n"/></r></p></e>
+    <e><p><l>posvojeno<b/>dijete<s n="n"/></l><r>adopted<b/>child<s n="n"/></r></p></e>
+    <e><p><l>nevoljeno<b/>dijete<s n="n"/></l><r>unloved<b/>child<s n="n"/></r></p></e>
+    <e><p><l>izvanbračno<b/>dijete<s n="n"/></l><r>illegitimate<b/>child<s n="n"/></r></p></e>
+    <e><p><l>štićenik<s n="n"/></l><r>foster<b/>child<s n="n"/></r></p></e>
+    <e><p><l>rođendansko<b/>dijete<s n="n"/></l><r>birthday<b/>child<s n="n"/></r></p></e><!-- fix: ...? -->
+    <e><p><l>jedinac<s n="n"/></l><r>only<b/>child<s n="n"/></r></p></e>
+    <e><p><l>Island<s n="n"/></l><r>Iceland<s n="n"/></r></p></e>
+    <e><p><l>vizualna<b/>umjetnost<s n="n"/></l><r>visual<b/>arts<s n="n"/></r></p></e>
+    <e><p><l>jezikoslovlje<s n="n"/></l><r>linguistics<s n="n"/></r></p></e>
+    <e><p><l>lingvistika<s n="n"/></l><r>linguistics<s n="n"/></r></p></e>
+    <e><p><l>naočale<s n="n"/></l><r>glasses<s n="n"/></r></p></e>
+    <e><p><l>defibrilacija<s n="n"/></l><r>defibrillation<s n="n"/></r></p></e>
+    <e><p><l>agronomist<s n="n"/></l><r>agronomist<s n="n"/></r></p></e>
+    <e><p><l>oklop<s n="n"/></l><r>armour<s n="n"/></r></p></e>
+    <e><p><l>astat<s n="n"/></l><r>astatine<s n="n"/></r></p></e>
+    <e><p><l>astrofizika<s n="n"/></l><r>astrophysics<s n="n"/></r></p></e>
+    <e><p><l>relikvija<s n="n"/></l><r>relic<s n="n"/></r></p></e>
+    <e><p><l>bakterija<s n="n"/></l><r>bacteria<s n="n"/></r></p></e>
+    <e><p><l>barbar<s n="n"/></l><r>barbarian<s n="n"/></r></p></e>
+    <e><p><l>bataljun<s n="n"/></l><r>battalion<s n="n"/></r></p></e>
+    <e><p><l>bojna<s n="n"/></l><r>battalion<s n="n"/></r></p></e>
+    <e><p><l>kupina<s n="n"/></l><r>blackberry<s n="n"/></r></p></e>
+    <e><p><l>krvoproliće<s n="n"/></l><r>bloodbath<s n="n"/></r></p></e>
+    <e><p><l>zagrada<s n="n"/></l><r>bracket<s n="n"/></r></p></e>
+    <e><p><l>limeni<b/>orkestar<s n="n"/></l><r>brass<b/>band<s n="n"/></r></p></e>
+    <e><p><l>bumbar<s n="n"/></l><r>bumblebee<s n="n"/></r></p></e>
+    <e><p><l>vozač<b/>autobusa<s n="n"/></l><r>bus<b/>driver<s n="n"/></r></p></e>
+    <e><p><l>autobusna<b/>stanica<s n="n"/></l><r>bus<b/>stop<s n="n"/></r></p></e>
+    <e><p><l>top<s n="n"/></l><r>cannon<s n="n"/></r></p></e>
+    <e><p><l>planinarenje<s n="n"/></l><r>mountain<b/>walking<s n="n"/></r></p></e>
+    <e><p><l>celer<s n="n"/></l><r>celery<s n="n"/></r></p></e>
+    <e><p><l>gepard<s n="n"/></l><r>cheetah<s n="n"/></r></p></e>
+    <e><p><l>dimnjak<s n="n"/></l><r>chimney<s n="n"/></r></p></e>
+    <e><p><l>kinematografija<s n="n"/></l><r>cinematography<s n="n"/></r></p></e>
+    <e><p><l>klitoris<s n="n"/></l><r>clitoris<s n="n"/></r></p></e>
+    <e><p><l>odjeća<s n="n"/></l><r>clothes<s n="n"/></r></p></e>
+    <e><p><l>plahta<s n="n"/></l><r>bed<b/>sheets<s n="n"/></r></p></e>
+    <e><p><l>kabriolet<s n="n"/></l><r>convertible<s n="n"/></r></p></e>
+    <e><p><l>vikendica<s n="n"/></l><r>cottage<s n="n"/></r></p></e>
+    <e><p><l>rak<s n="n"/></l><r>crustacean<s n="n"/></r></p></e>
+    <e><p><l>kukavica<s n="n"/></l><r>cuckoo<s n="n"/></r></p></e>
+    <e><p><l>maslačak<s n="n"/></l><r>dandelion<s n="n"/></r></p></e>
+    <e><p><l>rosa<s n="n"/></l><r>dew<s n="n"/></r></p></e>
+    <e><p><l>dijabetes<s n="n"/></l><r>diabetes<s n="n"/></r></p></e>
+    <e><p><l>šećerna<b/>bolest<s n="n"/></l><r>diabetes<s n="n"/></r></p></e>
+    <e><p><l>dinosaur<s n="n"/></l><r>dinosaur<s n="n"/></r></p></e>
+    <e><p><l>perilica<b/>posuđa<s n="n"/></l><r>dishwasher<s n="n"/></r></p></e>
+    <e><p><l>jarak<s n="n"/></l><r>ditch<s n="n"/></r></p></e>
+    <e><p><l>bušilica<s n="n"/></l><r>drill<s n="n"/></r></p></e>
+    <e><p><l>pomrčina<s n="n"/></l><r>eclipse<s n="n"/></r></p></e>
+    <e><p><l>elektronička<b/>pošta<s n="n"/></l><r>email<s n="n"/></r></p></e>
+    <e><p><l>sokol<s n="n"/></l><r>falcon<s n="n"/></r></p></e>
+    <e><p><l>familijarnost<s n="n"/></l><r>familiarity<s n="n"/></r></p></e>
+    <e><p><l>telefaks<s n="n"/></l><r>fax<s n="n"/></r></p></e>
+    <e><p><l>izmet<s n="n"/></l><r>faeces<s n="n"/></r></p></e>
+    <e><p><l>vatromet<s n="n"/></l><r>firework<s n="n"/></r></p></e>
+    <e><p><l>flash<s n="n"/></l><r>flash<s n="n"/></r></p></e>
+    <e><p><l>čelo<s n="n"/></l><r>forehead<s n="n"/></r></p></e>
+    <e><p><l>strana<b/>valuta<s n="n"/></l><r>foreign<b/>currency<s n="n"/></r></p></e>
+    <e><p><l>šumarstvo<s n="n"/></l><r>forestry<s n="n"/></r></p></e>
+    <e><p><l>vilica<s n="n"/></l><r>fork<s n="n"/></r></p></e>
+    <e><p><l>lisica<s n="n"/></l><r>fox<s n="n"/></r></p></e>
+    <e><p><l>geograf<s n="n"/></l><r>geographer<s n="n"/></r></p></e>
+    <e><p><l>đumbir<s n="n"/></l><r>ginger<s n="n"/></r></p></e>
+    <e><p><l>žirafa<s n="n"/></l><r>giraffe<s n="n"/></r></p></e>
+    <e><p><l>evanđelje<s n="n"/></l><r>gospel<s n="n"/></r></p></e>
+    <e><p><l>galeb<s n="n"/></l><r>gull<s n="n"/></r></p></e>
+    <e><p><l>galeb<s n="n"/></l><r>herring<b/>gull<s n="n"/></r></p></e>
+    <e><p><l>tuča<s n="n"/></l><r>hail<s n="n"/></r></p></e>
+    <e><p><l>halogen<s n="n"/></l><r>halogen<s n="n"/></r></p></e>
+    <e><p><l>aureola<s n="n"/></l><r>halo<s n="n"/></r></p></e>
 
     <!-- SH_MK+MK_EN NOUNS -->
 
@@ -6493,4 +6565,5 @@
 
 
     </section>
+
 </dictionary>
