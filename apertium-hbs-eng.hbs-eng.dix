@@ -84,18 +84,40 @@
     <!-- Words from eng.dix + Wikipedia translation -->
 
     <e><p><l>diskordancija<s n="n"/></l><r>unconformity<s n="n"/></r></p></e>
+    <e><p><l>tranša<s n="n"/></l><r>tranche<s n="n"/></r></p></e>
+    <e><p><l>suglasnost<s n="n"/></l><r>compliance<s n="n"/></r></p></e>
+    <e><p><l>sukladnost<s n="n"/></l><r>compliance<s n="n"/></r></p></e>
+    <e><p><l>suglasnost<s n="n"/></l><r>compliance<s n="n"/></r></p></e>
+    <e><p><l>usklađenost<s n="n"/></l><r>compliance<s n="n"/></r></p></e>
     <e><p><l>jela<s n="n"/></l><r>fir<b/>tree<s n="n"/></r></p></e>
     <e><p><l>primogenitura<s n="n"/></l><r>primogeniture<s n="n"/></r></p></e>
     <e><p><l>aksiom<s n="n"/></l><r>axiom<s n="n"/></r></p></e>
+    <e><p><l>reintegracija<s n="n"/></l><r>reintegration<s n="n"/></r></p></e>
+    <e><p><l>disertacija<s n="n"/></l><r>dissertion<s n="n"/></r></p></e><!--fix:-->
+    <e><p><l>nodata<s n="n"/></l><r>studentship<s n="n"/></r></p></e><!--fix:-->
+    <e><p><l>saučešće<s n="n"/></l><r>condolences<s n="n"/></r></p></e>
     <e><p><l>težina<s n="n"/></l><r>weight<s n="n"/></r></p></e>
-    <e><p><l>pošta<s n="n"/></l><r>postage<s n="n"/></r></p></e>
+    <e><p><l>uzgoj<b/>riže<s n="n"/></l><r>rice-growing<s n="n"/></r></p></e>
+    <e><p><l>pripravnost<s n="n"/></l><r>stand-by<s n="n"/></r></p></e>
+    <e><p><l>opiranje<s n="n"/></l><r>resisting<s n="n"/></r></p></e>
+    <e><p><l>ponovno<b/>pokretanje<s n="n"/></l><r>restarting<s n="n"/></r></p></e>
+    <e><p><l>korice<s n="n"/></l><r>scabbard<s n="n"/></r></p></e>
+    <e><p><l>poštarina<s n="n"/></l><r>postage<s n="n"/></r></p></e>
+    <e><p><l>svilarstvo<s n="n"/></l><r>sericulture<s n="n"/></r></p></e><!-- fix: see if serikultura -->
+    <e><p><l>lijevanje<b/>željeza<s n="n"/></l><r>ironworking<s n="n"/></r></p></e><!-- fix: check -->
+    <e><p><l>posao<b/>brijača<s n="n"/></l><r>barbership<s n="n"/></r></p></e><!--fix:-->
+    <e><p><l>veličina<s n="n"/></l><r>bigness<s n="n"/></r></p></e>
+    <e><p><l>lutanje<s n="n"/></l><r>vagrancy<s n="n"/></r></p></e>
+    <e><p><l>skitanje<s n="n"/></l><r>vagrancy<s n="n"/></r></p></e>
     <e><p><l>djevičanstvo<s n="n"/></l><r>virginity<s n="n"/></r></p></e>
     <e><p><l>proizvodnja<b/>struje<s n="n"/></l><r>electricity<b/>production<s n="n"/></r></p></e>
     <e><p><l>vijenac<s n="n"/></l><r>wreath<s n="n"/></r></p></e>
     <e><p><l>vaterpolo<s n="n"/></l><r>waterpolo<s n="n"/></r></p></e>
+    <e><p><l>ispunjenje<s n="n"/></l><r>fulfillment<s n="n"/></r></p></e>
     <e><p><l>celibat<s n="n"/></l><r>celibacy<s n="n"/></r></p></e>
     <e><p><l>panda<s n="n"/></l><r>panda<s n="n"/></r></p></e>
     <e><p><l>koala<s n="n"/></l><r>koala<s n="n"/></r></p></e>
+    <e><p><l>shema<s n="n"/></l><r>schema<s n="n"/></r></p></e>
     <e><p><l>prošlost<s n="n"/></l><r>past<s n="n"/></r></p></e>
     <e><p><l>sadašnjost<s n="n"/></l><r>present<s n="n"/></r></p></e>
     <e><p><l>prošlo<b/>vrijeme<s n="n"/></l><r>past<b/>tense<s n="n"/></r></p></e>
@@ -103,9 +125,17 @@
     <e><p><l>buduće<b/>vrijeme<s n="n"/></l><r>future<b/>tense<s n="n"/></r></p></e>
     <e><p><l>puma<b/><s n="n"/></l><r>puma<s n="n"/></r></p></e>
     <e><p><l>polarna<b/>svjetlost<s n="n"/></l><r>aurora<s n="n"/></r></p></e>
+    <e><p><l>nodata<s n="n"/></l><r>honeycomb<s n="n"/></r></p></e>
     <e><p><l>koma<s n="n"/></l><r>coma<s n="n"/></r></p></e>
+    <e><p><l>saće<s n="n"/></l><r>honeycomb<s n="n"/></r></p></e>
+    <e><p><l>slijepa<b/>ulica<s n="n"/></l><r>cul-de-sac<s n="n"/></r></p></e><!-- fix: check -->
+    <e><p><l>stoik<s n="n"/></l><r>stoic<s n="n"/></r></p></e>
     <e><p><l>skeptik<s n="n"/></l><r>sceptic<s n="n"/></r></p></e>
+    <e><p><l>prostor<b/>za<b/>ime<s n="n"/></l><r>namespace<s n="n"/></r></p></e><!-- fix: check -->
     <e><p><l>dimnjak<s n="n"/></l><r>chimney<s n="n"/></r></p></e>
+    <e><p><l>ranoranilac<s n="n"/></l><r>early<b/>riser<s n="n"/></r></p></e><!-- fix: check spelling -->
+    <e><p><l>protojezik<s n="n"/></l><r>proto-language<s n="n"/></r></p></e>
+    <e><p><l>trbuhobolja<s n="n"/></l><r>stomachache<s n="n"/></r></p></e>
     <e><p><l>zombi<s n="n"/></l><r>zombie<s n="n"/></r></p></e>
     <e><p><l>prekid<b/>vatre<s n="n"/></l><r>cease-fire<s n="n"/></r></p></e>
     <e><p><l>pliskavica<s n="n"/></l><r>porpoise<s n="n"/></r></p></e>
@@ -388,6 +418,93 @@
     <e><p><l>tuča<s n="n"/></l><r>hail<s n="n"/></r></p></e>
     <e><p><l>halogen<s n="n"/></l><r>halogen<s n="n"/></r></p></e>
     <e><p><l>aureola<s n="n"/></l><r>halo<s n="n"/></r></p></e>
+
+    <e><p><l>vrhovni<b/>sud<s n="n"/></l><r>high<b/>court<s n="n"/></r></p></e>
+    <e><p><l>jahanje<s n="n"/></l><r>horsemanship<s n="n"/></r></p></e>
+    <e><p><l>hortikultura<s n="n"/></l><r>horticulturist<s n="n"/></r></p></e>
+    <e><p><l>hipohondrija<s n="n"/></l><r>hypochondria<s n="n"/></r></p></e>
+    <e><p><l>licemjer<s n="n"/></l><r>hypocrite<s n="n"/></r></p></e>
+    <e><p><l>sladoled<s n="n"/></l><r>ice<b/>cream<s n="n"/></r></p></e>
+    <e><p><l>nepreciznost<s n="n"/></l><r>inaccuracy<s n="n"/></r></p></e>
+    <e><p><l>bjelokost<s n="n"/></l><r>ivory<s n="n"/></r></p></e>
+    <e><p><l>kivi<s n="n"/></l><r>kiwi<s n="n"/></r></p></e>
+    <e><p><l>kripton<s n="n"/></l><r>krypton<s n="n"/></r></p></e>
+    <e><p><l>ljestve<s n="n"/></l><r>ladder<s n="n"/></r></p></e>
+    <e><p><l>baština<s n="n"/></l><r>legacy<s n="n"/></r></p></e>
+    <e><p><l>nasljedstvo<s n="n"/></l><r>legacy<s n="n"/></r></p></e>
+    <e><p><l>nasljeđe<s n="n"/></l><r>legacy<s n="n"/></r></p></e>
+    <e><p><l>liberalizam<s n="n"/></l><r>liberalism<s n="n"/></r></p></e>
+    <e><p><l>libertarijanizam<s n="n"/></l><r>libertarianism<s n="n"/></r></p></e>
+    <e><p><l>vapnenac<s n="n"/></l><r>limestone<s n="n"/></r></p></e>
+    <e><p><l>jezikoslovac<s n="n"/></l><r>linguist<s n="n"/></r></p></e>
+    <e><p><l>lingvist<s n="n"/></l><r>linguist<s n="n"/></r></p></e>
+    <e><p><l>ruž<s n="n"/></l><r>lipstick<s n="n"/></r></p></e>
+    <e><p><l>tkalački<b/>stan<s n="n"/></l><r>loom<s n="n"/></r></p></e>
+    <e><p><l>djeva<s n="n"/></l><r>maiden<s n="n"/></r></p></e>
+    <e><p><l>kozmetika<s n="n"/></l><r>makeup<s n="n"/></r></p></e>
+    <e><p><l>margarin<s n="n"/></l><r>margarine<s n="n"/></r></p></e>
+    <e><p><l>matematika<s n="n"/></l><r>mathematics<s n="n"/></r></p></e>
+    <e><p><l>trgovac<s n="n"/></l><r>merchant<s n="n"/></r></p></e>
+    <e><p><l>metafizika<s n="n"/></l><r>metaphysics<s n="n"/></r></p></e>
+    <e><p><l>mimika<s n="n"/></l><r>mimic<s n="n"/></r></p></e>
+    <e><p><l>mimikrija<s n="n"/></l><r>mimic<s n="n"/></r></p></e><!-- fix: check -->
+    <e><p><l>mobilni<b/>telefon<s n="n"/></l><r>mobile<b/>phone<s n="n"/></r></p></e>
+    <e><p><l>mobitel<s n="n"/></l><r>mobile<b/>phone<s n="n"/></r></p></e>
+    <e><p><l>vlaga<s n="n"/></l><r>moisture<s n="n"/></r></p></e>
+    <e><p><l>komarac<s n="n"/></l><r>mosquito<s n="n"/></r></p></e>
+    <e><p><l>množenje<s n="n"/></l><r>multiplication<s n="n"/></r></p></e>
+    <e><p><l>nukleon<s n="n"/></l><r>nucleon<s n="n"/></r></p></e>
+    <e><p><l>najlon<s n="n"/></l><r>nylon<s n="n"/></r></p></e>
+    <e><p><l>ugnjetavanje<s n="n"/></l><r>oppression<s n="n"/></r></p></e>
+    <e><p><l>optika<s n="n"/></l><r>optics<s n="n"/></r></p></e>
+    <e><p><l>ortodoksija<s n="n"/></l><r>orthodoxy<s n="n"/></r></p></e>
+    <e><p><l>hlače<s n="n"/></l><r>pants<s n="n"/></r></p></e>
+    <e><p><l>pesimist<s n="n"/></l><r>pessimist<s n="n"/></r></p></e>
+    <e><p><l>farmakolog<s n="n"/></l><r>pharmacologist<s n="n"/></r></p></e>
+    <e><p><l>jastuk<s n="n"/></l><r>pillow<s n="n"/></r></p></e>
+    <e><p><l>pizza<s n="n"/></l><r>pizza<s n="n"/></r></p></e>
+    <e><p><l>dramski<b/>pisac<s n="n"/></l><r>playwright<s n="n"/></r></p></e>
+    <e><p><l>kliješta<s n="n"/></l><r>pliers<s n="n"/></r></p></e>
+    <e><p><l>proton<s n="n"/></l><r>proton<s n="n"/></r></p></e>
+    <e><p><l>pseudonim<s n="n"/></l><r>pseudonym<s n="n"/></r></p></e>
+    <e><p><l>psihijatar<s n="n"/></l><r>psychiatrist<s n="n"/></r></p></e>
+    <e><p><l>duga<s n="n"/></l><r>rainbow<s n="n"/></r></p></e>
+    <e><p><l>smola<s n="n"/></l><r>resin<s n="n"/></r></p></e>
+    <e><p><l>osveta<s n="n"/></l><r>revenge<s n="n"/></r></p></e>
+    <e><p><l>rodij<s n="n"/></l><r>rhodium<s n="n"/></r></p></e>
+    <e><p><l>glodavac<s n="n"/></l><r>rodent<s n="n"/></r></p></e>
+    <e><p><l>veslač<s n="n"/></l><r>rower<s n="n"/></r></p></e>
+    <e><p><l>sablja<s n="n"/></l><r>saber<s n="n"/></r></p></e>
+    <e><p><l>sauna<s n="n"/></l><r>sauna<s n="n"/></r></p></e>
+    <e><p><l>skandij<s n="n"/></l><r>scandium<s n="n"/></r></p></e>
+    <e><p><l>strašilo<s n="n"/></l><r>scarecrow<s n="n"/></r></p></e>
+    <e><p><l>shizofreničar<s n="n"/></l><r>schizophrenic<s n="n"/></r></p></e>
+    <e><p><l>školarac<s n="n"/></l><r>schoolchild<s n="n"/></r></p></e>
+    <e><p><l>škorpion<s n="n"/></l><r>scorpion<s n="n"/></r></p></e>
+    <e><p><l>internetski<b/>pretraživač<s n="n"/></l><r>search<b/>engine<s n="n"/></r></p></e><!--fix:-->
+    <e><p><l>sediment<s n="n"/></l><r>sediment<s n="n"/></r></p></e>
+    <e><p><l>brodograditelj<s n="n"/></l><r>shipbuilder<s n="n"/></r></p></e>
+    <e><p><l>brodogradilište<s n="n"/></l><r>shipyard<s n="n"/></r></p></e>
+    <e><p><l>lopata<s n="n"/></l><r>shovel<s n="n"/></r></p></e>
+    <e><p><l>skepticizam<s n="n"/></l><r>skepticism<s n="n"/></r></p></e>
+    <e><p><l>postmoderna<s n="n"/></l><r>postmodernism<s n="n"/></r></p></e>
+    <e><p><l>sunčev<b/>sustav<s n="n"/></l><r>solar<b/>system<s n="n"/></r></p></e>
+    <e><p><l>suvenir<s n="n"/></l><r>souvenir<s n="n"/></r></p></e>
+    <e><p><l>životni<b/>vijek<s n="n"/></l><r>life<b/>span<s n="n"/></r></p></e>
+    <e><p><l>špinat<s n="n"/></l><r>spinach<s n="n"/></r></p></e>
+    <e><p><l>kotač<s n="n"/></l><r>spinning<b/>wheel<s n="n"/></r></p></e>
+    <e><p><l>slina<s n="n"/></l><r>spittle<s n="n"/></r></p></e>
+    <e><p><l>stremen<s n="n"/></l><r>stirrup<s n="n"/></r></p></e>
+    <e><p><l>hijerarhija<s n="n"/></l><r>subordinate<s n="n"/></r></p></e>
+    <e><p><l>sunčeva<b/>svjetlost<s n="n"/></l><r>sunlight<s n="n"/></r></p></e>
+    <e><p><l>zalazak<b/>sunca<s n="n"/></l><r>sunset<s n="n"/></r></p></e>
+    <e><p><l>sunčeva<b/>svjetlost<s n="n"/></l><r>sunshine<s n="n"/></r></p></e>
+    <e><p><l>sinonim<s n="n"/></l><r>synonym<s n="n"/></r></p></e>
+    <e><p><l>tangenta<s n="n"/></l><r>tangent<s n="n"/></r></p></e>
+    <e><p><l>tezaurus<s n="n"/></l><r>thesaurus<s n="n"/></r></p></e>
+    <e><p><l>grmljavinska<b/>oluja<s n="n"/></l><r>thunderstorm<s n="n"/></r></p></e>
+    <e><p><l>odabrano<b/>vrijeme<s n="n"/></l><r>chosen<b/>time<s n="n"/></r></p></e>
+    <e><p><l>stari<b/>vijek<s n="n"/></l><r>ancient<b/>times<s n="n"/></r></p></e><!--fix:-->
 
     <!-- SH_MK+MK_EN NOUNS -->
 
