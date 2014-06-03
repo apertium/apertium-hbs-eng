@@ -3749,7 +3749,9 @@
     <e><p><l>specijalizacija<s n="n"/><s n="f"/></l><r>specialisation<s n="n"/></r></p></e>
 <!--*******-->
     <e><p><l>špekulacija<s n="n"/><s n="f"/></l><r>speculation<s n="n"/></r></p></e>
+    <e><p><l>špijuniranje<s n="n"/><s n="nt"/></l><r>spying<s n="n"/></r></p></e>
     <e><p><l>špioniranje<s n="n"/><s n="nt"/></l><r>spying<s n="n"/></r></p></e>
+    <e><p><l>popis<s n="n"/><s n="mi"/></l><r>list<s n="n"/></r></p></e>
     <e><p><l>spisak<s n="n"/><s n="mi"/></l><r>list<s n="n"/></r></p></e>
     <e><p><l>spisateljstvo<s n="n"/><s n="nt"/></l><r>writing<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>spokojnost<s n="n"/><s n="f"/></l><r>quiet<s n="n"/></r></p></e>
@@ -3774,6 +3776,7 @@
     <e><p><l>sposobnost<s n="n"/><s n="f"/></l><r>capacity<s n="n"/></r></p></e>
     <e><p><l>sposobnost<s n="n"/><s n="f"/></l><r>competence<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>sposobnost<s n="n"/><s n="f"/></l><r>fitness<s n="n"/><s n="unc"/></r></p></e>
+<!--******-->
     <e><p><l>sposobnost<s n="n"/><s n="f"/></l><r>skill<s n="n"/></r></p></e>
     <e><p><l>spoticanje<s n="n"/><s n="nt"/></l><r>contention<s n="n"/></r></p></e>
     <e><p><l>sprečavanje<s n="n"/><s n="nt"/></l><r>containment<s n="n"/></r></p></e>
