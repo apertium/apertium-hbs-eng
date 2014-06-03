@@ -3682,7 +3682,6 @@
     <e><p><l>skrivanje<s n="n"/><s n="nt"/></l><r>hiding<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>skupljanje<s n="n"/><s n="nt"/></l><r>collection<s n="n"/></r></p></e>
     <e><p><l>skupocjenost<s n="n"/><s n="f"/></l><r>value<s n="n"/></r></p></e>
-<!--*******-->
     <e><p><l>slabost<s n="n"/><s n="f"/></l><r>weakness<s n="n"/></r></p></e>
     <e><p><l>slastičarstvo<s n="n"/><s n="nt"/></l><r>confectionery<s n="n"/></r></p></e>
     <e><p><l>slijepa ulica<s n="n"/><s n="f"/></l><r>deadlock<s n="n"/></r></p></e>
@@ -3711,7 +3710,7 @@
     <e><p><l>smanjenje<s n="n"/><s n="nt"/></l><r>impairment<s n="n"/></r></p></e>
     <e><p><l>smanjenje<s n="n"/><s n="nt"/></l><r>reduction<s n="n"/></r></p></e>
     <e><p><l>smirenje<s n="n"/><s n="nt"/></l><r>defusion<s n="n"/></r></p></e>
-    <e><p><l>smirenost<s n="n"/><s n="f"/></l><r>calm<s n="n"/></r></p></e>
+    <e><p><l>smirenost<s n="n"/><s n="f"/></l><r>calmness<s n="n"/></r></p></e>
     <e><p><l>smisao<s n="n"/><s n="mi"/></l><r>sense<s n="n"/></r></p></e>
     <e><p><l>smjelost<s n="n"/><s n="f"/></l><r>bravery<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>smjer<s n="n"/><s n="f"/></l><r>direction<s n="n"/></r></p></e>
@@ -3743,9 +3742,12 @@
     <e><p><l>sopstvenost<s n="n"/><s n="f"/></l><r>property<s n="n"/></r></p></e>
     <e><p><l>sortiranje<s n="n"/><s n="nt"/></l><r>sorting<s n="n"/></r></p></e>
     <e><p><l>so<s n="n"/><s n="f"/></l><r>salt<s n="n"/></r></p></e>
+    <e><p><l>sol<s n="n"/><s n="f"/></l><r>salt<s n="n"/></r></p></e>
     <e><p><l>spajanje<s n="n"/><s n="nt"/></l><r>merger<s n="n"/></r></p></e>
     <e><p><l>spasavanje<s n="n"/><s n="nt"/></l><r>rescue<s n="n"/></r></p></e>
+    <e><p><l>spašavanje<s n="n"/><s n="nt"/></l><r>rescue<s n="n"/></r></p></e>
     <e><p><l>specijalizacija<s n="n"/><s n="f"/></l><r>specialisation<s n="n"/></r></p></e>
+<!--*******-->
     <e><p><l>špekulacija<s n="n"/><s n="f"/></l><r>speculation<s n="n"/></r></p></e>
     <e><p><l>špioniranje<s n="n"/><s n="nt"/></l><r>spying<s n="n"/></r></p></e>
     <e><p><l>spisak<s n="n"/><s n="mi"/></l><r>list<s n="n"/></r></p></e>
