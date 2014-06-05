@@ -3747,7 +3747,6 @@
     <e><p><l>spasavanje<s n="n"/><s n="nt"/></l><r>rescue<s n="n"/></r></p></e>
     <e><p><l>spašavanje<s n="n"/><s n="nt"/></l><r>rescue<s n="n"/></r></p></e>
     <e><p><l>specijalizacija<s n="n"/><s n="f"/></l><r>specialisation<s n="n"/></r></p></e>
-<!--*******-->
     <e><p><l>špekulacija<s n="n"/><s n="f"/></l><r>speculation<s n="n"/></r></p></e>
     <e><p><l>špijuniranje<s n="n"/><s n="nt"/></l><r>spying<s n="n"/></r></p></e>
     <e><p><l>špioniranje<s n="n"/><s n="nt"/></l><r>spying<s n="n"/></r></p></e>
@@ -3783,7 +3782,7 @@
     <e><p><l>srbin<s n="n"/><s n="ma"/></l><r>Serb<s n="n"/></r></p></e>
     <e><p><l>srbofilstvo<s n="n"/><s n="nt"/></l><r>Serbophilia<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>srbofobstvo<s n="n"/><s n="nt"/></l><r>Serbophobia<s n="n"/><s n="unc"/></r></p></e>
-    <e><p><l>srbpmanstvo<s n="n"/><s n="nt"/></l><r>Serbomanhood<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>srbomanstvo<s n="n"/><s n="nt"/></l><r>Serbomanhood<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>srce<s n="n"/><s n="nt"/></l><r>heart<s n="n"/></r></p></e>
     <e><p><l>srdačnost<s n="n"/><s n="f"/></l><r>cordiality<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>sredina<s n="n"/><s n="f"/></l><r>centre<s n="n"/></r></p></e>
@@ -3791,7 +3790,6 @@
     <e><p><l>sredina<s n="n"/><s n="f"/></l><r>middle<s n="n"/></r></p></e>
     <e><p><l>sredina<s n="n"/><s n="f"/></l><r>surrounding<s n="n"/></r></p></e>
     <e><p><l>sredstvo<s n="n"/><s n="nt"/></l><r>asset<s n="n"/></r></p></e>
-    <e><p><l>sredstvo<s n="n"/><s n="nt"/></l><r>funding<s n="n"/></r></p></e>
     <e><p><l>sredstvo<s n="n"/><s n="nt"/></l><r>fund<s n="n"/></r></p></e>
     <e><p><l>sredstvo<s n="n"/><s n="nt"/></l><r>instrument<s n="n"/></r></p></e>
     <e><p><l>sredstvo<s n="n"/><s n="nt"/></l><r>means<s n="n"/></r></p></e>
@@ -3804,6 +3802,7 @@
     <e><p><l>stabiliziranje<s n="n"/><s n="nt"/></l><r>stabilisation<s n="n"/></r></p></e>
     <e><p><l>stabilnost<s n="n"/><s n="f"/></l><r>stability<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>štab<s n="n"/><s n="mi"/></l><r>headquarters<s n="n"/></r></p></e>
+    <e><p><l>stožer<s n="n"/><s n="mi"/></l><r>headquarters<s n="n"/></r></p></e>
     <e><p><l>stadion<s n="n"/><s n="mi"/></l><r>stadium<s n="n"/></r></p></e>
     <e><p><l>stagnacija<s n="n"/><s n="f"/></l><r>stagnation<s n="n"/></r></p></e>
     <e><p><l>staklarstvo<s n="n"/><s n="nt"/></l><r>glazier<b/>trade<s n="n"/><s n="unc"/></r></p></e>
@@ -3812,18 +3811,16 @@
     <e><p><l>standard<s n="n"/><s n="mi"/></l><r>standard<s n="n"/></r></p></e>
     <e><p><l>stanica<s n="n"/><s n="f"/></l><r>station<s n="n"/></r></p></e>
     <e><p><l>stanje<s n="n"/><s n="nt"/></l><r>condition<s n="n"/></r></p></e>
-    <e><p><l>stanje<s n="n"/><s n="nt"/></l><r>emergency<s n="n"/></r></p></e>
-    <e><p><l>stanje<s n="n"/><s n="nt"/></l><r>position<s n="n"/></r></p></e>
     <e><p><l>stanje<s n="n"/><s n="nt"/></l><r>shape<s n="n"/></r></p></e>
     <e><p><l>stanje<s n="n"/><s n="nt"/></l><r>situation<s n="n"/></r></p></e>
     <e><p><l>stanje<s n="n"/><s n="nt"/></l><r>state<s n="n"/></r></p></e>
     <e><p><l>stanovništvo<s n="n"/><s n="nt"/></l><r>population<s n="n"/></r></p></e>
     <e><p><l>stan<s n="n"/><s n="mi"/></l><r>residence<s n="n"/></r></p></e>
-    <e><p><l>štap<s n="n"/><s n="mi"/></l><r>column<s n="n"/></r></p></e>
-    <e><p><l>starenje<s n="n"/><s n="nt"/></l><r>treatment<s n="n"/></r></p></e>
-    <e><p><l>starost<s n="n"/><s n="f"/></l><r>age<s n="n"/></r></p></e>
+    <e><p><l>stan<s n="n"/><s n="mi"/></l><r>flat<s n="n"/></r></p></e>
+    <e><p><l>štap<s n="n"/><s n="mi"/></l><r>stick<s n="n"/></r></p></e>
+    <e><p><l>starenje<s n="n"/><s n="nt"/></l><r>aging<s n="n"/></r></p></e>
+    <e><p><l>starost<s n="n"/><s n="f"/></l><r>old<b/>age<s n="n"/></r></p></e>
     <e><p><l>statistika<s n="n"/><s n="f"/></l><r>statistics<s n="n"/></r></p></e>
-    <e><p><l>status<s n="n"/><s n="mi"/></l><r>status<b/>quo<s n="n"/></r></p></e>
     <e><p><l>status<s n="n"/><s n="mi"/></l><r>status<s n="n"/></r></p></e>
     <e><p><l>stavljanje<s n="n"/><s n="nt"/></l><r>placement<s n="n"/></r></p></e>
     <e><p><l>stav<s n="n"/><s n="mi"/></l><r>attitude<s n="n"/></r></p></e>
@@ -3836,13 +3833,16 @@
     <e><p><l>šteta<s n="n"/><s n="f"/></l><r>damage<s n="n"/></r></p></e>
     <e><p><l>šteta<s n="n"/><s n="f"/></l><r>harm<s n="n"/></r></p></e>
     <e><p><l>stigmatizacija<s n="n"/><s n="f"/></l><r>stigmatisation<s n="n"/><s n="unc"/></r></p></e>
-    <e><p><l>stihotvorstvo<s n="n"/><s n="nt"/></l><r>poem<s n="n"/></r></p></e>
+    <e><p><l>stihotvorstvo<s n="n"/><s n="nt"/></l><r>poetry<s n="n"/></r></p></e>
+    <e><p><l>pjesma<s n="n"/><s n="nt"/></l><r>poem<s n="n"/></r></p></e>
     <e><p><l>stil<s n="n"/><s n="mi"/></l><r>style<s n="n"/></r></p></e>
     <e><p><l>stimulacija<s n="n"/><s n="f"/></l><r>stimulation<s n="n"/></r></p></e>
-    <e><p><l>stimuliranje<s n="n"/><s n="nt"/></l><r>stimulation<s n="n"/></r></p></e>
+    <e><p><l>stimuliranje<s n="n"/><s n="nt"/></l><r>stimulating<s n="n"/></r></p></e>
     <e><p><l>stoka<s n="n"/><s n="f"/></l><r>goods<s n="n"/></r></p></e>
+    <e><p><l>stoka<s n="n"/><s n="f"/></l><r>cattle<s n="n"/></r></p></e>
     <e><p><l>stolarstvo<s n="n"/><s n="nt"/></l><r>carpentry<s n="n"/></r></p></e>
     <e><p><l>stopalo<s n="n"/><s n="nt"/></l><r>foot<s n="n"/></r></p></e>
+    <e><p><l>stopa<s n="n"/><s n="f"/></l><r>foot<s n="n"/></r></p></e>
     <e><p><l>stopa<s n="n"/><s n="f"/></l><r>rate<s n="n"/></r></p></e>
     <e><p><l>stotina<s n="n"/><s n="f"/></l><r>hundred<s n="n"/></r></p></e>
     <e><p><l>stradanje<s n="n"/><s n="nt"/></l><r>plight<s n="n"/></r></p></e>
@@ -3856,7 +3856,9 @@
     <e><p><l>stranica<s n="n"/><s n="f"/></l><r>website<s n="n"/></r></p></e>
     <e><p><l>stranica<s n="n"/><s n="f"/></l><r>web<s n="n"/></r></p></e>
     <e><p><l>strategija<s n="n"/><s n="f"/></l><r>strategy<s n="n"/></r></p></e>
-    <e><p><l>straža<s n="n"/><s n="f"/></l><r>cutter<s n="n"/></r></p></e>
+    <e><p><l>straža<s n="n"/><s n="f"/></l><r>cutter<s n="n"/></r></p></e><!-- fix: maybe as a ship? --->
+    <e><p><l>straža<s n="n"/><s n="f"/></l><r>watch<s n="n"/></r></p></e>
+    <e><p><l>straža<s n="n"/><s n="f"/></l><r>sentry<s n="n"/></r></p></e>
     <e><p><l>strpljenje<s n="n"/><s n="nt"/></l><r>patience<s n="n"/></r></p></e>
     <e><p><l>stručnjak<s n="n"/><s n="ma"/></l><r>expert<s n="n"/></r></p></e>
     <e><p><l>stručnjak<s n="n"/><s n="ma"/></l><r>specialist<s n="n"/></r></p></e>
@@ -3866,7 +3868,7 @@
     <e><p><l>struktura<s n="n"/><s n="f"/></l><r>structure<s n="n"/></r></p></e>
     <e><p><l>studeni<s n="n"/><s n="mi"/></l><r>November<s n="n"/></r></p></e>
     <e><p><l>student<s n="n"/><s n="ma"/></l><r>student<s n="n"/></r></p></e>
-    <e><p><l>studija<s n="n"/><s n="f"/></l><r>studio<s n="n"/></r></p></e>
+    <e><p><l>studio<s n="n"/><s n="mi"/></l><r>studio<s n="n"/></r></p></e>
     <e><p><l>studija<s n="n"/><s n="f"/></l><r>study<s n="n"/></r></p></e>
     <e><p><l>studija<s n="n"/><s n="f"/></l><r>survey<s n="n"/></r></p></e>
     <e><p><l>stvaranje<s n="n"/><s n="nt"/></l><r>creation<s n="n"/></r></p></e>
@@ -3876,12 +3878,15 @@
     <e><p><l>sudar<s n="n"/><s n="mi"/></l><r>conflict<s n="n"/></r></p></e>
     <e><p><l>sudbina<s n="n"/><s n="f"/></l><r>fate<s n="n"/></r></p></e>
     <e><p><l>suđenje<s n="n"/><s n="nt"/></l><r>trial<s n="n"/></r></p></e>
+    <e><p><l>sudac<s n="n"/><s n="ma"/></l><r>judge<s n="n"/></r></p></e>
+    <e><p><l>sudac<s n="n"/><s n="ma"/></l><r>magistrate<s n="n"/></r></p></e>
+    <e><p><l>sudac<s n="n"/><s n="ma"/></l><r>referee<s n="n"/></r></p></e>
     <e><p><l>sudija<s n="n"/><s n="ma"/></l><r>judge<s n="n"/></r></p></e>
     <e><p><l>sudija<s n="n"/><s n="ma"/></l><r>magistrate<s n="n"/></r></p></e>
     <e><p><l>sudija<s n="n"/><s n="ma"/></l><r>referee<s n="n"/></r></p></e>
     <e><p><l>sud<s n="n"/><s n="mi"/></l><r>court<s n="n"/></r></p></e>
     <e><p><l>sudstvo<s n="n"/><s n="nt"/></l><r>judiciary<s n="n"/></r></p></e>
-    <e><p><l>suflerstvo<s n="n"/><s n="nt"/></l><r>prompting<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>suflerstvo<s n="n"/><s n="nt"/></l><r>prompting<s n="n"/><s n="unc"/></r></p></e><!-- fix: ? -->
     <e><p><l>suma<s n="n"/><s n="f"/></l><r>amount<s n="n"/></r></p></e>
     <e><p><l>suma<s n="n"/><s n="f"/></l><r>cost<s n="n"/></r></p></e>
     <e><p><l>šuma<s n="n"/><s n="f"/></l><r>forest<s n="n"/></r></p></e>
@@ -3889,12 +3894,14 @@
     <e><p><l>šuma<s n="n"/><s n="f"/></l><r>mountain<s n="n"/></r></p></e>
     <e><p><l>suma<s n="n"/><s n="f"/></l><r>sum<s n="n"/></r></p></e>
     <e><p><l>šuma<s n="n"/><s n="f"/></l><r>woods<s n="n"/></r></p></e>
+    <e><p><l>sumnja<s n="n"/><s n="nt"/></l><r>doubt<s n="n"/></r></p></e>
+    <e><p><l>sumnja<s n="n"/><s n="nt"/></l><r>suspicion<s n="n"/></r></p></e>
     <e><p><l>sumnjičenje<s n="n"/><s n="nt"/></l><r>doubt<s n="n"/></r></p></e>
     <e><p><l>sumnjičenje<s n="n"/><s n="nt"/></l><r>question<s n="n"/></r></p></e>
     <e><p><l>sumnjičenje<s n="n"/><s n="nt"/></l><r>suspicion<s n="n"/></r></p></e>
     <e><p><l>sunce<s n="n"/><s n="nt"/></l><r>sun<s n="n"/></r></p></e>
-    <e><p><l>suočenje<s n="n"/><s n="nt"/></l><r>challenge<s n="n"/></r></p></e>
-    <e><p><l>suprotstavljanje<s n="n"/><s n="nt"/></l><r>opposition<s n="n"/></r></p></e>
+    <e><p><l>suočenje<s n="n"/><s n="nt"/></l><r>facing<s n="n"/></r></p></e>
+    <e><p><l>suprotstavljanje<s n="n"/><s n="nt"/></l><r>facing<s n="n"/></r></p></e>
     <e><p><l>suprotstavljenost<s n="n"/><s n="f"/></l><r>opposition<s n="n"/></r></p></e>
     <e><p><l>supruga<s n="n"/><s n="f"/></l><r>wife<s n="n"/></r></p></e>
     <e><p><l>suprug<s n="n"/><s n="ma"/></l><r>husband<s n="n"/></r></p></e>
@@ -3902,19 +3909,21 @@
     <e><p><l>susjed<s n="n"/><s n="ma"/></l><r>neighbour<s n="n"/></r></p></e>
     <e><p><l>susjedstvo<s n="n"/><s n="nt"/></l><r>neighbourhood<s n="n"/></r></p></e>
     <e><p><l>suspendiranje<s n="n"/><s n="nt"/></l><r>suspension<s n="n"/></r></p></e>
+    <e><p><l>suspendiranje<s n="n"/><s n="nt"/></l><r>suspending<s n="n"/></r></p></e>
     <e><p><l>suverenitet<s n="n"/><s n="mi"/></l><r>sovereignty<s n="n"/></r></p></e>
     <e><p><l>suverenost<s n="n"/><s n="f"/></l><r>sovereignty<s n="n"/></r></p></e>
     <e><p><l>suzdržanost<s n="n"/><s n="f"/></l><r>restraint<s n="n"/></r></p></e>
     <e><p><l>suzdržanost<s n="n"/><s n="f"/></l><r>stability<s n="n"/></r></p></e>
     <e><p><l>šverc<s n="n"/><s n="mi"/></l><r>smuggling<s n="n"/></r></p></e>
     <e><p><l>šverc<s n="n"/><s n="mi"/></l><r>trafficking<s n="n"/></r></p></e>
-    <e><p><l>sveštenstvo<s n="n"/><s n="nt"/></l><r>clergyman<s n="n"/></r></p></e>
+    <e><p><l>svećenik<s n="n"/><s n="ma"/></l><r>clergyman<s n="n"/></r></p></e>
+    <e><p><l>sveštenik<s n="n"/><s n="ma"/></l><r>clergyman<s n="n"/></r></p></e>
+    <e><p><l>svećenstvo<s n="n"/><s n="nt"/></l><r>clergy<s n="n"/></r></p></e>
+    <e><p><l>sveštenstvo<s n="n"/><s n="nt"/></l><r>clergy<s n="n"/></r></p></e>
     <e><p><l>sveučilište<s n="n"/><s n="nt"/></l><r>university<s n="n"/></r></p></e>
-    <e><p><l>svijet<s n="n"/><s n="mi"/></l><r>light<s n="n"/></r></p></e>
     <e><p><l>svijet<s n="n"/><s n="mi"/></l><r>world<s n="n"/></r></p></e>
-    <e><p><l>svinjarstvo<s n="n"/><s n="nt"/></l><r>pig<s n="n"/></r></p></e>
+    <e><p><l>svinja<s n="n"/><s n="nt"/></l><r>pig<s n="n"/></r></p></e>
     <e><p><l>svjedočenje<s n="n"/><s n="nt"/></l><r>testimonial<s n="n"/></r></p></e>
-    <e><p><l>svjedočenje<s n="n"/><s n="nt"/></l><r>witness<s n="n"/></r></p></e>
     <e><p><l>svjedok<s n="n"/><s n="ma"/></l><r>witness<s n="n"/></r></p></e>
     <e><p><l>svjetlost<s n="n"/><s n="f"/></l><r>limelight<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>svojstvo<s n="n"/><s n="nt"/></l><r>capacity<s n="n"/></r></p></e>
