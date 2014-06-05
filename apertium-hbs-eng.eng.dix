@@ -14997,6 +14997,7 @@
     <e lm="axis"><i>ax</i><par n="analys/is__n"/></e>
     <e lm="axe"><i>axe</i><par n="house__n"/></e>
     <e lm="baby"><i>bab</i><par n="bab/y__n"/></e>
+    <e lm="sentry"><i>sentr</i><par n="bab/y__n"/></e>
     <e lm="missionary"><i>missionar</i><par n="bab/y__n"/></e>
     <e lm="missionary work"><i>missionary<b/>work</i><par n="access__n"/></e>
     <e lm="principality"><i>principalit</i><par n="bab/y__n"/></e>
@@ -16552,6 +16553,7 @@
     <e lm="flag fabric"><i>flag<b/>fabric</i><par n="house__n"/></e>
     <e lm="fabulation"><i>fabulation</i><par n="house__n"/></e>
     <e lm="face"><i>face</i><par n="house__n"/></e>
+    <e lm="facing"><i>facing</i><par n="east__n"/></e>
     <e lm="facet"><i>facet</i><par n="house__n"/></e>
     <e lm="facility"><i>facilit</i><par n="bab/y__n"/></e>
     <e lm="facilitation"><i>facilitation</i><par n="house__n"/></e>
@@ -19585,6 +19587,7 @@
     <e lm="smegma"><i>smegma</i><par n="east__n"/></e>
     <e lm="incest"><i>incest</i><par n="east__n"/></e>
     <e lm="stimulation"><i>stimulation</i><par n="house__n"/></e>
+    <e lm="stimulating"><i>stimulating</i><par n="east__n"/></e>
     <e lm="stimulus"><i>stimulus</i><par n="access__n"/></e>
     <e lm="sting"><i>sting</i><par n="house__n"/></e>
     <e lm="stink"><i>stink</i><par n="house__n"/></e>
@@ -19696,6 +19699,7 @@
     <e lm="survivor"><i>survivor</i><par n="house__n"/></e>
     <e lm="suspect"><i>suspect</i><par n="house__n"/></e>
     <e lm="suspension"><i>suspension</i><par n="house__n"/></e>
+    <e lm="suspending"><i>suspending</i><par n="east__n"/></e>
     <e lm="suspicion"><i>suspicion</i><par n="house__n"/></e>
     <e lm="suture"><i>suture</i><par n="house__n"/></e>
     <e lm="swan"><i>swan</i><par n="house__n"/></e>
