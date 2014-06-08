@@ -796,36 +796,37 @@
     <e><p><l>kalorija<s n="n"/></l><r>calorie<s n="n"/></r></p></e>
     <e><p><l>kanal<s n="n"/></l><r>canal<s n="n"/></r></p></e>
     <e><p><l>slatkiš<s n="n"/></l><r>candy<s n="n"/></r></p></e>
-    <e><p><l>bonbon<s n="n"/></l><r>candy<s n="n"/></r></p></e>
     <e><p><l>bombon<s n="n"/></l><r>candy<s n="n"/></r></p></e>
+    <e><p><l>bonbon<s n="n"/></l><r>candy<s n="n"/></r></p></e>
     <e><p><l>svijeća<s n="n"/></l><r>candle<s n="n"/></r></p></e>
     <e><p><l>kapitalizam<s n="n"/></l><r>capitalism<s n="n"/></r></p></e>
     <e><p><l>kapitalist<s n="n"/></l><r>capitalist<s n="n"/></r></p></e>
-    <e><p><l>karavan<b/><s n="n"/></l><r>caravan<s n="n"/></r></p></e>
+    <e><p><l>karavan<s n="n"/></l><r>caravan<s n="n"/></r></p></e>
     <e><p><l>ugljik<s n="n"/></l><r>carbon<s n="n"/></r></p></e>
     <e><p><l>karton<s n="n"/></l><r>cardboard<s n="n"/></r></p></e>
-    <e><p><l>kardiologija<s n="n"/></l><r>cardiologist<s n="n"/></r></p></e>
-<!--******-->
-    <e><p><l>ljepota<s n="n"/></l><r>beauty<b/>care<s n="n"/></r></p></e>
+    <e><p><l>kardiolog<s n="n"/></l><r>cardiologist<s n="n"/></r></p></e>
+    <e><p><l>kozmetika<s n="n"/></l><r>beauty<b/>care<s n="n"/></r></p></e>
     <e><p><l>karikatura<s n="n"/></l><r>caricature<s n="n"/></r></p></e>
-    <e><p><l>mesožderi<s n="n"/></l><r>carnivore<s n="n"/></r></p></e>
+    <e><p><l>mesožder<s n="n"/></l><r>carnivore<s n="n"/></r></p></e>
     <e><p><l>mrkva<s n="n"/></l><r>carrot<s n="n"/></r></p></e>
     <e><p><l>kartel<s n="n"/></l><r>cartel<s n="n"/></r></p></e>
     <e><p><l>kartografija<s n="n"/></l><r>cartography<s n="n"/></r></p></e>
-    <e><p><l>kaste<s n="n"/></l><r>caste<s n="n"/></r></p></e>
+    <e><p><l>kasta<s n="n"/></l><r>caste<s n="n"/></r></p></e>
     <e><p><l>dvorac<s n="n"/></l><r>castle<s n="n"/></r></p></e>
     <e><p><l>kastracija<s n="n"/></l><r>castration<s n="n"/></r></p></e>
     <e><p><l>katalog<s n="n"/></l><r>catalogue<s n="n"/></r></p></e>
     <e><p><l>katapult<s n="n"/></l><r>catapult<s n="n"/></r></p></e>
     <e><p><l>siva<b/>mrena<s n="n"/></l><r>cataract<s n="n"/></r></p></e>
+    <e><p><l>katarakta<s n="n"/></l><r>cataract<s n="n"/></r></p></e>
     <e><p><l>katekizam<s n="n"/></l><r>catechism<s n="n"/></r></p></e>
     <e><p><l>katedrala<s n="n"/></l><r>cathedral<s n="n"/></r></p></e>
-    <e><p><l>divlje<b/>govedo<s n="n"/></l><r>cattle<s n="n"/></r></p></e>
+    <e><p><l>stoka<s n="n"/></l><r>cattle<s n="n"/></r></p></e>
     <e><p><l>špilja<s n="n"/></l><r>cave<s n="n"/></r></p></e>
     <e><p><l>celuloid<s n="n"/></l><r>celluloid<s n="n"/></r></p></e>
     <e><p><l>groblje<s n="n"/></l><r>cemetery<s n="n"/></r></p></e>
-    <e><p><l>centralizacija<s n="n"/></l><r>centralism<s n="n"/></r></p></e>
+    <e><p><l>centralizam<s n="n"/></l><r>centralism<s n="n"/></r></p></e>
     <e><p><l>žitarice<s n="n"/></l><r>cereal<s n="n"/></r></p></e>
+    <e><p><l>zobene<b/>pahuljice<s n="n"/></l><r>cereal<s n="n"/></r></p></e>
     <e><p><l>šampanjac<s n="n"/></l><r>champagne<s n="n"/></r></p></e>
     <e><p><l>kaos<b/><s n="n"/></l><r>chaos<s n="n"/></r></p></e>
     <e><p><l>kapela<s n="n"/></l><r>chapel<s n="n"/></r></p></e>
@@ -833,20 +834,19 @@
     <e><p><l>šasija<s n="n"/></l><r>chassis<s n="n"/></r></p></e>
     <e><p><l>obraz<s n="n"/></l><r>cheek<s n="n"/></r></p></e>
     <e><p><l>ček<s n="n"/></l><r>cheque<s n="n"/></r></p></e>
-    <e><p><l>domaća<b/>kokoš<s n="n"/></l><r>chicken<s n="n"/></r></p></e>
-    <e><p><l>himere<b/><s n="n"/></l><r>chimaera<s n="n"/></r></p></e>
-    <e><p><l>čimpanze<s n="n"/></l><r>chimpanzee<s n="n"/></r></p></e>
-    <e><p><l>kina<s n="n"/></l><r>china<s n="n"/></r></p></e>
+    <e><p><l>kokoš<s n="n"/></l><r>chicken<s n="n"/></r></p></e>
+    <e><p><l>himera<s n="n"/></l><r>chimaera<s n="n"/></r></p></e>
+    <e><p><l>čimpanza<s n="n"/></l><r>chimpanzee<s n="n"/></r></p></e>
+    <e><p><l>porculan<s n="n"/></l><r>china<s n="n"/></r></p></e>
     <e><p><l>klor<s n="n"/></l><r>chlorine<s n="n"/></r></p></e>
     <e><p><l>čokolada<s n="n"/></l><r>chocolate<s n="n"/></r></p></e>
-    <e><p><l>pjevački<b/>zbor<s n="n"/></l><r>choir<s n="n"/></r></p></e>
     <e><p><l>kolesterol<s n="n"/></l><r>cholesterol<s n="n"/></r></p></e>
-    <e><p><l>pjevački<b/>zbor<s n="n"/></l><r>chorister<s n="n"/></r></p></e>
+    <e><p><l>zboraš<s n="n"/></l><r>chorister<s n="n"/></r></p></e><!-- fix: usually a boy in a church choir -->
     <e><p><l>kor<s n="n"/></l><r>chorus<s n="n"/></r></p></e>
     <e><p><l>kromosomi<s n="n"/></l><r>chromosome<s n="n"/></r></p></e>
     <e><p><l>kronika<s n="n"/></l><r>chronicle<s n="n"/></r></p></e>
     <e><p><l>kronologija<s n="n"/></l><r>chronology<s n="n"/></r></p></e>
-    <e><p><l>pravi<b/>cvrčci<s n="n"/></l><r>cicada<s n="n"/></r></p></e>
+    <e><p><l>cvrčak<s n="n"/></l><r>cicada<s n="n"/></r></p></e>
     <e><p><l>cimet<s n="n"/></l><r>cinnamon<s n="n"/></r></p></e>
     <e><p><l>obrezivanje<s n="n"/></l><r>circumcision<s n="n"/></r></p></e>
     <e><p><l>cirkus<s n="n"/></l><r>circus<s n="n"/></r></p></e>
@@ -861,20 +861,15 @@
     <e><p><l>sedam<s n="n"/></l><r>seven<s n="n"/></r></p></e>
     <e><p><l>odjeća<s n="n"/></l><r>clothing<s n="n"/></r></p></e>
     <e><p><l>klaun<s n="n"/></l><r>clown<s n="n"/></r></p></e>
-    <e><p><l>istok<s n="n"/></l><r>east<s n="n"/></r></p></e>
-    <e><p><l>obala<s n="n"/></l><r>coast<s n="n"/></r></p></e>
-    <e><p><l>zapad<s n="n"/></l><r>west<s n="n"/></r></p></e>
-    <e><p><l>obala<s n="n"/></l><r>coast<s n="n"/></r></p></e>
-    <e><p><l>sjever<s n="n"/></l><r>north<s n="n"/></r></p></e>
-    <e><p><l>obala<s n="n"/></l><r>coast<s n="n"/></r></p></e>
-    <e><p><l>jug<s n="n"/></l><r>south<s n="n"/></r></p></e>
-    <e><p><l>obala<s n="n"/></l><r>coast<s n="n"/></r></p></e>
+    <e><p><l>istočna<b/>obala<s n="n"/></l><r>east<b/>coast<s n="n"/></r></p></e>
+    <e><p><l>zapadna<b/>obala<s n="n"/></l><r>west<b/>coast<s n="n"/></r></p></e>
+    <e><p><l>sjeverna<b/>obala<s n="n"/></l><r>north<b/>coast<s n="n"/></r></p></e>
+    <e><p><l>južna<b/>obala<s n="n"/></l><r>south<b/>coast<s n="n"/></r></p></e>
     <e><p><l>koktel<s n="n"/></l><r>cocktail<s n="n"/></r></p></e>
     <e><p><l>kovanica<s n="n"/></l><r>coin<s n="n"/></r></p></e>
     <e><p><l>snošaj<s n="n"/></l><r>coitus<s n="n"/></r></p></e>
-    <e><p><l>masa<s n="n"/></l><r>mass<s n="n"/></r></p></e>
-    <e><p><l>medij<s n="n"/></l><r>medium<s n="n"/></r></p></e>
-    <e><p><l>kolokvij<b/><s n="n"/></l><r>colloquium<s n="n"/></r></p></e>
+    <e><p><l>masovni<b/>medij<s n="n"/></l><r>mass<b/>medium<s n="n"/></r></p></e>
+    <e><p><l>kolokvij<s n="n"/></l><r>colloquium<s n="n"/></r></p></e>
     <e><p><l>rostrum<s n="n"/></l><r>rostrum<s n="n"/></r></p></e>
     <e><p><l>kolonijalizam<s n="n"/></l><r>colonialism<s n="n"/></r></p></e>
 
