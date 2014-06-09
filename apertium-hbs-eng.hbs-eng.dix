@@ -80,10 +80,38 @@
    </sdefs>
 
    <section id="main" type="standard">
+   
+    <!-- Words from eng.dix missing here -->
+    
+    <e><p><l>reintegracija<s n="n"/></l><r>reintergration<s n="n"/></r></p></e>
+    <e><p><l>težina<s n="n"/></l><r>weight<b/><s n="n"/></r></p></e>
+    <e><p><l>obrada<s n="n"/></l><r>remake<s n="n"/></r></p></e><!--fix:-->
+    <e><p><l>grablje<s n="n"/></l><r>rake<s n="n"/></r></p></e>
+    <e><p><l>bajuneta<s n="n"/></l><r>pike<s n="n"/></r></p></e>
+    <e><p><l>šiljak<s n="n"/></l><r>pike<s n="n"/></r></p></e>
+    <e><p><l>štuka<s n="n"/></l><r>pike<s n="n"/></r></p></e>
+    <e><p><l>prastric<s n="n"/></l><r>great-uncle<s n="n"/></r></p></e>
+    <e><p><l>paket<s n="n"/></l><r>bundle<s n="n"/></r></p></e>
+    <e><p><l>smotuljak<s n="n"/></l><r>bundle<s n="n"/></r></p></e>
+    <e><p><l>snop<s n="n"/></l><r>bundle<s n="n"/></r></p></e>
+    <e><p><l>zavežljaj<s n="n"/></l><r>bundle<s n="n"/></r></p></e>
+    <e><p><l>podnaslov<s n="n"/></l><r>subtitle<s n="n"/></r></p></e>
+    <e><p><l>zveket<s n="n"/></l><r>rattle<s n="n"/></r></p></e>
+    <e><p><l>prozorski<b/>okvir<s n="n"/></l><r>windowpane<s n="n"/></r></p></e>
+    <e><p><l>mandarina<s n="n"/></l><r>tangerine<s n="n"/></r></p></e>
+    <e><p><l>klopka<s n="n"/></l><r>snare<s n="n"/></r></p></e>
+    <e><p><l>zamka<s n="n"/></l><r>snare<s n="n"/></r></p></e>
+    <e><p><l>skladište<s n="n"/></l><r>storehouse<s n="n"/></r></p></e>
+    <e><p><l>nesretnik<s n="n"/></l><r>unfortunate<s n="n"/></r></p></e>
+    <e><p><l>abesiv<s n="n"/></l><r>abessive<s n="n"/></r></p></e>
+    <e><p><l>ilativ<s n="n"/></l><r>illative<s n="n"/></r></p></e>
+    <e><p><l>komparativ<s n="n"/></l><r>comparative<s n="n"/></r></p></e>
+    <e><p><l>partitiv<s n="n"/></l><r>partitive<s n="n"/></r></p></e>
+    <e><p><l>deminutiv<s n="n"/></l><r>diminutive<s n="n"/></r></p></e>
 
     <!-- Words from eng.dix + Wikipedia translation -->
 
-    <e><p><l>diskordancija<s n="n"/></l><r>unconformity<s n="n"/></r></p></e>
+    <e><p><l>diskordancija</l><r>unconformity<s n="n"/></r></p></e>
     <e><p><l>tranša<s n="n"/></l><r>tranche<s n="n"/></r></p></e>
     <e><p><l>suglasnost<s n="n"/></l><r>compliance<s n="n"/></r></p></e>
     <e><p><l>sukladnost<s n="n"/></l><r>compliance<s n="n"/></r></p></e>
