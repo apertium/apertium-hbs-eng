@@ -2675,6 +2675,23 @@
     <e lm="meddle"><i>meddle</i><par n="liv/e__vblex"/></e>
     <e lm="reciprocate"><i>reciprocate</i><par n="liv/e__vblex"/></e>
     
+    <e lm="endure"><i>endur</i><par n="liv/e__vblex"/></e>
+    <e lm="hold on"><i>h</i><par n="h/old__vblex"/><p><l><b/>on</l><r><g><b/>on</g></r></p></e>
+    <e lm="withstand"><i>withst</i><par n="st/and__vblex"/></e>
+    <e lm="hold up"><i>h</i><par n="h/old__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+    <e lm="leave out"><i>le</i><par n="le/ave__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="rectify"><i>rectif</i><par n="appl/y__vblex"/></e>
+    <e lm="dwindle"><i>dwindl</i><par n="liv/e__vblex"/></e>
+    <e lm="wear out"><i>w</i><par n="sw/ear__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="outspread"><i>outspread</i><par n="read__vblex"/></e>
+    <e lm="repent"><i>repent</i><par n="accept__vblex"/></e>
+    <e lm="realize"><i>realiz</i><par n="liv/e__vblex"/></e>
+    <e lm="gaze"><i>gaz</i><par n="liv/e__vblex"/></e>
+    <e lm="regain sight"><i>regain</i><par n="accept__vblex"/><p><l><b/>sight</l><r><g><b/>sight</g></r></p></e>
+    <e lm="maneuver"><i>maneuver</i><par n="accept__vblex"/></e>
+    <e lm="get in touch"><i>g</i><par n="g/et__vblex"/><p><l><b/>in<b/>touch</l><r><g><b/>in<b/>touch</g></r></p></e>
+    <e lm="characterize"><i>characteriz</i><par n="liv/e__vblex"/></e>
+    
     <!-- coding challenge -->
   
     <e lm="Damir"><i>Damir</i><par n="Mark__np"/></e>
