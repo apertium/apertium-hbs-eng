@@ -2692,6 +2692,44 @@
     <e lm="get in touch"><i>g</i><par n="g/et__vblex"/><p><l><b/>in<b/>touch</l><r><g><b/>in<b/>touch</g></r></p></e>
     <e lm="characterize"><i>characteriz</i><par n="liv/e__vblex"/></e>
     
+    <e lm="bring down"><i>br</i><par n="br/ing__vblex__sep"/><p><l><b/>down</l><r><g><b/>down</g></r></p></e>
+    <e lm="knock down"><i>knock</i><par n="accept__vblex"/><p><l><b/>down</l><r><g><b/>down</g></r></p></e>
+    <e lm="renovate"><i>renovat</i><par n="liv/e__vblex"/></e>
+    <e lm="replenish"><i>replenish</i><par n="accept__vblex"/></e>
+    <e lm="become sick"><i>bec</i><par n="bec/ome__vblex"/><p><l><b/>sick</l><r><g><b/>sick</g></r></p></e>
+    <e lm="fall ill"><i>f</i><par n="f/all__vblex"/><p><l><b/>ill</l><r><g><b/>ill</g></r></p></e>
+    <e lm="get sick"><i>g</i><par n="g/et__vblex"/><p><l><b/>sick</l><r><g><b/>sickk</g></r></p></e>
+    <e lm="encompass"><i>encompass</i><par n="accept__vblex"/></e>
+    <e lm="engulf"><i>engulf</i><par n="accept__vblex"/></e>
+    <e lm="navigate"><i>navigat</i><par n="liv/e__vblex"/></e>
+    <e lm="side with"><i>sid</i><par n="liv/e__vblex"/><p><l><b/>with</l><r><g><b/>with</g></r></p></e>
+    <e lm="be afraid"><i></i><par n="/be__vblex"/><p><l><b/>afraid</l><r><g><b/>afraid</g></r></p></e>
+    <e lm="supersede"><i>supersed</i><par n="liv/e__vblex"/></e>
+    <e lm="deteriorate"><i>deteriorat</i><par n="liv/e__vblex"/></e>
+    <e lm="accentuate"><i>accentuat</i><par n="liv/e__vblex"/></e>
+    <e lm="emphasize"><i>emphasiz</i><par n="liv/e__vblex"/></e>
+    <e lm="go over"><i></i><par n="/go__vblex"/><p><l><b/>over</l><r><g><b/>over</g></r></p></e>
+    <e lm="scorch"><i>scorch</i><par n="accept__vblex"/></e>
+    <e lm="run away"><i>r</i><par n="r/un__vblex"/><p><l><b/>away</l><r><g><b/>away</g></r></p></e>
+    <e lm="indent"><i>indent</i><par n="accept__vblex"/></e>
+    <e lm="get out"><i>g</i><par n="g/et__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="disband"><i>disband</i><par n="accept__vblex"/></e>
+    <e lm="circumvent"><i>circumvent</i><par n="nodata__vblex"/></e>
+    <e lm="clutch"><i>clutch</i><par n="accept__vblex"/></e>
+    <e lm="wipe"><i>wip</i><par n="liv/e__vblex"/></e>
+    <e lm="nurture"><i>nurtur</i><par n="liv/e__vblex"/></e>
+    <e lm="punch"><i>punch</i><par n="accept__vblex"/></e>
+    <e lm="scoff"><i>scoff</i><par n="accept__vblex"/></e>
+    <e lm="call out"><i>call</i><par n="accept__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="inflict"><i>inflict</i><par n="accept__vblex"/></e>
+    <e lm="give in"><i>g</i><par n="g/ive__vblex"/><p><l><b/>in</l><r><g><b/>in</g></r></p></e>
+    <e lm="give out"><i>g</i><par n="g/ive__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="get up"><i>g</i><par n="g/et__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+    <e lm="assent"><i>assent</i><par n="accept__vblex"/></e>
+    <e lm="help out"><i>help</i><par n="accept__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="collide"><i>collid</i><par n="liv/e__vblex"/></e>
+    <e lm="write out"><i>wr</i><par n="wr/ite__vblex"/><p><l><b/>out</l><r><j/>out<s n="pr"/></r></p></e>
+    
     <!-- coding challenge -->
   
     <e lm="Damir"><i>Damir</i><par n="Mark__np"/></e>
