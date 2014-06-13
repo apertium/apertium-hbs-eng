@@ -4716,7 +4716,7 @@
     <e><p><l>stranica<s n="n"/><s n="f"/></l><r>website<s n="n"/></r></p></e>
     <e><p><l>stranica<s n="n"/><s n="f"/></l><r>web<s n="n"/></r></p></e>
     <e><p><l>strategija<s n="n"/><s n="f"/></l><r>strategy<s n="n"/></r></p></e>
-    <e><p><l>straža<s n="n"/><s n="f"/></l><r>cutter<s n="n"/></r></p></e><!-- fix: maybe as a ship? --->
+    <e><p><l>straža<s n="n"/><s n="f"/></l><r>cutter<s n="n"/></r></p></e><!-- fix: maybe as a ship? -->
     <e><p><l>straža<s n="n"/><s n="f"/></l><r>watch<s n="n"/></r></p></e>
     <e><p><l>straža<s n="n"/><s n="f"/></l><r>sentry<s n="n"/></r></p></e>
     <e><p><l>strpljenje<s n="n"/><s n="nt"/></l><r>patience<s n="n"/></r></p></e>
@@ -5030,7 +5030,7 @@
     <e><p><l>jetra<s n="n"/><s n="f"/></l><r>liver<s n="n"/></r></p></e>
     <e><p><l>pluće<s n="n"/><s n="nt"/></l><r>lung<s n="n"/></r></p></e>
     <e><p><l>iznutrica<s n="n"/><s n="f"/></l><r>offal<s n="n"/><s n="unc"/></r></p></e>
-    <e><p><l>utvrđivanje<s n="n"b/><s n="nt"/></l><r>finding<s n="n"/></r></p></e>
+    <e><p><l>utvrđivanje<s n="n"/><s n="nt"/></l><r>finding<s n="n"/></r></p></e>
     <e><p><l>uvjeravanje<s n="n"/><s n="nt"/></l><r>persuading<s n="n"/></r></p></e>
     <e><p><l>uvjerenost<s n="n"/><s n="f"/></l><r>confidence<s n="n"/></r></p></e>
     <e><p><l>uvođenje<s n="n"/><s n="nt"/></l><r>introduction<s n="n"/></r></p></e>
@@ -5099,8 +5099,8 @@
     <e><p><l>vinarstvo<s n="n"/><s n="nt"/></l><r>winemaking<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>vinogradarstvo<s n="n"/><s n="nt"/></l><r>viticulture<s n="n"/></r></p></e>
     <e><p><l>virus<s n="n"/><s n="mi"/></l><r>virus<s n="n"/></r></p></e>
-    <e><p><l>višak<s n="n"/><s n="mi"/></l><r>excess<s n="n"/><s n="unc"/></r>
-    <e><p><l>višak<s n="n"/><s n="mi"/></l><r>surplus<s n="n"/><s n="unc"/></r>
+    <e><p><l>višak<s n="n"/><s n="mi"/></l><r>excess<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>višak<s n="n"/><s n="mi"/></l><r>surplus<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>višak<s n="n"/><s n="mi"/></l><r>overcharging<s n="n"/><s n="unc"/></r></p></e><!--fix:-->
     <e><p><l>visina<s n="n"/><s n="f"/></l><r>altitude<s n="n"/></r></p></e>
     <e><p><l>visina<s n="n"/><s n="f"/></l><r>height<s n="n"/></r></p></e>

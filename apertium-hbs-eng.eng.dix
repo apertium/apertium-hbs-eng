@@ -2714,7 +2714,7 @@
     <e lm="indent"><i>indent</i><par n="accept__vblex"/></e>
     <e lm="get out"><i>g</i><par n="g/et__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
     <e lm="disband"><i>disband</i><par n="accept__vblex"/></e>
-    <e lm="circumvent"><i>circumvent</i><par n="nodata__vblex"/></e>
+    <e lm="circumvent"><i>circumvent</i><par n="accept__vblex"/></e>
     <e lm="clutch"><i>clutch</i><par n="accept__vblex"/></e>
     <e lm="wipe"><i>wip</i><par n="liv/e__vblex"/></e>
     <e lm="nurture"><i>nurtur</i><par n="liv/e__vblex"/></e>
