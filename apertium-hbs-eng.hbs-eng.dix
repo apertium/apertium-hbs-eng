@@ -35,6 +35,7 @@
     <sdef n="ref" c="reflexive pronoun"/>
     <sdef n="cnjcoo" c="Coordinating conjunction"/>
     <sdef n="cnjsub" c="Subrdinating conjunction"/>
+    <sdef n="cnjadv"/>
     <sdef n="tv" c="transitive"/>
     <sdef n="iv" c="intransitive"/>
     <sdef n="num" c="numeral"/>
@@ -76,10 +77,143 @@
     <sdef n="top" c=""/>
     <sdef n="pers" c=""/>
     <sdef n="itg" c=""/>
+    <sdef n="ij" c=""/>
 
    </sdefs>
 
    <section id="main" type="standard">
+   
+    <!-- midterm -->
+    
+    <e><p><l>odisati<s n="vblex"/></l><r>buzz<s n="vblex"/></r></p></e>
+    <e><p><l>uzbuđenje<s n="n"/></l><r>excitement<s n="n"/></r></p></e>
+    <e><p><l>listopad<s n="n"/></l><r>October<s n="n"/></r></p></e>
+    <e><p><l>kada<s n="cnjsub"/></l><r>when<s n="cnjsub"/></r></p></e>
+    <e><p><l>kada<s n="adv"/></l><r>when<s n="adv"/></r></p></e>
+    <e><p><l>Mihael<s n="np"/></l><r>Michael<s n="np"/></r></p></e>
+    <e><p><l>održati<s n="vblex"/></l><r>deliver<s n="vblex"/></r></p></e>
+    <e><p><l>pred<s n="pr"/></l><r>before<s n="pr"/></r></p></e>
+    <e><p><l>glavan<s n="adj"/></l><r>main<s n="adj"/></r></p></e>
+    <e><p><l>dvorana<s n="n"/></l><r>hall<s n="n"/></r></p></e>
+    <e><p><l>nalaziti<s n="vblex"/></l><r>situate<s n="vblex"/></r></p></e>
+    <e><p><l>po<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
+    <e><p><l>nazočnost<s n="n"/></l><r>attendance<s n="n"/></r></p></e>
+    <e><p><l>zasjedanje<s n="n"/></l><r>sitting<s n="n"/></r></p></e>
+    <e><p><l>balkon<s n="n"/></l><r>balcony<s n="n"/></r></p></e>
+    <e><p><l>napučiti<s n="vblex"/></l><r>brim<s n="vblex"/></r></p></e>
+    <e><p><l>monarhist<s n="n"/></l><r>monarchist<s n="n"/></r></p></e>
+    <e><p><l>čekati<s n="vblex"/></l><r>wait<s n="vblex"/></r></p></e>
+    <e><p><l>čekati<s n="vblex"/></l><r>anticipate<s n="vblex"/></r></p></e>
+    <e><p><l>kraljev<s n="adj"/></l><r>king's<s n="adj"/></r></p></e>
+    <e><p><l>posljednji<s n="adj"/></l><r>last<s n="adj"/></r></p></e>
+    <e><p><l>donijeti<s n="vblex"/></l><r>bring<s n="vblex"/></r></p></e>
+    <e><p><l>razdoblje<s n="n"/></l><r>period<s n="n"/></r></p></e>
+    <e><p><l>reći<s n="vblex"/></l><r>say<s n="vblex"/></r></p></e>
+    <e><p><l>hvaliti<s n="vblex"/></l><r>praise<s n="vblex"/></r></p></e>
+    <e><p><l>postkomunistički<s n="adj"/></l><r>post-communist<s n="adj"/></r></p></e>
+    <e><p><l>upozoriti<s n="vblex"/></l><r>warn<s n="vblex"/></r></p></e>
+    <e><p><l>kako<s n="adv"/></l><r>how<s n="adv"/></r></p></e>
+    <e><p><l>kako<s n="cnjsub"/></l><r>that<s n="cnjsub"/></r></p></e>
+    <e><p><l>dvosjekli<s n="adj"/></l><r>double-edged<s n="adj"/></r></p></e>
+    <e><p><l>jamčiti<s n="vblex"/></l><r>guarantee<s n="vblex"/></r></p></e>
+    <e><p><l>ako<s n="adv"/></l><r>if<s n="cnjadv"/></r></p></e>
+    <e><p><l>ako<s n="cnjsub"/></l><r>if<s n="cnjsub"/></r></p></e>
+    <e><p><l>provoditi<s n="vblex"/></l><r>carry<b/>out<s n="vblex"/></r></p></e>
+    <e><p><l>uz<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+    <e><p><l>uvažavanje<s n="n"/></l><r>respect<s n="n"/></r></p></e>
+    <e><p><l>međutim<s n="adv"/></l><r>however<s n="adv"/></r></p></e>
+    <e><p><l>moći<s n="vbmod"/></l><r>can<s n="vbmod"/></r></p></e>
+    <e><p><l>naštetiti<s n="vblex"/></l><r>harm<s n="vblex"/></r></p></e>
+    <e><p><l>građan<s n="n"/></l><r>citizen<s n="n"/></r></p></e>
+    <e><p><l>primjenjivati<s n="vblex"/></l><r>apply<s n="vblex"/></r></p></e>
+    <e><p><l>negiranje<s n="n"/></l><r>scorn<s n="n"/></r></p></e>
+    <e><p><l>primaran<s n="adj"/></l><r>primary<s n="adj"/></r></p></e>
+    <e><p><l>istaknuti<s n="vblex"/></l><r>underline<s n="vblex"/></r></p></e>
+    <e><p><l>vjerovati<s n="vblex"/></l><r>trust<s n="vblex"/></r></p></e>
+    <e><p><l>bez<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
+    <e><p><l>moral<s n="n"/></l><r>morals<s n="n"/></r></p></e>
+    <e><p><l>vjera<s n="n"/></l><r>faith<s n="n"/></r></p></e>
+    <e><p><l>cinizam<s n="n"/></l><r>cynicism<s n="n"/></r></p></e>
+    <e><p><l>kukavičluk<s n="n"/></l><r>cowardice<s n="n"/></r></p></e>
+    <e><p><l>trebati<s n="vbmod"/></l><r>should<s n="vbmod"/></r></p></e>
+    <e><p><l>preuzeti<s n="vblex"/></l><r>take<b/>over<s n="vblex"/></r></p></e>
+    <e><p><l>razvoj<s n="n"/></l><r>development<s n="n"/></r></p></e>
+    <e><p><l>diljem<s n="pr"/></l><r>throughout<s n="pr"/></r></p></e>
+    <e><p><l>proširenje<s n="n"/></l><r>expanding<s n="n"/></r></p></e>
+    <e><p><l>sektor<s n="n"/></l><r>sector<s n="n"/></r></p></e>
+    <e><p><l>znatno<s n="adv"/></l><r>significantly<s n="adv"/></r></p></e>
+    <e><p><l>zaostajati<s n="vblex"/></l><r>lag<s n="vblex"/></r></p></e>
+    <e><p><l>luka<s n="n"/></l><r>port<s n="n"/></r></p></e>
+    <e><p><l>zračna<b/>luka<s n="n"/></l><r>airport<s n="n"/></r></p></e>
+    <e><p><l>snaga<s n="n"/></l><r>strength<s n="n"/></r></p></e>
+    <e><p><l>neovisan<s n="adj"/></l><r>independent<s n="adj"/></r></p></e>
+    <e><p><l>učiniti<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
+    <e><p><l>prosperitetan<s n="adj"/></l><r>prosperous<s n="adj"/></r></p></e>
+    <e><p><l>cijenjen<s n="adj"/></l><r>admired<s n="adj"/></r></p></e>
+    <e><p><l>današnji<s n="adj"/></l><r>today's<s n="adj"/></r></p></e>
+    <e><p><l>već<s n="adv"/></l><r>already<s n="adv"/></r></p></e>
+    <e><p><l>već<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
+    <e><p><l>posuditi<s n="vblex"/></l><r>borrow<s n="vblex"/></r></p></e>
+    <e><p><l>dijete<s n="n"/></l><r>child<s n="n"/></r></p></e>
+    <e><p><l>zaključiti<s n="vblex"/></l><r>conclude<s n="vblex"/></r></p></e>
+    <e><p><l>povjesničar<s n="n"/></l><r>historian<s n="n"/></r></p></e>
+    <e><p><l>ocijeniti<s n="vblex"/></l><r>assess<s n="vblex"/></r></p></e>
+    <e><p><l>trenutak<s n="n"/></l><r>moment<s n="n"/></r></p></e>
+    <e><p><l>dešifrirati<s n="vblex"/></l><r>decrypt<s n="vblex"/></r></p></e>
+    <e><p><l>stajati<s n="vblex"/></l><r>stand<s n="vblex"/></r></p></e>
+    <e><p><l>značaj<s n="n"/></l><r>character<s n="n"/></r></p></e>
+    <e><p><l>izjaviti<s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
+    <e><p><l>SETimes<s n="np"/></l><r>SETimes<s n="np"/></r></p></e>
+    <e><p><l>Iulian<s n="np"/></l><r>Iulian<s n="np"/></r></p></e>
+    <e><p><l>Pruteanu<s n="np"/></l><r>Pruteanu<s n="np"/></r></p></e>
+    <e><p><l>Isacescu<s n="np"/></l><r>Isacescu<s n="np"/></r></p></e>
+    <e><p><l>o<s n="pr"/></l><r>about<s n="pr"/></r></p></e>
+    <e><p><l>o<s n="pr"/></l><r>on<s n="pr"/></r></p></e>
+    <e><p><l>niti<s n="cnjcoo"/></l><r>not<b/>even<s n="adv"/></r></p></e>
+    <e><p><l>izgovoren<s n="adj"/></l><r>uttered<s n="adj"/></r></p></e>
+    <e><p><l>slučajno<s n="adv"/></l><r>randomly<s n="adv"/></r></p></e>
+    <e><p><l>dotaknuti<s n="vblex"/></l><r>touch<s n="vblex"/></r></p></e>
+    <e><p><l>ideal<s n="n"/></l><r>ideal<s n="n"/></r></p></e>
+    <e><p><l>imaginaran<s n="adj"/></l><r>imaginary<s n="adj"/></r></p></e>
+    <e><p><l>ljubav<s n="n"/></l><r>love<s n="n"/></r></p></e>
+    <e><p><l>prema<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
+    <e><p><l>vjera<s n="n"/></l><r>faith<s n="n"/></r></p></e>
+    <e><p><l>dijeliti<s n="vblex"/></l><r>divide<s n="vblex"/></r></p></e>
+    <e><p><l>neostvaren<s n="adj"/></l><r>unaccomplished<s n="adj"/></r></p></e>
+    <e><p><l>lišiti<s n="vblex"/></l><r>devoid<s n="vblex"/></r></p></e><!--fix:-->
+    <e><p><l>sadržaj<s n="n"/></l><r>content<s n="n"/></r></p></e>
+    <e><p><l>i<b/>dalje<s n="adv"/></l><r>still<s n="adv"/></r></p></e>
+    <e><p><l>gdje<s n="adv"/></l><r>where<s n="adv"/></r></p></e>
+    <e><p><l>gdje<s n="cnjsub"/></l><r>where<s n="adv"/></r></p></e>
+    <e><p><l>ništa<s n="prn"/></l><r>nothing<s n="n"/></r></p></e>
+    <e><p><l>lako<s n="adv"/></l><r>easily<s n="adv"/></r></p></e>
+    <e><p><l>obavljati<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
+    <e><p><l>kod<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+    <e><p><l>mnogi<s n="adj"/></l><r>many<s n="adj"/></r></p></e>
+    <e><p><l>povezivati<s n="vblex"/></l><r>associate<s n="vblex"/></r></p></e>
+    <e><p><l>čvrstina<s n="n"/></l><r>rigour<s n="n"/></r></p></e>
+    <e><p><l>vladavina<s n="n"/></l><r>rule<s n="n"/></r></p></e>
+    <e><p><l>Ioan<s n="np"/></l><r>Ioan<s n="np"/></r></p></e>
+    <e><p><l>Grigore<s n="np"/></l><r>Grigore<s n="np"/></r></p></e>
+    <e><p><l>umirovljenik<s n="n"/></l><r>pensioner<s n="n"/></r></p></e>
+    <e><p><l>srušiti<s n="vblex"/></l><r>overthrow<s n="vblex"/></r></p></e>
+    <e><p><l>sjećati<s n="vblex"/></l><r>remember<s n="vblex"/></r></p></e>
+    <e><p><l>da<s n="cnjsub"/></l><r>that<s n="cnjsub"/></r></p></e>
+    <e><p><l>da<s n="part"/></l><r>yes<s n="ij"/></r></p></e>
+    <e><p><l>potpuno<s n="adv"/></l><r>entirely<s n="adv"/></r></p></e>
+    <e><p><l>drugačiji<s n="adj"/></l><r>different<s n="adj"/></r></p></e>
+    <e><p><l>živjeti<s n="vblex"/></l><r>live<s n="vblex"/></r></p></e>
+    <e><p><l>prognan<s n="adj"/></l><r>forced<b/>out<s n="adj"/></r></p></e>
+    <e><p><l>tadašnji<s n="adj"/></l><r>then<s n="adj"/></r></p></e>
+    <e><p><l>prosovjetski<s n="adj"/></l><r>pro-Soviet<s n="adj"/></r></p></e>
+    <e><p><l>Petru<s n="np"/></l><r>Petru<s n="np"/></r></p></e>
+    <e><p><l>Groza<s n="np"/></l><r>Groza<s n="np"/></r></p></e>
+    <e><p><l>natjerati<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
+    <e><p><l>Traian<s n="np"/></l><r>Traian<s n="np"/></r></p></e>
+    <e><p><l>Basescu<s n="np"/></l><r>Basescu<s n="np"/></r></p></e>
+    <e><p><l>optužiti<s n="vblex"/></l><r>accuse<s n="vblex"/></r></p></e>
+    <e><p><l>ostaviti<s n="vblex"/></l><r>leave<s n="vblex"/></r></p></e>
+    <e><p><l>komunist<s n="n"/></l><r>communist<s n="n"/></r></p></e>
    
     <!-- Nouns from eng.dix missing here -->
     
@@ -7797,7 +7931,7 @@
     <e><p><l>biti<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
     <e><p><l>igrati<s n="vblex"/><s n="iv"/></l><r>play<s n="vblex"/></r></p></e>
     <e><p><l>igrati<s n="vblex"/><s n="tv"/></l><r>dance<s n="vblex"/></r></p></e>
-    <e><p><l>imati<s n="vblex"/><s n="tv"/></l><r>have<s n="vblex"/></r></p></e>
+    <e><p><l>imati<s n="vbhaver"/><s n="tv"/></l><r>have<s n="vbhaver"/></r></p></e>
     <e><p><l>nemati<s n="vblex"/><s n="tv"/></l><r>not have<s n="vblex"/></r></p></e>
     <e><p><l>obožavati<s n="vblex"/><s n="tv"/></l><r>love<s n="vblex"/></r></p></e>
     <e><p><l>gledati<s n="vblex"/><s n="tv"/></l><r>look<s n="vblex"/></r></p></e>
