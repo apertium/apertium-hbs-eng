@@ -2644,6 +2644,37 @@
 
   <section id="main" type="standard">
   
+    <!-- midterm -->
+    
+    <e lm="buzz"><i>buzz</i><par n="accept__vblex"/></e>
+    <e lm="attendance"><i>attendance</i><par n="east__n"/></e>
+    <e lm="sitting"><i>sitting</i><par n="house__n"/></e>
+    <e lm="balcony"><i>balcon</i><par n="bab/y__n"/></e>
+    <e lm="brim"><i>brim</i><par n="program__vblex"/></e>
+    <e lm="monarchist"><i>monarchist</i><par n="house__n"/></e>
+    <e lm="king's"><i>king's</i><par n="expensive__adj"/></e>
+    <e lm="last"><i>last</i><par n="expensive__adj"/></e>
+    <e lm="post-communist"><i>post-communist</i><par n="expensive__adj"/></e>
+    <e lm="double-edged"><i>double-edged</i><par n="expensive__adj"/></e>
+    <e lm="scorn"><i>scorn</i><par n="east__n"/></e>
+    <e lm="ethics"><i>ethics</i><par n="east__n"/></e>
+    <e lm="expanding"><i>expanding</i><par n="east__n"/></e>
+    <e lm="lag"><i>lag</i><par n="plug__vblex"/></e>
+    <e lm="prosperous"><i>prosperous</i><par n="expensive__adj"/></e>
+    <e lm="admired"><i>admired</i><par n="expensive__adj"/></e>
+    <e lm="today's"><i>today's</i><par n="expensive__adj"/></e>
+    <e lm="borrow"><i>borrow</i><par n="accept__vblex"/></e>
+    <e lm="decrypt"><i>decrypt</i><par n="accept__vblex"/></e>
+    <e lm="Iulian"><i>Iulian</i><par n="Mark__np"/></e>
+    <e lm="uttered"><i>uttered</i><par n="expensive__adj"/></e>
+    <e lm="randomly"><i>randomly</i><par n="maybe__adv"/></e>
+    <e lm="unaccomplished"><i>unaccomplished</i><par n="expensive__adj"/></e>
+    <e lm="devoid"><i>devoid</i><par n="expensive__adj"/></e>
+    <e lm="overthrow"><i>overthrow</i><par n="bl/ow__vblex"/></e>
+    <e lm="validity"><i>validity</i><par n="east__n"/></e>
+    <e lm="force out"><i>forc</i><par n="liv/e__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="pro-Soviet"><i>pro-Soviet</i><par n="expensive__adj"/></e>
+    
     <!-- verbs from hbs-bidix -->
     
     <e lm="treat with sulphur"><i>treat</i><par n="accept__vblex"/><p><l><b/>with<b/>sulphur</l><r><g><b/>with<b/>sulphur</g></r></p></e>
@@ -40842,7 +40873,7 @@
     <e lm="capture"><i>captur</i><par n="liv/e__vblex"/></e>
     <e lm="care"><i>car</i><par n="liv/e__vblex"/></e>
     <e lm="caricature"><i>caricatur</i><par n="liv/e__vblex"/></e>
-    <e lm="carry out"><i>carr</i><par n="appl/y__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+<!--    <e lm="carry out"><i>carr</i><par n="appl/y__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e> -->
     <e lm="carry"><i>carr</i><par n="appl/y__vblex"/></e>
     <e lm="carry on"><i>carr</i><par n="appl/y__vblex"/><p><l><b/>on</l><r><g><b/>on</g></r></p></e>
     <e lm="carry out"><i>carr</i><par n="appl/y__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
