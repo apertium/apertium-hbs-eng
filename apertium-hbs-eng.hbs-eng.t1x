@@ -421,7 +421,7 @@
 	   </concat>
 	  </let>
 	</when>
-        <when>
+<!--        <when>
           <test>
 	    <or>
 	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="f"/></equal>
@@ -441,7 +441,7 @@
 	  <clip pos="1" side="tl" part="lemq"/>
 	   </concat>
 	  </let>
-	</when>
+	</when> -->
         <when> <!-- personal pronouns, m/f/n to mf in "oni/one/ona" -->
           <test>
 	   <and>
@@ -1181,7 +1181,7 @@
     </rule>
     
     <!-- nalaziti se --><!-- fix: this shouldn't apply to everything -->
-    <rule comment="clt_vb">
+    <rule comment="vb_clt">
       <pattern>
 	<pattern-item n="vb"/>
 	<pattern-item n="clitic"/>
@@ -1195,6 +1195,72 @@
             </tags>
             <lu>
 	      <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <!-- Rumunjska se puno razvila -->
+    <rule comment="nom_clt_adv_vb">
+      <pattern>
+	<pattern-item n="nom"/>
+	<pattern-item n="clitic"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="vb"/>
+      </pattern>      
+      <action>
+	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="adv_adapter"><with-param pos="3"/></call-macro>
+	<call-macro n="vb_adapter"><with-param pos="4"/></call-macro>
+        <out>
+          <chunk name="nom_clt_adv_vb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	    <b pos="1"/>
+	        <lu>
+	      <clip pos="3" side="tl" part="whole"/>
+	        </lu>
+	    <b pos="2"/>
+            <lu>
+	      <clip pos="4" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <!-- Rumunjska se puno razvila --><!-- fix: temporary, just because it thinks 'Rumunjska' is an adjective -->
+    <rule comment="adj_clt_adv_vb">
+      <pattern>
+	<pattern-item n="adj"/>
+	<pattern-item n="clitic"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="vb"/>
+      </pattern>      
+      <action>
+	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="adv_adapter"><with-param pos="3"/></call-macro>
+	<call-macro n="vb_adapter"><with-param pos="4"/></call-macro>
+        <out>
+          <chunk name="nom_clt_adv_vb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	    <b pos="1"/>
+	        <lu>
+	      <clip pos="3" side="tl" part="whole"/>
+	        </lu>
+	    <b pos="2"/>
+            <lu>
+	      <clip pos="4" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
