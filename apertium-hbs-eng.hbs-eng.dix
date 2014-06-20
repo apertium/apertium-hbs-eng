@@ -8025,7 +8025,23 @@
     <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
     <e><re>[.\?;:!"…]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+    
+    <!--SECTION: Roman numerals-->
+    <e><p><l>I<s n="num"/></l><r>I<s n="num"/></r></p></e>
+    <e><p><l>II<s n="num"/></l><r>II<s n="num"/></r></p></e>
+    <e><p><l>III<s n="num"/></l><r>III<s n="num"/></r></p></e>
+    <e><p><l>VII<s n="num"/></l><r>VII<s n="num"/></r></p></e>
+    <e><p><l>VIII<s n="num"/></l><r>VIII<s n="num"/></r></p></e>
+    <e><p><l>IX<s n="num"/></l><r>IX<s n="num"/></r></p></e>
+    <e><p><l>XX<s n="num"/></l><r>XX<s n="num"/></r></p></e>
 
+    <e><p><l>i<s n="num"/></l><r>i<s n="num"/></r></p></e>
+    <e><p><l>ii<s n="num"/></l><r>ii<s n="num"/></r></p></e>
+    <e><p><l>iii<s n="num"/></l><r>iii<s n="num"/></r></p></e>
+    <e><p><l>vii<s n="num"/></l><r>vii<s n="num"/></r></p></e>
+    <e><p><l>viii<s n="num"/></l><r>viii<s n="num"/></r></p></e>
+    <e><p><l>ix<s n="num"/></l><r>ix<s n="num"/></r></p></e>
+    <e><p><l>xx<s n="num"/></l><r>xx<s n="num"/></r></p></e>
 
     </section>
 

@@ -129,6 +129,10 @@
     <pardef n="cometa">
       <e>        <par n="aposchar"/>       <p>        <l></l>        <r><s n="apos"/></r></p></e>
     </pardef>
+
+    <pardef n="numeros_romanos">
+      <e><p><l/><r><s n="num"/></r></p></e>
+    </pardef>
     
     <pardef n="months">
       <e><p><l>January</l><r>January</r></p></e>
@@ -204,6 +208,24 @@
       <e><re>[0-9]+</re><p><l>s</l><r>s<s n="n"/><s n="pl"/></r></p></e>
       <e><re>[0-9]+</re><p><l>s</l><r>s<s n="num"/><s n="pl"/></r></p></e>
       <e><re>[0-9]+</re><p><l><b/>years</l> <r><b/>years<s n="num"/></r></p></e>
+
+      <!--Roman numerals--><!--TODO: all of 'em, this is just to cover up to ten-->
+      
+      <e><i>i</i><par n="numeros_romanos"/></e>
+      <e><i>ii</i><par n="numeros_romanos"/></e>
+      <e><i>iii</i><par n="numeros_romanos"/></e>
+      <e><i>vii</i><par n="numeros_romanos"/></e>
+      <e><i>viii</i><par n="numeros_romanos"/></e>
+      <e><i>ix</i><par n="numeros_romanos"/></e>
+      <e><i>xx</i><par n="numeros_romanos"/></e>
+
+      <e><i>I</i><par n="numeros_romanos"/></e>
+      <e><i>II</i><par n="numeros_romanos"/></e>
+      <e><i>III</i><par n="numeros_romanos"/></e>
+      <e><i>VII</i><par n="numeros_romanos"/></e>
+      <e><i>VII</i><par n="numeros_romanos"/></e>
+      <e><i>IX</i><par n="numeros_romanos"/></e>
+      <e><i>XX</i><par n="numeros_romanos"/></e>
 
     </pardef>
     
