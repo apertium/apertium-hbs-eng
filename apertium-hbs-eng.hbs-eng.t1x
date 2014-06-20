@@ -1179,6 +1179,27 @@
         </out>
       </action>
     </rule>
+    
+    <!-- nalaziti se --><!-- fix: this shouldn't apply to everything -->
+    <rule comment="clt_vb">
+      <pattern>
+	<pattern-item n="vb"/>
+	<pattern-item n="clitic"/>
+      </pattern>      
+      <action>
+	<call-macro n="vb_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="vb_clt" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
    <!-- od početka djelovanja -->
    <rule comment="pr_nom_nom">
