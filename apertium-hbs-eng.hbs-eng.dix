@@ -153,6 +153,7 @@
     <e><p><l>današnji<s n="adj"/></l><r>today's<s n="adj"/></r></p></e>
     <e><p><l>već<s n="adv"/></l><r>already<s n="adv"/></r></p></e>
     <e><p><l>već<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
+    <e><p><l>već<b/>i<s n="cnjcoo"/></l><r>but<b/>also<s n="cnjcoo"/></r></p></e>
     <e><p><l>posuditi<s n="vblex"/></l><r>borrow<s n="vblex"/></r></p></e>
     <e><p><l>dijete<s n="n"/></l><r>child<s n="n"/></r></p></e>
     <e><p><l>zaključiti<s n="vblex"/></l><r>conclude<s n="vblex"/></r></p></e>
@@ -214,6 +215,8 @@
     <e><p><l>optužiti<s n="vblex"/></l><r>accuse<s n="vblex"/></r></p></e>
     <e><p><l>ostaviti<s n="vblex"/></l><r>leave<s n="vblex"/></r></p></e>
     <e><p><l>komunist<s n="n"/></l><r>communist<s n="n"/></r></p></e>
+    
+    <e><p><l>morati<s n="vbmod"/></l><r>must<s n="vbmod"/></r></p></e>
    
     <!-- Nouns from eng.dix missing here -->
     
