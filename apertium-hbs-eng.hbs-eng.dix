@@ -10,6 +10,7 @@
     <sdef n="vblex"  c="verb"/>
     <sdef n="vbser"  c="verb 'to be'"/>
     <sdef n="det"  c="Determiner"/>
+    <sdef n="dem"/>
     <sdef n="rel"  c="Relative"/>
     <sdef n="sp"  c="Singular/plural"/>
     <sdef n="an"  c="Animate/inanimate"/>
@@ -18,6 +19,7 @@
     <sdef n="unc"/>
     <sdef n="acr"/>
     <sdef n="comp"/>
+    <sdef n="imperf"/>
     <sdef n="adj" c="adjective"/>
     <sdef n="m"	 c="masculine"/>
     <sdef n="ant"  c="person name"/>
@@ -107,6 +109,8 @@
     <e><p><l>kraljev<s n="adj"/></l><r>king's<s n="adj"/></r></p></e>
     <e><p><l>posljednji<s n="adj"/></l><r>last<s n="adj"/></r></p></e>
     <e><p><l>donijeti<s n="vblex"/></l><r>bring<s n="vblex"/></r></p></e>
+    <e><p><l>puno<s n="adv"/></l><r>much<s n="adv"/></r></p></e>
+    <e><p><l>taj<s n="prn"/></l><r>that<s n="prn"/></r></p></e>
     <e><p><l>razdoblje<s n="n"/></l><r>period<s n="n"/></r></p></e>
     <e><p><l>reći<s n="vblex"/></l><r>say<s n="vblex"/></r></p></e>
     <e><p><l>hvaliti<s n="vblex"/></l><r>praise<s n="vblex"/></r></p></e>
@@ -171,6 +175,7 @@
     <e><p><l>o<s n="pr"/></l><r>about<s n="pr"/></r></p></e>
     <e><p><l>o<s n="pr"/></l><r>on<s n="pr"/></r></p></e>
     <e><p><l>niti<s n="cnjcoo"/></l><r>not<b/>even<s n="adv"/></r></p></e>
+    <e><p><l>nit<s n="n"/></l><r>thread<s n="n"/></r></p></e>
     <e><p><l>izgovoren<s n="adj"/></l><r>uttered<s n="adj"/></r></p></e>
     <e><p><l>slučajno<s n="adv"/></l><r>randomly<s n="adv"/></r></p></e>
     <e><p><l>dotaknuti<s n="vblex"/></l><r>touch<s n="vblex"/></r></p></e>
@@ -202,14 +207,17 @@
     <e><p><l>da<s n="cnjsub"/></l><r>that<s n="cnjsub"/></r></p></e>
     <e><p><l>da<s n="part"/></l><r>yes<s n="ij"/></r></p></e>
     <e><p><l>potpuno<s n="adv"/></l><r>entirely<s n="adv"/></r></p></e>
+    <e><p><l>potpun<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
     <e><p><l>drugačiji<s n="adj"/></l><r>different<s n="adj"/></r></p></e>
     <e><p><l>živjeti<s n="vblex"/></l><r>live<s n="vblex"/></r></p></e>
+    <e><p><l>ovaj<s n="prn"/><s n="dem"/></l><r>this<s n="prn"/></r></p></e>
     <e><p><l>prognati<s n="vblex"/></l><r>force<b/>out<s n="vblex"/></r></p></e>
     <e><p><l>tadašnji<s n="adj"/></l><r>then<s n="adj"/></r></p></e>
     <e><p><l>prosovjetski<s n="adj"/></l><r>pro-Soviet<s n="adj"/></r></p></e>
     <e><p><l>Petru<s n="np"/></l><r>Petru<s n="np"/></r></p></e>
     <e><p><l>Groza<s n="np"/></l><r>Groza<s n="np"/></r></p></e>
     <e><p><l>natjerati<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
+    <e><p><l>ove<b/>godine<s n="adv"/></l><r>this<b/>year<s n="adv"/></r></p></e>
     <e><p><l>Traian<s n="np"/></l><r>Traian<s n="np"/></r></p></e>
     <e><p><l>Basescu<s n="np"/></l><r>Basescu<s n="np"/></r></p></e>
     <e><p><l>optužiti<s n="vblex"/></l><r>accuse<s n="vblex"/></r></p></e>
@@ -7934,7 +7942,7 @@
     <e><p><l>biti<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
     <e><p><l>igrati<s n="vblex"/><s n="iv"/></l><r>play<s n="vblex"/></r></p></e>
     <e><p><l>igrati<s n="vblex"/><s n="tv"/></l><r>dance<s n="vblex"/></r></p></e>
-    <e><p><l>imati<s n="vbhaver"/><s n="tv"/></l><r>have<s n="vbhaver"/></r></p></e>
+    <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></l><r>have<s n="vbhaver"/></r></p></e>
     <e><p><l>nemati<s n="vblex"/><s n="tv"/></l><r>not have<s n="vblex"/></r></p></e>
     <e><p><l>obožavati<s n="vblex"/><s n="tv"/></l><r>love<s n="vblex"/></r></p></e>
     <e><p><l>gledati<s n="vblex"/><s n="tv"/></l><r>look<s n="vblex"/></r></p></e>

@@ -2671,6 +2671,8 @@
     <e lm="randomly"><i>randomly</i><par n="maybe__adv"/></e>
     <e lm="unaccomplished"><i>unaccomplished</i><par n="expensive__adj"/></e>
     <e lm="devoid"><i>devoid</i><par n="expensive__adj"/></e>
+    <e lm="Ioan"><i>Ioan</i><par n="Mark__np"/></e>
+	<e lm="Grigore"><i>Grigore</i><par n="Smith__np"/></e>
     <e lm="overthrow"><i>overthrow</i><par n="bl/ow__vblex"/></e>
     <e lm="validity"><i>validity</i><par n="east__n"/></e>
     <e lm="force out"><i>forc</i><par n="liv/e__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
