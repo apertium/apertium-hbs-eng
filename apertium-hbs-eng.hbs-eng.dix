@@ -225,6 +225,7 @@
     <e><p><l>komunist<s n="n"/></l><r>communist<s n="n"/></r></p></e>
     
     <e><p><l>morati<s n="vbmod"/></l><r>must<s n="vbmod"/></r></p></e>
+    <e><re>[0-9]+</re><p><l><b/>godina</l><r><b/>years<s n="num"/></r></p></e>
    
     <!-- Nouns from eng.dix missing here -->
     
@@ -7569,6 +7570,7 @@
     <e><p><l>kasnije<s n="adv"/></l><r>later<s n="adv"/></r></p></e>
     <e><p><l>koji<s n="cnjsub"/></l><r>who<s n="prn"/><s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>  <!-- ? -->
     <e><p><l>koji<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>koji<s n="prn"/><s n="rel"/></l><r>which<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>kompilacija<s n="n"/></l><r>compilation<s n="n"/></r></p></e>
     <e><p><l>konac<s n="n"/></l><r>end<s n="n"/></r></p></e>
     <e><p><l>koncert<s n="n"/></l><r>concert<s n="n"/></r></p></e>

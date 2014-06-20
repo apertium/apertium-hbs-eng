@@ -203,6 +203,7 @@
 
       <e><re>[0-9]+</re><p><l>s</l><r>s<s n="n"/><s n="pl"/></r></p></e>
       <e><re>[0-9]+</re><p><l>s</l><r>s<s n="num"/><s n="pl"/></r></p></e>
+      <e><re>[0-9]+</re><p><l><b/>years</l> <r><b/>years<s n="num"/></r></p></e>
 
     </pardef>
     
