@@ -116,6 +116,14 @@
       <cat-item lemma="clitic" tags="prn.*"/>
     </def-cat>
 
+    <def-cat n="ne">
+      <cat-item lemma="ne" tags="part.neg"/>
+    </def-cat>
+
+    <def-cat n="ništa">
+      <cat-item lemma="ništa" tags="prn.neg.*"/>
+    </def-cat>
+
     <def-cat n="visok">
       <cat-item lemma="visok" tags="adj.*"/>
     </def-cat>
@@ -1820,6 +1828,53 @@
             <lu>
               <lit v="also"/>
               <lit-tag v="adv"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- gdje se ništa lako ne obavlja -->
+    <rule comment="conj_clt_ništa_adv_ne_vb">
+      <pattern>
+	<pattern-item n="conj"/>
+	<pattern-item n="clitic"/>
+	<pattern-item n="ništa"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="ne"/>
+	<pattern-item n="vb"/>
+      </pattern>      
+      <action>
+	<call-macro n="adv_adapter"><with-param pos="4"/></call-macro>
+	<call-macro n="vb_adapter"><with-param pos="6"/></call-macro>
+	<out>
+          <chunk name="conj_clt_ništa_adj_ne_vb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="RRelCl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	      <b pos="1"/>
+            <lu>
+              <lit v="nothing"/>
+              <lit-tag v="prn.ind.mf.sg"/>
+            </lu>
+	      <b/>
+            <lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <clip pos="6" side="tl" part="tns"/>
+              <clip pos="6" side="tl" part="prs"/>
+              <clip pos="6" side="tl" part="nbr"/>
+            </lu>
+	      <b/>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/>
+            </lu>
+	      <b pos="2"/>
+            <lu>
+              <clip pos="6" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
