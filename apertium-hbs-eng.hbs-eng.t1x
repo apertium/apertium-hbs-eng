@@ -27,6 +27,7 @@
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbhaver.*"/>
       <cat-item tags="vbmod.*"/>
+      <cat-item tags="vaux.*"/>
     </def-cat>
 
     <def-cat n="adj">
@@ -221,6 +222,7 @@
       <attr-item tags="vbhaver"/>
       <attr-item tags="vbser"/>
       <attr-item tags="vbmod"/>
+      <attr-item tags="vaux"/>
     </def-attr>
 
     <def-attr n="a_typ">
@@ -237,6 +239,11 @@
       <attr-item tags="ger"/>
       <attr-item tags="pprs"/>
       <attr-item tags="subs"/>
+    </def-attr>
+    
+    <def-attr n="trns">
+      <attr-item tags="tv"/>
+      <attr-item tags="iv"/>
     </def-attr>
 
     <def-attr n="a_adj">
@@ -533,6 +540,26 @@
     <!-- Adapter for verbs -->
     <def-macro n="vb_adapter" npar="1">
       <choose>
+    <when> <!-- pp -->
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vblex"/></equal>
+	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="perf"/></equal>
+	      <equal><clip pos="1" side="sl" part="trns"/><lit-tag v="tv"/></equal>
+	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pp"/></equal>
+	    </and>	    
+	  </test>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pp"/></let>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>
         <when> <!-- perf to past -->
 	  <test>
 	   <or>
@@ -558,8 +585,8 @@
 	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
 	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
 	      <or>
-		<equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
-		<equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>		
+		  <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
+		  <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>		
 	      </or>
 	    </and>	    
 	  </test>
@@ -570,7 +597,7 @@
 	      <clip pos="1" side="tl" part="a_vb"/>
 	      <clip pos="1" side="tl" part="tns"/>
 	      <clip pos="1" side="tl" part="prs"/>
-      	      <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="nbr"/>
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </concat>
 	  </let>
@@ -581,7 +608,7 @@
 	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vblex"/></equal>
 	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pres"/></equal>
 	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
-		<equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>		
+	   	  <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>		
 	    </and>	    
 	  </test>
 	  <let>
@@ -591,7 +618,7 @@
 	      <clip pos="1" side="tl" part="a_vb"/>
 	      <clip pos="1" side="tl" part="tns"/>
 	      <clip pos="1" side="tl" part="prs"/>
-      	      <clip pos="1" side="tl" part="nbr"/>
+      	  <clip pos="1" side="tl" part="nbr"/>
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </concat>
 	  </let>
@@ -1202,6 +1229,27 @@
       </action>
     </rule>
     
+    <!-- se primjenjuje --><!-- fix: this shouldn't apply to everything -->
+    <rule comment="clt_vb">
+      <pattern>
+	<pattern-item n="clitic"/>
+	<pattern-item n="vb"/>
+      </pattern>      
+      <action>
+	<call-macro n="vb_adapter"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="clt_vb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
     <!-- Rumunjska se puno razvila -->
     <rule comment="nom_clt_adv_vb">
       <pattern>
@@ -1269,10 +1317,10 @@
     </rule>
 
    <!-- od početka djelovanja -->
-   <rule comment="pr_nom_nom">
+   <rule comment="pr_n_nom">
       <pattern>
 	<pattern-item n="pr"/>
-	<pattern-item n="nom"/>
+	<pattern-item n="n"/>
 	<pattern-item n="nom"/>
       </pattern>      
       <action>
@@ -1290,7 +1338,7 @@
 	  </otherwise>
 	</choose>
         <out>
-          <chunk name="pr_nom_nom" case="caseFirstWord">
+          <chunk name="pr_n_nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="PP"/></tag>
             </tags>
