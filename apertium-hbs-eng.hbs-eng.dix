@@ -7661,7 +7661,8 @@
     <e><p><l>stilski<s n="adj"/></l><r>stylistic<s n="adj"/></r></p></e>
     <e><p><l>strukturni<s n="adj"/></l><r>structural<s n="adj"/></r></p></e>
     <e><p><l>svjestan<s n="adj"/></l><r>aware<s n="adj"/></r></p></e>
-    <e><p><l>svoj<s n="ref"/></l><r>their<s n="prn"/></r></p></e>
+    <e><p><l>svoj<s n="ref"/></l><r>their<s n="det"/></r></p></e>
+    <e><p><l>njihov<s n="prn"/></l><r>their<s n="det"/></r></p></e>
     <e><p><l>širiti<s n="vblex"/></l><r>expand<s n="vblex"/></r></p></e>
     <e><p><l>te<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>  
     <e><p><l>tekst<s n="n"/></l><r>lyrics<s n="n"/></r></p></e>
@@ -7990,7 +7991,7 @@
     <e><p><l>njegov<s n="prn"/><s n="pos"/></l><r>his<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>her<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>njen<s n="prn"/><s n="pos"/></l><r>her<s n="prn"/><s n="pos"/></r></p></e>
-    <e><p><l>njihov<s n="prn"/><s n="pos"/></l><r>their<s n="prn"/><s n="pos"/></r></p></e>
+<!--    <e><p><l>njihov<s n="prn"/><s n="pos"/></l><r>their<s n="prn"/><s n="pos"/></r></p></e> fix: temporary -->
     <e><p><l>naš<s n="prn"/><s n="pos"/></l><r>our<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>vaš<s n="prn"/><s n="pos"/></l><r>your<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>moj<s n="prn"/><s n="pos"/></l><r>my<s n="prn"/><s n="pos"/></r></p></e>

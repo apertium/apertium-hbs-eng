@@ -55,6 +55,11 @@
       <cat-item tags="cnjsub.*"/>
     </def-cat>
 
+    <def-cat n="det">
+      <cat-item tags="det"/>
+      <cat-item tags="det.*"/>
+    </def-cat>
+
     <def-cat n="num">
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
@@ -217,6 +222,11 @@
       <attr-item tags="prn.obj"/>
     </def-attr>
 
+    <def-attr n="a_det">
+      <attr-item tags="det"/>
+      <attr-item tags="det.pos"/>
+  </def-attr>
+
     <def-attr n="a_vb">
       <attr-item tags="vblex"/>
       <attr-item tags="vbhaver"/>
@@ -374,6 +384,21 @@
 	  <clip pos="1" side="tl" part="lemh"/>
 	  <clip pos="1" side="tl" part="a_prn"/>
 	  <clip pos="1" side="tl" part="gndr"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	   </concat>
+	  </let>
+	</when>
+    <when>
+      <test>
+	    <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.pos"/></equal>
+	  </test>
+	  <let><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.pos"/></let>
+	  <let>
+	   <clip pos="1" side="tl" part="whole"/>
+	   <concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_det"/>
 	  <clip pos="1" side="tl" part="nbr"/>
 	  <clip pos="1" side="tl" part="lemq"/>
 	   </concat>
