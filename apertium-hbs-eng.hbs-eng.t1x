@@ -268,6 +268,7 @@
       <attr-item tags="cog"/>
       <attr-item tags="top"/>
       <attr-item tags="al"/>
+      <attr-item tags="org"/>
     </def-attr>
 
     <def-attr n="def">
@@ -421,27 +422,6 @@
 	   </concat>
 	  </let>
 	</when>
-<!--        <when>
-          <test>
-	    <or>
-	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="f"/></equal>
-	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="ma"/></equal>
-	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="mi"/></equal>
-	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="nt"/></equal>
-	    </or>
-	  </test>
-	  <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
-	  <let>
-	   <clip pos="1" side="tl" part="whole"/>
-	   <concat>
-	  <clip pos="1" side="tl" part="lemh"/>
-	  <clip pos="1" side="tl" part="a_prn"/>
-	  <clip pos="1" side="tl" part="gndr"/>
-	  <clip pos="1" side="tl" part="nbr"/>
-	  <clip pos="1" side="tl" part="lemq"/>
-	   </concat>
-	  </let>
-	</when> -->
         <when> <!-- personal pronouns, m/f/n to mf in "oni/one/ona" -->
           <test>
 	   <and>
@@ -508,6 +488,27 @@
 	  <clip pos="1" side="tl" part="lemh"/>
 	  <clip pos="1" side="tl" part="a_prn"/>
 	  <clip pos="1" side="tl" part="prs"/>
+	  <clip pos="1" side="tl" part="gndr"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	   </concat>
+	  </let>
+	</when>
+        <when>
+          <test>
+	    <or>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="f"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="ma"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="mi"/></equal>
+	    <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="nt"/></equal>
+	    </or>
+	  </test>
+	  <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
+	  <let>
+	   <clip pos="1" side="tl" part="whole"/>
+	   <concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_prn"/>
 	  <clip pos="1" side="tl" part="gndr"/>
 	  <clip pos="1" side="tl" part="nbr"/>
 	  <clip pos="1" side="tl" part="lemq"/>
