@@ -140,7 +140,7 @@
     <e><p><l>vjera<s n="n"/></l><r>faith<s n="n"/></r></p></e>
     <e><p><l>cinizam<s n="n"/></l><r>cynicism<s n="n"/></r></p></e>
     <e><p><l>kukavičluk<s n="n"/></l><r>cowardice<s n="n"/></r></p></e>
-    <e><p><l>trebati<s n="vbmod"/></l><r>should<s n="vbmod"/></r></p></e>
+    <e><p><l>trebati<s n="vbmod"/></l><r>should<s n="vaux"/></r></p></e>
     <e><p><l>preuzeti<s n="vblex"/></l><r>take<g><b/>over</g><s n="vblex"/></r></p></e>
     <e><p><l>razvoj<s n="n"/></l><r>development<s n="n"/></r></p></e>
     <e><p><l>diljem<s n="pr"/></l><r>throughout<s n="pr"/></r></p></e>
@@ -225,7 +225,7 @@
     <e><p><l>ostaviti<s n="vblex"/></l><r>leave<s n="vblex"/></r></p></e>
     <e><p><l>komunist<s n="n"/></l><r>communist<s n="n"/></r></p></e>
     
-    <e><p><l>morati<s n="vbmod"/></l><r>must<s n="vbmod"/></r></p></e>
+    <e><p><l>morati<s n="vbmod"/></l><r>must<s n="vaux"/></r></p></e>
     <e><re>[0-9]+</re><p><l><b/>godina</l><r><b/>years<s n="num"/></r></p></e>
    
     <!-- Nouns from eng.dix missing here -->
@@ -7663,6 +7663,8 @@
     <e><p><l>svjestan<s n="adj"/></l><r>aware<s n="adj"/></r></p></e>
     <e><p><l>svoj<s n="ref"/></l><r>their<s n="det"/></r></p></e>
     <e><p><l>njihov<s n="prn"/></l><r>their<s n="det"/></r></p></e>
+    <e><p><l>naš<s n="prn"/></l><r>our<s n="det"/></r></p></e>
+    <e><p><l>njegov<s n="prn"/></l><r>his<s n="det"/></r></p></e>
     <e><p><l>širiti<s n="vblex"/></l><r>expand<s n="vblex"/></r></p></e>
     <e><p><l>te<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>  
     <e><p><l>tekst<s n="n"/></l><r>lyrics<s n="n"/></r></p></e>
@@ -7988,11 +7990,11 @@
 
     <!-- POSSESSIVE ADJECTIVES -->
 
-    <e><p><l>njegov<s n="prn"/><s n="pos"/></l><r>his<s n="prn"/><s n="pos"/></r></p></e>
+<!--    <e><p><l>njegov<s n="prn"/><s n="pos"/></l><r>his<s n="prn"/><s n="pos"/></r></p></e> -->
     <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>her<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>njen<s n="prn"/><s n="pos"/></l><r>her<s n="prn"/><s n="pos"/></r></p></e>
 <!--    <e><p><l>njihov<s n="prn"/><s n="pos"/></l><r>their<s n="prn"/><s n="pos"/></r></p></e> fix: temporary -->
-    <e><p><l>naš<s n="prn"/><s n="pos"/></l><r>our<s n="prn"/><s n="pos"/></r></p></e>
+<!--    <e><p><l>naš<s n="prn"/><s n="pos"/></l><r>our<s n="prn"/><s n="pos"/></r></p></e> fix: temporary -->
     <e><p><l>vaš<s n="prn"/><s n="pos"/></l><r>your<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>moj<s n="prn"/><s n="pos"/></l><r>my<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>tvoj<s n="prn"/><s n="pos"/></l><r>your<s n="prn"/><s n="pos"/></r></p></e>
