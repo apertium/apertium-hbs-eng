@@ -1015,6 +1015,35 @@
       </action>
     </rule>
 
+    <!-- 25. listopada -->
+    <rule comment="date">
+      <pattern>
+	<pattern-item n="numord"/>
+	<pattern-item n="nom"/>
+      </pattern>      
+      <action>
+	<call-macro n="num_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num"/></let>
+        <out>
+          <chunk name="date" case="variableCase">
+            <tags>
+              <tag><lit-tag v="date"/></tag>
+            </tags>
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
+          <lit-tag v="n.sg"/>
+	    </lu>
+        <b pos="1"/>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+          <lit-tag v="ord.sg"/>
+        </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <!-- 26. veljače 2001. godine -->
     <rule comment="date_year">
       <pattern>
