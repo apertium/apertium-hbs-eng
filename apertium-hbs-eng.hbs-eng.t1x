@@ -141,6 +141,10 @@
       <cat-item lemma="htjeti" tags="vbmod.*"/>
     </def-cat>
 
+    <def-cat n="moći">
+      <cat-item lemma="moći" tags="vbmod.*"/>
+    </def-cat>
+
     <def-cat n="nom_gen">
       <cat-item tags="n.*.*.gen"/>
     </def-cat>
@@ -1904,6 +1908,32 @@
 	      <b pos="2"/>
             <lu>
               <clip pos="6" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- ne može -->
+    <rule comment="neg-vaux">
+      <pattern>
+	<pattern-item n="ne"/>
+	<pattern-item n="moći"/>
+      </pattern>      
+      <action>
+	<call-macro n="vb_adapter"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="neg-vaux" case="variableCase">
+            <tags>
+              <tag><lit-tag v="neg-vaux"/></tag>
+            </tags>
+            <lu>
+              <lit v="can"/>
+              <lit-tag v="vaux.pres"/>
+            </lu>
+            <lu>
+              <lit v="not"/>
+              <lit-tag v="adv"/>
             </lu>
           </chunk>
         </out>

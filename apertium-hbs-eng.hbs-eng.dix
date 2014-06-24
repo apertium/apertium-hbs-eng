@@ -2422,8 +2422,8 @@
     <e><p><l>gotovanstvo<s n="n"/><s n="nt"/></l><r>parasitism<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>govedarstvo<s n="n"/><s n="nt"/></l><r>pasturage<s n="n"/></r></p></e>
     <e><p><l>govor<s n="n"/><s n="mi"/></l><r>speech<s n="n"/></r></p></e>
-<!--    <e><p><l>govor<s n="n"/><s n="mi"/></l><r>accent<s n="n"/></r></p></e>  -->
-    <e><p><l>govor<s n="n"/><s n="mi"/></l><r>pronunciation<s n="n"/></r></p></e>
+    <e r="RL"><p><l>govor<s n="n"/><s n="mi"/></l><r>accent<s n="n"/></r></p></e>
+    <e><p><l>izgovor<s n="n"/><s n="mi"/></l><r>pronunciation<s n="n"/></r></p></e>
     <e><p><l>građanin<s n="n"/><s n="ma"/></l><r>citizen<s n="n"/></r></p></e>
     <e><p><l>građanstvo<s n="n"/><s n="nt"/></l><r>citizenship<s n="n"/></r></p></e>
     <e><p><l>građenje<s n="n"/><s n="nt"/></l><r>building<s n="n"/></r></p></e>
@@ -7676,6 +7676,7 @@
     <e><p><l>točan<s n="adj"/></l><r>right<s n="adj"/></r></p></e>
     <e><p><l>trademark<s n="n"/></l><r>trademark<s n="n"/></r></p></e>
     <e><p><l>u<s n="pr"/></l><r>in<s n="pr"/></r></p></e>  
+    <e><p><l>u<s n="pr"/></l><r>on<s n="pr"/></r></p></e>  
     <e><p><l>u<b/>to<b/>vrijeme<s n="adv"/></l><r>around<b/>that<b/>time<s n="adv"/></r></p></e>  
     <e><p><l>ulica<s n="n"/></l><r>street<s n="n"/></r></p></e>
     <e><p><l>umjetnik<s n="n"/></l><r>artist<s n="n"/></r></p></e>

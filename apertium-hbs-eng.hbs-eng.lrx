@@ -23,4 +23,28 @@
 	  <match tags="n.*.*.gen"/>	
   </rule>
 
+<!--  <rule>
+	  <match lemma="održati" tags="vblex.*"/>
+      <match/>
+      <match/>
+	  <match lemma="govor" tags="n.*">
+	    <select lemma="speech" tags="n.*"/>
+	  </match>
+  </rule> -->
+
+  <rule>
+	  <match lemma="u" tags="*">
+	    <select lemma="on" tags="*"/>
+	  </match>
+       <or>
+	    <match lemma="ponedjeljak" tags="n.*"/>
+	    <match lemma="utorak" tags="n.*"/>
+	    <match lemma="srijeda" tags="n.*"/>
+	    <match lemma="četvrtak" tags="n.*"/>
+	    <match lemma="petak" tags="n.*"/>
+	    <match lemma="subota" tags="n.*"/>
+	    <match lemma="nedjelja" tags="n.*"/>
+       </or>
+  </rule>
+
 </rules>
