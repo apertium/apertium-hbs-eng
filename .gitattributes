@@ -28,6 +28,7 @@ dev/apertium-sh-en.sh-en.t1x -text
 /hbs-eng.prob -text svneol=unset#unset
 /modes.xml -text
 texts/eval-translator.txt -text
+texts/midterm1.eng.txt -text
 texts/midterm1.hbs-eng.txt -text
 texts/midterm1.hbs.txt -text
 texts/midterm2.hbs.txt -text

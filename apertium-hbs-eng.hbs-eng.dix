@@ -2421,9 +2421,9 @@
     <e><p><l>gotovan<s n="n"/><s n="ma"/></l><r>parasite<s n="n"/></r></p></e>
     <e><p><l>gotovanstvo<s n="n"/><s n="nt"/></l><r>parasitism<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>govedarstvo<s n="n"/><s n="nt"/></l><r>pasturage<s n="n"/></r></p></e>
-    <e><p><l>govor<s n="n"/><s n="mi"/></l><r>accent<s n="n"/></r></p></e>
-    <e><p><l>govor<s n="n"/><s n="mi"/></l><r>pronunciation<s n="n"/></r></p></e>
     <e><p><l>govor<s n="n"/><s n="mi"/></l><r>speech<s n="n"/></r></p></e>
+<!--    <e><p><l>govor<s n="n"/><s n="mi"/></l><r>accent<s n="n"/></r></p></e>  -->
+    <e><p><l>govor<s n="n"/><s n="mi"/></l><r>pronunciation<s n="n"/></r></p></e>
     <e><p><l>građanin<s n="n"/><s n="ma"/></l><r>citizen<s n="n"/></r></p></e>
     <e><p><l>građanstvo<s n="n"/><s n="nt"/></l><r>citizenship<s n="n"/></r></p></e>
     <e><p><l>građenje<s n="n"/><s n="nt"/></l><r>building<s n="n"/></r></p></e>
