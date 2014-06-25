@@ -47,4 +47,31 @@
        </or>
   </rule>
 
+  <rule>
+	  <match lemma="kraljevski" tags="adj.*">
+	    <select lemma="royal" tags="adj.*"/>
+	  </match>
+       <or>
+	    <match lemma="dinastija" tags="n.*"/>
+	    <match lemma="krv" tags="n.*"/>
+	    <match lemma="obitelj" tags="n.*"/>
+       </or>
+  </rule>
+
+  <rule>
+      <match lemma="izazvati" tags="vblex.*"/>
+      <match lemma="reakcija" tags="n.*"/>
+      <match lemma="kod" tags="*">
+	    <select lemma="from" tags="*"/>
+	  </match>
+  </rule>
+
+  <rule>
+      <match lemma="izdavati" tags="vblex.*">
+	    <select lemma="betray" tags="vblex.*"/>
+      </match>
+      <match/>
+      <match lemma="interes" tags="n.*"/>
+  </rule>
+
 </rules>

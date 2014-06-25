@@ -81,6 +81,7 @@
     <sdef n="pers" c=""/>
     <sdef n="itg" c=""/>
     <sdef n="ij" c=""/>
+    <sdef n="abbr" c=""/>
 
    </sdefs>
 
@@ -196,6 +197,7 @@
     <e><p><l>lako<s n="adv"/></l><r>easily<s n="adv"/></r></p></e>
     <e><p><l>obavljati<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
     <e><p><l>kod<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+    <e><p><l>kod<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     <e><p><l>mnogi<s n="adj"/></l><r>many<s n="adj"/></r></p></e>
     <e><p><l>povezivati<s n="vblex"/></l><r>associate<s n="vblex"/></r></p></e>
     <e><p><l>čvrstina<s n="n"/></l><r>rigour<s n="n"/></r></p></e>
@@ -229,6 +231,88 @@
     <e><p><l>morati<s n="vbmod"/></l><r>must<s n="vaux"/></r></p></e>
     <e><re>[0-9]+</re><p><l><b/>godina</l><r><b/>years<s n="num"/></r></p></e>
    
+    <e><p><l>dužnosnik<s n="n"/></l><r>official<s n="n"/></r></p></e>
+    <e><p><l>uključivati<s n="vblex"/></l><r>include<s n="vblex"/></r></p></e>
+    <e><p><l>proći<s n="vblex"/></l><r>pass<s n="vblex"/></r></p></e>
+    <e><p><l>zatim<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
+    <e><p><l>zora<s n="n"/></l><r>dawn<s n="n"/></r></p></e>
+    <e><p><l>u<b/>međuvremenu<s n="adv"/></l><r>since<s n="adv"/></r></p></e>
+    <e><p><l>u<b/>međuvremenu<s n="adv"/></l><r>in<b/>the<b/>mean<b/>time<s n="adv"/></r></p></e>
+    <e><p><l>sav<s n="prn"/></l><r>all<s n="prn"/></r></p></e>
+    <e><p><l>sve<s n="prn"/></l><r>all<s n="prn"/></r></p></e>
+    <e><p><l>optužba<s n="n"/></l><r>charge<s n="n"/></r></p></e>
+    <e><p><l>skupina<s n="n"/></l><r>gang<s n="n"/></r></p></e>
+    <e><p><l>skupina<s n="n"/></l><r>group<s n="n"/></r></p></e>
+    <e><p><l>osvojiti<s n="vblex"/></l><r>win<s n="vblex"/></r></p></e>
+    <e><p><l>povećati<s n="vblex"/></l><r>raise<s n="vblex"/></r></p></e>
+    <e><p><l>bojazan<s n="n"/></l><r>concern<s n="n"/></r></p></e>
+    <e><p><l>uvoditi<s n="vblex"/></l><r>institute<s n="vblex"/></r></p></e>
+    <e><p><l>protiv<s n="pr"/></l><r>against<s n="pr"/></r></p></e>
+    <e><p><l>treći<s n="num"/></l><r>third<s n="adj"/></r></p></e>
+    <e><p><l>zauzeti<s n="vblex"/></l><r>take<s n="vblex"/></r></p></e>
+    <e><p><l>otvoriti<s n="vblex"/></l><r>open<s n="vblex"/></r></p></e>
+    <e><p><l>pristaša<s n="n"/></l><r>supporter<s n="n"/></r></p></e>
+    <e><p><l>tvrditi<s n="vblex"/></l><r>maintain<s n="vblex"/></r></p></e>
+    <e><p><l>ispuniti<s n="vblex"/></l><r>fill<s n="vblex"/></r></p></e>
+    <e><p><l>zbog<s n="pr"/></l><r>because<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>utjecaj<s n="n"/></l><r>influence<s n="n"/></r></p></e>
+    <e><p><l>Human<b/>Rights<b/>Watch<s n="np"/></l><r>Human<b/>Rights<b/>Watch<s n="np"/></r></p></e>
+    <e><p><l>predložiti<s n="vblex"/></l><r>propose<s n="vblex"/></r></p></e>
+    <e><p><l>ići<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
+    <e><p><l>s<b/>obzirom<b/>da<s n="adv"/></l><r>since<s n="adv"/></r></p></e>
+    <e><p><l>uključivati<s n="vblex"/></l><r>include<s n="vblex"/></r></p></e>
+    <e><p><l>prijavljivanje<s n="n"/></l><r>reporting<s n="n"/></r></p></e>
+    <e><p><l>nasilan<s n="adj"/></l><r>violent<s n="adj"/></r></p></e>
+    <e><p><l>uređivati<s n="vblex"/></l><r>regulate<s n="vblex"/></r></p></e>
+    <e><p><l>učinkovit<s n="adj"/></l><r>efficient<s n="adj"/></r></p></e>
+    <e><p><l>rasizam<s n="n"/></l><r>racism<s n="n"/></r></p></e>
+    <e><p><l>vrsta<s n="n"/></l><r>kind<s n="n"/></r></p></e>
+    <e><p><l>tolerirati<s n="vblex"/></l><r>tolerate<s n="vblex"/></r></p></e>
+    <e><p><l>odlučan<s n="adj"/></l><r>determined<s n="adj"/></r></p></e>
+    <e><p><l>htjeti<s n="vbmod"/></l><r>will<s n="vbmod"/></r></p></e>
+    <e><p><l>voditelj<s n="n"/></l><r>head<s n="n"/></r></p></e>
+    <e><p><l>neki<s n="prn"/></l><r>some<s n="prn"/></r></p></e>
+    <e><p><l>teško<s n="adv"/></l><r>hard<s n="adv"/></r></p></e>
+    <e><p><l>suprotstaviti<s n="vblex"/></l><r>stand<g><b/>against</g><s n="vblex"/></r></p></e>
+    <e><p><l>nego<s n="adv"/></l><r>than<s n="adv"/></r></p></e>
+    <e><p><l>nego<s n="cnjcoo"/></l><r>than<s n="cnjcoo"/></r></p></e>
+    <e><p><l>nego<s n="cnjsub"/></l><r>than<s n="cnjcoo"/></r></p></e>
+    <e><p><l>nadalje<s n="adv"/></l><r>still<s n="adv"/></r></p></e>
+    <e><p><l>uspon<s n="n"/></l><r>emergence<s n="n"/></r></p></e>
+    <e><p><l>često<s n="adv"/></l><r>often<s n="adv"/></r></p></e>
+    <e><p><l>doći<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
+    <e><p><l>EU<s n="abbr"/></l><r>EU<s n="abbr"/></r></p></e>
+    <e><p><l>ECB<s n="abbr"/></l><r>ECB<s n="abbr"/></r></p></e>
+    <e><p><l>isprva<s n="adv"/></l><r>initially<s n="adv"/></r></p></e>
+    <e><p><l>izraziti<s n="vblex"/></l><r>express<s n="vblex"/></r></p></e>
+    <e><p><l>zaustaviti<s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
+    <e><p><l>bilo<b/>koji<s n="prn"/></l><r>any<s n="prn"/></r></p></e>
+    <e><p><l>troje<s n="num"/></l><r>three<s n="num"/></r></p></e>
+    <e><p><l>koliki<s n="prn"/></l><r>how<b/>much<s n="prn"/></r></p></e><!-- fix: -->
+    <e><p><l>slati<s n="vblex"/></l><r>send<s n="vblex"/></r></p></e>
+    <e><p><l>ostvariti<s n="vblex"/></l><r>achieve<s n="vblex"/></r></p></e>
+    <e><p><l>Grčka<s n="np"/></l><r>Greece<s n="np"/></r></p></e>
+    <e><p><l>iznimka<s n="n"/></l><r>exception<s n="n"/></r></p></e>
+    <e><p><l>kratkotrajan<s n="adj"/></l><r>short-term<s n="adj"/></r></p></e>
+    <e><p><l>sjetiti<s n="vblex"/></l><r>remember<s n="vblex"/></r></p></e>
+    <e><p><l>svaki<s n="prn"/></l><r>every<s n="det"/></r></p></e>
+    <e><p><l>šesti<s n="num"/></l><r>sixth<s n="adj"/></r></p></e>
+    <e><p><l>glasovati<s n="vblex"/></l><r>vote<s n="vblex"/></r></p></e>
+    <e><p><l>Agence<b/>France<b/>Presse<s n="np"/></l><r>Agence<b/>France<b/>Presse<s n="np"/></r></p></e>
+    <e><p><l>umjeren<s n="adj"/></l><r>moderate<s n="adj"/></r></p></e>
+    <e><p><l>četvrti<s n="num"/></l><r>fourth<s n="adj"/></r></p></e>
+    <e><p><l>dok<s n="adv"/></l><r>while<s n="cnjadv"/></r></p></e>
+    <e><p><l>dok<s n="cnjsub"/></l><r>while<s n="cnjsub"/></r></p></e>
+    <e><p><l>željeti<s n="vblex"/></l><r>want<s n="vblex"/></r></p></e>
+    <e><p><l>zabraniti<s n="vblex"/></l><r>ban<s n="vblex"/></r></p></e>
+    <e><p><l>umanjiti<s n="vblex"/></l><r>downplay<s n="vblex"/></r></p></e><!-- fix: -->
+    <e><p><l>Eva<s n="np"/></l><r>Eva<s n="np"/></r></p></e>
+    <e><p><l>sporo<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
+    <e><p><l>dovršiti<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
+    <e><p><l>uistinu<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
+    <e><p><l>tada<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
+    <e><p><l>takav<s n="prn"/></l><r>such<s n="det"/></r></p></e>
+
     <!-- Nouns from eng.dix missing here -->
     
     <e><p><l>reintegracija<s n="n"/></l><r>reintergration<s n="n"/></r></p></e>
@@ -619,8 +703,8 @@
     <e><p><l>proračunati<s n="vblex"/></l><r>calculate<s n="vblex"/></r></p></e>
     <e><p><l>proračunati<s n="vblex"/></l><r>compute<s n="vblex"/></r></p></e>
     <e><p><l>proračunati<s n="vblex"/></l><r>forecast<s n="vblex"/></r></p></e>
-    <e><p><l>vladati<s n="vblex"/></l><r>act<s n="vblex"/></r></p></e>
-    <e><p><l>vladati<s n="vblex"/></l><r>behave<s n="vblex"/></r></p></e>
+    <e><p><l>vladati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>act<s n="vblex"/></r></p></e>
+    <e><p><l>vladati<s n="vblex"/><s n="imperf"/><s n="ref"/></l><r>behave<s n="vblex"/></r></p></e>
     <e><p><l>vladati<s n="vblex"/></l><r>govern<s n="vblex"/></r></p></e>
     <e><p><l>vladati<s n="vblex"/></l><r>reign<s n="vblex"/></r></p></e>
     <e><p><l>vladati<s n="vblex"/></l><r>rule<s n="vblex"/></r></p></e>
@@ -2032,7 +2116,7 @@
     <e><p><l>članica<s n="n"/><s n="f"/></l><r>member<s n="n"/></r></p></e>
     <e><p><l>član<s n="n"/><s n="mi"/></l><r>article<s n="n"/></r></p></e> <!-- grammar/law -->
     <e><p><l>član<s n="n"/><s n="mi"/></l><r>limb<s n="n"/></r></p></e>
-    <e><p><l>član<s n="n"/><s n="mi"/></l><r>member<s n="n"/></r></p></e>
+    <e><p><l>član<s n="n"/><s n="ma"/></l><r>member<s n="n"/></r></p></e>
     <e><p><l>članstvo<s n="n"/><s n="nt"/></l><r>membership<s n="n"/></r></p></e>
     <e><p><l>čovječanstvo<s n="n"/><s n="nt"/></l><r>humanity<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>čovječanstvo<s n="n"/><s n="nt"/></l><r>humankind<s n="n"/><s n="unc"/></r></p></e>

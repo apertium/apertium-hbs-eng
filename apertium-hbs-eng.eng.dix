@@ -2693,6 +2693,10 @@
     <e lm="force out"><i>forc</i><par n="liv/e__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
     <e lm="pro-Soviet"><i>pro-Soviet</i><par n="expensive__adj"/></e>
     
+	<e lm="Human Rights Watch"><i>Human<b/>Rights<b/>Watch</i><par n="United_Nations__np"/></e>
+    <e lm="stand against"><i>st</i><par n="st/and__vblex"/><p><l><b/>against</l><r><g><b/>against</g></r></p></e>
+	<e lm="Agence France Presse"><i>Agence<b/>France<b/>Presse</i><par n="United_Nations__np"/></e>
+    
     <!-- verbs from hbs-bidix -->
     
     <e lm="treat with sulphur"><i>treat</i><par n="accept__vblex"/><p><l><b/>with<b/>sulphur</l><r><g><b/>with<b/>sulphur</g></r></p></e>
