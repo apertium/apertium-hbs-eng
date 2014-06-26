@@ -13182,6 +13182,7 @@
     <e lm="wax"><i>wax</i><par n="access__n"/></e>
     <e lm="muskox"><i>muskox</i><par n="ox__n"/></e>
     <e lm="freeway"><i>freeway</i><par n="house__n"/></e>
+    <e lm="motorway"><i>motorway</i><par n="house__n"/></e>
     <e lm="stairway"><i>stairway</i><par n="house__n"/></e>
     <e lm="ruby"><i>rub</i><par n="bab/y__n"/></e>
     <e lm="synergy"><i>synerg</i><par n="bab/y__n"/></e>
