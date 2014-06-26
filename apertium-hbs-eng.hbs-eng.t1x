@@ -247,6 +247,10 @@
       <attr-item tags="vaux"/>
     </def-attr>
 
+    <def-attr n="a_clt">
+      <attr-item tags="clt"/>
+    </def-attr>
+
     <def-attr n="a_typ">
       <attr-item tags="pos"/>
   </def-attr>
@@ -256,6 +260,7 @@
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
       <attr-item tags="perf"/>
+      <attr-item tags="aor"/>
       <attr-item tags="lp"/>
       <attr-item tags="pp"/>
       <attr-item tags="ger"/>
@@ -641,6 +646,27 @@
 	      <clip pos="1" side="tl" part="tns"/>
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </concat>
+	  </let>
+	</when>
+    <when> <!-- biti, aorist -->
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
+	      <equal><clip pos="1" side="sl" part="a_clt"/><lit-tag v="clt"/></equal>
+	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="aor"/></equal>
+	    </and>	    
+	  </test>
+      <let><clip pos="1" side="tl" part="lemh"/><lit v="should"/></let>
+      <let><clip pos="1" side="tl" part="a_vb"/><lit-tag v="vaux"/></let>
+      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+	  <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+        </concat>
 	  </let>
 	</when>
         <when> <!-- the verb to be -->
