@@ -145,6 +145,21 @@
       <cat-item lemma="moći" tags="vbmod.*"/>
     </def-cat>
 
+    <def-cat n="months">
+      <cat-item lemma="siječanj" tags="n.*"/>
+      <cat-item lemma="veljača" tags="n.*"/>
+      <cat-item lemma="ožujak" tags="n.*"/>
+      <cat-item lemma="travanj" tags="n.*"/>
+      <cat-item lemma="svibanj" tags="n.*"/>
+      <cat-item lemma="lipanj" tags="n.*"/>
+      <cat-item lemma="srpanj" tags="n.*"/>
+      <cat-item lemma="kolovoz" tags="n.*"/>
+      <cat-item lemma="rujan" tags="n.*"/>
+      <cat-item lemma="listopad" tags="n.*"/>
+      <cat-item lemma="studeni" tags="n.*"/>
+      <cat-item lemma="prosinac" tags="n.*"/>
+    </def-cat>
+
     <def-cat n="nom_gen">
       <cat-item tags="n.*.*.gen"/>
     </def-cat>
@@ -227,6 +242,7 @@
       <attr-item tags="prn.pers"/>
       <attr-item tags="prn.pers.clt"/>
       <attr-item tags="prn.tot"/>
+      <attr-item tags="prn.qnt"/>
       <attr-item tags="prn.ref.pers"/>
       <attr-item tags="prn.ref.pos"/>
       <attr-item tags="prn.rel"/>
@@ -416,6 +432,24 @@
 	   <concat>
 	  <clip pos="1" side="tl" part="lemh"/>
 	  <clip pos="1" side="tl" part="a_det"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	   </concat>
+	  </let>
+	</when>
+    <when><!-- all -->
+      <test>
+	    <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.tot"/></equal>
+	  </test>
+	  <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.qnt"/></let>
+      <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
+      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
+      <let>
+	   <clip pos="1" side="tl" part="whole"/>
+	   <concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_prn"/>
+	  <clip pos="1" side="tl" part="gndr"/>
 	  <clip pos="1" side="tl" part="nbr"/>
 	  <clip pos="1" side="tl" part="lemq"/>
 	   </concat>
@@ -1049,7 +1083,7 @@
     <rule comment="date">
       <pattern>
 	<pattern-item n="numord"/>
-	<pattern-item n="nom"/>
+	<pattern-item n="months"/>
       </pattern>      
       <action>
 	<call-macro n="num_adapter"><with-param pos="1"/></call-macro>
@@ -1335,6 +1369,33 @@
                 <lit-tag v="inf"/>
 	        <clip pos="3" side="tl" part="lemq"/>
 	      </concat>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- se ponovno razmatra -->
+    <rule comment="clt_adv_vb">
+      <pattern>
+	<pattern-item n="clitic"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="vb"/>
+      </pattern>      
+      <action>
+	<call-macro n="adv_adapter"><with-param pos="2"/></call-macro>
+	<call-macro n="vb_adapter"><with-param pos="3"/></call-macro>
+        <out>
+          <chunk name="clt_adv_vb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+	    <b pos="1"/>
+            <lu>
+	      <clip pos="3" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
