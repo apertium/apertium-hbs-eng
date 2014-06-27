@@ -8079,7 +8079,8 @@
     <!-- POSSESSIVE ADJECTIVES -->
 
 <!--    <e><p><l>njegov<s n="prn"/><s n="pos"/></l><r>his<s n="prn"/><s n="pos"/></r></p></e> -->
-    <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>her<s n="prn"/><s n="pos"/></r></p></e>
+    <e r="RL"><p><l>njezin<s n="prn"/><s n="pos"/></l><r>her<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>her<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>njen<s n="prn"/><s n="pos"/></l><r>her<s n="prn"/><s n="pos"/></r></p></e>
 <!--    <e><p><l>njihov<s n="prn"/><s n="pos"/></l><r>their<s n="prn"/><s n="pos"/></r></p></e> fix: temporary -->
 <!--    <e><p><l>naš<s n="prn"/><s n="pos"/></l><r>our<s n="prn"/><s n="pos"/></r></p></e> fix: temporary -->

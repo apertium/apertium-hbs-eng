@@ -2696,6 +2696,8 @@
 	<e lm="Human Rights Watch"><i>Human<b/>Rights<b/>Watch</i><par n="United_Nations__np"/></e>
     <e lm="stand against"><i>st</i><par n="st/and__vblex"/><p><l><b/>against</l><r><g><b/>against</g></r></p></e>
 	<e lm="Agence France Presse"><i>Agence<b/>France<b/>Presse</i><par n="United_Nations__np"/></e>
+    <e lm="institute"><i>institut</i><par n="liv/e__vblex"/></e>
+    <e lm="downplay"><i>downplay</i><par n="accept__vblex"/></e>
     
     <!-- verbs from hbs-bidix -->
     
