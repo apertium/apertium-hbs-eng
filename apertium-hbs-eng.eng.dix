@@ -2698,7 +2698,10 @@
 	<e lm="Agence France Presse"><i>Agence<b/>France<b/>Presse</i><par n="United_Nations__np"/></e>
     <e lm="institute"><i>institut</i><par n="liv/e__vblex"/></e>
     <e lm="downplay"><i>downplay</i><par n="accept__vblex"/></e>
-    
+    <e lm="short-term"><i>short-term</i><par n="expensive__adj"/></e>
+    <e lm="shudder"><i>shudder</i><par n="accept__vblex"/></e>   
+    <e lm="moderate"><i>moderate</i><par n="expensive__adj"/></e> 
+
     <!-- verbs from hbs-bidix -->
     
     <e lm="treat with sulphur"><i>treat</i><par n="accept__vblex"/><p><l><b/>with<b/>sulphur</l><r><g><b/>with<b/>sulphur</g></r></p></e>

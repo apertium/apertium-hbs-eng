@@ -75,6 +75,11 @@
       <cat-item tags="part.*"/>
     </def-cat>
 
+    <def-cat n="abbr">
+      <cat-item tags="abbr"/>
+      <cat-item tags="abbr.*"/>
+    </def-cat>
+
     <def-cat n="punct">
       <cat-item tags="sent"/>
       <cat-item tags="cm"/>
@@ -236,11 +241,16 @@
     <def-attr n="a_num">
       <attr-item tags="num"/>
       <attr-item tags="num.ord"/>
+      <attr-item tags="num.coll"/>
     </def-attr>
 
     <def-attr n="a_pr">
       <attr-item tags="pr"/>
       <attr-item tags="pr.*"/>
+    </def-attr>
+
+    <def-attr n="a_abbr">
+      <attr-item tags="abbr"/>
     </def-attr>
 
     <def-attr n="a_prn">
@@ -266,6 +276,7 @@
     <def-attr n="a_det">
       <attr-item tags="det"/>
       <attr-item tags="det.pos"/>
+      <attr-item tags="det.ind"/>
   </def-attr>
 
     <def-attr n="a_vb">
@@ -347,6 +358,7 @@
     <def-var n="number"/>
     <def-var n="current_verb"/>
   </section-def-vars>
+
   <section-def-macros>
     <def-macro n="test" npar="1">
       <let>
@@ -528,6 +540,25 @@
 	   </concat>
 	  </let>
 	</when>
+        <when><!-- svaki, takav -->
+          <test>
+            <or>
+	          <equal><clip pos="1" side="sl" part="lemh"/><lit v="svaki"/></equal>
+	          <equal><clip pos="1" side="sl" part="lemh"/><lit v="takav"/></equal>
+            </or>
+	      </test>
+	  <let><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.ind"/></let>
+	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+	  <let>
+	   <clip pos="1" side="tl" part="whole"/>
+	   <concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_det"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	   </concat>
+	  </let>
+	</when>
     <when><!-- all -->
       <test>
 	    <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.tot"/></equal>
@@ -605,6 +636,24 @@
 	  <clip pos="1" side="tl" part="lemh"/>
 	  <clip pos="1" side="tl" part="a_prn"/>
 	  <clip pos="1" side="tl" part="prs"/>
+	  <clip pos="1" side="tl" part="gndr"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	   </concat>
+	  </let>
+	</when>
+        <when> <!-- koliki -->
+          <test>
+	    <equal><clip pos="1" side="sl" part="lemh"/><lit v="koliki"/></equal>
+	  </test>
+	  <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.itg"/></let>
+	  <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
+	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+	  <let>
+	   <clip pos="1" side="tl" part="whole"/>
+	   <concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_prn"/>
 	  <clip pos="1" side="tl" part="gndr"/>
 	  <clip pos="1" side="tl" part="nbr"/>
 	  <clip pos="1" side="tl" part="lemq"/>
@@ -969,6 +1018,22 @@
             </concat>
 	      </let>
 	    </when>
+        <when><!-- collective -->
+	      <test>
+	        <equal><clip pos="1" side="sl" part="a_num"/><lit-tag v="num.coll"/></equal>
+	      </test>
+          <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num"/></let>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_num"/>
+	          <clip pos="1" side="tl" part="nbr"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+	      </let>
+	    </when>
         <otherwise>
           <let>
             <clip pos="1" side="tl" part="whole"/>
@@ -1009,7 +1074,19 @@
       </let>
     </def-macro>
 
+    <def-macro n="abbr_adapter" npar="1">
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_abbr"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	</concat>
+      </let>
+    </def-macro>
+
   </section-def-macros>
+
   <section-rules>
 
     <rule comment="REGLA: SENT">
@@ -1021,6 +1098,25 @@
           <chunk name="sent" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SENT"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="abbrevation">
+      <pattern>
+        <pattern-item n="abbr"/>
+      </pattern>
+      <action>
+	  <call-macro n="abbr_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="abbr" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ABBR"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -1472,7 +1568,7 @@
       </action>
     </rule>
 
-    <!-- dvije pjesme -->
+    <!-- dvije pjesme
     <rule comment="num_nom">
       <pattern>
 	<pattern-item n="num"/>
@@ -1481,7 +1577,7 @@
       <action>
 	<call-macro n="num_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
-<!--        <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.sg"/></let> -->
+<!-        <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.sg"/></let> ->
         <out>
           <chunk name="num_nom" case="caseFirstWord">
             <tags>
@@ -1497,7 +1593,7 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
     <!-- se uspio nametnuti -->
     <rule comment="clt_vb">

@@ -287,7 +287,7 @@
     <e><p><l>izraziti<s n="vblex"/></l><r>express<s n="vblex"/></r></p></e>
     <e><p><l>zaustaviti<s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
     <e><p><l>bilo<b/>koji<s n="prn"/></l><r>any<s n="prn"/></r></p></e>
-    <e><p><l>troje<s n="num"/></l><r>three<s n="num"/></r></p></e>
+    <e><p><l>troje<s n="num"/></l><r>three<s n="num"/><s n="sp"/></r></p></e>
     <e><p><l>koliki<s n="prn"/></l><r>how<b/>much<s n="prn"/></r></p></e><!-- fix: -->
     <e><p><l>slati<s n="vblex"/></l><r>send<s n="vblex"/></r></p></e>
     <e><p><l>ostvariti<s n="vblex"/></l><r>achieve<s n="vblex"/></r></p></e>
@@ -314,6 +314,7 @@
     <e><p><l>takav<s n="prn"/></l><r>such<s n="det"/></r></p></e>
     <e><p><l>razmatrati<s n="vblex"/></l><r>consider<s n="vblex"/></r></p></e>
     <e><p><l>ponovno<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
+    <e><p><l>zgroziti<s n="vblex"/></l><r>shudder<s n="vblex"/></r></p></e>
 
     <!-- Nouns from eng.dix missing here -->
     
