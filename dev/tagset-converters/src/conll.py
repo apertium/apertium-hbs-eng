@@ -4,7 +4,7 @@
 
 import sys;
 
-from msd2apertium import msd2apertium, listToTags;
+from msd2apertium_lib import msd2apertium, listToTags;
 
 class Token:
     """
@@ -31,7 +31,7 @@ class Token:
         self.deprel = deprel;
         self.phead = phead;
         self.pdeprel = pdeprel;
-    
+
     @staticmethod
     def parse(line):
         """Parses a line, returns a token object"""
@@ -53,13 +53,15 @@ class Token:
 
 if(len(sys.argv) != 2):
     print
+    print "Work in progress. Parse a CONLL file, and output something."
+    print
     print "Usage:"
     print "\tpython " + sys.argv[0] + " a_conll_corpus_file"
     print
     sys.exit()
-        
+
 with open(sys.argv[1]) as f:
     for line in f:
         token = Token.parse(line.replace('\n', ''))
-        if(token): 
+        if(token):
             print token.lemma + " " + listToTags(msd2apertium(token.postag))

@@ -5,7 +5,7 @@
 '''
 
 import sys, logging
-from msd2apertium import *
+from msd2apertium_lib import *
 
 if len(sys.argv) != 2:
     # Help printout, if the number of args is invalid
