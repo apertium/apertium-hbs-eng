@@ -31,9 +31,7 @@ dev/tagset-converters/setimes.hr.v1.conllx -text
 dev/tagset-converters/src/apertium-mte-paradigms.py -text
 dev/tagset-converters/src/conll.py -text
 dev/tagset-converters/src/msd2apertium.py -text
-dev/tagset-converters/src/msd2apertium.pyc -text
 dev/tagset-converters/src/msd2apertium_lib.py -text
-dev/tagset-converters/src/msd2apertium_lib.pyc -text
 /eng-hbs.prob -text svneol=unset#unset
 /hbs-eng.prob -text svneol=unset#unset
 /modes.xml -text
