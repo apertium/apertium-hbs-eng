@@ -347,18 +347,18 @@
     <!-- Verbs from hbs.metadix missing here -->
     
     <e><p><l>izdržati<s n="vblex"/></l><r>endure<s n="vblex"/></r></p></e>
-    <e><p><l>izdržati<s n="vblex"/></l><r>hold<b/>on<s n="vblex"/></r></p></e>
+    <e><p><l>izdržati<s n="vblex"/></l><r>hold<g><b/>on</g><s n="vblex"/></r></p></e>
     <e><p><l>izdržati<s n="vblex"/></l><r>withstand<s n="vblex"/></r></p></e>
     <e><p><l>podržati<s n="vblex"/></l><r>endorse<s n="vblex"/></r></p></e>
     <e><p><l>podržati<s n="vblex"/></l><r>support<s n="vblex"/></r></p></e>
     <e><p><l>pridržati<s n="vblex"/></l><r>adhere<s n="vblex"/></r></p></e>
-    <e><p><l>pridržati<s n="vblex"/></l><r>hold<b/>up<s n="vblex"/></r></p></e>
+    <e><p><l>pridržati<s n="vblex"/></l><r>hold<g><b/>up</g><s n="vblex"/></r></p></e>
     <e><p><l>sadržati<s n="vblex"/></l><r>contain<s n="vblex"/></r></p></e>
-    <e><p><l>zadržati<s n="vblex"/></l><r>hold<b/>up<s n="vblex"/></r></p></e>
+    <e><p><l>zadržati<s n="vblex"/></l><r>hold<g><b/>up</g><s n="vblex"/></r></p></e>
        
     <e><p><l>izgledati<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
     <e><p><l>izgledati<s n="vblex"/></l><r>seem<s n="vblex"/></r></p></e>
-    <e><p><l>izostavljati<s n="vblex"/></l><r>leave<b/>out<s n="vblex"/></r></p></e>
+    <e><p><l>izostavljati<s n="vblex"/></l><r>leave<g><b/>out</g><s n="vblex"/></r></p></e>
     <e><p><l>izostavljati<s n="vblex"/></l><r>omit<s n="vblex"/></r></p></e>
     <e><p><l>izuzimati<s n="vblex"/></l><r>exclude<s n="vblex"/></r></p></e>
     <e><p><l>izuzimati<s n="vblex"/></l><r>omit<s n="vblex"/></r></p></e>
@@ -386,7 +386,7 @@
     <e><p><l>odstajati<s n="vblex"/></l><r>age<s n="vblex"/></r></p></e>
     <e><p><l>odstajati<s n="vblex"/></l><r>stand<s n="vblex"/></r></p></e>
     <e><p><l>ustajati<s n="vblex"/></l><r>arise<s n="vblex"/></r></p></e>
-    <e><p><l>ustajati<s n="vblex"/></l><r>wake<b/>up<s n="vblex"/></r></p></e>
+    <e><p><l>ustajati<s n="vblex"/></l><r>wake<g><b/>up</g><s n="vblex"/></r></p></e>
     <e><p><l>nastajati<s n="vblex"/></l><r>appear<s n="vblex"/></r></p></e>
     <e><p><l>nastajati<s n="vblex"/></l><r>become<s n="vblex"/></r></p></e>
     <e><p><l>ponestajati<s n="vblex"/></l><r>dwindle<s n="vblex"/></r></p></e>
@@ -397,7 +397,7 @@
     <e><p><l>pristajati<s n="vblex"/></l><r>fit<s n="vblex"/></r></p></e>
     <e><p><l>zastajati<s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
     <e><p><l>dotrajati<s n="vblex"/></l><r>last<s n="vblex"/></r></p></e>
-    <e><p><l>dotrajati<s n="vblex"/></l><r>wear<b/>out<s n="vblex"/></r></p></e>
+    <e><p><l>dotrajati<s n="vblex"/></l><r>wear<g><b/>out</g><s n="vblex"/></r></p></e>
     <e><p><l>potrajati<s n="vblex"/></l><r>last<s n="vblex"/></r></p></e>
     <e><p><l>trajati<s n="vblex"/></l><r>last<s n="vblex"/></r></p></e>
     <e><p><l>trajati<s n="vblex"/></l><r>last<s n="vblex"/></r></p></e>
@@ -424,7 +424,7 @@
     <e><p><l>pregledati<s n="vblex"/></l><r>browse<s n="vblex"/></r></p></e>
     <e><p><l>pregledati<s n="vblex"/></l><r>examine<s n="vblex"/></r></p></e>
     <e><p><l>pregledati<s n="vblex"/></l><r>search<s n="vblex"/></r></p></e>
-    <e><p><l>progledati<s n="vblex"/></l><r>regain<b/>sight<s n="vblex"/></r></p></e>
+    <e><p><l>progledati<s n="vblex"/></l><r>regain<g><b/>sight</g><s n="vblex"/></r></p></e>
     <e><p><l>razgledati<s n="vblex"/></l><r>sightsee<s n="vblex"/></r></p></e>
     <e><p><l>razgledati<s n="vblex"/></l><r>view<s n="vblex"/></r></p></e>
     <e><p><l>plivati<s n="vblex"/></l><r>swim<s n="vblex"/></r></p></e>
@@ -436,7 +436,7 @@
     <e><p><l>manevrirati<s n="vblex"/></l><r>maneuver<s n="vblex"/></r></p></e>
     <e><p><l>manevrirati<s n="vblex"/></l><r>manoeuvre<s n="vblex"/></r></p></e>
     <e><p><l>kontaktirati<s n="vblex"/></l><r>contact<s n="vblex"/></r></p></e>
-    <e><p><l>kontaktirati<s n="vblex"/></l><r>get<b/>in<b/>touch<s n="vblex"/></r></p></e>
+    <e><p><l>kontaktirati<s n="vblex"/></l><r>get<g><b/>in<b/>touch</g><s n="vblex"/></r></p></e>
     <e><p><l>prezentirati<s n="vblex"/></l><r>introduce<s n="vblex"/></r></p></e>
     <e><p><l>prezentirati<s n="vblex"/></l><r>present<s n="vblex"/></r></p></e>
     <e><p><l>okarakterizirati<s n="vblex"/></l><r>characterize<s n="vblex"/></r></p></e>
@@ -448,17 +448,17 @@
     <e><p><l>nastupati<s n="vblex"/></l><r>appear<s n="vblex"/></r></p></e>
     <e><p><l>nastupati<s n="vblex"/></l><r>perform<s n="vblex"/></r></p></e>
     <e><p><l>naviještati<s n="vblex"/></l><r>announce<s n="vblex"/></r></p></e>
-    <e><p><l>obarati<s n="vblex"/></l><r>bring<b/>down<s n="vblex"/></r></p></e>
-    <e><p><l>obarati<s n="vblex"/></l><r>knock<b/>down<s n="vblex"/></r></p></e>
+    <e><p><l>obarati<s n="vblex"/></l><r>bring<g><b/>down</g><s n="vblex"/></r></p></e>
+    <e><p><l>obarati<s n="vblex"/></l><r>knock<g><b/>down</g><s n="vblex"/></r></p></e>
     <e><p><l>obarati<s n="vblex"/></l><r>topple<s n="vblex"/></r></p></e>
     <e><p><l>obarati<s n="vblex"/></l><r>trip<s n="vblex"/></r></p></e>
     <e><p><l>obnavljati<s n="vblex"/></l><r>renew<s n="vblex"/></r></p></e>
     <e><p><l>obnavljati<s n="vblex"/></l><r>renovate<s n="vblex"/></r></p></e>
     <e><p><l>obnavljati<s n="vblex"/></l><r>replenish<s n="vblex"/></r></p></e>
     <e><p><l>obnavljati<s n="vblex"/></l><r>restore<s n="vblex"/></r></p></e>
-    <e><p><l>obolijevati<s n="vblex"/></l><r>become<b/>sick<s n="vblex"/></r></p></e>
-    <e><p><l>obolijevati<s n="vblex"/></l><r>fall<b/>ill<s n="vblex"/></r></p></e>
-    <e><p><l>obolijevati<s n="vblex"/></l><r>get<b/>sick<s n="vblex"/></r></p></e>
+    <e><p><l>obolijevati<s n="vblex"/></l><r>become<g><b/>sick</g><s n="vblex"/></r></p></e>
+    <e><p><l>obolijevati<s n="vblex"/></l><r>fall<g><b/>ill</g><s n="vblex"/></r></p></e>
+    <e><p><l>obolijevati<s n="vblex"/></l><r>get<g><b/>sick</g><s n="vblex"/></r></p></e>
     <e><p><l>obraćati<s n="vblex"/></l><r>turn<s n="vblex"/></r></p></e>
     <e><p><l>obraćati<s n="vblex"/></l><r>refer<s n="vblex"/></r></p></e>
     <e><p><l>obuhvaćati<s n="vblex"/></l><r>comprise<s n="vblex"/></r></p></e>
@@ -473,7 +473,7 @@
     <e><p><l>upravljati<s n="vblex"/></l><r>navigate<s n="vblex"/></r></p></e>
     <e><p><l>upravljati<s n="vblex"/></l><r>operate<s n="vblex"/></r></p></e>
     <e><p><l>putovati<s n="vblex"/></l><r>travel<s n="vblex"/></r></p></e>
-    <e><p><l>isposlovati<s n="vblex"/></l><r>nodata<s n="vblex"/></r></p></e>
+    <e><p><l>isposlovati<s n="vblex"/></l><r>make<g><b/>a<b/>deal</g><s n="vblex"/></r></p></e>
     <e><p><l>proputovati<s n="vblex"/></l><r>travel<s n="vblex"/></r></p></e>
     <e><p><l>dugovati<s n="vblex"/></l><r>owe<s n="vblex"/></r></p></e>
     <e><p><l>prezentovati<s n="vblex"/></l><r>introduce<s n="vblex"/></r></p></e>
@@ -483,20 +483,20 @@
     <e><p><l>potiskivati<s n="vblex"/></l><r>press<s n="vblex"/></r></p></e>
     <e><p><l>potiskivati<s n="vblex"/></l><r>repress<s n="vblex"/></r></p></e>
     <e><p><l>ovlašćivati<s n="vblex"/></l><r>authorise<s n="vblex"/></r></p></e>
-    <e><p><l>zavezivati<s n="vblex"/></l><r>nodata<s n="vblex"/></r></p></e>
+    <e><p><l>zavezivati<s n="vblex"/></l><r>tie<s n="vblex"/></r></p></e>
     <e><p><l>vezivati<s n="vblex"/></l><r>tie<s n="vblex"/></r></p></e>
     <e><p><l>iskupljivati<s n="vblex"/></l><r>redeem<s n="vblex"/></r></p></e>
     <e><p><l>zavezivati<s n="vblex"/></l><r>tie<s n="vblex"/></r></p></e>
     <e><p><l>odlučivati<s n="vblex"/></l><r>decide<s n="vblex"/></r></p></e>
     <e><p><l>ukazivati<s n="vblex"/></l><r>point<s n="vblex"/></r></p></e>
-    <e><p><l>opredjeljivati<s n="vblex"/></l><r>side<b/>with<s n="vblex"/></r></p></e>
+    <e><p><l>opredjeljivati<s n="vblex"/></l><r>side<g><b/>with</g><s n="vblex"/></r></p></e>
     <e><p><l>pokazivati<s n="vblex"/></l><r>show<s n="vblex"/></r></p></e>
     <e><p><l>otkrivati<s n="vblex"/></l><r>detect<s n="vblex"/></r></p></e>
     <e><p><l>otkrivati<s n="vblex"/></l><r>discover<s n="vblex"/></r></p></e>
     <e><p><l>otkrivati<s n="vblex"/></l><r>reveal<s n="vblex"/></r></p></e>
     <e><p><l>baratati<s n="vblex"/></l><r>handle<s n="vblex"/></r></p></e>
     <e><p><l>baratati<s n="vblex"/></l><r>manage<s n="vblex"/></r></p></e>
-    <e><p><l>bojati<s n="vblex"/></l><r>be<b/>afraid<s n="vblex"/></r></p></e>
+    <e><p><l>bojati<s n="vblex"/></l><r>be<g><b/>afraid<g><s n="vblex"/></r></p></e>
     
     <e><p><l>bojati<s n="vblex"/></l><r>colour<s n="vblex"/></r></p></e>
     <e><p><l>brojati<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
@@ -560,7 +560,7 @@
     <e><p><l>proglašavati<s n="vblex"/></l><r>pronounce<s n="vblex"/></r></p></e>
     <e><p><l>sadržavati<s n="vblex"/></l><r>contain<s n="vblex"/></r></p></e>
     <e><p><l>prijeći<s n="vblex"/></l><r>cross<s n="vblex"/></r></p></e>
-    <e><p><l>prijeći<s n="vblex"/></l><r>go<b/>over<s n="vblex"/></r></p></e>
+    <e><p><l>prijeći<s n="vblex"/></l><r>go<g><b/>over</g><s n="vblex"/></r></p></e>
     <e><p><l>vući<s n="vblex"/></l><r>drag<s n="vblex"/></r></p></e>
     <e><p><l>vući<s n="vblex"/></l><r>pull<s n="vblex"/></r></p></e>
     <e><p><l>peći<s n="vblex"/></l><r>cook<s n="vblex"/></r></p></e>
@@ -580,7 +580,8 @@
     <e><p><l>steći<s n="vblex"/></l><r>acquire<s n="vblex"/></r></p></e>
     <e><p><l>steći<s n="vblex"/></l><r>earn<s n="vblex"/></r></p></e>
     <e><p><l>uteći<s n="vblex"/></l><r>run<s n="vblex"/></r></p></e>
-    <e><p><l>uteći<s n="vblex"/></l><r>run<b/>away<s n="vblex"/></r></p></e>
+    <e><p><l>uteći<s n="vblex"/></l><r>get<g><b/>away</g><s n="vblex"/></r></p></e>
+    <e><p><l>uteći<s n="vblex"/></l><r>run<g><b/>away</g><s n="vblex"/></r></p></e>
     <e><p><l>zateći<s n="vblex"/></l><r>catch<s n="vblex"/></r></p></e>
     <e><p><l>zateći<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>povući<s n="vblex"/></l><r>pull<s n="vblex"/></r></p></e>
@@ -591,15 +592,15 @@
     <e><p><l>izleći<s n="vblex"/></l><r>spawn<s n="vblex"/></r></p></e>
     <e><p><l>pomoći<s n="vblex"/></l><r>help<s n="vblex"/></r></p></e>
     <e><p><l>izaći<s n="vblex"/></l><r>exit<s n="vblex"/></r></p></e>
-    <e><p><l>izaći<s n="vblex"/></l><r>get<b/>out<s n="vblex"/></r></p></e>
+    <e><p><l>izaći<s n="vblex"/></l><r>get<g><b/>out</g><s n="vblex"/></r></p></e>
     <e><p><l>izići<s n="vblex"/></l><r>exit<s n="vblex"/></r></p></e>
-    <e><p><l>izići<s n="vblex"/></l><r>get<b/>out<s n="vblex"/></r></p></e>
+    <e><p><l>izići<s n="vblex"/></l><r>get<g><b/>out</g><s n="vblex"/></r></p></e>
     <e><p><l>razići<s n="vblex"/></l><r>disband<s n="vblex"/></r></p></e>
     <e><p><l>razići<s n="vblex"/></l><r>scatter<s n="vblex"/></r></p></e>
     <e><p><l>razići<s n="vblex"/></l><r>split<s n="vblex"/></r></p></e>
     <e><p><l>zaobići<s n="vblex"/></l><r>bypass<s n="vblex"/></r></p></e>
     <e><p><l>zaobići<s n="vblex"/></l><r>circumvent<s n="vblex"/></r></p></e>
-    <e><p><l>proizaći<s n="vblex"/></l><r>come<b/>out<s n="vblex"/></r></p></e>
+    <e><p><l>proizaći<s n="vblex"/></l><r>come<g><b/>out</g><s n="vblex"/></r></p></e>
     <e><p><l>češati<s n="vblex"/></l><r>scratch<s n="vblex"/></r></p></e>
     <e><p><l>kopati<s n="vblex"/></l><r>dig<s n="vblex"/></r></p></e>
     <e><p><l>ležati<s n="vblex"/></l><r>lie<s n="vblex"/></r></p></e>
@@ -626,33 +627,33 @@
     <e><p><l>pljuvati<s n="vblex"/></l><r>scoff<s n="vblex"/></r></p></e>
     <e><p><l>pljuvati<s n="vblex"/></l><r>spit<s n="vblex"/></r></p></e>
     <e><p><l>prozvati<s n="vblex"/></l><r>name<s n="vblex"/></r></p></e>
-    <e><p><l>prozvati<s n="vblex"/></l><r>call<b/>out<s n="vblex"/></r></p></e><!--fix:-->
+    <e><p><l>prozvati<s n="vblex"/></l><r>call<g><b/>out</g><s n="vblex"/></r></p></e><!--fix:-->
     <e><p><l>nazvati<s n="vblex"/></l><r>call<s n="vblex"/></r></p></e>
     <e><p><l>nazvati<s n="vblex"/></l><r>dial<s n="vblex"/></r></p></e>
     <e><p><l>nazvati<s n="vblex"/></l><r>name<s n="vblex"/></r></p></e>
     <e><p><l>zadati<s n="vblex"/></l><r>give<s n="vblex"/></r></p></e>
     <e><p><l>zadati<s n="vblex"/></l><r>inflict<s n="vblex"/></r></p></e>
     <e><p><l>zadati<s n="vblex"/></l><r>set<s n="vblex"/></r></p></e>
-    <e><p><l>podati<s n="vblex"/></l><r>give<b/>in<s n="vblex"/></r></p></e>
+    <e><p><l>podati<s n="vblex"/></l><r>give<g><b/>in</g><s n="vblex"/></r></p></e>
     <e><p><l>podati<s n="vblex"/></l><r>submit<s n="vblex"/></r></p></e>
     <e><p><l>pridati<s n="vblex"/></l><r>give<s n="vblex"/></r></p></e><!--fix:-->
-    <e><p><l>razdati<s n="vblex"/></l><r>give<b/>out<s n="vblex"/></r></p></e>
+    <e><p><l>razdati<s n="vblex"/></l><r>give<g><b/>out</g><s n="vblex"/></r></p></e>
     <e><p><l>sazdati<s n="vblex"/></l><r>construct<s n="vblex"/></r></p></e>
     <e><p><l>sazdati<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
     <e><p><l>izdati<s n="vblex"/></l><r>betray<s n="vblex"/></r></p></e>
     <e><p><l>izdati<s n="vblex"/></l><r>publish<s n="vblex"/></r></p></e>
     <e><p><l>predati<s n="vblex"/></l><r>give<s n="vblex"/></r></p></e>
-    <e><p><l>predati<s n="vblex"/></l><r>give<b/>in<s n="vblex"/></r></p></e>
-    <e><p><l>predati<s n="vblex"/></l><r>give<b/>up<s n="vblex"/></r></p></e>
-    <e><p><l>predati<s n="vblex"/></l><r>hand<b/>over<s n="vblex"/></r></p></e>
+    <e><p><l>predati<s n="vblex"/></l><r>give<g><b/>in</g><s n="vblex"/></r></p></e>
+    <e><p><l>predati<s n="vblex"/></l><r>give<g><b/>up</g><s n="vblex"/></r></p></e>
+    <e><p><l>predati<s n="vblex"/></l><r>hand<g><b/>over</g><s n="vblex"/></r></p></e>
     <e><p><l>predati<s n="vblex"/></l><r>submit<s n="vblex"/></r></p></e>
     
     <e><p><l>prodati<s n="vblex"/></l><r>sell<s n="vblex"/></r></p></e>
     <e><p><l>nestati<s n="vblex"/></l><r>disappear<s n="vblex"/></r></p></e>
     <e><p><l>postati<s n="vblex"/></l><r>become<s n="vblex"/></r></p></e>
-    <e><p><l>ustati<s n="vblex"/></l><r>get<b/>up<s n="vblex"/></r></p></e>
+    <e><p><l>ustati<s n="vblex"/></l><r>get<g><b/>up</g><s n="vblex"/></r></p></e>
     <e><p><l>ustati<s n="vblex"/></l><r>rise<s n="vblex"/></r></p></e>
-    <e><p><l>ustati<s n="vblex"/></l><r>wake<b/>up<s n="vblex"/></r></p></e>
+    <e><p><l>ustati<s n="vblex"/></l><r>wake<g><b/>up</g><s n="vblex"/></r></p></e>
     <e><p><l>zastati<s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
     <e><p><l>nastati<s n="vblex"/></l><r>appear<s n="vblex"/></r></p></e>
     <e><p><l>nastati<s n="vblex"/></l><r>become<s n="vblex"/></r></p></e>
@@ -676,7 +677,7 @@
     <e><p><l>slušati<s n="vblex"/></l><r>listen<s n="vblex"/></r></p></e>
     <e><p><l>mirisati<s n="vblex"/></l><r>smell<s n="vblex"/></r></p></e>
     <e><p><l>pomagati<s n="vblex"/></l><r>help<s n="vblex"/></r></p></e>
-    <e><p><l>pomagati<s n="vblex"/></l><r>help<b/>out<s n="vblex"/></r></p></e>
+    <e><p><l>pomagati<s n="vblex"/></l><r>help<g><b/>out</g><s n="vblex"/></r></p></e>
     <e><p><l>dizati<s n="vblex"/></l><r>hoist<s n="vblex"/></r></p></e>
     <e><p><l>dizati<s n="vblex"/></l><r>lift<s n="vblex"/></r></p></e>
     <e><p><l>dizati<s n="vblex"/></l><r>raise<s n="vblex"/></r></p></e>
@@ -686,7 +687,7 @@
     <e><p><l>sudarati<s n="vblex"/></l><r>collide<s n="vblex"/></r></p></e>
     <e><p><l>sudarati<s n="vblex"/></l><r>crash<s n="vblex"/></r></p></e>
     <e><p><l>ispisati<s n="vblex"/></l><r>print<s n="vblex"/></r></p></e>
-    <e><p><l>ispisati<s n="vblex"/></l><r>write<b/>out<s n="vblex"/></r></p></e>
+    <e><p><l>ispisati<s n="vblex"/></l><r>write<g><b/>out</g><s n="vblex"/></r></p></e>
     <e><p><l>potpisati<s n="vblex"/></l><r>sign<s n="vblex"/></r></p></e>
     <e><p><l>vjenčati<s n="vblex"/></l><r>marry<s n="vblex"/></r></p></e>
     <e><p><l>rezati<s n="vblex"/></l><r>cut<s n="vblex"/></r></p></e>
@@ -694,9 +695,9 @@
     <e><p><l>povezati<s n="vblex"/></l><r>connect<s n="vblex"/></r></p></e>
     <e><p><l>povezati<s n="vblex"/></l><r>link<s n="vblex"/></r></p></e>
     <e><p><l>povezati<s n="vblex"/></l><r>tie<s n="vblex"/></r></p></e>
-    <e><p><l>saznati<s n="vblex"/></l><r>find<b/>out<s n="vblex"/></r></p></e>
+    <e><p><l>saznati<s n="vblex"/></l><r>find<g><b/>out</g><s n="vblex"/></r></p></e>
     <e><p><l>saznati<s n="vblex"/></l><r>learn<s n="vblex"/></r></p></e>
-    <e><p><l>doznati<s n="vblex"/></l><r>find<b/>out<s n="vblex"/></r></p></e>
+    <e><p><l>doznati<s n="vblex"/></l><r>find<g><b/>out</g><s n="vblex"/></r></p></e>
     <e><p><l>doznati<s n="vblex"/></l><r>learn<s n="vblex"/></r></p></e>
     <e><p><l>priznati<s n="vblex"/></l><r>admit<s n="vblex"/></r></p></e>
     <e><p><l>priznati<s n="vblex"/></l><r>confess<s n="vblex"/></r></p></e>
@@ -725,7 +726,7 @@
     <e><p><l>posijati<s n="vblex"/></l><r>sow<s n="vblex"/></r></p></e>
     <e><p><l>zasijati<s n="vblex"/></l><r>glow<s n="vblex"/></r></p></e>
     <e><p><l>zasijati<s n="vblex"/></l><r>shine<s n="vblex"/></r></p></e>
-    <e><p><l>presijati<s n="vblex"/></l><r>sow<b/>again<s n="vblex"/></r></p></e>
+    <e><p><l>presijati<s n="vblex"/></l><r>sow<g><b/>again</g><s n="vblex"/></r></p></e>
     <e><p><l>trljati<s n="vblex"/></l><r>rub<s n="vblex"/></r></p></e>
     <e><p><l>plesati<s n="vblex"/></l><r>dance<s n="vblex"/></r></p></e>
     <e><p><l>odigrati<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
@@ -741,7 +742,7 @@
     <e><p><l>okretati<s n="vblex"/></l><r>wheel<s n="vblex"/></r></p></e>
     <e><p><l>osvrtati<s n="vblex"/></l><r>comment<s n="vblex"/></r></p></e>
     <e><p><l>osvrtati<s n="vblex"/></l><r>glance<s n="vblex"/></r></p></e><!--fix-->
-    <e><p><l>osvrtati<s n="vblex"/></l><r>look<b/>back<s n="vblex"/></r></p></e>
+    <e><p><l>osvrtati<s n="vblex"/></l><r>look<g><b/>back</g><s n="vblex"/></r></p></e>
     <e><p><l>osvrtati<s n="vblex"/></l><r>review<s n="vblex"/></r></p></e>
     <e><p><l>ispitati<s n="vblex"/></l><r>examine<s n="vblex"/></r></p></e>
     <e><p><l>ispitati<s n="vblex"/></l><r>test<s n="vblex"/></r></p></e>
@@ -766,9 +767,9 @@
     <e><p><l>pogađati<s n="vblex"/></l><r>hit<s n="vblex"/></r></p></e>
     <e><p><l>pripremati<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
     <e><p><l>pripremati<s n="vblex"/></l><r>prepare<s n="vblex"/></r></p></e>
-    <e><p><l>spremati<s n="vblex"/></l><r>get<b/>ready<s n="vblex"/></r></p></e>
+    <e><p><l>spremati<s n="vblex"/></l><r>get<g><b/>ready</g><s n="vblex"/></r></p></e>
     <e><p><l>spremati<s n="vblex"/></l><r>prepare<s n="vblex"/></r></p></e>
-    <e><p><l>spremati<s n="vblex"/></l><r>put<b/>back<s n="vblex"/></r></p></e>
+    <e><p><l>spremati<s n="vblex"/></l><r>put<g><b/>back</g><s n="vblex"/></r></p></e>
     <e><p><l>spremati<s n="vblex"/></l><r>save<s n="vblex"/></r></p></e>
     <e><p><l>spremati<s n="vblex"/></l><r>tidy<s n="vblex"/></r></p></e>
     <e><p><l>postavljati<s n="vblex"/></l><r>lay<s n="vblex"/></r></p></e><!-- table -->
