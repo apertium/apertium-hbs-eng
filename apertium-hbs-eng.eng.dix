@@ -2789,7 +2789,9 @@
     <e lm="help out"><i>help</i><par n="accept__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
     <e lm="collide"><i>collid</i><par n="liv/e__vblex"/></e>
     <e lm="write out"><i>wr</i><par n="wr/ite__vblex"/><p><l><b/>out</l><r><j/>out<s n="pr"/></r></p></e>
-    
+    <e lm="repulse"><i>repulse</i><par n="liv/e__vblex"/></e>
+    <e lm="put on"><i>put<b/>on</i><par n="cut__vblex"/></e>  
+
     <!-- coding challenge -->
   
     <e lm="Damir"><i>Damir</i><par n="Mark__np"/></e>
