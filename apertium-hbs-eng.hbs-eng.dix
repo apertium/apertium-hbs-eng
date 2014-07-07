@@ -86,7 +86,16 @@
    </sdefs>
 
    <section id="main" type="standard">
-   
+
+    <!-- for coverage -->
+
+    <e><p><l>Southeast<b/>European<b/>Times<s n="np"/></l><r>Southeast<b/>European<b/>Times<s n="np"/></r></p></e>
+    <e><p><l>posto<s n="adv"/></l><r>percent<s n="adv"/></r></p></e>
+    <e><p><l>Getty<b/>Images<s n="np"/></l><r>Getty<b/>Images<s n="np"/></r></p></e>
+    <e><p><l>AFP<s n="abbr"/></l><r>AFP<s n="abbr"/></r></p></e>
+    <e><p><l>Reuters<s n="np"/></l><r>Reuters<s n="np"/></r></p></e>
+    <e><p><l>potpora<s n="n"/></l><r>support<s n="n"/></r></p></e>
+ 
     <!-- midterm -->
     
     <e><p><l>odisati<s n="vblex"/></l><r>buzz<s n="vblex"/></r></p></e>
@@ -496,7 +505,7 @@
     <e><p><l>otkrivati<s n="vblex"/></l><r>reveal<s n="vblex"/></r></p></e>
     <e><p><l>baratati<s n="vblex"/></l><r>handle<s n="vblex"/></r></p></e>
     <e><p><l>baratati<s n="vblex"/></l><r>manage<s n="vblex"/></r></p></e>
-    <e><p><l>bojati<s n="vblex"/></l><r>be<g><b/>afraid<g><s n="vblex"/></r></p></e>
+    <e><p><l>bojati<s n="vblex"/></l><r>be<g><b/>afraid</g><s n="vblex"/></r></p></e>
     
     <e><p><l>bojati<s n="vblex"/></l><r>colour<s n="vblex"/></r></p></e>
     <e><p><l>brojati<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>

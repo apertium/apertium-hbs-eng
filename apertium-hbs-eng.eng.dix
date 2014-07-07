@@ -2658,7 +2658,11 @@
 
 
   <section id="main" type="standard">
-  
+
+    <!-- for coverage -->
+
+	<e lm="Getty Images"><i>Getty<b/>Images</i><par n="United_Nations__np"/></e>
+
     <!-- midterm -->
     
     <e lm="buzz"><i>buzz</i><par n="accept__vblex"/></e>
