@@ -3,9 +3,6 @@ PAIR=$2
 OUT=testvoc-summary.$PAIR.txt
 LOG=testvoc.log
 
-# All parts of speech we take into account for testvoc; subtract or add if neccessary
-POS_TAGS="abbr adj adv cm cnjadv cnjcoo cnjsub det guio ij n np num pr preadv prn rel vaux vbhaver vblex vbser vbmod"
-
 echo -n "" > $OUT;
 
 date >> $OUT
@@ -16,11 +13,8 @@ echo -e "POS\tTotal\tClean\tWith @\tWith #\tClean %" >> $OUT
 GLOBAL_EXCLUDE_FILTER=" -e REGEX"
 cat $INC | grep -v "$GLOBAL_EXCLUDE_FILTER" > $INC.clean.tmp
 
-##
-# Greps the output of lt-expand for the source language, and pulls out POS tags
-function collectPOSTags {
-    lt-expand apertium-$SRC-$TARGET.$SRC.dix | sed 's|.*<||'
-}
+# All parts of speech we take into account for testvoc; subtract or add if neccessary
+POS_TAGS="abbr adj adv cm cnjadv cnjcoo cnjsub det guio ij n np num pr preadv prn rel vaux vbhaver vblex vbser vbmod"
 
 ##
 # Does cleanup for one POS tag, according to the grep expression EXCLUDE_FILTER, 
@@ -34,6 +28,7 @@ function cleanup {
     else
 	cat $pos_tag.inc.tmp | grep -v $EXCLUDE_FILTER > $pos_tag.inc.clean.tmp
     fi
+
 }
 
 ##
@@ -44,10 +39,11 @@ function summary {
     local $pos_tag=$1
        
     local TOTAL=`cat $pos_tag.inc.clean.tmp | wc -l`; 
+    local AT_INTERSECT_HASH=`cat $pos_tag.inc.clean.tmp | grep '@'  | grep '>  *#' | wc -l`;
     local AT=`cat $pos_tag.inc.clean.tmp | grep '@'  | wc -l`;
     local HASH=`cat $pos_tag.inc.clean.tmp | grep '>  *#' | wc -l`;
 
-    local UNCLEAN=`calc $AT+$HASH`;
+    local UNCLEAN=`calc $AT+$HASH-$AT_INTERSECT_HASH`;
     local CLEAN=`calc $TOTAL-$UNCLEAN`;
     local PERCLEAN=`calc $UNCLEAN/$TOTAL*100 |sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
     local TOTPERCLEAN="0";
@@ -95,7 +91,6 @@ done | sort -gr | awk -F';' '{print $2"\t"$1"\t"$3"\t"$4"\t"$5"\t"$6}' >> $OUT
 
 # Cleanup
 rm *.tmp
-#rmdir $TMP
 
 echo -e "===============================================" >> $OUT
 cat $OUT;

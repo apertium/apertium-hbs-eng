@@ -1,6 +1,5 @@
 TMPDIR=./tmp
 PAIR=hbs-eng
-VAR=eng-hbs_HR
 LANGDIR=../..
 
 function inconsistencies {
@@ -19,16 +18,16 @@ function inconsistencies {
 	| cut -f2 -d'%' \
 	| sed 's/^/^/g' \
 	| sed 's/$/$ ^.<sent>$/g' \
-	| tee $TMPDIR/tmp_testvoc1.txt \
+	| tee $TMPDIR/tmp_testvoc_analysis.txt \
 	| apertium-pretransfer \
 	| lt-proc -b $LANGDIR/$SOURCE-$TARGET.autobil.bin \
 	| apertium-transfer -b $LANGDIR/apertium-$PAIR.$SOURCE-$TARGET.t1x  $LANGDIR/$SOURCE-$TARGET.t1x.bin \
 	| apertium-interchunk $LANGDIR/apertium-$PAIR.$SOURCE-$TARGET.t2x  $LANGDIR/$SOURCE-$TARGET.t2x.bin \
 	| apertium-postchunk $LANGDIR/apertium-$PAIR.$SOURCE-$TARGET.t3x  $LANGDIR/$SOURCE-$TARGET.t3x.bin \
-	| tee $TMPDIR/tmp_testvoc2.txt \
-	| lt-proc -d $LANGDIR/$SOURCE-$TARGET$VARIANT.autogen.bin > $TMPDIR/tmp_testvoc3.txt
+	| tee $TMPDIR/tmp_testvoc_transfer.txt \
+	| lt-proc -d $LANGDIR/$SOURCE-$TARGET$VARIANT.autogen.bin > $TMPDIR/tmp_testvoc_generation.txt
 
-    paste -d _ $TMPDIR/tmp_testvoc1.txt $TMPDIR/tmp_testvoc2.txt $TMPDIR/tmp_testvoc3.txt \
+    paste -d _ $TMPDIR/tmp_testvoc_analysis.txt $TMPDIR/tmp_testvoc_transfer.txt $TMPDIR/tmp_testvoc_generation.txt \
         | sed 's/\^.<sent>\$//g' \
         | sed 's/_/   --------->  /g'
 }
@@ -42,4 +41,3 @@ elif [[ $1 = "hbs-eng" ]]; then
 else
     echo "bash inconsistency.sh <direction>";
 fi
-
