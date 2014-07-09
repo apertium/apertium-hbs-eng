@@ -43700,6 +43700,7 @@
     <e lm="than"><i>than</i><par n="and__cnjcoo"/></e>
     <e lm="after"><i>after</i><par n="after__cnjadv"/></e>
     <e lm="even though"><i>even<b/>though</i><par n="after__cnjadv"/></e>
+    <e lm="even if"><i>even<b/>if</i><par n="after__cnjadv"/></e>
     <e lm="although"><i>although</i><par n="after__cnjadv"/></e>
     <e lm="as"><i>as</i><par n="after__cnjadv"/></e>
     <e lm="because"><i>because</i><par n="after__cnjadv"/></e>

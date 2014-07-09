@@ -17,7 +17,12 @@ bash inconsistency.sh hbs-eng > $TMPDIR/hbs-eng.testvoc; bash inconsistency-summ
 elif [[ $1 = "cnjcoo" ]]; then
 mkdir -p $TMPDIR
 echo "==BCMS->English, cnjcoo===================";
-bash inconsistency-cnjcoo.sh hbs-eng > $TMPDIR/hbs-eng-cnjcoo.testvoc; bash inconsistency-summary.sh $TMPDIR/hbs-eng-cnjcoo.testvoc hbs-eng $MONODIX_2
+bash inconsistency-cnjcoo.sh hbs-eng > $TMPDIR/hbs-eng-cnjcoo.testvoc; bash inconsistency-summary-cnjcoo.sh $TMPDIR/hbs-eng-cnjcoo.testvoc hbs-eng $MONODIX_2
+
+elif [[ $1 = "cnjsub" ]]; then
+mkdir -p $TMPDIR
+echo "==BCMS->English, cnjsub===================";
+bash inconsistency-cnjsub.sh hbs-eng > $TMPDIR/hbs-eng-cnjsub.testvoc; bash inconsistency-summary-cnjsub.sh $TMPDIR/hbs-eng-cnjsub.testvoc hbs-eng $MONODIX_2
 
 else
     echo

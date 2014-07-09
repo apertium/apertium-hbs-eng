@@ -87,6 +87,27 @@
 
    <section id="main" type="standard">
 
+    <!-- testvoc subordinating conjunctions -->
+
+    <e><p><l>da<b/>li<s n="cnjsub"/></l><r>if<s n="cnjsub"/></r></p></e>
+    <e><p><l>kad<s n="cnjsub"/></l><r>when<s n="cnjsub"/></r></p></e>
+    <e><p><l>pošto<s n="cnjsub"/></l><r>since<s n="cnjsub"/></r></p></e>
+    <e><p><l>jer<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
+    <e><p><l>neka<s n="cnjsub"/></l><r>so<s n="cnjadv"/></r></p></e>
+    <e><p><l>neka<s n="cnjsub"/></l><r>even<b/>though<s n="cnjadv"/></r></p></e>
+    <e><p><l>stoga<s n="cnjsub"/></l><r>so<s n="cnjadv"/></r></p></e>
+    <e><p><l>iako<s n="cnjsub"/></l><r>although<s n="cnjadv"/></r></p></e>
+    <e><p><l>iako<s n="cnjsub"/></l><r>even<b/>though<s n="cnjadv"/></r></p></e>
+    <e><p><l>premda<s n="cnjsub"/></l><r>although<s n="cnjadv"/></r></p></e>
+    <e><p><l>premda<s n="cnjsub"/></l><r>even<b/>though<s n="cnjadv"/></r></p></e>
+    <e><p><l>makar<s n="cnjsub"/></l><r>even<b/>if<s n="cnjadv"/></r></p></e>
+    <e><p><l>mada<s n="cnjsub"/></l><r>even<b/>though<s n="cnjadv"/></r></p></e>
+    <e><p><l>ako<b/>i<s n="cnjsub"/></l><r>even<b/>if<s n="cnjadv"/></r></p></e>
+    <e><p><l>no<s n="cnjsub"/></l><r>but<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ako<b/>je<s n="cnjsub"/></l><r>if<s n="cnjsub"/></r></p></e>
+    <e><p><l>mada<b/>i<s n="cnjsub"/></l><r>even<b/>though<s n="cnjadv"/></r></p></e>
+    <e><p><l>kao<b/>i<s n="cnjsub"/></l><r>just<b/>like<s n="cnjadv"/></r></p></e>
+
     <!-- testvoc coordinating conjunctions -->
 
     <e><p><l>pa<s n="cnjcoo"/></l><r>so<s n="cnjadv"/></r></p></e>
