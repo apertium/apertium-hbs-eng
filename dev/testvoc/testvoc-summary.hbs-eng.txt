@@ -1,6 +1,9 @@
-Sat Jul  5 18:49:27 CEST 2014
+Thu 10 Jul 00:47:40 CEST 2014
 ===============================================
 POS	Total	Clean	With @	With #	Clean %
+cnjcoo	25	 25	0	0	100
+cnjadv	4	 4	0	0	100
+preadv	1	 1	0	0	100
 vbser	0	 0	0	0	100
 vbmod	0	 0	0	0	100
 vblex	0	 0	0	0	100
@@ -8,7 +11,6 @@ vbhaver	0	 0	0	0	100
 vaux	0	 0	0	0	100
 rel	0	 0	0	0	100
 prn	0	 0	0	0	100
-preadv	0	 0	0	0	100
 pr	0	 0	0	0	100
 num	0	 0	0	0	100
 np	0	 0	0	0	100
@@ -17,8 +19,6 @@ ij	0	 0	0	0	100
 guio	0	 0	0	0	100
 det	0	 0	0	0	100
 cnjsub	0	 0	0	0	100
-cnjcoo	0	 0	0	0	100
-cnjadv	0	 0	0	0	100
 cm	0	 0	0	0	100
 adv	0	 0	0	0	100
 adj	0	 0	0	0	100

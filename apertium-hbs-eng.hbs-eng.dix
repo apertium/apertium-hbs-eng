@@ -87,6 +87,25 @@
 
    <section id="main" type="standard">
 
+    <!-- testvoc coordinating conjunctions -->
+
+    <e><p><l>pa<s n="cnjcoo"/></l><r>so<s n="cnjadv"/></r></p></e>
+    <e><p><l>pak<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
+    <e><p><l>tek<s n="cnjcoo"/></l><r>just<b/>as<s n="preadv"/></r></p></e>
+    <e><p><l>jedino<s n="cnjcoo"/></l><r>only<s n="cnjcoo"/></r></p></e>
+    <e><p><l>osim<s n="cnjcoo"/></l><r>even<b/>though<s n="cnjadv"/></r></p></e>
+    <e><p><l>osim<s n="cnjcoo"/></l><r>except<s n="cnjcoo"/></r></p></e>
+    <e><p><l>zato<s n="cnjcoo"/></l><r>so<s n="cnjadv"/></r></p></e>
+    <e><p><l>dakle<s n="cnjcoo"/></l><r>so<s n="cnjadv"/></r></p></e>
+    <e><p><l>stoga<s n="cnjcoo"/></l><r>so<s n="cnjadv"/></r></p></e>
+    <e><p><l>naime<s n="cnjcoo"/></l><r>or<b/>rather<s n="cnjcoo"/></r></p></e><!-- less common meaning; the first one has no real equivalent -->
+
+    <!-- testvoc interjections -->
+
+    <e><p><l>bok<s n="part"/></l><r>hello<s n="ij"/></r></p></e>
+    <e><p><l>da<s n="part"/></l><r>yes<s n="ij"/></r></p></e>
+    <e><p><l>eto<s n="part"/></l><r>there<s n="ij"/></r></p></e>
+
     <!-- for coverage -->
 
     <e><p><l>Southeast<b/>European<b/>Times<s n="np"/></l><r>Southeast<b/>European<b/>Times<s n="np"/></r></p></e>

@@ -12,7 +12,12 @@ echo ""
 elif [[ $1 = "2" ]]; then
 mkdir -p $TMPDIR
 echo "==BCMS->English===========================";
-bash inconsistency.sh hbs-eng > $TMPDIR/hbs-eng.testvoc; bash inconsistency-summary-parallel.sh $TMPDIR/hbs-eng.testvoc hbs-eng $MONODIX_2
+bash inconsistency.sh hbs-eng > $TMPDIR/hbs-eng.testvoc; bash inconsistency-summary.sh $TMPDIR/hbs-eng.testvoc hbs-eng $MONODIX_2
+
+elif [[ $1 = "cnjcoo" ]]; then
+mkdir -p $TMPDIR
+echo "==BCMS->English, cnjcoo===================";
+bash inconsistency-cnjcoo.sh hbs-eng > $TMPDIR/hbs-eng-cnjcoo.testvoc; bash inconsistency-summary.sh $TMPDIR/hbs-eng-cnjcoo.testvoc hbs-eng $MONODIX_2
 
 else
     echo

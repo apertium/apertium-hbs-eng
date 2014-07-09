@@ -2864,6 +2864,8 @@
     <e lm="breakup"><i>breakup</i><par n="house__n"/></e>
     <e lm="bronze"><i>bronze</i><par n="house__n"/></e>
     <e lm="but"><i>but</i><par n="and__cnjcoo"/></e>
+    <e lm="except"><i>except</i><par n="and__cnjcoo"/></e>
+    <e lm="only"><i>only</i><par n="and__cnjcoo"/></e>
     <e lm="but"><i>but</i><par n="at__pr"/></e>
     <e lm="career"><i>career</i><par n="house__n"/></e>
     <e lm="chosen"><i>chosen</i><par n="expensive__adj"/></e>
@@ -43689,6 +43691,7 @@
     <e lm="both"><i>both</i><par n="and__cnjcoo"/></e>
     <e lm="but"><i>but</i><par n="and__cnjcoo"/></e>
     <e lm="but rather"><i>but<b/>rather</i><par n="and__cnjcoo"/></e>
+    <e lm="or rather"><i>or<b/>rather</i><par n="and__cnjcoo"/></e>
     <e lm="either"><i>either</i><par n="and__cnjcoo"/></e>
     <e lm="neither"><i>neither</i><par n="and__cnjcoo"/></e>
     <e lm="nor"><i>nor</i><par n="and__cnjcoo"/></e>
