@@ -2664,6 +2664,9 @@
 	<e lm="Getty Images"><i>Getty<b/>Images</i><par n="United_Nations__np"/></e>
 	<e lm="Priština"><i>Priština</i><par n="Barcelona__np"/></e>
     <e lm="OESS"><i>OESS</i><par n="e.g.__abbr"/></e>
+	<e lm="The Times"><i>The<b/>Times</i><par n="United_Nations__np"/></e>
+    <e lm="relating to"><i>relating<b/>to</i><par n="maybe__adv"/></e>
+    <e lm="defendant"><i>defendant</i><par n="house__n"/></e>
 
     <!-- midterm -->
     
@@ -49939,7 +49942,7 @@
 	<e lm="Ponk"><i>Ponk</i><par n="Smith__np"/></e>
 	<e lm="Ponomarenko"><i>Ponomarenko</i><par n="Smith__np"/></e>
 	<e lm="Pont"><i>Pont</i><par n="United_States__np"/></e>
-	<e lm="Ponte"><i>Ponte</i><par n="United_Nations__np"/></e>
+	<e lm="Ponte"><i>Ponte</i><par n="Smith__np"/></e>
 	<e lm="Pontes"><i>Pontes</i><par n="Smith__np"/></e>
 	<e lm="Popera"><i>Popera</i><par n="Smith__np"/></e>
 	<e lm="Popeski"><i>Popeski</i><par n="Smith__np"/></e>
