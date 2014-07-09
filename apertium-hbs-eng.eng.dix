@@ -2667,6 +2667,7 @@
 	<e lm="The Times"><i>The<b/>Times</i><par n="United_Nations__np"/></e>
     <e lm="relating to"><i>relating<b/>to</i><par n="maybe__adv"/></e>
     <e lm="defendant"><i>defendant</i><par n="house__n"/></e>
+    <e lm="setting up"><i>setting<b/>up</i><par n="east__n"/></e>
 
     <!-- midterm -->
     
@@ -11471,13 +11472,13 @@
     <e lm="Viktorsson"><i>Viktorsson</i><par n="Smith__np"/></e>
     <e lm="Garðarsson"><i>Garðarsson</i><par n="Smith__np"/></e>
     <e lm="Lúðvíksson"><i>Lúðvíksson</i><par n="Smith__np"/></e>
-    <e lm="Jónsson">      <i>Jónsson</i><par n="Smith__np"/></e>
-    <e lm="Sigmundsson">      <i>Sigmundsson</i><par n="Smith__np"/></e>
-    <e lm="Guðmundsson">      <i>Guðmundsson</i><par n="Smith__np"/></e>
-    <e lm="Sigurðsson">      <i>Sigurðsson</i><par n="Smith__np"/></e>
-    <e lm="Magnússon">      <i>Magnússon</i><par n="Smith__np"/></e>
-    <e lm="Einarsson">      <i>Einarsson</i><par n="Smith__np"/></e>
-    <e lm="Ólafsson">      <i>Ólafsson</i><par n="Smith__np"/></e>
+    <e lm="Jónsson"><i>Jónsson</i><par n="Smith__np"/></e>
+    <e lm="Sigmundsson"><i>Sigmundsson</i><par n="Smith__np"/></e>
+    <e lm="Guðmundsson"><i>Guðmundsson</i><par n="Smith__np"/></e>
+    <e lm="Sigurðsson"><i>Sigurðsson</i><par n="Smith__np"/></e>
+    <e lm="Magnússon"><i>Magnússon</i><par n="Smith__np"/></e>
+    <e lm="Einarsson"><i>Einarsson</i><par n="Smith__np"/></e>
+    <e lm="Ólafsson"><i>Ólafsson</i><par n="Smith__np"/></e>
 
 
 
