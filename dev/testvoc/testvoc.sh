@@ -2,45 +2,44 @@ TMPDIR=./tmp
 MONODIX_2=../../apertium-hbs-eng.hbs.dix
 MONODIX_1=../../apertium-hbs-eng.eng.dix
 
-if [[ $1 = "1" ]]; then
-mkdir -p $TMPDIR
-echo "==English->BCMS===========================";
-#bash inconsistency.sh eng-hbs_SR > $TMPDIR/eng-hbs_SR.testvoc; bash inconsistency-summary.sh $TMPDIR/eng-hbs_SR.testvoc eng-hbs_SR $MONODIX_1
-bash inconsistency.sh eng-hbs_HR > $TMPDIR/eng-hbs_HR.testvoc; bash inconsistency-summary.sh $TMPDIR/eng-hbs_HR.testvoc eng-hbs_HR $MONODIX_1
-echo ""
+DIRECTION=$1
+PATTERN=$2
 
-elif [[ $1 = "2" ]]; then
-mkdir -p $TMPDIR
-echo "==BCMS->English===========================";
-bash inconsistency.sh hbs-eng > $TMPDIR/hbs-eng.testvoc; bash inconsistency-summary.sh $TMPDIR/hbs-eng.testvoc hbs-eng $MONODIX_2
+if [ -z $PATTERN ] && [ -z $DIRECTION ]; then
+    echo
+    echo "Example usage (full testvoc):"
+    echo
+    echo "  English -> BCMS: " $0 "1"
+    echo "  BCMS -> English: " $0 "2"
+    echo
+    echo "Example usage (per pattern testvoc):"
+    echo
+    echo "  English -> BCMS: " $0 "1 '<np>'"
+    echo "  BCMS -> English: " $0 "2 '<np>'"    
+    exit
+fi
 
-elif [[ $1 = "cnjcoo" ]]; then
-mkdir -p $TMPDIR
-echo "==BCMS->English, cnjcoo===================";
-bash inconsistency-cnjcoo.sh hbs-eng > $TMPDIR/hbs-eng-cnjcoo.testvoc; bash inconsistency-summary-cnjcoo.sh $TMPDIR/hbs-eng-cnjcoo.testvoc hbs-eng $MONODIX_2
-
-elif [[ $1 = "cnjsub" ]]; then
-mkdir -p $TMPDIR
-echo "==BCMS->English, cnjsub===================";
-bash inconsistency-cnjsub.sh hbs-eng > $TMPDIR/hbs-eng-cnjsub.testvoc; bash inconsistency-summary-cnjsub.sh $TMPDIR/hbs-eng-cnjsub.testvoc hbs-eng $MONODIX_2
-
-elif [[ $1 = "ij" ]]; then
-mkdir -p $TMPDIR
-echo "==BCMS->English, ij=======================";
-bash inconsistency-ij.sh hbs-eng > $TMPDIR/hbs-eng-ij.testvoc; bash inconsistency-summary-ij.sh $TMPDIR/hbs-eng-ij.testvoc hbs-eng $MONODIX_2
-
-elif [[ $1 = "pr" ]]; then
-mkdir -p $TMPDIR
-echo "==BCMS->English, pr=======================";
-bash inconsistency-pr.sh hbs-eng > $TMPDIR/hbs-eng-pr.testvoc; bash inconsistency-summary-pr.sh $TMPDIR/hbs-eng-pr.testvoc hbs-eng $MONODIX_2
-
+if [[ $DIRECTION = "1" ]]; then 
+    # TODO: The other hbs variants
+    DIRECTION=eng-hbs_HR
+    TITLE="==English->BCMS===========================";
+elif [[ $DIRECTION = "2" ]]; then 
+    DIRECTION="hbs-eng"
+    TITLE="==BCMS->English ===================";
 else
-    echo
-    echo "Usage:"
-    echo
-    echo "English -> BCMS: " $0 "1"
-    echo "BCMS -> English: " $0 "2"
-    echo
+    TITLE="UNKNOWN"
+fi
+
+if [ -z $PATTERN ]; then
+    mkdir -p $TMPDIR
+    echo $TITLE
+    bash inconsistency.sh $DIRECTION > $TMPDIR/eng-hbs_HR.testvoc; bash inconsistency-summary.sh $TMPDIR/eng-hbs_HR.testvoc eng-hbs_HR $MONODIX_1
+    echo ""    
+else
+    PATTERN=$2
+    mkdir -p $TMPDIR
+    echo $TITLE
+    bash inconsistency.sh "$DIRECTION" $PATTERN > $TMPDIR/hbs-eng.testvoc; bash inconsistency-summary.sh $TMPDIR/hbs-eng.testvoc hbs-eng $MONODIX_2
 fi
 
 # Cleanup
