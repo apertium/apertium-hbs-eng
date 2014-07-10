@@ -21,14 +21,14 @@ fi
 if [[ $DIRECTION = "eng-hbs_HR" ]]; then
     SOURCE="eng"
     TARGET="hbs"
-    VARIANT="_SR"
+    VARIANT="_HR"
 elif [[ $DIRECTION = "eng-hbs_SR" ]]; then
     SOURCE="eng"
     TARGET="hbs"
     VARIANT="_SR"
 elif [[ $DIRECTION = "hbs-eng" ]]; then
-    SOURCE="eng"
-    TARGET="hbs"
+    SOURCE="hbs"
+    TARGET="eng"
 else
     echo
     echo "Unknown direction: $DIRECTION";
