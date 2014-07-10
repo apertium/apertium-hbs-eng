@@ -24,6 +24,11 @@ mkdir -p $TMPDIR
 echo "==BCMS->English, cnjsub===================";
 bash inconsistency-cnjsub.sh hbs-eng > $TMPDIR/hbs-eng-cnjsub.testvoc; bash inconsistency-summary-cnjsub.sh $TMPDIR/hbs-eng-cnjsub.testvoc hbs-eng $MONODIX_2
 
+elif [[ $1 = "ij" ]]; then
+mkdir -p $TMPDIR
+echo "==BCMS->English, ij=======================";
+bash inconsistency-ij.sh hbs-eng > $TMPDIR/hbs-eng-ij.testvoc; bash inconsistency-summary-ij.sh $TMPDIR/hbs-eng-ij.testvoc hbs-eng $MONODIX_2
+
 else
     echo
     echo "Usage:"

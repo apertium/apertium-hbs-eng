@@ -87,6 +87,73 @@
 
    <section id="main" type="standard">
 
+    <!-- testvoc interjections -->
+
+    <e><p><l>zbogom<s n="ij"/></l><r>farewell<s n="ij"/></r></p></e>
+    <e><p><l>uh<s n="ij"/></l><r>er<s n="ij"/></r></p></e>
+    <e><p><l>uh<s n="ij"/></l><r>ugh<s n="ij"/></r></p></e>
+    <e><p><l>uh<s n="ij"/></l><r>uh<s n="ij"/></r></p></e>
+    <e><p><l>oh<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
+    <e><p><l>eh<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
+    <e><p><l>ih<s n="ij"/></l><r>meh<s n="ij"/></r></p></e>
+    <e><p><l>ih<s n="ij"/></l><r>ugh<s n="ij"/></r></p></e>
+    <e><p><l>ah<s n="ij"/></l><r>ah<s n="ij"/></r></p></e>
+    <e><p><l>ah<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
+    <e><p><l>joj<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
+    <e><p><l>joj<s n="ij"/></l><r>oops<s n="ij"/></r></p></e>
+    <e><p><l>ijuju<s n="ij"/></l><r>whee<s n="ij"/></r></p></e>
+    <e><p><l>oho<s n="ij"/></l><r>ooh<s n="ij"/></r></p></e>
+    <e><p><l>aha<s n="ij"/></l><r>a-ha<s n="ij"/></r></p></e>
+    <e><p><l>aha<s n="ij"/></l><r>uh-huh<s n="ij"/></r></p></e>
+    <e><p><l>ej<s n="ij"/></l><r>hey<s n="ij"/></r></p></e>
+    <e><p><l>ej<s n="ij"/></l><r>oi<s n="ij"/></r></p></e>
+    <e><p><l>haj<s n="ij"/></l><r>hi<s n="ij"/></r></p></e>
+    <e><p><l>hoj<s n="ij"/></l><r>ahoy<s n="ij"/></r></p></e>
+    <e><p><l>uf<s n="ij"/></l><r>oof<s n="ij"/></r></p></e>
+    <e><p><l>uf<s n="ij"/></l><r>ugh<s n="ij"/></r></p></e>
+    <e><p><l>pi<s n="ij"/></l><r>chirp<s n="ij"/></r></p></e>
+    <e><p><l>pi-pi-pi<s n="ij"/></l><r>kip<s n="ij"/></r></p></e>
+    <e><p><l>fuj<s n="ij"/></l><r>eew<s n="ij"/></r></p></e>
+    <e><p><l>fuj<s n="ij"/></l><r>eww<s n="ij"/></r></p></e>
+    <e><p><l>juhuhu<s n="ij"/></l><r>yoohoo<s n="ij"/></r></p></e>
+    <e><p><l>kuku<s n="ij"/></l><r>woe<s n="ij"/></r></p></e>
+    <e><p><l>ua<s n="ij"/></l><r>uwaah<s n="ij"/></r></p></e>
+    <e><p><l>hej<s n="ij"/></l><r>hey<s n="ij"/></r></p></e>
+    <e><p><l>oj<s n="ij"/></l><r>hey<s n="ij"/></r></p></e>
+    <e><p><l>oj<s n="ij"/></l><r>oi<s n="ij"/></r></p></e>
+    <e><p><l>de<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
+    <e><p><l>hajde<s n="ij"/></l><r>come<b/>on<s n="ij"/></r></p></e>
+    <e><p><l>mac<s n="ij"/></l><r>here,<b/>kitty<s n="ij"/></r></p></e>
+    <e><p><l>guc<s n="ij"/></l><r>gulp<s n="ij"/></r></p></e>
+    <e><p><l>guc<s n="ij"/></l><r>jug<s n="ij"/></r></p></e>
+    <e><p><l>pi-pi-pi<s n="ij"/></l><r>chick<s n="ij"/></r></p></e><!--fix:-->
+    <e><p><l>pis<s n="ij"/></l><r>scribble<s n="ij"/></r></p></e><!-- I guess -->
+    <e><p><l>ehe<s n="ij"/></l><r>heh<s n="ij"/></r></p></e>
+    <e><p><l>curik<s n="ij"/></l><r>chirp<s n="ij"/></r></p></e><!-- no idea -->
+<!--    <e><p><l>hojs<s n="ij"/></l><r>???<s n="ij"/></r></p></e> again -->
+    <e><p><l>pljus<s n="ij"/></l><r>splash<s n="ij"/></r></p></e>
+    <e><p><l>krc<s n="ij"/></l><r>crunch<s n="ij"/></r></p></e>
+    <e><p><l>krah<s n="ij"/></l><r>crunch<s n="ij"/></r></p></e>
+    <e><p><l>bum<s n="ij"/></l><r>boom<s n="ij"/></r></p></e>
+    <e><p><l>kvrc<s n="ij"/></l><r>clink<s n="ij"/></r></p></e>
+    <e><p><l>cin<s n="ij"/></l><r>ching<s n="ij"/></r></p></e>
+    <e><p><l>apciha<s n="ij"/></l><r>achoo<s n="ij"/></r></p></e>
+    <e><p><l>apćiha<s n="ij"/></l><r>achoo<s n="ij"/></r></p></e>
+    <e><p><l>mijau<s n="ij"/></l><r>meow<s n="ij"/></r></p></e>
+    <e><p><l>vau-vau<s n="ij"/></l><r>woof<b/>woof<s n="ij"/></r></p></e>
+    <e><p><l>vauvau<s n="ij"/></l><r>woof<s n="ij"/></r></p></e>
+    <e><p><l>vau<b/>vau<s n="ij"/></l><r>woof<b/>woof<s n="ij"/></r></p></e>
+    <e><p><l>kukuriku<s n="ij"/></l><r>cock-a-doodle-doo<s n="ij"/></r></p></e>
+    <e><p><l>kokodak<s n="ij"/></l><r>bak<s n="ij"/></r></p></e><!--fix:-->
+    <e><p><l>amen<s n="ij"/></l><r>amen<s n="ij"/></r></p></e>
+    <e><p><l>ha<s n="ij"/></l><r>huh<s n="ij"/></r></p></e>
+    <e><p><l>no<s n="ij"/></l><r>well<s n="ij"/></r></p></e>
+    <e><p><l>penk<s n="ij"/></l><r>plink<s n="ij"/></r></p></e><!-- no idea -->
+    <e><p><l>pazi<s n="ij"/></l><r>look<b/>out<s n="ij"/></r></p></e>
+    <e><p><l>pazi<s n="ij"/></l><r>watch<b/>out<s n="ij"/></r></p></e>
+    <e><p><l>hvala<s n="ij"/></l><r>thanks<s n="ij"/></r></p></e>
+    <e><p><l>hvala<s n="ij"/></l><r>thank<b/>you<s n="ij"/></r></p></e>
+
     <!-- testvoc subordinating conjunctions -->
 
     <e><p><l>da<b/>li<s n="cnjsub"/></l><r>if<s n="cnjsub"/></r></p></e>
