@@ -87,6 +87,56 @@
 
    <section id="main" type="standard">
 
+    <!-- testvoc prepositions -->
+
+    <e><p><l>put<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+    <e><p><l>među<s n="pr"/></l><r>among<s n="pr"/></r></p></e>
+    <e><p><l>među<s n="pr"/></l><r>amongst<s n="pr"/></r></p></e>
+    <e><p><l>među<s n="pr"/></l><r>within<s n="pr"/></r></p></e>
+    <e><p><l>nad<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
+    <e><p><l>pod<s n="pr"/></l><r>under<s n="pr"/></r></p></e>
+    <e><p><l>mimo<s n="pr"/></l><r>past<s n="pr"/></r></p></e>
+    <e><p><l>k<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+    <e><p><l>k<s n="pr"/></l><r>towards<s n="pr"/></r></p></e>
+    <e><p><l>proti<s n="pr"/></l><r>against<s n="pr"/></r></p></e>
+    <e><p><l>nadomak<s n="pr"/></l><r>close<b/>to<s n="pr"/></r></p></e>
+    <e><p><l>nadomak<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
+    <e><p><l>nasuprot<s n="pr"/></l><r>across<s n="pr"/></r></p></e>
+    <e><p><l>usprkos<s n="pr"/></l><r>despite<s n="pr"/></r></p></e>
+    <e><p><l>usprkos<s n="pr"/></l><r>in<b/>spite<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>niz<s n="pr"/></l><r>down<s n="pr"/></r></p></e>
+    <e><p><l>pri<s n="pr"/></l><r>close<b/>to<s n="pr"/></r></p></e>
+    <e><p><l>pri<s n="pr"/></l><r>next<b/>to<s n="pr"/></r></p></e>
+    <e><p><l>između<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
+    <e><p><l>iznad<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
+    <e><p><l>izvan<s n="pr"/></l><r>out<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>mjesto<s n="pr"/></l><r>instead<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>nasred<s n="pr"/></l><r>in<b/>the<b/>middle<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>navrh<s n="pr"/></l><r>on<b/>the<b/>top<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>povrh<s n="pr"/></l><r>on<b/>the<b/>top<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>povrh<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
+    <e><p><l>oko<s n="pr"/></l><r>around<s n="pr"/></r></p></e>
+    <e><p><l>osim<s n="pr"/></l><r>except<s n="pr"/></r></p></e>
+    <e><p><l>pokraj<s n="pr"/></l><r>next<b/>to<s n="pr"/></r></p></e>
+    <e><p><l>ponad<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
+    <e><p><l>poput<s n="pr"/></l><r>like<s n="pr"/></r></p></e>
+    <e><p><l>pozadi<s n="pr"/></l><r>in<b/>the<b/>back<s n="pr"/></r></p></e>
+    <e><p><l>pozadi<s n="pr"/></l><r>behind<s n="pr"/></r></p></e>
+    <e><p><l>pored<s n="pr"/></l><r>next<b/>to<s n="pr"/></r></p></e>
+    <e><p><l>poslije<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
+    <e><p><l>preko<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
+    <e><p><l>radi<s n="pr"/></l><r>because<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>sred<s n="pr"/></l><r>in<b/>the<b/>middle<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>umjesto<s n="pr"/></l><r>instead<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>uoči<s n="pr"/></l><r>on<b/>the<b/>eve<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>van<s n="pr"/></l><r>out<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>vrh<s n="pr"/></l><r>on<b/>the<b/>top<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>zarad<s n="pr"/></l><r>because<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>zaradi<s n="pr"/></l><r>because<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>onkraj<s n="pr"/></l><r>close<b/>to<s n="pr"/></r></p></e>
+    <e><p><l>na<b/>kraju<s n="pr"/></l><r>in<b/>the<b/>end<s n="pr"/></r></p></e>
+    <e><p><l>na<b/>kraju<s n="pr"/></l><r>at<b/>the<b/>end<b/>of<s n="pr"/></r></p></e>
+
     <!-- testvoc interjections -->
 
     <e><p><l>zbogom<s n="ij"/></l><r>farewell<s n="ij"/></r></p></e>

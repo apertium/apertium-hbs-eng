@@ -2659,6 +2659,18 @@
 
   <section id="main" type="standard">
 
+    <!-- testvoc prepositions -->
+
+    <e lm="close to"><i>close<b/>to</i><par n="at__pr"/></e>
+    <e lm="across"><i>across</i><par n="at__pr"/></e>
+    <e lm="down"><i>down</i><par n="at__pr"/></e>
+    <e lm="on the top of"><i>on<b/>the<b/>top<b/>of</i><par n="at__pr"/></e>
+    <e lm="in the back"><i>in<b/>the<b/>back</i><par n="at__pr"/></e>
+    <e lm="on the eve of"><i>on<b/>the<b/>eve<b/>of</i><par n="at__pr"/></e>
+    <e lm="in the end"><i>in<b/>the<b/>end</i><par n="at__pr"/></e>
+    <e lm="at the beginning of"><i>at<b/>the<b/>beginning<b/>of</i><par n="at__pr"/></e>
+    <e lm="at the end of"><i>at<b/>the<b/>end<b/>of</i><par n="at__pr"/></e>
+
     <!-- testvoc interjections -->
 
     <e lm="farewell"><i>farewell</i><par n="hello__ij"/></e>
