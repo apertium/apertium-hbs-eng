@@ -39,9 +39,9 @@ fi
 mkdir -p $TMPDIR
 
 if [ -z $PATTERN ]; then
-    lt-expand $LANGDIR/apertium-$PAIR.$SOURCE.dix | grep "$PATTERN" > monodix.expanded.tmp
-else
     lt-expand $LANGDIR/apertium-$PAIR.$SOURCE.dix > monodix.expanded.tmp
+else
+    lt-expand $LANGDIR/apertium-$PAIR.$SOURCE.dix | grep "$PATTERN" > monodix.expanded.tmp
 fi
 
 #lt-expand $LANGDIR/apertium-$PAIR.$SOURCE.dix \

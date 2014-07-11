@@ -33,13 +33,13 @@ fi
 if [ -z $PATTERN ]; then
     mkdir -p $TMPDIR
     echo $TITLE
-    bash inconsistency.sh $DIRECTION > $TMPDIR/eng-hbs_HR.testvoc; bash inconsistency-summary.sh $TMPDIR/eng-hbs_HR.testvoc eng-hbs_HR $MONODIX_1
+    bash inconsistency.sh "$DIRECTION" > $TMPDIR/eng-hbs_HR.testvoc; bash inconsistency-summary.sh $TMPDIR/eng-hbs_HR.testvoc eng-hbs_HR $MONODIX_1
     echo ""    
 else
     PATTERN=$2
     mkdir -p $TMPDIR
     echo $TITLE
-    bash inconsistency.sh "$DIRECTION" $PATTERN > $TMPDIR/hbs-eng.testvoc; bash inconsistency-summary.sh $TMPDIR/hbs-eng.testvoc hbs-eng $MONODIX_2
+    bash inconsistency.sh "$DIRECTION" "$PATTERN" > $TMPDIR/hbs-eng.testvoc; bash inconsistency-summary.sh $TMPDIR/hbs-eng.testvoc hbs-eng $MONODIX_2
 fi
 
 # Cleanup
