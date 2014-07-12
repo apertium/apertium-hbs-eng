@@ -38,14 +38,18 @@ fi
 
 mkdir -p $TMPDIR
 
+source_monodix=$LANGDIR/apertium-$PAIR.$SOURCE.dix
+expanded_monodix=monodix.expanded.cache
+bidix_binary=$LANGDIR/$SOURCE-$TARGET.autobil.bin
+
 if [ -z $PATTERN ]; then
-    lt-expand $LANGDIR/apertium-$PAIR.$SOURCE.dix > monodix.expanded.tmp
+    lt-expand $source_monodix > $expanded_monodix
 else
-    lt-expand $LANGDIR/apertium-$PAIR.$SOURCE.dix | grep "$PATTERN" > monodix.expanded.tmp
+    lt-expand $source_monodix | grep "$PATTERN" > $expanded_monodix
 fi
 
 #lt-expand $LANGDIR/apertium-$PAIR.$SOURCE.dix \
-cat monodix.expanded.tmp \
+cat $expanded_monodix \
     | grep -v 'REGEX' \
     | grep -e ':>:' -e '\w:\w' \
     | sed 's/:>:/%/g' \

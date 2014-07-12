@@ -21,7 +21,7 @@ fi
 
 if [[ $DIRECTION = "1" ]]; then 
     # TODO: The other hbs variants
-    DIRECTION=eng-hbs_HR
+    DIRECTION="eng-hbs_HR"
     TITLE="==English->BCMS===========================";
 elif [[ $DIRECTION = "2" ]]; then 
     DIRECTION="hbs-eng"
@@ -33,13 +33,15 @@ fi
 if [ -z $PATTERN ]; then
     mkdir -p $TMPDIR
     echo $TITLE
-    bash inconsistency.sh "$DIRECTION" > $TMPDIR/eng-hbs_HR.testvoc; bash inconsistency-summary.sh $TMPDIR/eng-hbs_HR.testvoc eng-hbs_HR $MONODIX_1
+    bash inconsistency.sh "$DIRECTION" > $TMPDIR/$DIRECTION.testvoc; 
+    bash inconsistency-summary.sh $TMPDIR/$DIRECTION.testvoc $DIRECTION $MONODIX_1
     echo ""    
 else
     PATTERN=$2
     mkdir -p $TMPDIR
     echo $TITLE
-    bash inconsistency.sh "$DIRECTION" "$PATTERN" > $TMPDIR/hbs-eng.testvoc; bash inconsistency-summary.sh $TMPDIR/hbs-eng.testvoc hbs-eng $MONODIX_2
+    bash inconsistency.sh "$DIRECTION" "$PATTERN" > $TMPDIR/$DIRECTION.testvoc; 
+    bash inconsistency-summary.sh $TMPDIR/$DIRECTION.testvoc $DIRECTION $MONODIX_2
 fi
 
 # Cleanup
