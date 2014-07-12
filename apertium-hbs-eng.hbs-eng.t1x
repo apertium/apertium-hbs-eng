@@ -26,6 +26,7 @@
       <cat-item tags="vbser.*"/>
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbhaver.*"/>
+      <cat-item tags="vbdo.*"/>
       <cat-item tags="vbmod.*"/>
       <cat-item tags="vaux.*"/>
     </def-cat>
@@ -144,6 +145,14 @@
 
     <def-cat n="htjeti">
       <cat-item lemma="htjeti" tags="vbmod.*"/>
+    </def-cat>
+
+    <def-cat n="imati">
+      <cat-item lemma="imati" tags="vbhaver.*"/>
+    </def-cat>
+
+    <def-cat n="nemati">
+      <cat-item lemma="nemati" tags="vbhaver.*"/>
     </def-cat>
 
     <def-cat n="moći">
@@ -1101,6 +1110,32 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- nemati -->
+    <rule comment="neg-vbhaver">
+      <pattern>
+	<pattern-item n="nemati"/>
+      </pattern>      
+      <action>
+	<call-macro n="vb_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="neg-vbhaver" case="variableCase">
+            <tags>
+              <tag><lit-tag v="neg-vbhaver"/></tag>
+            </tags>
+            <lu>
+              <lit v="don't"/>
+              <lit-tag v="vbdo.pres"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="have"/>
+              <lit-tag v="vbhaver"/>
             </lu>
           </chunk>
         </out>

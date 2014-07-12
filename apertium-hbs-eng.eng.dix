@@ -2659,6 +2659,10 @@
 
   <section id="main" type="standard">
 
+    <!-- testvoc vbhaver -->
+
+
+
     <!-- testvoc prepositions -->
 
     <e lm="close to"><i>close<b/>to</i><par n="at__pr"/></e>
@@ -2723,6 +2727,7 @@
     <e lm="watch out"><i>watch<b/>out</i><par n="hello__ij"/></e>
     <e lm="thanks"><i>thanks</i><par n="hello__ij"/></e>
     <e lm="thank you"><i>thank<b/>you</i><par n="hello__ij"/></e>
+    <e lm="hello"><i>hello</i><par n="hello__ij"/></e>
 
     <!-- for coverage -->
 
