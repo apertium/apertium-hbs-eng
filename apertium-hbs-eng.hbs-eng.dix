@@ -21,6 +21,11 @@
     <sdef n="acr"/>
     <sdef n="comp"/>
     <sdef n="imperf"/>
+    <sdef n="imp"/>
+    <sdef n="pii"/>
+    <sdef n="lp"/>
+    <sdef n="pprs"/>
+    <sdef n="ger"/>
     <sdef n="adj" c="adjective"/>
     <sdef n="m"	 c="masculine"/>
     <sdef n="ant"  c="person name"/>
@@ -228,6 +233,12 @@
 
     <!-- testvoc vbhaver -->
 
+    <e><p><l>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="tv"/><s n="inf"/></l><r>not<b/>have<s n="vbhaver"/><s n="inf"/></r></p></e>
+    <e><p><l>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="tv"/><s n="pprs"/></l><r>not<b/>having<s n="vbhaver"/><s n="ger"/></r></p></e>
+    <e><p><l>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="tv"/><s n="pres"/></l><r>don't<b/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
+    <e><p><l>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="tv"/><s n="imp"/></l><r>don't<b/>have<s n="vbhaver"/><s n="imp"/></r></p></e>
+    <e ><p><l>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="tv"/><s n="pii"/></l><r>didn't<b/>have<s n="vbhaver"/><s n="past"/></r></p></e>
+    <e ><p><l>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="tv"/><s n="lp"/></l><r>didn't<b/>have<s n="vbhaver"/><s n="past"/></r></p></e>
 
     <!-- testvoc prepositions -->
 

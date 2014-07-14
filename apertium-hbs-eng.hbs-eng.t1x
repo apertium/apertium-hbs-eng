@@ -314,6 +314,8 @@
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
       <attr-item tags="perf"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="pii"/>
       <attr-item tags="aor"/>
       <attr-item tags="futI"/>
       <attr-item tags="futII"/>
@@ -901,6 +903,24 @@
 	    </concat>
 	  </let>
 	</when>
+        <when> <!-- the verb to have, pii -->
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbhaver"/></equal>
+		  <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>		
+	    </and>	    
+	  </test>
+      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>
         <when> <!-- the verb to have -->
 	  <test>
 	    <and>
@@ -976,9 +996,228 @@
       </choose>
     </def-macro>
 
+    <def-macro n="haver_adapter" npar="1">
+      <choose>
+        <when> <!-- infinitive -->
+	      <test>
+	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="inf"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="not have"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_vb"/>
+	          <clip pos="1" side="tl" part="tns"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+	    </when>
+        <when> 
+          <test> <!-- imperative -->
+	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="imp"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="don't have"/></let>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="imp"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_vb"/>
+	          <clip pos="1" side="tl" part="tns"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+	    </when>
+        <when> 
+          <test> <!-- present -->
+	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pres"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="don't have"/></let>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_vb"/>
+	          <clip pos="1" side="tl" part="tns"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+	    </when>
+        <when>
+          <test> <!-- past -->
+	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="didn't have"/></let>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_vb"/>
+	          <clip pos="1" side="tl" part="tns"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+	    </when>
+        <when>
+          <test> <!-- participle -->
+	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="didn't have"/></let>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_vb"/>
+	          <clip pos="1" side="tl" part="tns"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+	    </when>
+        <when>
+          <test> <!-- present participle -->
+	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pprs"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="not having"/></let>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="ger"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_vb"/>
+	          <clip pos="1" side="tl" part="tns"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+	    </when>
+    <otherwise>
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_vb"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	</concat>
+      </let>
+      </otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="neghaver_adapter" npar="1">
+      <choose>
+        <when> <!-- infinitive -->
+	      <test>
+	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="inf"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="not have"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_vb"/>
+	          <clip pos="1" side="tl" part="tns"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+	    </when>
+        <when> 
+          <test> <!-- imperative -->
+	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="imp"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="don't have"/></let>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="imp"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_vb"/>
+	          <clip pos="1" side="tl" part="tns"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+	    </when>
+        <when> 
+          <test> <!-- present -->
+	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pres"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="don't have"/></let>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_vb"/>
+	          <clip pos="1" side="tl" part="tns"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+	    </when>
+        <when>
+          <test> <!-- past -->
+	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="didn't have"/></let>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_vb"/>
+	          <clip pos="1" side="tl" part="tns"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+	    </when>
+        <when>
+          <test> <!-- participle -->
+	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="didn't have"/></let>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_vb"/>
+	          <clip pos="1" side="tl" part="tns"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+	    </when>
+        <when>
+          <test> <!-- present participle -->
+	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pprs"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="not having"/></let>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="ger"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_vb"/>
+	          <clip pos="1" side="tl" part="tns"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+	    </when>
+    <otherwise>
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_vb"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	</concat>
+      </let>
+      </otherwise>
+      </choose>
+    </def-macro>
+
     <!-- Adapter for adjectives -->
     <def-macro n="adj_adapter" npar="1">
-
         <choose>
             <when>
                 <test>
@@ -1198,23 +1437,14 @@
 	<pattern-item n="nemati"/>
       </pattern>      
       <action>
-	<call-macro n="vb_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="neghaver_adapter"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="neg-vbhaver" case="variableCase">
             <tags>
               <tag><lit-tag v="neg-vbhaver"/></tag>
             </tags>
             <lu>
-              <lit v="don't"/>
-              <lit-tag v="vbdo.pres"/>
-            </lu>
-            <b/>
-            <lu>
-              <lit v="have"/>
-              <lit-tag v="vbhaver"/>
-              <clip pos="1" side="sl" part="tns"/>
-              <clip pos="1" side="sl" part="pers"/>
-              <clip pos="1" side="sl" part="nbr"/>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>

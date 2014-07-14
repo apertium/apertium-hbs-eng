@@ -1130,6 +1130,7 @@
     
     <pardef n="ha/ve__vbhaver">
       <e>      <p>        <l>ve</l>        <r>ve<s n="vbhaver"/><s n="inf"/></r></p></e>
+      <e>      <p>        <l>ve</l>        <r>ve<s n="vbhaver"/><s n="imp"/></r></p></e>
       <e>      <p>        <l>ve</l>        <r>ve<s n="vbhaver"/><s n="pres"/></r></p></e>
       <e>      <p>        <l>s</l>        <r>ve<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>      <p>        <l>d</l>        <r>ve<s n="vbhaver"/><s n="past"/></r></p></e>
@@ -2727,7 +2728,11 @@
 
     <!-- testvoc vbhaver -->
 
-
+    <e lm="not have"><p><l>not<b/>have</l><r>not<b/>have<s n="vbhaver"/><s n="inf"/></r></p></e>
+    <e lm="not having"><p><l>not<b/>having</l><r>not<b/>having<s n="vbhaver"/><s n="ger"/></r></p></e>
+    <e lm="don't have"><p><l>don't<b/>have</l><r>don't<b/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
+    <e lm="don't have"><p><l>don't<b/>have</l><r>don't<b/>have<s n="vbhaver"/><s n="imp"/></r></p></e>
+    <e lm="didn't have"><p><l>didn't<b/>have</l><r>didn't<b/>have<s n="vbhaver"/><s n="past"/></r></p></e>
 
     <!-- testvoc prepositions -->
 
