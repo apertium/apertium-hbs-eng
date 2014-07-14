@@ -87,8 +87,146 @@
 
    <section id="main" type="standard">
 
-    <!-- testvoc vbhaver -->
+    <!-- testvoc abbrevations -->
 
+    <e><p><l>NATO<s n="abbr"/></l><r>NATO<s n="abbr"/></r></p></e>
+    <e><p><l>SAD<s n="abbr"/></l><r>USA<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>UNMIK<s n="abbr"/></l><r>UNMIK<s n="abbr"/></r></p></e>
+    <e><p><l>KNPVP<s n="abbr"/></l><r>KNPVP<s n="abbr"/></r></p></e>
+    <e><p><l>OPP<s n="abbr"/></l><r>OPP<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>NACE<s n="abbr"/></l><r>NACE<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>ERS<s n="abbr"/></l><r>ERS<s n="abbr"/></r></p></e>
+    <e><p><l>MRS<s n="abbr"/></l><r>MRS<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>IKT<s n="abbr"/></l><r>IKT<s n="abbr"/></r></p></e>
+    <e><p><l>http<s n="abbr"/></l><r>http<s n="abbr"/></r></p></e>
+    <e><p><l>EGP<s n="abbr"/></l><r>EGP<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>EGS<s n="abbr"/></l><r>EGS<s n="abbr"/></r></p></e>
+    <e><p><l>TSI<s n="abbr"/></l><r>TSI<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>CAS<s n="abbr"/></l><r>CAS<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>EFSA<s n="abbr"/></l><r>EFSA<s n="abbr"/></r></p></e>
+    <e><p><l>KN<s n="abbr"/></l><r>KN<s n="abbr"/></r></p></e>
+    <e><p><l>COM<s n="abbr"/></l><r>COM<s n="abbr"/></r></p></e>
+    <e><p><l>EESO<s n="abbr"/></l><r>EESO<s n="abbr"/></r></p></e>
+    <e><p><l>OP<s n="abbr"/></l><r>OP<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>LRK<s n="abbr"/></l><r>LRK<s n="abbr"/></r></p></e>
+    <e><p><l>Efta<s n="abbr"/></l><r>Efta<s n="abbr"/></r></p></e>
+    <e><p><l>SZVP<s n="abbr"/></l><r>SZVP<s n="abbr"/></r></p></e>
+    <e><p><l>ISO<s n="abbr"/></l><r>ISO<s n="abbr"/></r></p></e>
+    <e><p><l>PDEU<s n="abbr"/></l><r>PDEU<s n="abbr"/></r></p></e>
+    <e><p><l>GD<s n="abbr"/></l><r>GD<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>ESMA<s n="abbr"/></l><r>ESMA<s n="abbr"/></r></p></e>
+    <e><p><l>EES<s n="abbr"/></l><r>EES<s n="abbr"/></r></p></e>
+    <e><p><l>EKJS<s n="abbr"/></l><r>EKJS<s n="abbr"/></r></p></e>
+    <e><p><l>ESPJ<s n="abbr"/></l><r>ESPJ<s n="abbr"/></r></p></e>
+    <e><p><l>PPEU<s n="abbr"/></l><r>PPEU<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>CE<s n="abbr"/></l><r>CE<s n="abbr"/></r></p></e>
+    <e><p><l>GATT<s n="abbr"/></l><r>GATT<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>VIS<s n="abbr"/></l><r>VIS<s n="abbr"/></r></p></e>
+    <e><p><l>EKSRP<s n="abbr"/></l><r>EKSRP<s n="abbr"/></r></p></e>
+    <e><p><l>UAIS<s n="abbr"/></l><r>UAIS<s n="abbr"/></r></p></e>
+    <e><p><l>AIS<s n="abbr"/></l><r>AIS<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>ČDO<s n="abbr"/></l><r>ČDO<s n="abbr"/></r></p></e>
+    <e><p><l>HS<s n="abbr"/></l><r>HS<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>PH<s n="abbr"/></l><r>PH<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>OLAF<s n="abbr"/></l><r>OLAF<s n="abbr"/></r></p></e>
+    <e><p><l>MDS<s n="abbr"/></l><r>MDS<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>OVSE<s n="abbr"/></l><r>OVSE<s n="abbr"/></r></p></e>
+    <e><p><l>USD<s n="abbr"/></l><r>USD<s n="abbr"/></r></p></e>
+    <e><p><l>SIS<s n="abbr"/></l><r>SIS<s n="abbr"/></r></p></e>
+    <e><p><l>ECR<s n="abbr"/></l><r>ECR<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>IND<s n="abbr"/></l><r>IND<s n="abbr"/></r></p></e>
+    <e><p><l>DEM<s n="abbr"/></l><r>DEM<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>BG<s n="abbr"/></l><r>BG<s n="abbr"/></r></p></e>
+    <e><p><l>UEN<s n="abbr"/></l><r>UEN<s n="abbr"/></r></p></e>
+    <e><p><l>EUR<s n="abbr"/></l><r>EUR<s n="abbr"/></r></p></e>
+    <e><p><l>FR<s n="abbr"/></l><r>FR<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>PL<s n="abbr"/></l><r>PL<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>PT<s n="abbr"/></l><r>PT<s n="abbr"/></r></p></e>
+    <e><p><l>EL<s n="abbr"/></l><r>EL<s n="abbr"/></r></p></e>
+    <e><p><l>PPE<s n="abbr"/></l><r>PPE<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>NL<s n="abbr"/></l><r>NL<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>ZN<s n="abbr"/></l><r>ZN<s n="abbr"/></r></p></e>
+    <e><p><l>RO<s n="abbr"/></l><r>RO<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>SV<s n="abbr"/></l><r>SV<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>HU<s n="abbr"/></l><r>HU<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>SK<s n="abbr"/></l><r>SK<s n="abbr"/></r></p></e>
+    <e><p><l>ALDE<s n="abbr"/></l><r>ALDE<s n="abbr"/></r></p></e>
+    <e><p><l>SKP<s n="abbr"/></l><r>SKP<s n="abbr"/></r></p></e>
+    <e><p><l>CS<s n="abbr"/></l><r>CS<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>BDP<s n="abbr"/></l><r>GDP<s n="abbr"/></r></p></e>
+    <e><p><l>MSP<s n="abbr"/></l><r>MSP<s n="abbr"/></r></p></e>
+    <e><p><l>LT<s n="abbr"/></l><r>LT<s n="abbr"/></r></p></e>
+    <e><p><l>ALE<s n="abbr"/></l><r>ALE<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>PDV<s n="abbr"/></l><r>VAT<s n="abbr"/></r></p></e>
+    <e><p><l>AKP<s n="abbr"/></l><r>AKP<s n="abbr"/></r></p></e>
+    <e><p><l>ESPG<s n="abbr"/></l><r>ESPG<s n="abbr"/></r></p></e>
+    <e><p><l>EIB<s n="abbr"/></l><r>EIB<s n="abbr"/></r></p></e>
+    <e><p><l>FI<s n="abbr"/></l><r>FI<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>GUE<s n="abbr"/></l><r>GUE<s n="abbr"/></r></p></e>
+    <e><p><l>NGL<s n="abbr"/></l><r>NGL<s n="abbr"/></r></p></e>
+    <e><p><l>IMO<s n="abbr"/></l><r>IMO<s n="abbr"/></r></p></e>
+    <e><p><l>SUT<s n="abbr"/></l><r>SUT<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>PNZ<s n="abbr"/></l><r>PNZ<s n="abbr"/></r></p></e>
+    <e><p><l>OECD<s n="abbr"/></l><r>OECD<s n="abbr"/></r></p></e>
+    <e><p><l>NCB<s n="abbr"/></l><r>NCB<s n="abbr"/></r></p></e>
+    <e><p><l>CPA<s n="abbr"/></l><r>CPA<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>ICES<s n="abbr"/></l><r>ICES<s n="abbr"/></r></p></e>
+    <e><p><l>MSRP<s n="abbr"/></l><r>MSRP<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>TGO<s n="abbr"/></l><r>TGO<s n="n"/><s n="acr"/></r></p></e>
+
+    <e><p><l>km<s n="abbr"/></l><r>km<s n="abbr"/></r></p></e>
+    <e><p><l>km/h<s n="abbr"/></l><r>km/h<s n="abbr"/></r></p></e>
+    <e><p><l>BiH<s n="abbr"/></l><r>BiH<s n="abbr"/></r></p></e>
+    <e><p><l>EK<s n="abbr"/></l><r>EK<s n="abbr"/></r></p></e>
+    <e><p><l>RS<s n="abbr"/></l><r>RS<s n="abbr"/></r></p></e>
+    <e><p><l>OEBS<s n="abbr"/></l><r>OEBS<s n="abbr"/></r></p></e>
+    <e><p><l>al<s n="abbr"/></l><r>AL<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>b<s n="abbr"/></l><r>b<s n="abbr"/></r></p></e>
+    <e><p><l>cm<s n="abbr"/></l><r>cm<s n="abbr"/></r></p></e>
+    <e><p><l>g<s n="abbr"/></l><r>g<s n="abbr"/></r></p></e>
+    <e><p><l>h<s n="abbr"/></l><r>h<s n="abbr"/></r></p></e>
+    <e><p><l>is<s n="abbr"/></l><r>is<s n="abbr"/></r></p></e>
+    <e><p><l>j<s n="abbr"/></l><r>j<s n="abbr"/></r></p></e>
+    <e><p><l>lds<s n="abbr"/></l><r>lds<s n="abbr"/></r></p></e>
+    <e><p><l>l<s n="abbr"/></l><r>l<s n="abbr"/></r></p></e>
+    <e><p><l>mg<s n="abbr"/></l><r>mg<s n="abbr"/></r></p></e>
+    <e><p><l>m<s n="abbr"/></l><r>m<s n="abbr"/></r></p></e>
+    <e><p><l>ml<s n="abbr"/></l><r>ml<s n="abbr"/></r></p></e>
+    <e><p><l>ptcu<s n="abbr"/></l><r>ptcu<s n="abbr"/></r></p></e>
+    <e><p><l>rtv<s n="abbr"/></l><r>rtv<s n="abbr"/></r></p></e>
+    <e><p><l>sls<s n="abbr"/></l><r>sls<s n="abbr"/></r></p></e>
+    <e><p><l>sns<s n="abbr"/></l><r>sns<s n="abbr"/></r></p></e>
+    <e><p><l>vb<s n="abbr"/></l><r>vb<s n="abbr"/></r></p></e>
+    <e><p><l>w<s n="abbr"/></l><r>w<s n="abbr"/></r></p></e>
+    <e><p><l>zsms<s n="abbr"/></l><r>zsms<s n="abbr"/></r></p></e>
+    <e><p><l>str<s n="abbr"/></l><r>p.<s n="abbr"/></r></p></e>
+    <e><p><l>npr<s n="abbr"/></l><r>e.g.<s n="abbr"/></r></p></e>
+    <e><p><l>mm<s n="abbr"/></l><r>mm<s n="abbr"/></r></p></e>
+    <e><p><l>kg<s n="abbr"/></l><r>kg<s n="abbr"/></r></p></e>
+    <e><p><l>ex<s n="abbr"/></l><r>ex<s n="abbr"/></r></p></e>
+    <e><p><l>br<s n="abbr"/></l><r>no.<s n="abbr"/></r></p></e>
+    <e><p><l>e<s n="abbr"/></l><r>e<s n="abbr"/></r></p></e>
+    <e><p><l>itd<s n="abbr"/></l><r>etc.<s n="abbr"/></r></p></e>
+    <e><p><l>vol<s n="abbr"/></l><r>vol<s n="abbr"/></r></p></e>
+    <e><p><l>oz<s n="abbr"/></l><r>oz<s n="abbr"/></r></p></e>
+    <e><p><l>www<s n="abbr"/></l><r>www<s n="abbr"/></r></p></e>
+    <e><p><l>ec<s n="abbr"/></l><r>ec<s n="abbr"/></r></p></e>
+
+    <e><p><l>UN<s n="abbr"/></l><r>UN<s n="abbr"/></r></p></e>
+    <e><p><l>UL<s n="abbr"/></l><r>UL<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>X<s n="abbr"/></l><r>X<s n="abbr"/></r></p></e>
+    <e><p><l>T<s n="abbr"/></l><r>T<s n="abbr"/></r></p></e>
+    <e><p><l>ESS<s n="abbr"/></l><r>ESS<s n="abbr"/></r></p></e>
+    <e><p><l>SEC<s n="abbr"/></l><r>SEC<s n="abbr"/></r></p></e>
+    <e><p><l>ES<s n="abbr"/></l><r>ES<s n="abbr"/></r></p></e>
+    <e><p><l>CO<s n="abbr"/></l><r>CO<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>EP<s n="abbr"/></l><r>EP<s n="abbr"/></r></p></e>
+    <e><p><l>C<s n="abbr"/></l><r>C<s n="abbr"/></r></p></e>
+
+    <e><p><l>sad<s n="abbr"/></l><r>USA<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>sit<s n="abbr"/></l><r>SIT<s n="abbr"/></r></p></e>
+
+    <!-- testvoc vbhaver -->
 
 
     <!-- testvoc prepositions -->
@@ -258,7 +396,7 @@
     <e><p><l>potpora<s n="n"/></l><r>support<s n="n"/></r></p></e>
     <e><p><l>posebice<s n="adv"/></l><r>especially<s n="adv"/></r></p></e>
     <e><p><l>AP<s n="abbr"/></l><r>AP<s n="abbr"/></r></p></e>
-    <e><p><l>MMF<s n="abbr"/></l><r>MMF<s n="abbr"/></r></p></e>
+    <e><p><l>MMF<s n="abbr"/></l><r>MMF<s n="n"/><s n="acr"/></r></p></e>
     <e><p><l>Priština<s n="np"/></l><r>Priština<s n="np"/></r></p></e>
     <e><p><l>pregovor<s n="n"/></l><r>negotiation<s n="n"/></r></p></e>
     <e><p><l>neovisnost<s n="n"/></l><r>independence<s n="n"/></r></p></e>

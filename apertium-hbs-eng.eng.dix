@@ -2659,6 +2659,72 @@
 
   <section id="main" type="standard">
 
+    <!-- testvoc abbrevations -->
+
+    <e lm="KNPVP"><i>KNPVP</i><par n="e.g.__abbr"/></e>
+    <e lm="http"><i>http</i><par n="e.g.__abbr"/></e>
+    <e lm="EGS"><i>EGS</i><par n="e.g.__abbr"/></e>
+    <e lm="EFSA"><i>EFSA</i><par n="e.g.__abbr"/></e>
+    <e lm="EESO"><i>EESO</i><par n="e.g.__abbr"/></e>
+    <e lm="LRK"><i>LRK</i><par n="e.g.__abbr"/></e>
+    <e lm="Efta"><i>Efta</i><par n="e.g.__abbr"/></e>
+    <e lm="SZVP"><i>SZVP</i><par n="e.g.__abbr"/></e>
+    <e lm="PDEU"><i>PDEU</i><par n="e.g.__abbr"/></e>
+    <e lm="ESMA"><i>ESMA</i><par n="e.g.__abbr"/></e>
+    <e lm="EKJS"><i>EKJS</i><par n="e.g.__abbr"/></e>
+    <e lm="ESPJ"><i>ESPJ</i><par n="e.g.__abbr"/></e>
+    <e lm="EKSRP"><i>EKSRP</i><par n="e.g.__abbr"/></e>
+    <e lm="UAIS"><i>UAIS</i><par n="e.g.__abbr"/></e>
+    <e lm="ČDO"><i>ČDO</i><par n="e.g.__abbr"/></e>
+    <e lm="OLAF"><i>OLAF</i><par n="e.g.__abbr"/></e>
+    <e lm="OVSE"><i>OVSE</i><par n="e.g.__abbr"/></e>
+    <e lm="UEN"><i>UEN</i><par n="e.g.__abbr"/></e>
+    <e lm="ALDE"><i>ALDE</i><par n="e.g.__abbr"/></e>
+    <e lm="SKP"><i>SKP</i><par n="e.g.__abbr"/></e>
+    <e lm="ESPG"><i>ESPG</i><par n="e.g.__abbr"/></e>
+    <e lm="GUE"><i>GUE</i><par n="e.g.__abbr"/></e>
+    <e lm="NGL"><i>NGL</i><par n="e.g.__abbr"/></e>
+    <e lm="PNZ"><i>PNZ</i><par n="e.g.__abbr"/></e>
+    <e lm="ICES"><i>ICES</i><par n="e.g.__abbr"/></e>
+
+    <e lm="KN"><i>KN</i><par n="e.g.__abbr"/></e>
+    <e lm="VIS"><i>VIS</i><par n="e.g.__abbr"/></e>
+    <e lm="IND"><i>IND</i><par n="e.g.__abbr"/></e>
+    <e lm="BG"><i>BG</i><par n="e.g.__abbr"/></e>
+    <e lm="ZN"><i>ZN</i><par n="e.g.__abbr"/></e>
+
+    <e lm="km/h"><i>km/h</i><par n="e.g.__abbr"/></e>
+    <e lm="EK"><i>EK</i><par n="e.g.__abbr"/></e>
+    <e lm="OEBS"><i>OEBS</i><par n="e.g.__abbr"/></e>
+    <e lm="is"><i>is</i><par n="e.g.__abbr"/></e>
+    <e lm="lds"><i>lds</i><par n="e.g.__abbr"/></e>
+    <e lm="mg"><i>mg</i><par n="e.g.__abbr"/></e>
+    <e lm="ml"><i>ml</i><par n="e.g.__abbr"/></e>
+    <e lm="ptcu"><i>ptcu</i><par n="e.g.__abbr"/></e>
+    <e lm="rtv"><i>rtv</i><par n="e.g.__abbr"/></e>
+    <e lm="sls"><i>sls</i><par n="e.g.__abbr"/></e>
+    <e lm="sns"><i>sns</i><par n="e.g.__abbr"/></e>
+    <e lm="vb"><i>vb</i><par n="e.g.__abbr"/></e>
+    <e lm="zsms"><i>zsms</i><par n="e.g.__abbr"/></e>
+    <e lm="mm"><i>mm</i><par n="e.g.__abbr"/></e>
+    <e lm="kg"><i>kg</i><par n="e.g.__abbr"/></e>
+    <e lm="ex"><i>ex</i><par n="e.g.__abbr"/></e>
+    <e lm="vol"><i>vol</i><par n="e.g.__abbr"/></e>
+    <e lm="oz"><i>oz</i><par n="e.g.__abbr"/></e>
+    <e lm="www"><i>www</i><par n="e.g.__abbr"/></e>
+    <e lm="ec"><i>ec</i><par n="e.g.__abbr"/></e>
+
+    <e lm="b"><i>b</i><par n="e.g.__abbr"/></e>
+    <e lm="g"><i>g</i><par n="e.g.__abbr"/></e>
+    <e lm="h"><i>h</i><par n="e.g.__abbr"/></e>
+    <e lm="j"><i>j</i><par n="e.g.__abbr"/></e>
+    <e lm="l"><i>l</i><par n="e.g.__abbr"/></e>
+    <e lm="w"><i>w</i><par n="e.g.__abbr"/></e>
+    <e lm="e"><i>e</i><par n="e.g.__abbr"/></e>
+
+    <e lm="X"><i>X</i><par n="e.g.__abbr"/></e>
+    <e lm="C"><i>C</i><par n="e.g.__abbr"/></e>
+
     <!-- testvoc vbhaver -->
 
 
@@ -21440,7 +21506,6 @@
     <e lm="AIPP"><i>AIPP</i><par n="BBC__n"/></e>
     <e lm="AIRS"><i>AIRS</i><par n="BBC__n"/></e>
     <e lm="AIS"><i>AIS</i><par n="BBC__n"/></e>
-    <e lm="AIS"><i>AIS</i><par n="BBC__n"/></e>
     <e lm="AISC"><i>AISC</i><par n="BBC__n"/></e>
     <e lm="AISE"><i>AISE</i><par n="BBC__n"/></e>
     <e lm="AISI"><i>AISI</i><par n="BBC__n"/></e>
@@ -21453,17 +21518,8 @@
     <e lm="AK"><i>AK</i><par n="BBC__n"/></e>
     <e lm="AKA"><i>AKA</i><par n="BBC__n"/></e>
     <e lm="AKART"><i>AKART</i><par n="BBC__n"/></e>
-    <e lm="AKART"><i>AKART</i><par n="BBC__n"/></e>
     <e lm="AKI"><i>AKI</i><par n="BBC__n"/></e>
     <e lm="AL"><i>AL</i><par n="BBC__n"/></e>
-    <e lm="AL"><i>AL</i><par n="BBC__n"/></e>
-    <e lm="AL"><i>AL</i><par n="BBC__n"/></e>
-    <e lm="AL"><i>AL</i><par n="BBC__n"/></e>
-    <e lm="AL"><i>AL</i><par n="BBC__n"/></e>
-    <e lm="AL"><i>AL</i><par n="BBC__n"/></e>
-    <e lm="AL"><i>AL</i><par n="BBC__n"/></e>
-    <e lm="AL"><i>AL</i><par n="BBC__n"/></e>
-    <e lm="ALA"><i>ALA</i><par n="BBC__n"/></e>
     <e lm="ALA"><i>ALA</i><par n="BBC__n"/></e>
     <e lm="ALA-O"><i>ALA-O</i><par n="BBC__n"/></e>
     <e lm="ALAP"><i>ALAP</i><par n="BBC__n"/></e>
@@ -22492,17 +22548,6 @@
     <e lm="CARS"><i>CARS</i><par n="BBC__n"/></e>
     <e lm="CARS"><i>CARS</i><par n="BBC__n"/></e>
     <e lm="CAS"><i>CAS</i><par n="BBC__n"/></e>
-    <e lm="CAS"><i>CAS</i><par n="BBC__n"/></e>
-    <e lm="CAS"><i>CAS</i><par n="BBC__n"/></e>
-    <e lm="CAS"><i>CAS</i><par n="BBC__n"/></e>
-    <e lm="CAS"><i>CAS</i><par n="BBC__n"/></e>
-    <e lm="CAS"><i>CAS</i><par n="BBC__n"/></e>
-    <e lm="CAS"><i>CAS</i><par n="BBC__n"/></e>
-    <e lm="CAS"><i>CAS</i><par n="BBC__n"/></e>
-    <e lm="CAS"><i>CAS</i><par n="BBC__n"/></e>
-    <e lm="CAS"><i>CAS</i><par n="BBC__n"/></e>
-    <e lm="CAS"><i>CAS</i><par n="BBC__n"/></e>
-    <e lm="CAS"><i>CAS</i><par n="BBC__n"/></e>
     <e lm="CAS RN"><i>CAS RN</i><par n="BBC__n"/></e>
     <e lm="CASAC"><i>CASAC</i><par n="BBC__n"/></e>
     <e lm="CASB"><i>CASB</i><par n="BBC__n"/></e>
@@ -23126,29 +23171,17 @@
     <e lm="CNWV"><i>CNWV</i><par n="BBC__n"/></e>
     <e lm="CNWVP"><i>CNWVP</i><par n="BBC__n"/></e>
     <e lm="CO"><i>CO</i><par n="BBC__n"/></e>
-    <e lm="CO"><i>CO</i><par n="BBC__n"/></e>
-    <e lm="CO"><i>CO</i><par n="BBC__n"/></e>
-    <e lm="CO"><i>CO</i><par n="BBC__n"/></e>
-    <e lm="CO"><i>CO</i><par n="BBC__n"/></e>
-    <e lm="CO"><i>CO</i><par n="BBC__n"/></e>
     <e lm="CO/CA"><i>CO/CA</i><par n="BBC__n"/></e>
-    <e lm="COA"><i>COA</i><par n="BBC__n"/></e>
     <e lm="COA"><i>COA</i><par n="BBC__n"/></e>
     <e lm="COAS"><i>COAS</i><par n="BBC__n"/></e>
     <e lm="COB"><i>COB</i><par n="BBC__n"/></e>
-    <e lm="COB"><i>COB</i><par n="BBC__n"/></e>
     <e lm="COBOL"><i>COBOL</i><par n="BBC__n"/></e>
     <e lm="COBRA"><i>COBRA</i><par n="BBC__n"/></e>
-    <e lm="COC"><i>COC</i><par n="BBC__n"/></e>
-    <e lm="COC"><i>COC</i><par n="BBC__n"/></e>
     <e lm="COC"><i>COC</i><par n="BBC__n"/></e>
     <e lm="COCA"><i>COCA</i><par n="BBC__n"/></e>
     <e lm="COCO"><i>COCO</i><par n="BBC__n"/></e>
     <e lm="COCOM"><i>COCOM</i><par n="BBC__n"/></e>
     <e lm="COCS"><i>COCS</i><par n="BBC__n"/></e>
-    <e lm="COD"><i>COD</i><par n="BBC__n"/></e>
-    <e lm="COD"><i>COD</i><par n="BBC__n"/></e>
-    <e lm="COD"><i>COD</i><par n="BBC__n"/></e>
     <e lm="COD"><i>COD</i><par n="BBC__n"/></e>
     <e lm="CODASYL"><i>CODASYL</i><par n="BBC__n"/></e>
     <e lm="CODEC"><i>CODEC</i><par n="BBC__n"/></e>
@@ -23207,10 +23240,6 @@
     <e lm="CP"><i>CP</i><par n="BBC__n"/></e>
     <e lm="CP&amp;D"><i>CP&amp;D</i><par n="BBC__n"/></e>
     <e lm="CP-11"><i>CP-11</i><par n="BBC__n"/></e>
-    <e lm="CPA"><i>CPA</i><par n="BBC__n"/></e>
-    <e lm="CPA"><i>CPA</i><par n="BBC__n"/></e>
-    <e lm="CPA"><i>CPA</i><par n="BBC__n"/></e>
-    <e lm="CPA"><i>CPA</i><par n="BBC__n"/></e>
     <e lm="CPA"><i>CPA</i><par n="BBC__n"/></e>
     <e lm="CPAC"><i>CPAC</i><par n="BBC__n"/></e>
     <e lm="CPAF"><i>CPAF</i><par n="BBC__n"/></e>
@@ -23375,30 +23404,14 @@
     <e lm="CRWP"><i>CRWP</i><par n="BBC__n"/></e>
     <e lm="CRZ"><i>CRZ</i><par n="BBC__n"/></e>
     <e lm="CS"><i>CS</i><par n="BBC__n"/></e>
-    <e lm="CS"><i>CS</i><par n="BBC__n"/></e>
-    <e lm="CS"><i>CS</i><par n="BBC__n"/></e>
-    <e lm="CS"><i>CS</i><par n="BBC__n"/></e>
-    <e lm="CS"><i>CS</i><par n="BBC__n"/></e>
-    <e lm="CS"><i>CS</i><par n="BBC__n"/></e>
-    <e lm="CS"><i>CS</i><par n="BBC__n"/></e>
-    <e lm="CS"><i>CS</i><par n="BBC__n"/></e>
-    <e lm="CSA"><i>CSA</i><par n="BBC__n"/></e>
-    <e lm="CSA"><i>CSA</i><par n="BBC__n"/></e>
     <e lm="CSA"><i>CSA</i><par n="BBC__n"/></e>
     <e lm="CSAB"><i>CSAB</i><par n="BBC__n"/></e>
     <e lm="CSAC"><i>CSAC</i><par n="BBC__n"/></e>
     <e lm="CSAF"><i>CSAF</i><par n="BBC__n"/></e>
     <e lm="CSAPS"><i>CSAPS</i><par n="BBC__n"/></e>
     <e lm="CSAR"><i>CSAR</i><par n="BBC__n"/></e>
-    <e lm="CSAR"><i>CSAR</i><par n="BBC__n"/></e>
-    <e lm="CSAR"><i>CSAR</i><par n="BBC__n"/></e>
-    <e lm="CSAR"><i>CSAR</i><par n="BBC__n"/></e>
     <e lm="CSAT"><i>CSAT</i><par n="BBC__n"/></e>
     <e lm="CSB"><i>CSB</i><par n="BBC__n"/></e>
-    <e lm="CSB"><i>CSB</i><par n="BBC__n"/></e>
-    <e lm="CSC"><i>CSC</i><par n="BBC__n"/></e>
-    <e lm="CSC"><i>CSC</i><par n="BBC__n"/></e>
-    <e lm="CSC"><i>CSC</i><par n="BBC__n"/></e>
     <e lm="CSC"><i>CSC</i><par n="BBC__n"/></e>
     <e lm="CSCC"><i>CSCC</i><par n="BBC__n"/></e>
     <e lm="CSCM"><i>CSCM</i><par n="BBC__n"/></e>
@@ -23841,18 +23854,10 @@
     <e lm="DEH"><i>DEH</i><par n="BBC__n"/></e>
     <e lm="DEIS"><i>DEIS</i><par n="BBC__n"/></e>
     <e lm="DEM"><i>DEM</i><par n="BBC__n"/></e>
-    <e lm="DEM"><i>DEM</i><par n="BBC__n"/></e>
-    <e lm="DEM"><i>DEM</i><par n="BBC__n"/></e>
     <e lm="DEN"><i>DEN</i><par n="BBC__n"/></e>
-    <e lm="DEN"><i>DEN</i><par n="BBC__n"/></e>
-    <e lm="DEO"><i>DEO</i><par n="BBC__n"/></e>
     <e lm="DEO"><i>DEO</i><par n="BBC__n"/></e>
     <e lm="DEOSS"><i>DEOSS</i><par n="BBC__n"/></e>
     <e lm="DEP"><i>DEP</i><par n="BBC__n"/></e>
-    <e lm="DEP"><i>DEP</i><par n="BBC__n"/></e>
-    <e lm="DER"><i>DER</i><par n="BBC__n"/></e>
-    <e lm="DER"><i>DER</i><par n="BBC__n"/></e>
-    <e lm="DER"><i>DER</i><par n="BBC__n"/></e>
     <e lm="DER"><i>DER</i><par n="BBC__n"/></e>
     <e lm="DERP"><i>DERP</i><par n="BBC__n"/></e>
     <e lm="DERP"><i>DERP</i><par n="BBC__n"/></e>
@@ -24436,8 +24441,6 @@
     <e lm="ECP"><i>ECP</i><par n="BBC__n"/></e>
     <e lm="ECP"><i>ECP</i><par n="BBC__n"/></e>
     <e lm="ECPR"><i>ECPR</i><par n="BBC__n"/></e>
-    <e lm="ECR"><i>ECR</i><par n="BBC__n"/></e>
-    <e lm="ECR"><i>ECR</i><par n="BBC__n"/></e>
     <e lm="ECR"><i>ECR</i><par n="BBC__n"/></e>
     <e lm="ECRA"><i>ECRA</i><par n="BBC__n"/></e>
     <e lm="ECRA"><i>ECRA</i><par n="BBC__n"/></e>
@@ -25472,19 +25475,10 @@
     <e lm="FHT"><i>FHT</i><par n="BBC__n"/></e>
     <e lm="FHWA"><i>FHWA</i><par n="BBC__n"/></e>
     <e lm="FI"><i>FI</i><par n="BBC__n"/></e>
-    <e lm="FI"><i>FI</i><par n="BBC__n"/></e>
-    <e lm="FI"><i>FI</i><par n="BBC__n"/></e>
-    <e lm="FI"><i>FI</i><par n="BBC__n"/></e>
-    <e lm="FI"><i>FI</i><par n="BBC__n"/></e>
     <e lm="FIA"><i>FIA</i><par n="BBC__n"/></e>
-    <e lm="FIA"><i>FIA</i><par n="BBC__n"/></e>
-    <e lm="FIAS"><i>FIAS</i><par n="BBC__n"/></e>
     <e lm="FIAS"><i>FIAS</i><par n="BBC__n"/></e>
     <e lm="FIATA"><i>FIATA</i><par n="BBC__n"/></e>
     <e lm="FIB"><i>FIB</i><par n="BBC__n"/></e>
-    <e lm="FIC"><i>FIC</i><par n="BBC__n"/></e>
-    <e lm="FIC"><i>FIC</i><par n="BBC__n"/></e>
-    <e lm="FIC"><i>FIC</i><par n="BBC__n"/></e>
     <e lm="FIC"><i>FIC</i><par n="BBC__n"/></e>
     <e lm="FICA"><i>FICA</i><par n="BBC__n"/></e>
     <e lm="FID"><i>FID</i><par n="BBC__n"/></e>
@@ -25708,11 +25702,6 @@
     <e lm="FQE"><i>FQE</i><par n="BBC__n"/></e>
     <e lm="FQI"><i>FQI</i><par n="BBC__n"/></e>
     <e lm="FR"><i>FR</i><par n="BBC__n"/></e>
-    <e lm="FR"><i>FR</i><par n="BBC__n"/></e>
-    <e lm="FR"><i>FR</i><par n="BBC__n"/></e>
-    <e lm="FR"><i>FR</i><par n="BBC__n"/></e>
-    <e lm="FR"><i>FR</i><par n="BBC__n"/></e>
-    <e lm="FRA"><i>FRA</i><par n="BBC__n"/></e>
     <e lm="FRA"><i>FRA</i><par n="BBC__n"/></e>
     <e lm="FRAC"><i>FRAC</i><par n="BBC__n"/></e>
     <e lm="FRACTAL"><i>FRACTAL</i><par n="BBC__n"/></e>
@@ -25720,11 +25709,7 @@
     <e lm="FRAP"><i>FRAP</i><par n="BBC__n"/></e>
     <e lm="FRB"><i>FRB</i><par n="BBC__n"/></e>
     <e lm="FRC"><i>FRC</i><par n="BBC__n"/></e>
-    <e lm="FRC"><i>FRC</i><par n="BBC__n"/></e>
     <e lm="FRCTF"><i>FRCTF</i><par n="BBC__n"/></e>
-    <e lm="FRD"><i>FRD</i><par n="BBC__n"/></e>
-    <e lm="FRD"><i>FRD</i><par n="BBC__n"/></e>
-    <e lm="FRD"><i>FRD</i><par n="BBC__n"/></e>
     <e lm="FRD"><i>FRD</i><par n="BBC__n"/></e>
     <e lm="FRDS"><i>FRDS</i><par n="BBC__n"/></e>
     <e lm="FREC-II"><i>FREC-II</i><par n="BBC__n"/></e>
@@ -25924,7 +25909,6 @@
     <e lm="GAP"><i>GAP</i><par n="BBC__n"/></e>
     <e lm="GAR"><i>GAR</i><par n="BBC__n"/></e>
     <e lm="GAS"><i>GAS</i><par n="BBC__n"/></e>
-    <e lm="GATT"><i>GATT</i><par n="BBC__n"/></e>
     <e lm="GATT"><i>GATT</i><par n="BBC__n"/></e>
     <e lm="GAUMER"><i>GAUMER</i><par n="BBC__n"/></e>
     <e lm="GB"><i>GB</i><par n="BBC__n"/></e>
@@ -26656,8 +26640,6 @@
     <e lm="HRT"><i>HRT</i><par n="BBC__n"/></e>
     <e lm="HRUP"><i>HRUP</i><par n="BBC__n"/></e>
     <e lm="HS"><i>HS</i><par n="BBC__n"/></e>
-    <e lm="HS"><i>HS</i><par n="BBC__n"/></e>
-    <e lm="HS"><i>HS</i><par n="BBC__n"/></e>
     <e lm="HS&amp;E"><i>HS&amp;E</i><par n="BBC__n"/></e>
     <e lm="HSA"><i>HSA</i><par n="BBC__n"/></e>
     <e lm="HSA"><i>HSA</i><par n="BBC__n"/></e>
@@ -26749,7 +26731,6 @@
     <e lm="HTSUS"><i>HTSUS</i><par n="BBC__n"/></e>
     <e lm="HTWOS"><i>HTWOS</i><par n="BBC__n"/></e>
     <e lm="HTWT"><i>HTWT</i><par n="BBC__n"/></e>
-    <e lm="HU"><i>HU</i><par n="BBC__n"/></e>
     <e lm="HU"><i>HU</i><par n="BBC__n"/></e>
     <e lm="HUB"><i>HUB</i><par n="BBC__n"/></e>
     <e lm="HUD"><i>HUD</i><par n="BBC__n"/></e>
@@ -28629,9 +28610,6 @@
     <e lm="MRR"><i>MRR</i><par n="BBC__n"/></e>
     <e lm="MRR"><i>MRR</i><par n="BBC__n"/></e>
     <e lm="MRS"><i>MRS</i><par n="BBC__n"/></e>
-    <e lm="MRS"><i>MRS</i><par n="BBC__n"/></e>
-    <e lm="MRS"><i>MRS</i><par n="BBC__n"/></e>
-    <e lm="MRS"><i>MRS</i><par n="BBC__n"/></e>
     <e lm="MRS/IS"><i>MRS/IS</i><par n="BBC__n"/></e>
     <e lm="MRSF"><i>MRSF</i><par n="BBC__n"/></e>
     <e lm="MRSS"><i>MRSS</i><par n="BBC__n"/></e>
@@ -29703,8 +29681,6 @@
     <e lm="OOP"><i>OOP</i><par n="BBC__n"/></e>
     <e lm="OOS"><i>OOS</i><par n="BBC__n"/></e>
     <e lm="OP"><i>OP</i><par n="BBC__n"/></e>
-    <e lm="OP"><i>OP</i><par n="BBC__n"/></e>
-    <e lm="OP"><i>OP</i><par n="BBC__n"/></e>
     <e lm="OP&amp;C"><i>OP&amp;C</i><par n="BBC__n"/></e>
     <e lm="OP&amp;CE"><i>OP&amp;CE</i><par n="BBC__n"/></e>
     <e lm="OPA"><i>OPA</i><par n="BBC__n"/></e>
@@ -29732,7 +29708,6 @@
     <e lm="OPIO"><i>OPIO</i><par n="BBC__n"/></e>
     <e lm="OPIU"><i>OPIU</i><par n="BBC__n"/></e>
     <e lm="OPM"><i>OPM</i><par n="BBC__n"/></e>
-    <e lm="OPP"><i>OPP</i><par n="BBC__n"/></e>
     <e lm="OPP"><i>OPP</i><par n="BBC__n"/></e>
     <e lm="OPPE"><i>OPPE</i><par n="BBC__n"/></e>
     <e lm="OPPSD"><i>OPPSD</i><par n="BBC__n"/></e>
@@ -30285,9 +30260,6 @@
     <e lm="PFTE"><i>PFTE</i><par n="BBC__n"/></e>
     <e lm="PFWR"><i>PFWR</i><par n="BBC__n"/></e>
     <e lm="PG"><i>PG</i><par n="BBC__n"/></e>
-    <e lm="PG"><i>PG</i><par n="BBC__n"/></e>
-    <e lm="PG"><i>PG</i><par n="BBC__n"/></e>
-    <e lm="PG"><i>PG</i><par n="BBC__n"/></e>
     <e lm="PGC"><i>PGC</i><par n="BBC__n"/></e>
     <e lm="PGDP"><i>PGDP</i><par n="BBC__n"/></e>
     <e lm="PGNAA"><i>PGNAA</i><par n="BBC__n"/></e>
@@ -30296,8 +30268,6 @@
     <e lm="PGS"><i>PGS</i><par n="BBC__n"/></e>
     <e lm="PGSC"><i>PGSC</i><par n="BBC__n"/></e>
     <e lm="PGSS"><i>PGSS</i><par n="BBC__n"/></e>
-    <e lm="PH"><i>PH</i><par n="BBC__n"/></e>
-    <e lm="PH"><i>PH</i><par n="BBC__n"/></e>
     <e lm="PH"><i>PH</i><par n="BBC__n"/></e>
     <e lm="PHA"><i>PHA</i><par n="BBC__n"/></e>
     <e lm="PHA"><i>PHA</i><par n="BBC__n"/></e>
@@ -30396,11 +30366,6 @@
     <e lm="PJSP"><i>PJSP</i><par n="BBC__n"/></e>
     <e lm="PK"><i>PK</i><par n="BBC__n"/></e>
     <e lm="PKA"><i>PKA</i><par n="BBC__n"/></e>
-    <e lm="PL"><i>PL</i><par n="BBC__n"/></e>
-    <e lm="PL"><i>PL</i><par n="BBC__n"/></e>
-    <e lm="PL"><i>PL</i><par n="BBC__n"/></e>
-    <e lm="PL"><i>PL</i><par n="BBC__n"/></e>
-    <e lm="PL"><i>PL</i><par n="BBC__n"/></e>
     <e lm="PL"><i>PL</i><par n="BBC__n"/></e>
     <e lm="PLAD"><i>PLAD</i><par n="BBC__n"/></e>
     <e lm="PLATR"><i>PLATR</i><par n="BBC__n"/></e>
@@ -30602,17 +30567,12 @@
     <e lm="PPBRS"><i>PPBRS</i><par n="BBC__n"/></e>
     <e lm="PPBS"><i>PPBS</i><par n="BBC__n"/></e>
     <e lm="PPC"><i>PPC</i><par n="BBC__n"/></e>
-    <e lm="PPC"><i>PPC</i><par n="BBC__n"/></e>
     <e lm="PPCW"><i>PPCW</i><par n="BBC__n"/></e>
-    <e lm="PPD"><i>PPD</i><par n="BBC__n"/></e>
     <e lm="PPD"><i>PPD</i><par n="BBC__n"/></e>
     <e lm="PPDD"><i>PPDD</i><par n="BBC__n"/></e>
     <e lm="PPDED"><i>PPDED</i><par n="BBC__n"/></e>
     <e lm="PPE"><i>PPE</i><par n="BBC__n"/></e>
-    <e lm="PPE"><i>PPE</i><par n="BBC__n"/></e>
-    <e lm="PPE"><i>PPE</i><par n="BBC__n"/></e>
     <e lm="PPEU"><i>PPEU</i><par n="BBC__n"/></e>
-    <e lm="PPF"><i>PPF</i><par n="BBC__n"/></e>
     <e lm="PPF"><i>PPF</i><par n="BBC__n"/></e>
     <e lm="PPFF"><i>PPFF</i><par n="BBC__n"/></e>
     <e lm="PPG"><i>PPG</i><par n="BBC__n"/></e>
@@ -31490,10 +31450,6 @@
     <e lm="RNR"><i>RNR</i><par n="BBC__n"/></e>
     <e lm="RNTT"><i>RNTT</i><par n="BBC__n"/></e>
     <e lm="RNTT"><i>RNTT</i><par n="BBC__n"/></e>
-    <e lm="RO"><i>RO</i><par n="BBC__n"/></e>
-    <e lm="RO"><i>RO</i><par n="BBC__n"/></e>
-    <e lm="RO"><i>RO</i><par n="BBC__n"/></e>
-    <e lm="RO"><i>RO</i><par n="BBC__n"/></e>
     <e lm="RO"><i>RO</i><par n="BBC__n"/></e>
     <e lm="RO/RO"><i>RO/RO</i><par n="BBC__n"/></e>
     <e lm="ROA"><i>ROA</i><par n="BBC__n"/></e>
@@ -32961,9 +32917,6 @@
     <e lm="SUS"><i>SUS</i><par n="BBC__n"/></e>
     <e lm="SUT"><i>SUT</i><par n="BBC__n"/></e>
     <e lm="SV"><i>SV</i><par n="BBC__n"/></e>
-    <e lm="SV"><i>SV</i><par n="BBC__n"/></e>
-    <e lm="SV"><i>SV</i><par n="BBC__n"/></e>
-    <e lm="SV"><i>SV</i><par n="BBC__n"/></e>
     <e lm="SVBC"><i>SVBC</i><par n="BBC__n"/></e>
     <e lm="SVC"><i>SVC</i><par n="BBC__n"/></e>
     <e lm="SVGA"><i>SVGA</i><par n="BBC__n"/></e>
@@ -33672,32 +33625,15 @@
     <e lm="TSE"><i>TSE</i><par n="BBC__n"/></e>
     <e lm="TSES"><i>TSES</i><par n="BBC__n"/></e>
     <e lm="TSF"><i>TSF</i><par n="BBC__n"/></e>
-    <e lm="TSF"><i>TSF</i><par n="BBC__n"/></e>
-    <e lm="TSF"><i>TSF</i><par n="BBC__n"/></e>
-    <e lm="TSI"><i>TSI</i><par n="BBC__n"/></e>
-    <e lm="TSI"><i>TSI</i><par n="BBC__n"/></e>
     <e lm="TSI"><i>TSI</i><par n="BBC__n"/></e>
     <e lm="TSL"><i>TSL</i><par n="BBC__n"/></e>
     <e lm="TSLS"><i>TSLS</i><par n="BBC__n"/></e>
     <e lm="TSM"><i>TSM</i><par n="BBC__n"/></e>
-    <e lm="TSM"><i>TSM</i><par n="BBC__n"/></e>
     <e lm="TSMDA"><i>TSMDA</i><par n="BBC__n"/></e>
     <e lm="TSO"><i>TSO</i><par n="BBC__n"/></e>
-    <e lm="TSO"><i>TSO</i><par n="BBC__n"/></e>
-    <e lm="TSO"><i>TSO</i><par n="BBC__n"/></e>
     <e lm="TSP"><i>TSP</i><par n="BBC__n"/></e>
-    <e lm="TSP"><i>TSP</i><par n="BBC__n"/></e>
-    <e lm="TSP"><i>TSP</i><par n="BBC__n"/></e>
-    <e lm="TSP"><i>TSP</i><par n="BBC__n"/></e>
-    <e lm="TSR"><i>TSR</i><par n="BBC__n"/></e>
-    <e lm="TSR"><i>TSR</i><par n="BBC__n"/></e>
-    <e lm="TSR"><i>TSR</i><par n="BBC__n"/></e>
-    <e lm="TSR"><i>TSR</i><par n="BBC__n"/></e>
     <e lm="TSR"><i>TSR</i><par n="BBC__n"/></e>
     <e lm="TSS"><i>TSS</i><par n="BBC__n"/></e>
-    <e lm="TSS"><i>TSS</i><par n="BBC__n"/></e>
-    <e lm="TST"><i>TST</i><par n="BBC__n"/></e>
-    <e lm="TST"><i>TST</i><par n="BBC__n"/></e>
     <e lm="TST"><i>TST</i><par n="BBC__n"/></e>
     <e lm="TSTA"><i>TSTA</i><par n="BBC__n"/></e>
     <e lm="TSUSA"><i>TSUSA</i><par n="BBC__n"/></e>
@@ -44239,7 +44175,6 @@
     <e lm="RTS"><i>RTS</i><par n="e.g.__abbr"/></e>
     <e lm="IMF"><i>IMF</i><par n="e.g.__abbr"/></e>
     <e lm="HRT"><i>HRT</i><par n="e.g.__abbr"/></e>
-    <e lm="GDP"><i>GDP</i><par n="e.g.__abbr"/></e>
     <e lm="KFOR"><i>KFOR</i><par n="e.g.__abbr"/></e>
     <e lm="AKP"><i>AKP</i><par n="e.g.__abbr"/></e>
     <e lm="SFOR"><i>SFOR</i><par n="e.g.__abbr"/></e>

@@ -7,6 +7,7 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
+      <cat-item tags="n.acr*"/>
     </def-cat>
 
     <def-cat n="n">
@@ -212,9 +213,12 @@
   </section-def-cats>
 
   <section-def-attrs>
+
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+      <attr-item tags="n.acr"/>
       <attr-item tags="np"/>
+      <attr-item tags="np.top"/>
     </def-attr>
 
     <def-attr n="a_np">
@@ -291,6 +295,7 @@
     <def-attr n="a_vb">
       <attr-item tags="vblex"/>
       <attr-item tags="vbhaver"/>
+      <attr-item tags="vbhaver.neg"/>
       <attr-item tags="vbser"/>
       <attr-item tags="vbmod"/>
       <attr-item tags="vaux"/>
@@ -896,6 +901,26 @@
 	    </concat>
 	  </let>
 	</when>
+        <when> <!-- the verb to have -->
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbhaver"/></equal>
+		  <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>		
+	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+	    </and>	    
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="prs"/>
+          <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>
         <when> <!-- modal, futur I. -->
 	  <test>
         <and>
@@ -1084,6 +1109,55 @@
     </def-macro>
 
     <def-macro n="abbr_adapter" npar="1">
+      <choose>
+        <when>
+	      <test>
+	        <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="n.acr"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="a_nom"/><lit-tag v="n.acr"/></let>
+	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_nom"/>
+	          <clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+	      </let>
+	</when>
+        <when>
+	      <test>
+	        <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np.top"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np.top"/></let>
+	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_nom"/>
+	          <clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+	      </let>
+	</when>
+        <when>
+	      <test>
+	        <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="n"/></equal>
+	      </test>
+	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+	      <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_nom"/>
+	          <clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+	      </let>
+	</when>
+    <otherwise>
       <let>
 	<clip pos="1" side="tl" part="whole"/>
 	<concat>
@@ -1092,6 +1166,8 @@
 	  <clip pos="1" side="tl" part="lemq"/>
 	</concat>
       </let>
+      </otherwise>
+      </choose>
     </def-macro>
 
   </section-def-macros>
@@ -1136,6 +1212,9 @@
             <lu>
               <lit v="have"/>
               <lit-tag v="vbhaver"/>
+              <clip pos="1" side="sl" part="tns"/>
+              <clip pos="1" side="sl" part="pers"/>
+              <clip pos="1" side="sl" part="nbr"/>
             </lu>
           </chunk>
         </out>
