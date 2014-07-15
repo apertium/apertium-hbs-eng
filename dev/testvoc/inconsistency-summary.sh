@@ -28,14 +28,12 @@ function cleanup {
     else
 	cat $pos_tag.inc.tmp | grep -v $EXCLUDE_FILTER > $pos_tag.inc.clean.tmp
     fi
-
 }
 
 ##
 # Does summary for $pos_tag, the output is echoed to
 # stdout and collected later
 function summary {
-
     local $pos_tag=$1
        
     local TOTAL=`cat $pos_tag.inc.clean.tmp | wc -l`; 

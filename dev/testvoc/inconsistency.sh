@@ -39,7 +39,7 @@ fi
 mkdir -p $TMPDIR
 
 source_monodix=$LANGDIR/apertium-$PAIR.$SOURCE.dix
-expanded_monodix=monodix.expanded.cache
+expanded_monodix=monodix.expanded.tmp
 bidix_binary=$LANGDIR/$SOURCE-$TARGET.autobil.bin
 
 if [ -z $PATTERN ]; then
@@ -52,11 +52,11 @@ fi
 cat $expanded_monodix \
     | grep -v 'REGEX' \
     | grep -e ':>:' -e '\w:\w' \
-    | sed 's/:>:/%/g' \
+    | sed -e 's/:>:/:/g' -e 's/:<:/:/g' \
+    | sed 's/:[0-9]\+//g' \
     | sed 's/:/%/g' \
-    | cut -f2 -d'%' \
-    | sed 's/^/^/g' \
-    | sed 's/$/$ ^.<sent>$/g' \
+    | cut -f2 -d '%' \
+    | sed -e 's/^/^/g' -e 's/$/$ ^.<sent>$/g' \
     | tee $TMPDIR/tmp_testvoc_analysis.txt \
     | apertium-pretransfer \
     | lt-proc -b $LANGDIR/$SOURCE-$TARGET.autobil.bin \
@@ -64,7 +64,8 @@ cat $expanded_monodix \
     | apertium-interchunk $LANGDIR/apertium-$PAIR.$SOURCE-$TARGET.t2x  $LANGDIR/$SOURCE-$TARGET.t2x.bin \
     | apertium-postchunk $LANGDIR/apertium-$PAIR.$SOURCE-$TARGET.t3x  $LANGDIR/$SOURCE-$TARGET.t3x.bin \
     | tee $TMPDIR/tmp_testvoc_transfer.txt \
-    | lt-proc -d $LANGDIR/$SOURCE-$TARGET$VARIANT.autogen.bin > $TMPDIR/tmp_testvoc_generation.txt
+    | lt-proc -d $LANGDIR/$SOURCE-$TARGET$VARIANT.autogen.bin \
+    > $TMPDIR/tmp_testvoc_generation.txt
 
 paste -d _ $TMPDIR/tmp_testvoc_analysis.txt $TMPDIR/tmp_testvoc_transfer.txt $TMPDIR/tmp_testvoc_generation.txt \
     | sed 's/\^.<sent>\$//g' \
