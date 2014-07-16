@@ -26,6 +26,8 @@
     <sdef n="lp"/>
     <sdef n="pprs"/>
     <sdef n="ger"/>
+    <sdef n="futI"/>
+    <sdef n="futII"/>
     <sdef n="adj" c="adjective"/>
     <sdef n="m"	 c="masculine"/>
     <sdef n="ant"  c="person name"/>
@@ -91,6 +93,10 @@
    </sdefs>
 
    <section id="main" type="standard">
+
+    <!-- testvoc vbser -->
+
+    <e><p><l>biti<s n="vbser"/><s n="futII"/></l><r>will<s n="vaux"/><s n="pres"/></r></p></e>
 
     <!-- testvoc abbrevations -->
 

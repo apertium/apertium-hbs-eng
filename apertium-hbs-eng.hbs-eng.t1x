@@ -880,7 +880,88 @@
         </concat>
 	  </let>
 	</when>
-        <when> <!-- the verb to be -->
+    <when> <!-- biti, pii, p1&p3 -->
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
+	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
+          <or>
+        	<equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
+	        <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>
+          </or>
+	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+	    </and>	    
+	  </test>
+      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+	  <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="prs"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+	  </let>
+	</when>
+    <when> <!-- biti, pii -->
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
+	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
+	    </and>	    
+	  </test>
+      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+	  <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+	  </let>
+	</when>
+    <when> <!-- biti, imperativ -->
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
+	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="imp"/></equal>
+	    </and>	    
+	  </test>
+      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="inf"/></let>
+	  <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+	  </let>
+	</when>
+    <when> <!-- biti, futur II -->
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
+	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="futII"/></equal>
+	    </and>	    
+	  </test>
+      <let><clip pos="1" side="tl" part="lemma"/><lit v="will"/></let>
+      <let><clip pos="1" side="tl" part="a_vb"/><lit-tag v="vaux"/></let>
+      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let>
+	  <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+	  </let>
+	</when>
+        <when> <!-- the verb to be, p1&p3 -->
 	  <test>
 	    <and>
 	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
