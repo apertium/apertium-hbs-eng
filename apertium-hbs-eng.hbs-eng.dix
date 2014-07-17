@@ -94,6 +94,12 @@
 
    <section id="main" type="standard">
 
+    <!-- testvoc rel -->
+
+    <e><p><l>tko<s n="prn"/><s n="rel"/></l><r>who<s n="prn"/><s n="rel"/></r></p></e>
+    <e><p><l>kakav<s n="prn"/><s n="itg"/></l><r>what<b/>kind<b/>of<s n="adv"/></r></p></e>
+    <e><p><l>kakav<s n="prn"/><s n="rel"/></l><r>some<s n="adj"/></r></p></e><!--fix:-->
+
     <!-- testvoc vbser -->
 
     <e><p><l>biti<s n="vbser"/><s n="futII"/></l><r>will<s n="vaux"/><s n="pres"/></r></p></e>
@@ -692,7 +698,7 @@
     <e><p><l>zaustaviti<s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
     <e><p><l>bilo<b/>koji<s n="prn"/></l><r>any<s n="prn"/></r></p></e>
     <e><p><l>troje<s n="num"/></l><r>three<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>koliki<s n="prn"/></l><r>how<b/>much<s n="prn"/></r></p></e><!-- fix: -->
+    <e><p><l>koliki<s n="prn"/></l><r>how<b/>big<s n="prn"/></r></p></e><!-- fix: -->
     <e><p><l>slati<s n="vblex"/></l><r>send<s n="vblex"/></r></p></e>
     <e><p><l>ostvariti<s n="vblex"/></l><r>achieve<s n="vblex"/></r></p></e>
     <e><p><l>Grčka<s n="np"/></l><r>Greece<s n="np"/></r></p></e>
