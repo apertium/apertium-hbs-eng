@@ -3,7 +3,7 @@
 <postchunk>
   <section-def-cats>
     <def-cat n="sent">
-      <cat-item name="punt"/>
+      <cat-item name="SENTx"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
@@ -25,7 +25,7 @@
       <action>
         <out>
           <lu>
-            <clip pos="1" part="whole"/>
+            <clip pos="1" part="whole"/>                  
           </lu>
         </out>
       </action>

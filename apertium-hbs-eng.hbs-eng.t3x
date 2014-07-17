@@ -3,8 +3,8 @@
 <postchunk>
   <section-def-cats>
     <def-cat n="sent">
-      <cat-item name="punt"/>
-    </def-cat>
+      <cat-item name="sent"/>
+  </def-cat>
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="nbr">

@@ -25,7 +25,6 @@ TARGETS_COMMON = \
 	$(PREFIX1).autolex.bin \
 	$(PREFIX1).automorf.bin \
 	$(PREFIX1).autopgen.bin \
-	$(PREFIX1).prob \
 	$(PREFIX1).rlx.bin \
 	$(PREFIX1).t1x.bin \
 	$(PREFIX1).t2x.bin \
@@ -41,7 +40,6 @@ TARGETS_COMMON = \
 	$(PREFIX2c).autogen.bin \
 	$(PREFIX2c).autolex.bin \
 	$(PREFIX2c).autopgen.bin \
-	$(PREFIX2).prob \
 	$(PREFIX2).rlx.bin \
 	$(PREFIX2).t1x.bin \
 	$(PREFIX2).t2x.bin \
