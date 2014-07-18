@@ -2660,6 +2660,15 @@
 
   <section id="main" type="standard">
 
+    <!-- testvoc pronouns -->
+
+    <e lm="that big"><i>that<b/>big</i><par n="expensive__adj"/></e>
+    <e lm="this big"><i>this<b/>big</i><par n="expensive__adj"/></e>
+    <e lm="all kinds of"><i>all<b/>kinds<b/>of</i><par n="at__pr"/></e>
+    <e lm="everyone's"><i>everyone's</i><par n="mine__prn"/></e>
+    <e lm="no one's"><i>no<b/>one's</i><par n="mine__prn"/></e>
+    <e lm="no kind of"><i>no<b/>kind<b/>of</i><par n="at__pr"/></e>
+
     <!-- testvoc abbrevations -->
 
     <e lm="KNPVP"><i>KNPVP</i><par n="e.g.__abbr"/></e>

@@ -11,6 +11,8 @@
     <sdef n="vbser"  c="verb 'to be'"/>
     <sdef n="det"  c="Determiner"/>
     <sdef n="dem"/>
+    <sdef n="qnt"/>
+    <sdef n="tot"/>
     <sdef n="rel"  c="Relative"/>
     <sdef n="sp"  c="Singular/plural"/>
     <sdef n="an"  c="Animate/inanimate"/>
@@ -93,6 +95,27 @@
    </sdefs>
 
    <section id="main" type="standard">
+
+    <!-- testvoc pronouns -->
+
+    <e><p><l>oboje<s n="prn"/><s n="tot"/></l><r>both<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>onolik<s n="prn"/><s n="dem"/></l><r>that<b/>big<s n="adj"/></r></p></e>
+    <e><p><l>onolik<s n="prn"/><s n="dem"/><s n="nt"/></l><r>as<b/>much<s n="det"/></r></p></e>
+    <e><p><l>onakav<s n="prn"/><s n="dem"/></l><r>that<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>tolik<s n="prn"/><s n="dem"/></l><r>this<b/>big<s n="adj"/></r></p></e>
+    <e><p><l>tolik<s n="prn"/><s n="dem"/></l><r>such<s n="det"/></r></p></e>
+    <e><p><l>ovolik<s n="prn"/><s n="dem"/></l><r>this<b/>big<s n="adj"/></r></p></e>
+    <e><p><l>ovakav<s n="prn"/><s n="dem"/></l><r>this<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>svakoliki<s n="prn"/><s n="tot"/></l><r>all<b/>kinds<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>svačiji<s n="prn"/><s n="tot"/></l><r>everyone's<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>svakakav<s n="prn"/><s n="tot"/></l><r>all<b/>kinds<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>svakoji<s n="prn"/><s n="tot"/></l><r>every<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>svašta<s n="prn"/><s n="tot"/></l><r>all<b/>kinds<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>svatko<s n="prn"/><s n="tot"/></l><r>everyone<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>nikoliki<s n="prn"/><s n="neg"/></l><r>nothing<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>ničiji<s n="prn"/><s n="neg"/></l><r>no<b/>one's<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>nikakav<s n="prn"/><s n="neg"/></l><r>no<b/>kind<b/>of<s n="pr"/></r></p></e>
+
 
     <!-- testvoc rel -->
 

@@ -27,11 +27,25 @@
       <cat-item tags="PR"/>
     </def-cat>
 
+    <def-cat n="PRN">
+      <cat-item tags="PRN"/>
+    </def-cat>
+
   </section-def-cats>
 
   <section-def-attrs>
 
-    <def-attr n="a_nbr">
+    <def-attr n="gndr">
+      <attr-item tags="mfn"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="f"/>
+      <attr-item tags="m"/>
+      <attr-item tags="ma"/>
+      <attr-item tags="mi"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+
+    <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
@@ -46,6 +60,26 @@
       <attr-item tags="ins"/>
       <attr-item tags="loc"/>
       <attr-item tags="abl"/>
+    </def-attr>
+
+    <def-attr n="a_prn">
+      <attr-item tags="prn"/>
+      <attr-item tags="prn.neg"/>
+      <attr-item tags="prn.emph"/>
+      <attr-item tags="prn.pos"/>
+      <attr-item tags="prn.ind"/>
+      <attr-item tags="prn.ind.neg"/>
+      <attr-item tags="prn.itg"/>
+      <attr-item tags="prn.dem"/>
+      <attr-item tags="prn.pers"/>
+      <attr-item tags="prn.pers.clt"/>
+      <attr-item tags="prn.tot"/>
+      <attr-item tags="prn.qnt"/>
+      <attr-item tags="prn.ref.pers"/>
+      <attr-item tags="prn.ref.pos"/>
+      <attr-item tags="prn.rel"/>
+      <attr-item tags="prn.subj"/>
+      <attr-item tags="prn.obj"/>
     </def-attr>
 
   </section-def-attrs>

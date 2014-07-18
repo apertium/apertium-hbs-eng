@@ -160,6 +160,18 @@
       <cat-item lemma="moći" tags="vbmod.*"/>
     </def-cat>
 
+    <def-cat n="ovakav">
+      <cat-item lemma="ovakav" tags="prn.*"/>
+    </def-cat>
+
+    <def-cat n="onakav">
+      <cat-item lemma="onakav" tags="prn.*"/>
+    </def-cat>
+
+    <def-cat n="svašta">
+      <cat-item lemma="svašta" tags="prn.*"/>
+    </def-cat>
+
     <def-cat n="months">
       <cat-item lemma="siječanj" tags="n.*"/>
       <cat-item lemma="veljača" tags="n.*"/>
@@ -1607,6 +1619,32 @@
       </action>
     </rule>
 
+    <!-- svašta -->
+    <rule comment="svašta">
+      <pattern>
+        <pattern-item n="svašta"/>
+      </pattern>
+      <action>
+	<call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="PRN" case="variableCase">
+            <tags>
+              <tag><lit-tag v="PRN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	        <b/>
+            <lu>
+              <lit v="thing"/>
+              <lit-tag v="n"/>
+              <lit-tag v="pl"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="pronoun">
       <pattern>
 	<pattern-item n="prn"/>
@@ -2745,6 +2783,84 @@
 	      <b pos="1"/>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- ovakav brod -->
+    <rule comment="dem-n">
+      <pattern>
+        <pattern-item n="ovakav"/>
+        <pattern-item n="n"/>
+      </pattern>
+      <action>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="dem-n" case="variableCase">
+            <tags>
+              <tag><lit-tag v="dem-n"/></tag>
+            </tags>
+            <lu>
+              <lit v="a"/>
+              <lit-tag v="det.ind"/>
+              <lit-tag v="sg"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+	        <b pos="1"/>
+            <lu>
+              <lit v="like"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="this"/>
+              <lit-tag v="prn.dem"/>
+              <lit-tag v="mf"/>
+              <clip pos="1" side="sl" part="nbr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- onakav brod -->
+    <rule comment="dem-n">
+      <pattern>
+        <pattern-item n="onakav"/>
+        <pattern-item n="n"/>
+      </pattern>
+      <action>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="dem-n" case="variableCase">
+            <tags>
+              <tag><lit-tag v="dem-n"/></tag>
+            </tags>
+            <lu>
+              <lit v="a"/>
+              <lit-tag v="det.ind"/>
+              <lit-tag v="sg"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+	        <b pos="1"/>
+            <lu>
+              <lit v="like"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="that"/>
+              <lit-tag v="prn.dem"/>
+              <lit-tag v="mf"/>
+              <clip pos="1" side="sl" part="nbr"/>
             </lu>
           </chunk>
         </out>
