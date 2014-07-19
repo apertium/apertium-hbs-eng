@@ -142,6 +142,21 @@
     <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>somebody<s n="prn"/></r></p></e>
     <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>someone<s n="prn"/></r></p></e>
     <e><p><l>ikakav<s n="prn"/><s n="ind"/></l><r>any<s n="det"/></r></p></e>
+    <e><p><l>tko<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/></r></p></e>
+    <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>why<s n="prn"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>myself<s n="prn"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>yourself<s n="prn"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>herself<s n="prn"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>himself<s n="prn"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>itself<s n="prn"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>oneself<s n="prn"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>ourselves<s n="prn"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>yourselves<s n="prn"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>themselves<s n="prn"/></r></p></e>
+    <e><p><l>nikakav<s n="prn"/><s n="neg"/></l><r>no<b/>kind<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>nikakav<s n="prn"/><s n="neg"/></l><r>no<b/>kind<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>nikakav<s n="prn"/><s n="neg"/></l><r>no<b/>kind<b/>of<s n="pr"/></r></p></e>
+
 
     <!-- testvoc rel -->
 
