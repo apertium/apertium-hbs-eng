@@ -114,8 +114,34 @@
     <e><p><l>svatko<s n="prn"/><s n="tot"/></l><r>everyone<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>nikoliki<s n="prn"/><s n="neg"/></l><r>nothing<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>ničiji<s n="prn"/><s n="neg"/></l><r>no<b/>one's<s n="prn"/><s n="pos"/></r></p></e>
-    <e><p><l>nikakav<s n="prn"/><s n="neg"/></l><r>no<b/>kind<b/>of<s n="pr"/></r></p></e>
-
+    <e><p><l>nikoji<s n="prn"/><s n="neg"/></l><r>not<b/>any<s n="prn"/></r></p></e>
+    <e><p><l>nitko<s n="prn"/><s n="neg"/></l><r>no<b/>one<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>ikoliki<s n="prn"/><s n="ind"/></l><r>any<b/>amount<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>ponečiji<s n="prn"/><s n="ind"/></l><r>someone's<s n="prn"/></r></p></e>
+    <e><p><l>ičiji<s n="prn"/><s n="ind"/></l><r>anyone's<s n="prn"/></r></p></e>
+    <e><p><l>nečiji<s n="prn"/><s n="ind"/></l><r>someone's<s n="prn"/></r></p></e>
+    <e><p><l>kojekakav<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
+    <e><p><l>bilo<b/>kakav<s n="prn"/><s n="ind"/></l><r>any<b/>kind<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>ikakav<s n="prn"/><s n="ind"/></l><r>any<s n="det"/></r></p></e>
+    <e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>some<s n="adj"/></r></p></e>
+    <e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>some<b/>kind<b/>of<s n="adj"/></r></p></e>
+    <e><p><l>poneki<s n="prn"/><s n="ind"/></l><r>some<s n="adj"/></r></p></e>
+    <e><p><l>gdjekoji<s n="prn"/><s n="ind"/></l><r>some<s n="adj"/></r></p></e>
+    <e><p><l>pokoji<s n="prn"/><s n="ind"/></l><r>some<s n="adj"/></r></p></e>
+    <e><p><l>ikoji<s n="prn"/><s n="ind"/></l><r>any<s n="det"/></r></p></e>
+    <e><p><l>nekoji<s n="prn"/><s n="ind"/></l><r>some<s n="adj"/></r></p></e>
+    <e><p><l>koješta<s n="prn"/><s n="ind"/></l><r>all<b/>sorts<b/>of<b/>things<s n="n"/></r></p></e>
+    <e><p><l>štošta<s n="prn"/><s n="ind"/></l><r>all<b/>sorts<b/>of<b/>things<s n="n"/></r></p></e>
+    <e><p><l>išta<s n="prn"/><s n="ind"/></l><r>anything<s n="prn"/></r></p></e>
+    <e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/></l><r>anything<s n="prn"/></r></p></e>
+    <e><p><l>nešto<s n="prn"/><s n="ind"/></l><r>something<s n="prn"/></r></p></e>
+    <e><p><l>ponešto<s n="prn"/><s n="ind"/></l><r>some<b/>things<s n="pr"/></r></p></e>
+    <e><p><l>mnogo<b/>tko<s n="prn"/><s n="ind"/></l><r>many<b/>people<s n="pr"/></r></p></e>
+    <e><p><l>bilo<b/>tko<s n="prn"/><s n="ind"/></l><r>anyone<s n="prn"/></r></p></e>
+    <e><p><l>itko<s n="prn"/><s n="ind"/></l><r>anyone<s n="prn"/></r></p></e>
+    <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>somebody<s n="prn"/></r></p></e>
+    <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>someone<s n="prn"/></r></p></e>
+    <e><p><l>ikakav<s n="prn"/><s n="ind"/></l><r>any<s n="det"/></r></p></e>
 
     <!-- testvoc rel -->
 

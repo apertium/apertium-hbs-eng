@@ -2668,6 +2668,14 @@
     <e lm="everyone's"><i>everyone's</i><par n="mine__prn"/></e>
     <e lm="no one's"><i>no<b/>one's</i><par n="mine__prn"/></e>
     <e lm="no kind of"><i>no<b/>kind<b/>of</i><par n="at__pr"/></e>
+    <e lm="not any"><i>not<b/>any</i><par n="all__prn"/></e>
+    <e lm="any amount of"><i>any<b/>amount<b/>of</i><par n="at__pr"/></e>
+    <e lm="someone's"><i>someone's</i><par n="mine__prn"/></e>
+    <e lm="anyone's"><i>anyone's</i><par n="mine__prn"/></e>
+    <e lm="any kind of"><i>any<b/>kind<b/>of</i><par n="at__pr"/></e>
+    <e lm="all sorts of things"><i>all<b/>sorts<b/>of<b/>things</i><par n="politics__n"/></e>
+    <e lm="some things"><i>some<b/>things</i><par n="politics__n"/></e>
+    <e lm="many people"><i>many<b/>people</i><par n="politics__n"/></e>
 
     <!-- testvoc abbrevations -->
 
