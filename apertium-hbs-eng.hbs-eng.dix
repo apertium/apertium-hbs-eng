@@ -143,20 +143,29 @@
     <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>someone<s n="prn"/></r></p></e>
     <e><p><l>ikakav<s n="prn"/><s n="ind"/></l><r>any<s n="det"/></r></p></e>
     <e><p><l>tko<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/></r></p></e>
-    <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>why<s n="prn"/></r></p></e>
+    <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>why<s n="adv"/></r></p></e>
     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>myself<s n="prn"/></r></p></e>
-    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>yourself<s n="prn"/></r></p></e>
+<!--    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>yourself<s n="prn"/></r></p></e>
     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>herself<s n="prn"/></r></p></e>
     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>himself<s n="prn"/></r></p></e>
     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>itself<s n="prn"/></r></p></e>
     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>oneself<s n="prn"/></r></p></e>
     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>ourselves<s n="prn"/></r></p></e>
     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>yourselves<s n="prn"/></r></p></e>
-    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>themselves<s n="prn"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>themselves<s n="prn"/></r></p></e> -->
     <e><p><l>nikakav<s n="prn"/><s n="neg"/></l><r>no<b/>kind<b/>of<s n="pr"/></r></p></e>
     <e><p><l>nikakav<s n="prn"/><s n="neg"/></l><r>no<b/>kind<b/>of<s n="pr"/></r></p></e>
     <e><p><l>nikakav<s n="prn"/><s n="neg"/></l><r>no<b/>kind<b/>of<s n="pr"/></r></p></e>
-
+<!--    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>prpers<s n="prn"/></r></p></e>  -->
+    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>myself<s n="prn"/></r></p></e>
+<!--    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>yourself<s n="prn"/></r></p></e>
+    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>herself<s n="prn"/></r></p></e>
+    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>himself<s n="prn"/></r></p></e>
+    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>itself<s n="prn"/></r></p></e>
+    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>oneself<s n="prn"/></r></p></e>
+    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>ourselves<s n="prn"/></r></p></e>
+    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>yourselves<s n="prn"/></r></p></e>
+    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>themselves<s n="prn"/></r></p></e> -->
 
     <!-- testvoc rel -->
 
@@ -8344,7 +8353,7 @@
     <e><p><l>dati<s n="vblex"/></l><r>give<s n="vblex"/></r></p></e> 
     <e><p><l>ne<s n="part"/><s n="neg"/></l><r>not<s n="adv"/></r></p></e> 
     <e><p><l>ostati<s n="vblex"/></l><r>stay<s n="vblex"/></r></p></e> 
-    <e><p><l>clitic<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e> 
+    <e><p><l>clitic<s n="prn"/><s n="pers"/></l><r>prpers<s n="prn"/></r></p></e>
     <e><p><l>ni<s n="cnjcoo"/></l><r>nor<s n="cnjcoo"/></r></p></e> 
      
         <!-- OLD -->
