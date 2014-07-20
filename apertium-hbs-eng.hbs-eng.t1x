@@ -302,6 +302,7 @@
       <attr-item tags="det"/>
       <attr-item tags="det.pos"/>
       <attr-item tags="det.ind"/>
+      <attr-item tags="det.qnt"/>
   </def-attr>
 
     <def-attr n="a_vb">
@@ -351,6 +352,7 @@
 
     <def-attr n="a_adv">
       <attr-item tags="adv"/>
+      <attr-item tags="adv.itg"/>
       <attr-item tags="preadv"/>
     </def-attr>
 
@@ -494,7 +496,7 @@
       <choose>
         <when><!-- ništa -->
           <test>
-	    <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.neg"/></equal>
+	    <equal><clip pos="1" side="sl" part="lemh"/><lit v="ništa"/></equal>
 	  </test>
 	  <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.ind"/></let>
 	  <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
@@ -510,26 +512,268 @@
 	   </concat>
 	  </let>
 	</when>
-        <when><!-- bilo koji -->
-          <test>
-	    <equal><clip pos="1" side="sl" part="lemh"/><lit v="bilo koji"/></equal>
-	  </test>
-	  <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.qnt"/></let>
-	  <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
-	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
-	  <let>
-	   <clip pos="1" side="tl" part="whole"/>
-	   <concat>
-	  <clip pos="1" side="tl" part="lemh"/>
-	  <clip pos="1" side="tl" part="a_prn"/>
-	  <clip pos="1" side="tl" part="gndr"/>
-	  <clip pos="1" side="tl" part="nbr"/>
-	  <clip pos="1" side="tl" part="lemq"/>
-	   </concat>
-	  </let>
-	</when>
-        <when>
-          <test>
+    <when><!-- prn->prn.itg: čiji, koji, što, tko, zašto -->
+      <test>
+        <or>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="čiji"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="koji"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="što"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="tko"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="zašto"/></equal>
+        </or> 
+      </test>
+      <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.itg"/></let>
+      <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
+      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
+      <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_prn"/>
+          <clip pos="1" side="tl" part="gndr"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+      </let>
+    </when>
+    <when><!-- prn->prn.ind: oboje, neki, mnogo tko -->
+      <test>
+        <or>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="oboje"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="neki"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="mnogo tko"/></equal>
+        </or> 
+      </test>
+      <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.ind"/></let>
+      <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
+      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+      <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_prn"/>
+          <clip pos="1" side="tl" part="gndr"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+      </let>
+    </when>
+    <when><!-- prn->prn.ind: nešto -->
+      <test>
+<!--        <or> -->
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="nešto"/></equal>
+<!--        </or> -->
+      </test>
+      <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.ind"/></let>
+      <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="nt"/></let>
+      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+      <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_prn"/>
+          <clip pos="1" side="tl" part="gndr"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+      </let>
+    </when>
+    <when><!-- prn->n: svašta, koješta, štošta, ponešto -->
+      <test>
+        <or>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="svašta"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="koješta"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="štošta"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="ponešto"/></equal>
+        </or>
+      </test>
+      <let><clip pos="1" side="tl" part="a_nom"/><lit-tag v="n"/></let>
+      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+      <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="lemq"/>
+          <clip pos="1" side="tl" part="a_nom"/>
+          <clip pos="1" side="tl" part="nbr"/>
+        </concat>
+      </let>
+    </when>
+    <when><!-- prn->det: onoliko, -->
+      <test>
+<!--          <or> -->
+            <and>
+              <equal><clip pos="1" side="sl" part="lemh"/><lit v="onolik"/></equal>
+              <equal><clip pos="1" side="sl" part="gndr"/><lit-tag v="nt"/></equal>
+            </and>
+<!--          </or> -->
+      </test>
+      <let><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.qnt"/></let>
+      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+      <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_det"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+      </let>
+    </when>
+    <when><!-- prn->det: kojekakav, nekakav, poneki, gdjekoji, pokoji, nekoji, neki, gdjekoji -->
+      <test>
+          <or>
+            <equal><clip pos="1" side="sl" part="lemh"/><lit v="kojekakav"/></equal>
+            <equal><clip pos="1" side="sl" part="lemh"/><lit v="nekakav"/></equal>
+            <equal><clip pos="1" side="sl" part="lemh"/><lit v="poneki"/></equal>
+            <equal><clip pos="1" side="sl" part="lemh"/><lit v="gdjekoji"/></equal>
+            <equal><clip pos="1" side="sl" part="lemh"/><lit v="pokoji"/></equal>
+            <equal><clip pos="1" side="sl" part="lemh"/><lit v="nekoji"/></equal>
+            <equal><clip pos="1" side="sl" part="lemh"/><lit v="neki"/></equal>
+            <equal><clip pos="1" side="sl" part="lemh"/><lit v="gdjekoji"/></equal>
+          </or>
+      </test>
+      <let><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.qnt"/></let>
+      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
+      <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_det"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+      </let>
+    </when>
+    <when><!-- prn->det: tolik, ikoji -->
+      <test>
+          <or>
+            <equal><clip pos="1" side="sl" part="lemh"/><lit v="tolik"/></equal>
+            <equal><clip pos="1" side="sl" part="lemh"/><lit v="ikoji"/></equal>
+          </or>
+      </test>
+      <let><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.ind"/></let>
+      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
+      <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_det"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+      </let>
+    </when>
+    <when><!-- prn->adj: onolik, ovolik -->
+      <test>
+        <or>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="onolik"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="ovolik"/></equal>
+        </or>
+      </test>
+      <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></let>
+      <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_adj"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+      </let>
+    </when>
+    <when><!-- prn->pr: svakoliki, svakakav, nikakav, ikoliki, bilo kakav -->
+      <test>
+        <or>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="svakoliki"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="svakakav"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="nikakav"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="ikoliki"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="bilo kakav"/></equal>
+        </or>
+      </test>
+      <let><clip pos="1" side="tl" part="a_pr"/><lit-tag v="pr"/></let>
+      <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_pr"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+      </let>
+    </when>
+    <when><!-- prn->prn's: svačiji, ničiji, ponečiji, ičiji, nečiji -->
+      <test>
+        <or>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="svačiji"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="ničiji"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="ponečiji"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="ičiji"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="nečiji"/></equal>
+        </or>
+      </test>
+      <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.pos"/></let>
+      <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
+      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
+      <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_prn"/>
+          <clip pos="1" side="tl" part="gndr"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+      </let>
+    </when>
+    <when><!-- prn->prn.ind: svatko, nitko, išta, bilo što, bilo tko, itko, netko -->
+      <test>
+        <or>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="svatko"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="nitko"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="išta"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="bilo što"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="bilo tko"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="itko"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="netko"/></equal>
+        </or>
+      </test>
+      <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.ind"/></let>
+      <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
+      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+      <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_prn"/>
+          <clip pos="1" side="tl" part="gndr"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+      </let>
+    </when>
+    <when><!-- prn->prn.qnt: bilo koji, nikoji -->
+      <test>
+        <or>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="bilo koji"/></equal>
+          <equal><clip pos="1" side="sl" part="lemh"/><lit v="nikoji"/></equal>
+        </or>
+      </test>
+      <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.qnt"/></let>
+      <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
+      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
+      <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_prn"/>
+          <clip pos="1" side="tl" part="gndr"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </concat>
+      </let>
+    </when>
+    <when>
+      <test>
 	   <and>
 	    <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.ref.pos"/></equal>
 	    <or>
@@ -558,6 +802,7 @@
 	    <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.pos"/></equal>
 	  </test>
 	  <let><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.pos"/></let>
+	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
 	  <let>
 	   <clip pos="1" side="tl" part="whole"/>
 	   <concat>
@@ -568,11 +813,13 @@
 	   </concat>
 	  </let>
 	</when>
-        <when><!-- svaki, takav -->
+        <when><!-- prn->det: svaki, takav, svakoji, ikakav -->
           <test>
             <or>
 	          <equal><clip pos="1" side="sl" part="lemh"/><lit v="svaki"/></equal>
 	          <equal><clip pos="1" side="sl" part="lemh"/><lit v="takav"/></equal>
+	          <equal><clip pos="1" side="sl" part="lemh"/><lit v="svakoji"/></equal>
+	          <equal><clip pos="1" side="sl" part="lemh"/><lit v="ikakav"/></equal>
             </or>
 	      </test>
 	  <let><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.ind"/></let>
@@ -702,6 +949,24 @@
 	    <concat>
 	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_adj"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>
+    <when> <!-- kakav -->
+      <test>
+        <and>    
+	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="kakav"/></equal>
+	      <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.itg"/></equal>
+        </and>
+	  </test>
+	  <let><clip pos="1" side="tl" part="lemma"/><lit v="what kind of"/></let>
+	  <let><clip pos="1" side="tl" part="a_adv"/><lit-tag v="adv.itg"/></let>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adv"/>
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </concat>
 	  </let>
@@ -1619,7 +1884,7 @@
       </action>
     </rule>
 
-    <!-- svašta -->
+    <!-- svašta
     <rule comment="svašta">
       <pattern>
         <pattern-item n="svašta"/>
@@ -1643,7 +1908,7 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
     <rule comment="pronoun">
       <pattern>

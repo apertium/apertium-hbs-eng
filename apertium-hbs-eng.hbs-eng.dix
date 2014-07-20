@@ -110,7 +110,7 @@
     <e><p><l>svačiji<s n="prn"/><s n="tot"/></l><r>everyone's<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>svakakav<s n="prn"/><s n="tot"/></l><r>all<b/>kinds<b/>of<s n="pr"/></r></p></e>
     <e><p><l>svakoji<s n="prn"/><s n="tot"/></l><r>every<s n="det"/><s n="ind"/></r></p></e>
-    <e><p><l>svašta<s n="prn"/><s n="tot"/></l><r>all<b/>kinds<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>svašta<s n="prn"/><s n="tot"/></l><r>all<b/>sorts<b/>of<b/>things<s n="n"/></r></p></e>
     <e><p><l>svatko<s n="prn"/><s n="tot"/></l><r>everyone<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>nikoliki<s n="prn"/><s n="neg"/></l><r>nothing<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>ničiji<s n="prn"/><s n="neg"/></l><r>no<b/>one's<s n="prn"/><s n="pos"/></r></p></e>
@@ -123,20 +123,20 @@
     <e><p><l>kojekakav<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
     <e><p><l>bilo<b/>kakav<s n="prn"/><s n="ind"/></l><r>any<b/>kind<b/>of<s n="pr"/></r></p></e>
     <e><p><l>ikakav<s n="prn"/><s n="ind"/></l><r>any<s n="det"/></r></p></e>
-    <e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>some<s n="adj"/></r></p></e>
+    <e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
     <e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>some<b/>kind<b/>of<s n="adj"/></r></p></e>
-    <e><p><l>poneki<s n="prn"/><s n="ind"/></l><r>some<s n="adj"/></r></p></e>
-    <e><p><l>gdjekoji<s n="prn"/><s n="ind"/></l><r>some<s n="adj"/></r></p></e>
-    <e><p><l>pokoji<s n="prn"/><s n="ind"/></l><r>some<s n="adj"/></r></p></e>
+    <e><p><l>poneki<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
+    <e><p><l>gdjekoji<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
+    <e><p><l>pokoji<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
     <e><p><l>ikoji<s n="prn"/><s n="ind"/></l><r>any<s n="det"/></r></p></e>
-    <e><p><l>nekoji<s n="prn"/><s n="ind"/></l><r>some<s n="adj"/></r></p></e>
+    <e><p><l>nekoji<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
     <e><p><l>koješta<s n="prn"/><s n="ind"/></l><r>all<b/>sorts<b/>of<b/>things<s n="n"/></r></p></e>
     <e><p><l>štošta<s n="prn"/><s n="ind"/></l><r>all<b/>sorts<b/>of<b/>things<s n="n"/></r></p></e>
     <e><p><l>išta<s n="prn"/><s n="ind"/></l><r>anything<s n="prn"/></r></p></e>
     <e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/></l><r>anything<s n="prn"/></r></p></e>
     <e><p><l>nešto<s n="prn"/><s n="ind"/></l><r>something<s n="prn"/></r></p></e>
-    <e><p><l>ponešto<s n="prn"/><s n="ind"/></l><r>some<b/>things<s n="pr"/></r></p></e>
-    <e><p><l>mnogo<b/>tko<s n="prn"/><s n="ind"/></l><r>many<b/>people<s n="pr"/></r></p></e>
+    <e><p><l>ponešto<s n="prn"/><s n="ind"/></l><r>some<b/>things<s n="n"/></r></p></e>
+    <e><p><l>mnogo<b/>tko<s n="prn"/><s n="ind"/></l><r>many<s n="prn"/></r></p></e>
     <e><p><l>bilo<b/>tko<s n="prn"/><s n="ind"/></l><r>anyone<s n="prn"/></r></p></e>
     <e><p><l>itko<s n="prn"/><s n="ind"/></l><r>anyone<s n="prn"/></r></p></e>
     <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>somebody<s n="prn"/></r></p></e>
@@ -8587,15 +8587,15 @@
 
     <!-- POSSESSIVE ADJECTIVES -->
 
-<!--    <e><p><l>njegov<s n="prn"/><s n="pos"/></l><r>his<s n="prn"/><s n="pos"/></r></p></e> -->
-    <e r="RL"><p><l>njezin<s n="prn"/><s n="pos"/></l><r>her<s n="prn"/><s n="pos"/></r></p></e>
+<!--    <e><p><l>njegov<s n="prn"/><s n="pos"/></l><r>his<s n="det"/><s n="pos"/></r></p></e> -->
+    <e r="RL"><p><l>njezin<s n="prn"/><s n="pos"/></l><r>her<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>njezin<s n="prn"/><s n="pos"/></l><r>her<s n="det"/><s n="pos"/></r></p></e>
-    <e><p><l>njen<s n="prn"/><s n="pos"/></l><r>her<s n="prn"/><s n="pos"/></r></p></e>
-<!--    <e><p><l>njihov<s n="prn"/><s n="pos"/></l><r>their<s n="prn"/><s n="pos"/></r></p></e> fix: temporary -->
-<!--    <e><p><l>naš<s n="prn"/><s n="pos"/></l><r>our<s n="prn"/><s n="pos"/></r></p></e> fix: temporary -->
-    <e><p><l>vaš<s n="prn"/><s n="pos"/></l><r>your<s n="prn"/><s n="pos"/></r></p></e>
-    <e><p><l>moj<s n="prn"/><s n="pos"/></l><r>my<s n="prn"/><s n="pos"/></r></p></e>
-    <e><p><l>tvoj<s n="prn"/><s n="pos"/></l><r>your<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>njen<s n="prn"/><s n="pos"/></l><r>her<s n="det"/><s n="pos"/></r></p></e>
+<!--    <e><p><l>njihov<s n="prn"/><s n="pos"/></l><r>their<s n="det"/><s n="pos"/></r></p></e> fix: temporary -->
+<!--    <e><p><l>naš<s n="prn"/><s n="pos"/></l><r>our<s n="det"/><s n="pos"/></r></p></e> fix: temporary -->
+    <e><p><l>vaš<s n="prn"/><s n="pos"/></l><r>your<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>moj<s n="prn"/><s n="pos"/></l><r>my<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>tvoj<s n="prn"/><s n="pos"/></l><r>your<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>svoj<s n="prn"/><s n="pos"/></l><r>her (own)<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>svoj<s n="prn"/><s n="pos"/></l><r>his (own=<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>svoj<s n="prn"/><s n="pos"/></l><r>their (own)<s n="prn"/><s n="pos"/></r></p></e>
