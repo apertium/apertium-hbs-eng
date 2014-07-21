@@ -30,6 +30,7 @@
     <sdef n="ger"/>
     <sdef n="futI"/>
     <sdef n="futII"/>
+    <sdef n="coll"/>
     <sdef n="adj" c="adjective"/>
     <sdef n="m"	 c="masculine"/>
     <sdef n="ant"  c="person name"/>
@@ -95,6 +96,230 @@
    </sdefs>
 
    <section id="main" type="standard">
+
+    <!-- testvoc numbers -->
+
+    <e><p><l>pedesetak<s n="num"/></l><r>around<b/>fifty<s n="num"/><s n="sg"/></r></p></e>
+
+    <e><p><l>jedan<s n="num"/></l><r>one<s n="num"/></r></p></e>
+    <e><p><l>dva<s n="num"/></l><r>two<s n="num"/></r></p></e>
+    <e><p><l>tri<s n="num"/></l><r>three<s n="num"/></r></p></e>
+    <e><p><l>četiri<s n="num"/></l><r>four<s n="num"/></r></p></e>
+    <e><p><l>pet<s n="num"/></l><r>five<s n="num"/></r></p></e>
+    <e><p><l>šest<s n="num"/></l><r>six<s n="num"/></r></p></e>
+    <e><p><l>sedam<s n="num"/></l><r>seven<s n="num"/></r></p></e>
+    <e><p><l>osam<s n="num"/></l><r>eight<s n="num"/></r></p></e>
+    <e><p><l>devet<s n="num"/></l><r>nine<s n="num"/></r></p></e>
+    <e><p><l>deset<s n="num"/></l><r>ten<s n="num"/></r></p></e>
+    <e><p><l>jedanaest<s n="num"/></l><r>eleven<s n="num"/></r></p></e>
+    <e><p><l>dvanaest<s n="num"/></l><r>twelve<s n="num"/></r></p></e>
+    <e><p><l>trinaest<s n="num"/></l><r>thirteen<s n="num"/></r></p></e>
+    <e><p><l>četrnaest<s n="num"/></l><r>fourteen<s n="num"/></r></p></e>
+    <e><p><l>petnaest<s n="num"/></l><r>fifteen<s n="num"/></r></p></e>
+    <e><p><l>šesnaest<s n="num"/></l><r>sixteen<s n="num"/></r></p></e>
+    <e><p><l>sedamnaest<s n="num"/></l><r>seventeen<s n="num"/></r></p></e>
+    <e><p><l>osamnaest<s n="num"/></l><r>eighteen<s n="num"/></r></p></e>
+    <e><p><l>devetnaest<s n="num"/></l><r>nineteen<s n="num"/></r></p></e>
+
+    <e><p><l>prvi<s n="num"/><s n="ord"/></l><r>first<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>drugi<s n="num"/><s n="ord"/></l><r>second<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>treći<s n="num"/><s n="ord"/></l><r>third<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>četvrti<s n="num"/><s n="ord"/></l><r>fourth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>peti<s n="num"/><s n="ord"/></l><r>fifth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>šesti<s n="num"/><s n="ord"/></l><r>sixth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>sedmi<s n="num"/><s n="ord"/></l><r>seventh<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>osmi<s n="num"/><s n="ord"/></l><r>eighth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>deveti<s n="num"/><s n="ord"/></l><r>ninth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>deseti<s n="num"/><s n="ord"/></l><r>tenth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>jedanaesti<s n="num"/><s n="ord"/></l><r>eleventh<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>dvanaesti<s n="num"/><s n="ord"/></l><r>twelfth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>trinaesti<s n="num"/><s n="ord"/></l><r>thirteenth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>četrnaesti<s n="num"/><s n="ord"/></l><r>fourteenth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>petnaesti<s n="num"/><s n="ord"/></l><r>fifteenth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>šesnaesti<s n="num"/><s n="ord"/></l><r>sixteenth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>sedamnaesti<s n="num"/><s n="ord"/></l><r>seventeenth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>osamnaesti<s n="num"/><s n="ord"/></l><r>eighteenth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>devetnaesti<s n="num"/><s n="ord"/></l><r>nineteenth<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>dvadeseti<s n="num"/><s n="ord"/></l><r>twentieth<s n="adj"/><s n="ord"/></r></p></e>
+
+    <e><p><l>sto<s n="num"/><s n="sg"/></l><r>a<b/>hundred<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>milion<s n="num"/></l><r>million<s n="num"/></r></p></e>
+    <e><p><l>tisuća<s n="num"/></l><r>thousand<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>oba<s n="num"/></l><r>both<s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
+
+    <e><p><l>četvero<s n="num"/><s n="coll"/></l><r>four<s n="num"/></r></p></e>
+    <e><p><l>petero<s n="num"/><s n="coll"/></l><r>five<s n="num"/></r></p></e>
+    <e><p><l>šestero<s n="num"/><s n="coll"/></l><r>six<s n="num"/></r></p></e>
+    <e><p><l>sedmero<s n="num"/><s n="coll"/></l><r>seven<s n="num"/></r></p></e>
+    <e><p><l>osmero<s n="num"/><s n="coll"/></l><r>eight<s n="num"/></r></p></e>
+    <e><p><l>devetero<s n="num"/><s n="coll"/></l><r>nine<s n="num"/></r></p></e>
+    <e><p><l>desetero<s n="num"/><s n="coll"/></l><r>ten<s n="num"/></r></p></e>
+
+    <e><p><l>dvadesetero<s n="num"/><s n="coll"/></l><r>twenty<s n="num"/></r></p></e>
+    <e><p><l>devetnaestero<s n="num"/><s n="coll"/></l><r>nineteen<s n="num"/></r></p></e>
+    <e><p><l>osamnaestero<s n="num"/><s n="coll"/></l><r>eighteen<s n="num"/></r></p></e>
+    <e><p><l>sedamnaestero<s n="num"/><s n="coll"/></l><r>seventeen<s n="num"/></r></p></e>
+    <e><p><l>šesnaestero<s n="num"/><s n="coll"/></l><r>sixteen<s n="num"/></r></p></e>
+    <e><p><l>petnaestero<s n="num"/><s n="coll"/></l><r>fifteen<s n="num"/></r></p></e>
+    <e><p><l>četrnaestero<s n="num"/><s n="coll"/></l><r>fourteen<s n="num"/></r></p></e>
+    <e><p><l>trinaestero<s n="num"/><s n="coll"/></l><r>thirteen<s n="num"/></r></p></e>
+    <e><p><l>dvanaestero<s n="num"/><s n="coll"/></l><r>twelve<s n="num"/></r></p></e>
+    <e><p><l>jedanaestero<s n="num"/><s n="coll"/></l><r>eleven<s n="num"/></r></p></e>
+    <e><p><l>dvoje<s n="num"/></l><r>two<s n="num"/></r></p></e>
+
+    <e><p><l>dvadeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>twenty-two<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>twenty-three<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>twenty-four<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>twenty-five<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>twenty-six<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>twenty-seven<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>twenty-eight<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>twenty-nine<s n="num"/></r></p></e>
+    <e><p><l>tridesetero<s n="num"/><s n="coll"/></l><r>thirty<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>thirty-two<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>thirty-three<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>thirty-four<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>thirty-five<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>thirty-six<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>thirty-seven<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>thirty-eight<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>thirty-nine<s n="num"/></r></p></e>
+    <e><p><l>četrdesetero<s n="num"/><s n="coll"/></l><r>forty<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>forty-two<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>forty-three<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>forty-four<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>forty-five<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>forty-six<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>forty-seven<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>forty-eight<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>forty-nine<s n="num"/></r></p></e>
+    <e><p><l>pedesetero<s n="num"/><s n="coll"/></l><r>fifty<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>fifty-two<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>fifty-three<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>fifty-four<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>fifty-five<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>fifty-six<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>fifty-seven<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>fifty-eight<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>fifty-nine<s n="num"/></r></p></e>
+    <e><p><l>šezdesetero<s n="num"/><s n="coll"/></l><r>sixty<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>sixty-two<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>sixty-three<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>sixty-four<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>sixty-five<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>sixty-six<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>sixty-seven<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>sixty-eight<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>sixty-nine<s n="num"/></r></p></e>
+    <e><p><l>sedamdesetero<s n="num"/><s n="coll"/></l><r>seventy<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>seventy-two<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>seventy-three<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>seventy-four<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>seventy-five<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>seventy-six<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>seventy-seven<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>seventy-eight<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>seventy-nine<s n="num"/></r></p></e>
+    <e><p><l>osamdesetero<s n="num"/><s n="coll"/></l><r>eighty<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>eighty-two<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>eighty-three<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>eighty-four<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>eighty-five<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>eighty-six<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>eighty-seven<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>eighty-eight<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>eighty-nine<s n="num"/></r></p></e>
+    <e><p><l>devedesetero<s n="num"/><s n="coll"/></l><r>ninety<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>dvoje<s n="num"/><s n="coll"/></l><r>ninety-two<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>troje<s n="num"/><s n="coll"/></l><r>ninety-three<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>četvero<s n="num"/><s n="coll"/></l><r>ninety-four<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>petero<s n="num"/><s n="coll"/></l><r>ninety-five<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>šestero<s n="num"/><s n="coll"/></l><r>ninety-six<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>sedmero<s n="num"/><s n="coll"/></l><r>ninety-seven<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>osmero<s n="num"/><s n="coll"/></l><r>ninety-eight<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>devetero<s n="num"/><s n="coll"/></l><r>ninety-nine<s n="num"/></r></p></e>
+
+    <e><p><l>dvadeset<s n="num"/></l><r>twenty<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>jedan<s n="num"/></l><r>twenty-one<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>dva<s n="num"/></l><r>twenty-two<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>tri<s n="num"/></l><r>twenty-three<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>četiri<s n="num"/></l><r>twenty-four<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>pet<s n="num"/></l><r>twenty-five<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>šest<s n="num"/></l><r>twenty-six<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>sedam<s n="num"/></l><r>twenty-seven<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>osam<s n="num"/></l><r>twenty-eight<s n="num"/></r></p></e>
+    <e><p><l>dvadeset<b/>i<b/>devet<s n="num"/></l><r>twenty-nine<s n="num"/></r></p></e>
+    <e><p><l>trideset<s n="num"/></l><r>thirty<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>jedan<s n="num"/></l><r>thirty-one<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>dva<s n="num"/></l><r>thirty-two<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>tri<s n="num"/></l><r>thirty-three<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>četiri<s n="num"/></l><r>thirty-four<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>pet<s n="num"/></l><r>thirty-five<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>šest<s n="num"/></l><r>thirty-six<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>sedam<s n="num"/></l><r>thirty-seven<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>osam<s n="num"/></l><r>thirty-eight<s n="num"/></r></p></e>
+    <e><p><l>trideset<b/>i<b/>devet<s n="num"/></l><r>thirty-nine<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<s n="num"/></l><r>forty<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>jedan<s n="num"/></l><r>forty-one<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>dva<s n="num"/></l><r>forty-two<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>tri<s n="num"/></l><r>forty-three<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>četiri<s n="num"/></l><r>forty-four<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>pet<s n="num"/></l><r>forty-five<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>šest<s n="num"/></l><r>forty-six<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>sedam<s n="num"/></l><r>forty-seven<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>osam<s n="num"/></l><r>forty-eight<s n="num"/></r></p></e>
+    <e><p><l>četrdeset<b/>i<b/>devet<s n="num"/></l><r>forty-nine<s n="num"/></r></p></e>
+    <e><p><l>pedeset<s n="num"/></l><r>fifty<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>jedan<s n="num"/></l><r>fifty-one<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>dva<s n="num"/></l><r>fifty-two<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>tri<s n="num"/></l><r>fifty-three<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>četiri<s n="num"/></l><r>fifty-four<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>pet<s n="num"/></l><r>fifty-five<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>šest<s n="num"/></l><r>fifty-six<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>sedam<s n="num"/></l><r>fifty-seven<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>osam<s n="num"/></l><r>fifty-eight<s n="num"/></r></p></e>
+    <e><p><l>pedeset<b/>i<b/>devet<s n="num"/></l><r>fifty-nine<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<s n="num"/></l><r>sixty<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>jedan<s n="num"/></l><r>sixty-one<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>dva<s n="num"/></l><r>sixty-two<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>tri<s n="num"/></l><r>sixty-three<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>četiri<s n="num"/></l><r>sixty-four<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>pet<s n="num"/></l><r>sixty-five<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>šest<s n="num"/></l><r>sixty-six<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>sedam<s n="num"/></l><r>sixty-seven<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>osam<s n="num"/></l><r>sixty-eight<s n="num"/></r></p></e>
+    <e><p><l>šezdeset<b/>i<b/>devet<s n="num"/></l><r>sixty-nine<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<s n="num"/></l><r>seventy<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>jedan<s n="num"/></l><r>seventy-one<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>dva<s n="num"/></l><r>seventy-two<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>tri<s n="num"/></l><r>seventy-three<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>četiri<s n="num"/></l><r>seventy-four<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>pet<s n="num"/></l><r>seventy-five<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>šest<s n="num"/></l><r>seventy-six<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>sedam<s n="num"/></l><r>seventy-seven<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>osam<s n="num"/></l><r>seventy-eight<s n="num"/></r></p></e>
+    <e><p><l>sedamdeset<b/>i<b/>devet<s n="num"/></l><r>seventy-nine<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<s n="num"/></l><r>eighty<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>jedan<s n="num"/></l><r>eighty-two<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>dva<s n="num"/></l><r>eighty-two<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>tri<s n="num"/></l><r>eighty-three<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>četiri<s n="num"/></l><r>eighty-four<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>pet<s n="num"/></l><r>eighty-five<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>šest<s n="num"/></l><r>eighty-six<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>sedam<s n="num"/></l><r>eighty-seven<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>osam<s n="num"/></l><r>eighty-eight<s n="num"/></r></p></e>
+    <e><p><l>osamdeset<b/>i<b/>devet<s n="num"/></l><r>eighty-nine<s n="num"/></r></p></e>
+    <e><p><l>devedeset<s n="num"/></l><r>ninety<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>jedan<s n="num"/></l><r>ninety-two<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>dva<s n="num"/></l><r>ninety-two<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>tri<s n="num"/></l><r>ninety-three<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>četiri<s n="num"/></l><r>ninety-four<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>pet<s n="num"/></l><r>ninety-five<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>šest<s n="num"/></l><r>ninety-six<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>sedam<s n="num"/></l><r>ninety-seven<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>osam<s n="num"/></l><r>ninety-eight<s n="num"/></r></p></e>
+    <e><p><l>devedeset<b/>i<b/>devet<s n="num"/></l><r>ninety-nine<s n="num"/></r></p></e>
+
 
     <!-- testvoc pronouns -->
 
@@ -731,7 +956,6 @@
     <e><p><l>bojazan<s n="n"/></l><r>concern<s n="n"/></r></p></e>
     <e><p><l>uvoditi<s n="vblex"/></l><r>institute<s n="vblex"/></r></p></e>
     <e><p><l>protiv<s n="pr"/></l><r>against<s n="pr"/></r></p></e>
-    <e><p><l>treći<s n="num"/></l><r>third<s n="adj"/></r></p></e>
     <e><p><l>zauzeti<s n="vblex"/></l><r>take<s n="vblex"/></r></p></e>
     <e><p><l>otvoriti<s n="vblex"/></l><r>open<s n="vblex"/></r></p></e>
     <e><p><l>pristaša<s n="n"/></l><r>supporter<s n="n"/></r></p></e>
@@ -770,7 +994,7 @@
     <e><p><l>izraziti<s n="vblex"/></l><r>express<s n="vblex"/></r></p></e>
     <e><p><l>zaustaviti<s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
     <e><p><l>bilo<b/>koji<s n="prn"/></l><r>any<s n="prn"/></r></p></e>
-    <e><p><l>troje<s n="num"/></l><r>three<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>troje<s n="num"/></l><r>three<s n="num"/></r></p></e>
     <e><p><l>koliki<s n="prn"/></l><r>how<b/>big<s n="prn"/></r></p></e><!-- fix: -->
     <e><p><l>slati<s n="vblex"/></l><r>send<s n="vblex"/></r></p></e>
     <e><p><l>ostvariti<s n="vblex"/></l><r>achieve<s n="vblex"/></r></p></e>
@@ -779,11 +1003,9 @@
     <e><p><l>kratkotrajan<s n="adj"/></l><r>short-term<s n="adj"/></r></p></e>
     <e><p><l>sjetiti<s n="vblex"/></l><r>remember<s n="vblex"/></r></p></e>
     <e><p><l>svaki<s n="prn"/></l><r>every<s n="det"/></r></p></e>
-    <e><p><l>šesti<s n="num"/></l><r>sixth<s n="adj"/></r></p></e>
     <e><p><l>glasovati<s n="vblex"/></l><r>vote<s n="vblex"/></r></p></e>
     <e><p><l>Agence<b/>France<b/>Presse<s n="np"/></l><r>Agence<b/>France<b/>Presse<s n="np"/></r></p></e>
     <e><p><l>umjeren<s n="adj"/></l><r>moderate<s n="adj"/></r></p></e>
-    <e><p><l>četvrti<s n="num"/></l><r>fourth<s n="adj"/></r></p></e>
     <e><p><l>dok<s n="adv"/></l><r>while<s n="cnjadv"/></r></p></e>
     <e><p><l>dok<s n="cnjsub"/></l><r>while<s n="cnjsub"/></r></p></e>
     <e><p><l>željeti<s n="vblex"/></l><r>want<s n="vblex"/></r></p></e>
@@ -8169,7 +8391,6 @@
     <e><p><l>izvođački<s n="adj"/></l><r>performing<s n="adj"/></r></p></e>
     <e><p><l>javan<s n="adj"/></l><r>public<s n="adj"/></r></p></e>
     <e><p><l>javnost<s n="n"/></l><r>public<s n="n"/></r></p></e>
-    <e><p><l>jedan<s n="num"/></l><r>one<s n="num"/></r></p></e>
     <e><p><l>jezgra<s n="n"/></l><r>core<s n="n"/></r></p></e>
     <e><p><l>kao<s n="pr"/></l><r>as<s n="pr"/></r></p></e>
     <e><p><l>karijera<s n="n"/></l><r>career<s n="n"/></r></p></e>
@@ -8300,8 +8521,8 @@
     <e><p><l>zaista<s n="adv"/></l><r>truely<s n="adv"/></r></p></e>  
     <e><p><l>zaista<s n="part"/></l><r>truely<s n="adv"/></r></p></e>  
     <e><p><l>zajedno<s n="adj"/></l><r>together<s n="adj"/></r></p></e>  
-    <e r="LR"><p><l>četiri<s n="num"/></l><r>four<s n="num"/><s n="pl"/></r></p></e>  
-    <e r="RL"><p><l>četiri<s n="num"/></l><r>four<s n="num"/></r></p></e>  
+<!--    <e r="LR"><p><l>četiri<s n="num"/></l><r>four<s n="num"/><s n="pl"/></r></p></e>  
+    <e r="RL"><p><l>četiri<s n="num"/></l><r>four<s n="num"/></r></p></e>  -->
     <e><p><l>čudak<s n="n"/></l><r>weirdo<s n="n"/></r></p></e>
     <e><p><l>štovatelj<s n="n"/></l><r>fan<s n="n"/></r></p></e>
 
@@ -8361,7 +8582,6 @@
 			<e><p><l>punct<s n="punct"/></l><r>punct<s n="punct"/></r></p></e>
 			<e><p><l>biti<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
 			<e><p><l>sest<s n="num"/></l><r>six<s n="num"/></r></p></e>
-			<e><p><l>pet<s n="num"/></l><r>five<s n="num"/></r></p></e>
 			<e><p><l>gdje<s n="adv"/></l><r>where<s n="adv"/></r></p></e>
 			<e><p><l>malo<s n="adv"/></l><r>some<s n="adv"/></r></p></e>
 			<e><p><l>neka<s n="part"/></l><r>some<s n="part"/></r></p></e>
@@ -8577,10 +8797,6 @@
 
     <e><p><l>no<s n="part"/></l><r>but<s n="part"/></r></p></e>
     <e><p><l>i<s n="part"/></l><r>also<s n="part"/></r></p></e>
-    
-    <e><p><l>dva<s n="num"/></l><r>two<s n="num"/></r></p></e>
-    <e><p><l>pet<s n="num"/></l><r>five<s n="num"/></r></p></e>
-    <e><p><l>šest<s n="num"/></l><r>six<s n="num"/></r></p></e>
 
     <!-- PREPOSITIONS -->
 

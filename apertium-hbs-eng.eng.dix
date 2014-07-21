@@ -2660,6 +2660,10 @@
 
   <section id="main" type="standard">
 
+    <!-- testvoc numbers -->
+
+    <e lm="around fifty"><i>around<b/>fifty</i><par n="one__num"/></e>
+
     <!-- testvoc pronouns -->
 
     <e lm="that big"><i>that<b/>big</i><par n="expensive__adj"/></e>
@@ -3058,7 +3062,6 @@
     <e lm="fascination"><i>fascination</i><par n="house__n"/></e>
     <e lm="feeling"><i>feeling</i><par n="house__n"/></e>
     <e lm="first"><i>first</i><par n="maybe__adv"/></e>
-    <e lm="first"><i>first</i><par n="second__adj"/></e>
     <e lm="first-class"><i>first-class</i><par n="expensive__adj"/></e>
     <e lm="followed"><i>followed</i><par n="expensive__adj"/></e>
     <e lm="for"><i>for</i><par n="after__cnjadv"/></e>
@@ -3146,10 +3149,6 @@
     <e lm="citizen of Rijeka"><i>citizen</i><par n="house__n"/><p><l><b/>of<b/>Rijeka</l><r><g><b/>of<b/>Rijeka</g></r></p></e>
     <e lm="rock"><i>rock</i><par n="accept__vblex"/></e>
     <e lm="rock"><i>rock</i><par n="house__n"/></e>
-    <e lm="second"><i>second</i><par n="accept__vblex"/></e>
-    <e lm="second"><i>second</i><par n="house__n"/></e>
-    <e lm="second"><i>second</i><par n="maybe__adv"/></e>
-    <e lm="second"><i>second</i><par n="second__adj"/></e>
     <e lm="several"><i>several</i><par n="both__prn"/></e>
     <e lm="several"><i>several</i><par n="several__det"/></e>
     <e lm="several"><i>several</i><par n="expensive__adj"/></e>
@@ -42759,7 +42758,6 @@
     <e lm="financially"><i>financially</i><par n="maybe__adv"/></e>
     <e lm="fine"><i>fine</i><par n="maybe__adv"/></e>
     <e lm="firmly"><i>firmly</i><par n="maybe__adv"/></e>
-    <e lm="first"><i>first</i><par n="maybe__adv"/></e>
     <e lm="first and foremost"><i>first<b/>and<b/>foremost</i><par n="maybe__adv"/></e>
     <e lm="first come, first served"><i>first<b/>come,<b/>first<b/>served</i><par n="maybe__adv"/></e>
     <e lm="first of all"><i>first<b/>of<b/>all</i><par n="maybe__adv"/></e>
