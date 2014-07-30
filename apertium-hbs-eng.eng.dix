@@ -1049,7 +1049,7 @@
     
     <pardef n="Smith__np">
       <e>      <p>        <l></l>        <r><s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
-      <!--<e>      <p>        <l>s</l>        <r><s n="np"/><s n="cog"/><s n="pl"/></r></p></e>-->
+      <e>      <p>        <l>s</l>        <r><s n="np"/><s n="cog"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="Wikipedia__np">
@@ -2674,6 +2674,303 @@
 
   <section id="main" type="standard">
 
+    <!-- testvoc np's -->
+
+    <e lm="del Ponte"><i>del<b/>Ponte</i><par n="Smith__np"/></e>
+    <e lm="Janko"><i>Janko</i><par n="Mark__np"/></e>
+    <e lm="Janko"><i>Janko</i><par n="Smith__np"/></e>
+    <e lm="Broadway"><i>Broadway</i><par n="Barcelona__np"/></e>
+    <e lm="Kramberger"><i>Kramberger</i><par n="Smith__np"/></e>
+    <e lm="Hušnjak"><i>Hušnjak</i><par n="Smith__np"/></e>
+    <e lm="Čeh"><i>Čeh</i><par n="Smith__np"/></e>
+    <e lm="Česen"><i>Česen</i><par n="Smith__np"/></e>
+    <e lm="Šešok"><i>Šešok</i><par n="Smith__np"/></e>
+    <e lm="Šetinc"><i>Šetinc</i><par n="Smith__np"/></e>
+    <e lm="Školč"><i>Školč</i><par n="Smith__np"/></e>
+    <e lm="Štefan"><i>Štefan</i><par n="Mark__np"/></e>
+    <e lm="Štefan"><i>Štefan</i><par n="Smith__np"/></e>
+    <e lm="Šturm"><i>Šturm</i><par n="Smith__np"/></e>
+    <e lm="Janša"><i>Janša</i><par n="Smith__np"/></e>
+    <e lm="Geržina"><i>Geržina</i><par n="Smith__np"/></e>
+    <e lm="Tomšič"><i>Tomšič</i><par n="Smith__np"/></e>
+    <e lm="Župančič"><i>Župančič</i><par n="Smith__np"/></e>
+    <e lm="Jelinčič"><i>Jelinčič</i><par n="Smith__np"/></e>
+    <e lm="Kavčič"><i>Kavčič</i><par n="Smith__np"/></e>
+    <e lm="Gorjanović"><i>Gorjanović</i><par n="Smith__np"/></e>
+    <e lm="Dujmić"><i>Dujmić</i><par n="Smith__np"/></e>
+    <e lm="Tolstoj"><i>Tolstoj</i><par n="Smith__np"/></e>
+    <e lm="Dobrajc"><i>Dobrajc</i><par n="Smith__np"/></e>
+    <e lm="Rejc"><i>Rejc</i><par n="Smith__np"/></e>
+    <e lm="Zdovc"><i>Zdovc</i><par n="Smith__np"/></e>
+    <e lm="Aljaž"><i>Aljaž</i><par n="Mark__np"/></e>
+    <e lm="Aljaž"><i>Aljaž</i><par n="Smith__np"/></e>
+    <e lm="Ambrož"><i>Ambrož</i><par n="Mark__np"/></e>
+    <e lm="Ambrož"><i>Ambrož</i><par n="Smith__np"/></e>
+    <e lm="Matuš"><i>Matuš</i><par n="Smith__np"/></e>
+    <e lm="Aaronson"><i>Aaronson</i><par n="Smith__np"/></e>
+    <e lm="Voltaire"><i>Voltaire</i><par n="Smith__np"/></e>
+    <e lm="Albreht"><i>Albreht</i><par n="Smith__np"/></e>
+    <e lm="Bach"><i>Bach</i><par n="Smith__np"/></e>
+    <e lm="Bavčar"><i>Bavčar</i><par n="Smith__np"/></e>
+    <e lm="Bizjak"><i>Bizjak</i><par n="Smith__np"/></e>
+    <e lm="Borštner"><i>Borštner</i><par n="Smith__np"/></e>
+    <e lm="Borštnik"><i>Borštnik</i><par n="Smith__np"/></e>
+    <e lm="Cankar"><i>Cankar</i><par n="Smith__np"/></e>
+    <e lm="Cezar"><i>Cezar</i><par n="Smith__np"/></e>
+    <e lm="Chaucer"><i>Chaucer</i><par n="Smith__np"/></e>
+    <e lm="Cromwell"><i>Cromwell</i><par n="Smith__np"/></e>
+    <e lm="Debelak"><i>Debelak</i><par n="Smith__np"/></e>
+    <e lm="Demšar"><i>Demšar</i><par n="Smith__np"/></e>
+    <e lm="Dickens"><i>Dickens</i><par n="Smith__np"/></e>
+    <e lm="Drnovšek"><i>Drnovšek</i><par n="Smith__np"/></e>
+    <e lm="Hafner"><i>Hafner</i><par n="Smith__np"/></e>
+    <e lm="Hočevar"><i>Hočevar</i><par n="Smith__np"/></e>
+    <e lm="Kocjan"><i>Kocjan</i><par n="Smith__np"/></e>
+    <e lm="Kolumb"><i>Kolumb</i><par n="Smith__np"/></e>
+    <e lm="Kučan"><i>Kučan</i><par n="Smith__np"/></e>
+    <e lm="Ludvik"><i>Ludvik</i><par n="Mark__np"/></e>
+    <e lm="Ludvik"><i>Ludvik</i><par n="Smith__np"/></e>
+    <e lm="Maver"><i>Maver</i><par n="Smith__np"/></e>
+    <e lm="Mlakar"><i>Mlakar</i><par n="Smith__np"/></e>
+    <e lm="O'Brien"><i>O'Brien</i><par n="Smith__np"/></e>
+    <e lm="Pečan"><i>Pečan</i><par n="Smith__np"/></e>
+    <e lm="Pilat"><i>Pilat</i><par n="Smith__np"/></e>
+    <e lm="Plečnik"><i>Plečnik</i><par n="Smith__np"/></e>
+    <e lm="Plut"><i>Plut</i><par n="Smith__np"/></e>
+    <e lm="Poljšak"><i>Poljšak</i><par n="Smith__np"/></e>
+    <e lm="Požarnik"><i>Požarnik</i><par n="Smith__np"/></e>
+    <e lm="Prešeren"><i>Prešeren</i><par n="Smith__np"/></e>
+    <e lm="Pretnar"><i>Pretnar</i><par n="Smith__np"/></e>
+    <e lm="Pukl"><i>Pukl</i><par n="Smith__np"/></e>
+    <e lm="Puškin"><i>Puškin</i><par n="Smith__np"/></e>
+    <e lm="Ravnikar"><i>Ravnikar</i><par n="Smith__np"/></e>
+    <e lm="Romih"><i>Romih</i><par n="Smith__np"/></e>
+    <e lm="Rusjan"><i>Rusjan</i><par n="Smith__np"/></e>
+    <e lm="Rutherford"><i>Rutherford</i><par n="Smith__np"/></e>
+    <e lm="Sisinger"><i>Sisinger</i><par n="Smith__np"/></e>
+    <e lm="Sitar"><i>Sitar</i><par n="Smith__np"/></e>
+    <e lm="Swift"><i>Swift</i><par n="Smith__np"/></e>
+    <e lm="Tancig"><i>Tancig</i><par n="Smith__np"/></e>
+    <e lm="Tillotson"><i>Tillotson</i><par n="Smith__np"/></e>
+    <e lm="Urban"><i>Urban</i><par n="Mark__np"/></e>
+    <e lm="Urban"><i>Urban</i><par n="Smith__np"/></e>
+    <e lm="Valvasor"><i>Valvasor</i><par n="Smith__np"/></e>
+    <e lm="Vidmar"><i>Vidmar</i><par n="Smith__np"/></e>
+    <e lm="Vilfan"><i>Vilfan</i><par n="Smith__np"/></e>
+    <e lm="Wilsher"><i>Wilsher</i><par n="Smith__np"/></e>
+    <e lm="Bulgakov"><i>Bulgakov</i><par n="Smith__np"/></e>
+    <e lm="Dostojevski"><i>Dostojevski</i><par n="Smith__np"/></e>
+    <e lm="Sakskoburgotski"><i>Sakskoburgotski</i><par n="Smith__np"/></e>
+    <e lm="Aleksander"><i>Aleksander</i><par n="Mark__np"/></e>
+    <e lm="Baal"><i>Baal</i><par n="Mark__np"/></e>
+    <e lm="Baltazar"><i>Baltazar</i><par n="Mark__np"/></e>
+    <e lm="Balthasar"><i>Balthasar</i><par n="Mark__np"/></e>
+    <e lm="Boštjan"><i>Boštjan</i><par n="Mark__np"/></e>
+    <e lm="Ciril"><i>Ciril</i><par n="Mark__np"/></e>
+    <e lm="Dušan"><i>Dušan</i><par n="Mark__np"/></e>
+    <e lm="Edvard"><i>Edvard</i><par n="Mark__np"/></e>
+    <e lm="Franc"><i>Franc</i><par n="Mark__np"/></e>
+    <e lm="Gabrijel"><i>Gabrijel</i><par n="Mark__np"/></e>
+    <e lm="Gregorij"><i>Gregorij</i><par n="Mark__np"/></e>
+    <e lm="Hamlet"><i>Hamlet</i><par n="Mark__np"/></e>
+    <e lm="Hippocrates"><i>Hippocrates</i><par n="Mark__np"/></e>
+    <e lm="Ignacij"><i>Ignacij</i><par n="Mark__np"/></e>
+    <e lm="Izak"><i>Izak</i><par n="Mark__np"/></e>
+    <e lm="Josip"><i>Josip</i><par n="Mark__np"/></e>
+    <e lm="Jožef"><i>Jožef</i><par n="Mark__np"/></e>
+    <e lm="Jurij"><i>Jurij</i><par n="Mark__np"/></e>
+    <e lm="Kajn"><i>Kajn</i><par n="Mark__np"/></e>
+    <e lm="Klementin"><i>Klementin</i><par n="Mark__np"/></e>
+    <e lm="Krištof"><i>Krištof</i><par n="Mark__np"/></e>
+    <e lm="Lovrenc"><i>Lovrenc</i><par n="Mark__np"/></e>
+    <e lm="Lovrenc"><i>Lovrenc</i><par n="Barcelona__np"/></e>
+    <e lm="Marijan"><i>Marijan</i><par n="Mark__np"/></e>
+    <e lm="Matej"><i>Matej</i><par n="Mark__np"/></e>
+    <e lm="Oskar"><i>Oskar</i><par n="Mark__np"/></e>
+    <e lm="Oton"><i>Oton</i><par n="Mark__np"/></e>
+    <e lm="Pancratius"><i>Pancratius</i><par n="Mark__np"/></e>
+    <e lm="Tadej"><i>Tadej</i><par n="Mark__np"/></e>
+    <e lm="Tarzan"><i>Tarzan</i><par n="Mark__np"/></e>
+    <e lm="Vid"><i>Vid</i><par n="Mark__np"/></e>
+    <e lm="Vid"><i>Vid</i><par n="Barcelona__np"/></e>
+    <e lm="Viljem"><i>Viljem</i><par n="Mark__np"/></e>
+    <e lm="Vitodrag"><i>Vitodrag</i><par n="Mark__np"/></e>
+    <e lm="Blaž"><i>Blaž</i><par n="Mark__np"/></e>
+    <e lm="Judež"><i>Judež</i><par n="Mark__np"/></e>
+    <e lm="Matjaž"><i>Matjaž</i><par n="Mark__np"/></e>
+    <e lm="Primož"><i>Primož</i><par n="Mark__np"/></e>
+    <e lm="Tomaž"><i>Tomaž</i><par n="Mark__np"/></e>
+    <e lm="Uroš"><i>Uroš</i><par n="Mark__np"/></e>
+    <e lm="Bogo"><i>Bogo</i><par n="Mark__np"/></e>
+    <e lm="Bogo"><i>Bogo</i><par n="Barcelona__np"/></e>
+    <e lm="Božo"><i>Božo</i><par n="Mark__np"/></e>
+    <e lm="Jožko"><i>Jožko</i><par n="Mark__np"/></e>
+    <e lm="Jože"><i>Jože</i><par n="Mark__np"/></e>
+    <e lm="Jure"><i>Jure</i><par n="Mark__np"/></e>
+    <e lm="Polde"><i>Polde</i><par n="Mark__np"/></e>
+    <e lm="Stane"><i>Stane</i><par n="Mark__np"/></e>
+    <e lm="Tine"><i>Tine</i><par n="Mark__np"/></e>
+    <e lm="Tone"><i>Tone</i><par n="Mark__np"/></e>
+    <e lm="žiga"><i>žiga</i><par n="Mark__np"/></e>
+    <e lm="Joža"><i>Joža</i><par n="Mark__np"/></e>
+    <e lm="Pavao"><i>Pavao</i><par n="Mark__np"/></e>
+    <e lm="Dragiša"><i>Dragiša</i><par n="Mark__np"/></e>
+    <e lm="Grega"><i>Grega</i><par n="Mark__np"/></e>
+    <e lm="Juda"><i>Juda</i><par n="Mark__np"/></e>
+    <e lm="Saša"><i>Saša</i><par n="Mark__np"/></e>
+    <e lm="Saša"><i>Saša</i><par n="Mary__np"/></e>
+    <e lm="Moravia"><i>Moravia</i><par n="Barcelona__np"/></e>
+    <e lm="Carinthia"><i>Carinthia</i><par n="Barcelona__np"/></e>
+    <e lm="Viktorija"><i>Viktorija</i><par n="Mary__np"/></e>
+    <e lm="Polynesia"><i>Polynesia</i><par n="Barcelona__np"/></e>
+    <e lm="Manchuria"><i>Manchuria</i><par n="Barcelona__np"/></e>
+    <e lm="Resia"><i>Resia</i><par n="Barcelona__np"/></e>
+    <e lm="Andalusia"><i>Andalusia</i><par n="Barcelona__np"/></e>
+    <e lm="Euroasia"><i>Euroasia</i><par n="Barcelona__np"/></e>
+    <e lm="Lombardia"><i>Lombardia</i><par n="Barcelona__np"/></e>
+    <e lm="Persia"><i>Persia</i><par n="Barcelona__np"/></e>
+    <e lm="Šandalja"><i>Šandalja</i><par n="Barcelona__np"/></e>
+    <e lm="San Daniele"><i>San<b/>Daniele</i><par n="Barcelona__np"/></e>
+    <e lm="Pivka"><i>Pivka</i><par n="Barcelona__np"/></e>
+    <e lm="Pivka"><i>Pivka</i><par n="Mary__np"/></e>
+    <e lm="Mojstrovka"><i>Mojstrovka</i><par n="Barcelona__np"/></e>
+    <e lm="Marjeta"><i>Marjeta</i><par n="Mary__np"/></e>
+    <e lm="The Drava"><i>The<b/>Drava</i><par n="Barcelona__np"/></e>
+    <e lm="Drave"><i>Drave</i><par n="Barcelona__np"/></e>
+    <e lm="The Drina"><i>The<b/>Drina</i><par n="Barcelona__np"/></e>
+    <e lm="The Kokra"><i>The<b/>Kokra</i><par n="Barcelona__np"/></e>
+    <e lm="The Mura"><i>The<b/>Mura</i><par n="Barcelona__np"/></e>
+    <e lm="The Sava"><i>The<b/>Sava</i><par n="Barcelona__np"/></e>
+    <e lm="The Soča"><i>The<b/>Soča</i><par n="Barcelona__np"/></e>
+    <e lm="Isonzo"><i>Isonzo</i><par n="Barcelona__np"/></e>
+    <e lm="The Sotla"><i>The<b/>Sotla</i><par n="Barcelona__np"/></e>
+    <e lm="The Sutla"><i>The<b/>Sutla</i><par n="Barcelona__np"/></e>
+    <e lm="The Visla"><i>The<b/>Visla</i><par n="Barcelona__np"/></e>
+    <e lm="Etna"><i>Etna</i><par n="Barcelona__np"/></e>
+    <e lm="Sodom"><i>Sodom</i><par n="Barcelona__np"/></e>
+    <e lm="Emona"><i>Emona</i><par n="Barcelona__np"/></e>
+    <e lm="Aemona"><i>Aemona</i><par n="Barcelona__np"/></e>
+    <e lm="Gomorrah"><i>Gomorrah</i><par n="Barcelona__np"/></e>
+    <e lm="Izola"><i>Izola</i><par n="Barcelona__np"/></e>
+    <e lm="Java"><i>Java</i><par n="Barcelona__np"/></e>
+    <e lm="Kredarica"><i>Kredarica</i><par n="Barcelona__np"/></e>
+    <e lm="Mojstrana"><i>Mojstrana</i><par n="Barcelona__np"/></e>
+    <e lm="Polzela"><i>Polzela</i><par n="Barcelona__np"/></e>
+    <e lm="Postojna"><i>Postojna</i><par n="Barcelona__np"/></e>
+    <e lm="Trenta"><i>Trenta</i><par n="Barcelona__np"/></e>
+    <e lm="Gora"><i>Gora</i><par n="Barcelona__np"/></e>
+    <e lm="Hawaii"><i>Hawaii</i><par n="Barcelona__np"/></e>
+    <e lm="The Pyrenees"><i>The<b/>Pyrenees</i><par n="United_States__np"/></e>
+    <e lm="The Carpathians"><i>The<b/>Carpathians</i><par n="United_States__np"/></e>
+    <e lm="Ravne"><i>Ravne</i><par n="United_States__np"/></e>
+    <e lm="The Alps"><i>The<b/>Alps</i><par n="United_States__np"/></e>
+    <e lm="Begunje"><i>Begunje</i><par n="United_States__np"/></e>
+    <e lm="Bloke"><i>Bloke</i><par n="United_States__np"/></e>
+    <e lm="Brežice"><i>Brežice</i><par n="United_States__np"/></e>
+    <e lm="Jesenice"><i>Jesenice</i><par n="United_States__np"/></e>
+    <e lm="Luče"><i>Luče</i><par n="United_States__np"/></e>
+    <e lm="Tebe"><i>Tebe</i><par n="United_States__np"/></e>
+    <e lm="Trojane"><i>Trojane</i><par n="United_States__np"/></e>
+    <e lm="Vače"><i>Vače</i><par n="United_States__np"/></e>
+    <e lm="Tatre"><i>Tatre</i><par n="United_States__np"/></e>
+    <e lm="Cerklje"><i>Cerklje</i><par n="United_States__np"/></e>
+    <e lm="Radlje"><i>Radlje</i><par n="United_States__np"/></e>
+    <e lm="Trbovlje"><i>Trbovlje</i><par n="United_States__np"/></e>
+    <e lm="Krško"><i>Krško</i><par n="Barcelona__np"/></e>
+    <e lm="Laško"><i>Laško</i><par n="Barcelona__np"/></e>
+    <e lm="Veneto"><i>Veneto</i><par n="Barcelona__np"/></e>
+    <e lm="Dovje"><i>Dovje</i><par n="Barcelona__np"/></e>
+    <e lm="Grosuplje"><i>Grosuplje</i><par n="Barcelona__np"/></e>
+    <e lm="Pohorje"><i>Pohorje</i><par n="Barcelona__np"/></e>
+    <e lm="The Mediterranean"><i>The<b/>Mediterranean</i><par n="Barcelona__np"/></e>
+    <e lm="Velenje"><i>Velenje</i><par n="Barcelona__np"/></e>
+    <e lm="The Netherlands"><i>The<b/>Netherlands</i><par n="United_States__np"/></e>
+    <e lm="Dolska"><i>Dolska</i><par n="Barcelona__np"/></e>
+    <e lm="Gorenjska"><i>Gorenjska</i><par n="Barcelona__np"/></e>
+    <e lm="Notranjska"><i>Notranjska</i><par n="Barcelona__np"/></e>
+    <e lm="Dolenjska"><i>Dolenjska</i><par n="Barcelona__np"/></e>
+    <e lm="Primorska"><i>Primorska</i><par n="Barcelona__np"/></e>
+    <e lm="Tirolska"><i>Tirolska</i><par n="Barcelona__np"/></e>
+    <e lm="Bohinj"><i>Bohinj</i><par n="Barcelona__np"/></e>
+    <e lm="Ripač"><i>Ripač</i><par n="Barcelona__np"/></e>
+    <e lm="Bruselj"><i>Bruselj</i><par n="Barcelona__np"/></e>
+    <e lm="Križ"><i>Križ</i><par n="Barcelona__np"/></e>
+    <e lm="Oglej"><i>Oglej</i><par n="Barcelona__np"/></e>
+    <e lm="Ormož"><i>Ormož</i><par n="Barcelona__np"/></e>
+    <e lm="Paradiž"><i>Paradiž</i><par n="Barcelona__np"/></e>
+    <e lm="Portorož"><i>Portorož</i><par n="Barcelona__np"/></e>
+    <e lm="Semič"><i>Semič</i><par n="Barcelona__np"/></e>
+    <e lm="Trbiž"><i>Trbiž</i><par n="Barcelona__np"/></e>
+    <e lm="Vič"><i>Vič</i><par n="Barcelona__np"/></e>
+    <e lm="Nesactium"><i>Nesactium</i><par n="Barcelona__np"/></e>
+    <e lm="The Atlantic"><i>The<b/>Atlantic</i><par n="Barcelona__np"/></e>
+    <e lm="The Balkans"><i>The<b/>Balkans</i><par n="United_States__np"/></e>
+    <e lm="The Baltic"><i>The<b/>Baltic</i><par n="Barcelona__np"/></e>
+    <e lm="Beograd"><i>Beograd</i><par n="Barcelona__np"/></e>
+    <e lm="Bovec"><i>Bovec</i><par n="Barcelona__np"/></e>
+    <e lm="Brnik"><i>Brnik</i><par n="Barcelona__np"/></e>
+    <e lm="Ceylon"><i>Ceylon</i><par n="Barcelona__np"/></e>
+    <e lm="Golovec"><i>Golovec</i><par n="Barcelona__np"/></e>
+    <e lm="Gradec"><i>Gradec</i><par n="Barcelona__np"/></e>
+    <e lm="Haag"><i>Haag</i><par n="Barcelona__np"/></e>
+    <e lm="Hambourg"><i>Hambourg</i><par n="Barcelona__np"/></e>
+    <e lm="Hrib"><i>Hrib</i><par n="Barcelona__np"/></e>
+    <e lm="The Adriatic"><i>The<b/>Adriatic</i><par n="Barcelona__np"/></e>
+    <e lm="The Pacific"><i>The<b/>Pacific</i><par n="Barcelona__np"/></e>
+    <e lm="Pad"><i>Pad</i><par n="Barcelona__np"/></e>
+    <e lm="Ren"><i>Ren</i><par n="Barcelona__np"/></e>
+    <e lm="Tacen"><i>Tacen</i><par n="Barcelona__np"/></e>
+    <e lm="Tanger"><i>Tanger</i><par n="Barcelona__np"/></e>
+    <e lm="Tivoli"><i>Tivoli</i><par n="Barcelona__np"/></e>
+    <e lm="Tolmin"><i>Tolmin</i><par n="Barcelona__np"/></e>
+    <e lm="Torino"><i>Torino</i><par n="Barcelona__np"/></e>
+    <e lm="Zalog"><i>Zalog</i><par n="Barcelona__np"/></e>
+    <e lm="Srijem"><i>Srijem</i><par n="Barcelona__np"/></e>
+    <e lm="The Danube"><i>The<b/>Danube</i><par n="Barcelona__np"/></e>
+    <e lm="The Antarctic"><i>The<b/>Antarctic</i><par n="Barcelona__np"/></e>
+    <e lm="Corsica"><i>Corsica</i><par n="Barcelona__np"/></e>
+    <e lm="Vrhnika"><i>Vrhnika</i><par n="Barcelona__np"/></e>
+    <e lm="Jasenka"><i>Jasenka</i><par n="Mary__np"/></e>
+    <e lm="Lucija"><i>Lucija</i><par n="Mary__np"/></e>
+    <e lm="Angelca"><i>Angelca</i><par n="Mary__np"/></e>
+    <e lm="Emmanuela"><i>Emmanuela</i><par n="Mary__np"/></e>
+    <e lm="Gabrijela"><i>Gabrijela</i><par n="Mary__np"/></e>
+    <e lm="Matilda"><i>Matilda</i><par n="Mary__np"/></e>
+    <e lm="Natalija"><i>Natalija</i><par n="Mary__np"/></e>
+    <e lm="Nataša"><i>Nataša</i><par n="Mary__np"/></e>
+    <e lm="Pavla"><i>Pavla</i><par n="Mary__np"/></e>
+    <e lm="Štefanija"><i>Štefanija</i><par n="Mary__np"/></e>
+    <e lm="Breda"><i>Breda</i><par n="Mary__np"/></e>
+    <e lm="Cirila"><i>Cirila</i><par n="Mary__np"/></e>
+    <e lm="Cveta"><i>Cveta</i><par n="Mary__np"/></e>
+    <e lm="Darinka"><i>Darinka</i><par n="Mary__np"/></e>
+    <e lm="Doroteja"><i>Doroteja</i><par n="Mary__np"/></e>
+    <e lm="Janja"><i>Janja</i><par n="Mary__np"/></e>
+    <e lm="Jožica"><i>Jožica</i><par n="Mark__np"/></e>
+    <e lm="Julija"><i>Julija</i><par n="Mary__np"/></e>
+    <e lm="Maša"><i>Maša</i><par n="Mary__np"/></e>
+    <e lm="Metka"><i>Metka</i><par n="Mary__np"/></e>
+    <e lm="Micka"><i>Micka</i><par n="Mary__np"/></e>
+    <e lm="Mojca"><i>Mojca</i><par n="Mary__np"/></e>
+    <e lm="Neža"><i>Neža</i><par n="Mary__np"/></e>
+    <e lm="Polonca"><i>Polonca</i><par n="Mary__np"/></e>
+    <e lm="Rahela"><i>Rahela</i><par n="Mary__np"/></e>
+    <e lm="Štefka"><i>Štefka</i><par n="Mary__np"/></e>
+    <e lm="Urša"><i>Urša</i><par n="Mary__np"/></e>
+    <e lm="Vika"><i>Vika</i><par n="Mary__np"/></e>
+    <e lm="Jasna"><i>Jasna</i><par n="Mary__np"/></e>
+    <e lm="Kominterna"><i>Kominterna</i><par n="Linux__np"/></e>
+    <e lm="Velika Gorica"><i>Velika<b/>Gorica</i><par n="Barcelona__np"/></e>
+    <e lm="Verts"><i>Verts</i><par n="Wikimedia__np"/></e>
+    <e lm="Eurat"><i>Eurat</i><par n="Wikimedia__np"/></e>
+    <e lm="Schulz"><i>Schulz</i><par n="Smith__np"/></e>
+    <e lm="Malmström"><i>Malmström</i><par n="Smith__np"/></e>
+    <e lm="Romov"><i>Romov</i><par n="Smith__np"/></e>
+    <e lm="The Ukraine"><i>The<b/>Ukraine</i><par n="Barcelona__np"/></e>
+    <e lm="København"><i>København</i><par n="Barcelona__np"/></e>
+    <e lm="Afganistan"><i>Afganistan</i><par n="Barcelona__np"/></e>
+    <e lm="Marica"><i>Marica</i><par n="Mary__np"/></e>
+
     <!-- testvoc numbers -->
 
     <e lm="around fifty"><i>around<b/>fifty</i><par n="one__num"/></e>
@@ -3546,7 +3843,7 @@
     <e lm="Bruna"><i>Bruna</i><par n="Mary__np"/></e>
     <e lm="Brunella"><i>Brunella</i><par n="Mary__np"/></e>
     <e lm="Brunilda"><i>Brunilda</i><par n="Mary__np"/></e>
-    <e lm="Caledonia"><i>Caledonia</i><par n="Mary__np"/></e>
+    <e lm="Caledonia"><i>Caledonia</i><par n="Barcelona__np"/></e>
     <e lm="Calixta"><i>Calixta</i><par n="Mary__np"/></e>
     <e lm="Camelia"><i>Camelia</i><par n="Mary__np"/></e>
     <e lm="Camelín"><i>Camelín</i><par n="Mary__np"/></e>
@@ -3798,7 +4095,7 @@
     <e lm="Fluvia"><i>Fluvia</i><par n="Mary__np"/></e>
     <e lm="Fortuna"><i>Fortuna</i><par n="Mary__np"/></e>
     <e lm="Fortunata"><i>Fortunata</i><par n="Mary__np"/></e>
-    <e lm="Franca"><i>Franca</i><par n="Mary__np"/></e>
+    <e lm="Franca"><i>Franca</i><par n="Smith__np"/></e>
     <e lm="Francesca"><i>Francesca</i><par n="Mary__np"/></e>
     <e lm="Francina"><i>Francina</i><par n="Mary__np"/></e>
     <e lm="Fredesvinda"><i>Fredesvinda</i><par n="Mary__np"/></e>
@@ -7069,7 +7366,7 @@
     <e lm="Walter"><i>Walter</i><par n="Mark__np"/></e>
     <e lm="Wanda"><i>Wanda</i><par n="Mark__np"/></e>
     <e lm="Wara"><i>Wara</i><par n="Mark__np"/></e>
-    <e lm="Washington"><i>Washington</i><par n="Mark__np"/></e>
+    <e lm="Washington"><i>Washington</i><par n="Smith__np"/></e>
     <e lm="Wayre"><i>Wayre</i><par n="Mark__np"/></e>
     <e lm="Wenceslao"><i>Wenceslao</i><par n="Mark__np"/></e>
     <e lm="Werner"><i>Werner</i><par n="Mark__np"/></e>
@@ -7206,7 +7503,6 @@
     <e lm="Axel"><i>Axel</i><par n="Mark__np"/></e>
     <e lm="Ayden"><i>Ayden</i><par n="Mark__np"/></e>
     <e lm="Baby"><i>Baby</i><par n="Mark__np"/></e>
-    <e lm="Bailey"><i>Bailey</i><par n="Mark__np"/></e>
     <e lm="Barrett"><i>Barrett</i><par n="Mark__np"/></e>
     <e lm="Barry"><i>Barry</i><par n="Mark__np"/></e>
     <e lm="Beau"><i>Beau</i><par n="Mark__np"/></e>
@@ -7261,7 +7557,7 @@
     <e lm="Bryce"><i>Bryce</i><par n="Mark__np"/></e>
     <e lm="Brycen"><i>Brycen</i><par n="Mark__np"/></e>
     <e lm="Bryson"><i>Bryson</i><par n="Mark__np"/></e>
-    <e lm="Byron"><i>Byron</i><par n="Mark__np"/></e>
+    <e lm="Byron"><i>Byron</i><par n="Smith__np"/></e>
     <e lm="Cade"><i>Cade</i><par n="Mark__np"/></e>
     <e lm="Caden"><i>Caden</i><par n="Mark__np"/></e>
     <e lm="Cael"><i>Cael</i><par n="Mark__np"/></e>
@@ -7527,6 +7823,7 @@
     <e lm="Grady"><i>Grady</i><par n="Mark__np"/></e>
     <e lm="Graham"><i>Graham</i><par n="Mark__np"/></e>
     <e lm="Grant"><i>Grant</i><par n="Mark__np"/></e>
+    <e lm="Grant"><i>Grant</i><par n="Barcelona__np"/></e>
     <e lm="Grayson"><i>Grayson</i><par n="Mark__np"/></e>
     <e lm="Gregory"><i>Gregory</i><par n="Mark__np"/></e>
     <e lm="Greyson"><i>Greyson</i><par n="Mark__np"/></e>
@@ -7596,13 +7893,13 @@
     <e lm="Jairo"><i>Jairo</i><par n="Mark__np"/></e>
     <e lm="Jake"><i>Jake</i><par n="Mark__np"/></e>
     <e lm="Jakob"><i>Jakob</i><par n="Mark__np"/></e>
+    <e lm="Jakob"><i>Jakob</i><par n="Barcelona__np"/></e>
     <e lm="Jakobe"><i>Jakobe</i><par n="Mark__np"/></e>
     <e lm="Jalen"><i>Jalen</i><par n="Mark__np"/></e>
     <e lm="Jamal"><i>Jamal</i><par n="Mark__np"/></e>
     <e lm="Jamar"><i>Jamar</i><par n="Mark__np"/></e>
     <e lm="Jamari"><i>Jamari</i><par n="Mark__np"/></e>
     <e lm="Jamel"><i>Jamel</i><par n="Mark__np"/></e>
-    <e lm="James"><i>James</i><par n="Mark__np"/></e>
     <e lm="Jameson"><i>Jameson</i><par n="Mark__np"/></e>
     <e lm="Jamie"><i>Jamie</i><par n="Mark__np"/></e>
     <e lm="Jamie"><i>Jamie</i><par n="Mark__np"/></e>
@@ -7640,7 +7937,7 @@
     <e lm="Jayson"><i>Jayson</i><par n="Mark__np"/></e>
     <e lm="Jean"><i>Jean</i><par n="Mark__np"/></e>
     <e lm="Jeff"><i>Jeff</i><par n="Mark__np"/></e>
-    <e lm="Jefferson"><i>Jefferson</i><par n="Mark__np"/></e>
+    <e lm="Jefferson"><i>Jefferson</i><par n="Smith__np"/></e>
     <e lm="Jeffery"><i>Jeffery</i><par n="Mark__np"/></e>
     <e lm="Jeffrey"><i>Jeffrey</i><par n="Mark__np"/></e>
     <e lm="Jeremiah"><i>Jeremiah</i><par n="Mark__np"/></e>
@@ -9890,6 +10187,7 @@
     <e lm="Vojislav"><i>Vojislav</i><par n="Mark__np"/></e>
     <e lm="Nikola"><i>Nikola</i><par n="Mark__np"/></e>
     <e lm="Dragan"><i>Dragan</i><par n="Mark__np"/></e>
+    <e lm="Dragan"><i>Dragan</i><par n="Smith__np"/></e>
     <e lm="Ivo"><i>Ivo</i><par n="Mark__np"/></e>
     <e lm="Branko"><i>Branko</i><par n="Mark__np"/></e>
     <e lm="Ali"><i>Ali</i><par n="Mark__np"/></e>
@@ -10575,7 +10873,7 @@
     <e lm="Aylin"><i>Aylin</i><par n="Mary__np"/></e>
     <e lm="Baby"><i>Baby</i><par n="Mary__np"/></e>
     <e lm="Bailee"><i>Bailee</i><par n="Mary__np"/></e>
-    <e lm="Bailey"><i>Bailey</i><par n="Mary__np"/></e>
+    <e lm="Bailey"><i>Bailey</i><par n="Smith__np"/></e>
     <e lm="Barbara"><i>Barbara</i><par n="Mary__np"/></e>
     <e lm="Baylee"><i>Baylee</i><par n="Mary__np"/></e>
     <e lm="Beatriz"><i>Beatriz</i><par n="Mary__np"/></e>
@@ -11166,7 +11464,6 @@
     <e lm="Marlene"><i>Marlene</i><par n="Mary__np"/></e>
     <e lm="Marley"><i>Marley</i><par n="Mary__np"/></e>
     <e lm="Martha"><i>Martha</i><par n="Mary__np"/></e>
-    <e lm="Mary"><i>Mary</i><par n="Mary__np"/></e>
     <e lm="Maryam"><i>Maryam</i><par n="Mary__np"/></e>
     <e lm="Mattie"><i>Mattie</i><par n="Mary__np"/></e>
     <e lm="Maura"><i>Maura</i><par n="Mary__np"/></e>
@@ -11782,6 +12079,7 @@
     <e lm="Ferran"><i>Ferran</i><par n="Mark__np"/></e>
     <e lm="Finland"><i>Finland</i><par n="Barcelona__np"/></e>
     <e lm="France"><i>France</i><par n="Barcelona__np"/></e>
+    <e lm="France"><i>France</i><par n="Mark__np"/></e>
     <e lm="Francesc"><i>Francesc</i><par n="Mark__np"/></e>
     <e lm="Francis"><i>Francis</i><par n="Mark__np"/></e>
     <e lm="Francisco"><i>Francisco</i><par n="Mark__np"/></e>
@@ -11837,7 +12135,6 @@
     <e lm="Jack"><i>Jack</i><par n="Mark__np"/></e>
     <e lm="Jaime"><i>Jaime</i><par n="Mark__np"/></e>
     <e lm="Jamaica"><i>Jamaica</i><par n="Barcelona__np"/></e>
-    <e lm="James"><i>James</i><par n="Mark__np"/></e>
     <e lm="Jan"><i>Jan</i><par n="Mary__np"/></e>
     <e lm="Jane"><i>Jane</i><par n="Mary__np"/></e>
     <e lm="Japan"><i>Japan</i><par n="Barcelona__np"/></e>
@@ -12054,7 +12351,7 @@
     <e lm="Reuters"><par n="Rr"/><i>euters</i><par n="Linux__np"/></e>
     <e lm="Social Democratic Alliance"><par n="Ss"/><i>ocial<b/>Democratic<b/>Alliance</i><par n="Wikimedia__np"/></e>
     <e lm="Social Democratic Party"><par n="Ss"/><i>ocial<b/>Democratic<b/>Party</i><par n="Wikimedia__np"/></e>
-    <e lm="Christ"><i>Christ</i><par n="Linux__np"/></e>
+    <e lm="Christ"><i>Christ</i><par n="Mark__np"/></e>
     <e lm="Linux"><i>Linux</i><par n="Linux__np"/></e>
     <e lm="Lisbon"><i>Lisbon</i><par n="Barcelona__np"/></e>
     <e lm="Lithuania"><i>Lithuania</i><par n="Barcelona__np"/></e>
@@ -44478,7 +44775,7 @@
 	<e lm="Lindh"><i>Lindh</i><par n="Smith__np"/></e>
 	<e lm="Loic"><i>Loic</i><par n="Mark__np"/></e>
 	<e lm="Lubroth"><i>Lubroth</i><par n="Smith__np"/></e>
-	<e lm="Luka"><i>Luka</i><par n="United_States__np"/></e>
+	<e lm="Luka"><i>Luka</i><par n="Mark__np"/></e>
 	<e lm="Luminita"><i>Luminita</i><par n="Mark__np"/></e>
 	<e lm="Malevich"><i>Malevich</i><par n="Smith__np"/></e>
 	<e lm="Merich"><i>Merich</i><par n="Smith__np"/></e>
@@ -45427,7 +45724,6 @@
 	<e lm="Aleksic"><i>Aleksic</i><par n="Smith__np"/></e>
 	<e lm="Bulgartabac"><i>Bulgartabac</i><par n="United_Nations__np"/></e>
 	<e lm="Pascoe"><i>Pascoe</i><par n="Linux__np"/></e>
-	<e lm="Mary"><i>Mary</i><par n="Mark__np"/></e>
 	<e lm="Piraeus"><i>Piraeus</i><par n="Barcelona__np"/></e>
 	<e lm="Uruguay"><i>Uruguay</i><par n="United_States__np"/></e>
 	<e lm="Heinz"><i>Heinz</i><par n="Linux__np"/></e>
@@ -45569,7 +45865,7 @@
 	<e lm="Periclean"><i>Periclean</i><par n="Mark__np"/></e>
 	<e lm="Peshkopi"><i>Peshkopi</i><par n="Barcelona__np"/></e>
 	<e lm="Pirin"><i>Pirin</i><par n="Linux__np"/></e>
-	<e lm="Pythagoras"><i>Pythagoras</i><par n="Mary__np"/></e>
+	<e lm="Pythagoras"><i>Pythagoras</i><par n="Mark__np"/></e>
 	<e lm="Poyrazkoy"><i>Poyrazkoy</i><par n="Smith__np"/></e>
 	<e lm="Polydrossos"><i>Polydrossos</i><par n="Smith__np"/></e>
 	<e lm="Paltrow"><i>Paltrow</i><par n="Smith__np"/></e>
@@ -45740,7 +46036,6 @@
 	<e lm="Djedovic"><i>Djedovic</i><par n="Smith__np"/></e>
 	<e lm="Dmicic"><i>Dmicic</i><par n="Smith__np"/></e>
 	<e lm="Domanovic"><i>Domanovic</i><par n="Smith__np"/></e>
-	<e lm="Dragan"><i>Dragan</i><par n="Mark__np"/></e>
 	<e lm="Dragutin"><i>Dragutin</i><par n="Mark__np"/></e>
 	<e lm="Dourlot"><i>Dourlot</i><par n="Smith__np"/></e>
 	<e lm="Elbay"><i>Elbay</i><par n="Smith__np"/></e>
@@ -46009,8 +46304,7 @@
 	<e lm="Karadzic"><i>Karadzic</i><par n="Smith__np"/></e>
 	<e lm="Atalay"><i>Atalay</i><par n="Smith__np"/></e>
 	<e lm="Franz"><i>Franz</i><par n="Mark__np"/></e>
-	<e lm="Methodius"><i>Methodius</i><par n="Smith__np"/></e>
-	<e lm="France"><i>France</i><par n="United_States__np"/></e>
+	<e lm="Methodius"><i>Methodius</i><par n="Mark__np"/></e>
 	<e lm="Pec"><i>Pec</i><par n="United_States__np"/></e>
 	<e lm="Barrot"><i>Barrot</i><par n="Smith__np"/></e>
 	<e lm="Singapore"><i>Singapore</i><par n="United_States__np"/></e>
@@ -46404,6 +46698,7 @@
 	<e lm="Morrissey"><i>Morrissey</i><par n="Mark__np"/></e>
 	<e lm="Nash"><i>Nash</i><par n="Smith__np"/></e>
 	<e lm="Olympus"><i>Olympus</i><par n="Linux__np"/></e>
+	<e lm="Olympus"><i>Olympus</i><par n="Barcelona__np"/></e>
 	<e lm="Hale"><i>Hale</i><par n="Mark__np"/></e>
 	<e lm="Aphrodite"><i>Aphrodite</i><par n="Wikipedia__np"/></e>
 	<e lm="Deronjic"><i>Deronjic</i><par n="Smith__np"/></e>
@@ -46447,7 +46742,7 @@
 	<e lm="Riyadh"><i>Riyadh</i><par n="United_States__np"/></e>
 	<e lm="Sorbonne"><i>Sorbonne</i><par n="Wikipedia__np"/></e>
 	<e lm="Staljonic"><i>Staljonic</i><par n="Smith__np"/></e>
-	<e lm="Frontex"><i>Frontex</i><par n="Mark__np"/></e>
+	<e lm="Frontex"><i>Frontex</i><par n="Wikimedia__np"/></e>
 	<e lm="Hillary"><i>Hillary</i><par n="Mark__np"/></e>
 	<e lm="Brice"><i>Brice</i><par n="Smith__np"/></e>
 	<e lm="Greene"><i>Greene</i><par n="Smith__np"/></e>
@@ -46504,7 +46799,7 @@
 	<e lm="Gillette"><i>Gillette</i><par n="Linux__np"/></e>
 	<e lm="Mike"><i>Mike</i><par n="Mark__np"/></e>
 	<e lm="Moore"><i>Moore</i><par n="Smith__np"/></e>
-	<e lm="Normandy"><i>Normandy</i><par n="Wikipedia__np"/></e>
+	<e lm="Normandy"><i>Normandy</i><par n="Barcelona__np"/></e>
 	<e lm="Paraguay"><i>Paraguay</i><par n="United_States__np"/></e>
 	<e lm="Booker"><i>Booker</i><par n="Mary__np"/></e>
 	<e lm="Andrew"><i>Andrew</i><par n="Mark__np"/></e>
@@ -46565,11 +46860,7 @@
 	<e lm="Balkans"><i>Balkans</i><par n="Linux__np"/></e>
 	<e lm="Tel Aviv"><i>Tel Aviv</i><par n="United_States__np"/></e>
 	<e lm="Le Pen"><i>Le Pen</i><par n="United_States__np"/></e>
-	<e lm="New York"><i>New York</i><par n="United_States__np"/></e>
-	<e lm="New York"><i>New York</i><par n="United_States__np"/></e>
-	<e lm="New York"><i>New York</i><par n="United_States__np"/></e>
 	<e lm="Camp Butmir"><i>Camp Butmir</i><par n="Smith__np"/></e>
-	<e lm="Hong Kong"><i>Hong Kong</i><par n="United_States__np"/></e>
 	<e lm="Los Angeles"><i>Los Angeles</i><par n="United_States__np"/></e>
 	<e lm="Vlad the Impaler"><i>Vlad the Impaler</i><par n="Smith__np"/></e>
 	<e lm="Saudi Arabia"><i>Saudi Arabia</i><par n="Barcelona__np"/></e>
@@ -47413,7 +47704,7 @@
 	<e lm="Vekeslav"><i>Vekeslav</i><par n="Smith__np"/></e>
 	<e lm="Vela"><i>Vela</i><par n="Mark__np"/></e>
 	<e lm="Velaj"><i>Velaj</i><par n="Smith__np"/></e>
-	<e lm="Velebit"><i>Velebit</i><par n="Linux__np"/></e>
+	<e lm="Velebit"><i>Velebit</i><par n="Barcelona__np"/></e>
 	<e lm="Velevski"><i>Velevski</i><par n="Smith__np"/></e>
 	<e lm="Veleka"><i>Veleka</i><par n="Barcelona__np"/></e>
 	<e lm="Velestinlis"><i>Velestinlis</i><par n="Smith__np"/></e>
@@ -48206,8 +48497,8 @@
 	<e lm="EuroNatur"><i>EuroNatur</i><par n="Smith__np"/></e>
 	<e lm="Europetrol"><i>Europetrol</i><par n="Smith__np"/></e>
 	<e lm="Euroroma"><i>Euroroma</i><par n="Mary__np"/></e>
-	<e lm="Eurostats"><i>Eurostats</i><par n="Smith__np"/></e>
-	<e lm="Eurohold"><i>Eurohold</i><par n="Smith__np"/></e>
+	<e lm="Eurostats"><i>Eurostats</i><par n="Wikimedia__np"/></e>
+	<e lm="Eurohold"><i>Eurohold</i><par n="Wikimedia__np"/></e>
 	<e lm="Efedaki"><i>Efedaki</i><par n="Smith__np"/></e>
 	<e lm="Efeer"><i>Efeer</i><par n="Smith__np"/></e>
 	<e lm="Efi"><i>Efi</i><par n="Smith__np"/></e>
@@ -48686,7 +48977,7 @@
 	<e lm="Klasing"><i>Klasing</i><par n="Smith__np"/></e>
 	<e lm="Klemendi"><i>Klemendi</i><par n="Smith__np"/></e>
 	<e lm="Klemenko"><i>Klemenko</i><par n="Smith__np"/></e>
-	<e lm="Klementina"><i>Klementina</i><par n="Smith__np"/></e>
+	<e lm="Klementina"><i>Klementina</i><par n="Mary__np"/></e>
 	<e lm="Kleomenis"><i>Kleomenis</i><par n="Smith__np"/></e>
 	<e lm="Klestil"><i>Klestil</i><par n="Smith__np"/></e>
 	<e lm="Kleflin"><i>Kleflin</i><par n="Smith__np"/></e>
@@ -48940,7 +49231,7 @@
 	<e lm="Laursen"><i>Laursen</i><par n="Smith__np"/></e>
 	<e lm="Lafazanis"><i>Lafazanis</i><par n="Smith__np"/></e>
 	<e lm="Lafiner"><i>Lafiner</i><par n="Smith__np"/></e>
-	<e lm="Lah"><i>Lah</i><par n="Linux__np"/></e>
+	<e lm="Lah"><i>Lah</i><par n="Smith__np"/></e>
 	<e lm="Lahdar"><i>Lahdar</i><par n="Smith__np"/></e>
 	<e lm="Lahoud"><i>Lahoud</i><par n="Smith__np"/></e>
 	<e lm="Lac"><i>Lac</i><par n="United_States__np"/></e>
@@ -49351,7 +49642,7 @@
 	<e lm="Mister"><i>Mister</i><par n="Mark__np"/></e>
 	<e lm="Mitea"><i>Mitea</i><par n="Smith__np"/></e>
 	<e lm="Mitilinis"><i>Mitilinis</i><par n="Smith__np"/></e>
-	<e lm="Mitja"><i>Mitja</i><par n="Mary__np"/></e>
+	<e lm="Mitja"><i>Mitja</i><par n="Mark__np"/></e>
 	<e lm="Mitovski"><i>Mitovski</i><par n="Smith__np"/></e>
 	<e lm="Mitrakos"><i>Mitrakos</i><par n="Smith__np"/></e>
 	<e lm="Mitreska"><i>Mitreska</i><par n="Smith__np"/></e>
@@ -49436,7 +49727,7 @@
 	<e lm="Mortiz"><i>Mortiz</i><par n="Smith__np"/></e>
 	<e lm="Mosneagu"><i>Mosneagu</i><par n="Smith__np"/></e>
 	<e lm="Mostarsko"><i>Mostarsko</i><par n="Linux__np"/></e>
-	<e lm="Moste"><i>Moste</i><par n="Mark__np"/></e>
+	<e lm="Moste"><i>Moste</i><par n="United_States__np"/></e>
 	<e lm="Motai"><i>Motai</i><par n="Smith__np"/></e>
 	<e lm="Motoc"><i>Motoc</i><par n="Smith__np"/></e>
 	<e lm="Mohsen"><i>Mohsen</i><par n="Mark__np"/></e>
@@ -56073,7 +56364,7 @@
 	<e lm="Bosnalijek"><i>Bosnalijek</i><par n="United_Nations__np"/></e>
 	<e lm="Brande"><i>Brande</i><par n="Mark__np"/></e>
 	<e lm="Brando"><i>Brando</i><par n="Smith__np"/></e>
-	<e lm="Brane"><i>Brane</i><par n="Smith__np"/></e>
+	<e lm="Brane"><i>Brane</i><par n="Mark__np"/></e>
 	<e lm="Branislava"><i>Branislava</i><par n="Mary__np"/></e>
 	<e lm="Branka"><i>Branka</i><par n="Mary__np"/></e>
 	<e lm="Brantner"><i>Brantner</i><par n="Smith__np"/></e>
@@ -57259,7 +57550,7 @@
 	<e lm="Tatar"><i>Tatar</i><par n="Linux__np"/></e>
 	<e lm="Tatul"><i>Tatul</i><par n="Linux__np"/></e>
 	<e lm="Tafrov"><i>Tafrov</i><par n="Smith__np"/></e>
-	<e lm="Tahiti"><i>Tahiti</i><par n="Linux__np"/></e>
+	<e lm="Tahiti"><i>Tahiti</i><par n="Barcelona__np"/></e>
 	<e lm="Tahsin"><i>Tahsin</i><par n="Linux__np"/></e>
 	<e lm="Tvrtko"><i>Tvrtko</i><par n="Mark__np"/></e>
 	<e lm="Tearce"><i>Tearce</i><par n="United_States__np"/></e>
@@ -57273,7 +57564,7 @@
 	<e lm="Tempus"><i>Tempus</i><par n="Mark__np"/></e>
 	<e lm="Teovo"><i>Teovo</i><par n="Smith__np"/></e>
 	<e lm="Tiberiu"><i>Tiberiu</i><par n="Mark__np"/></e>
-	<e lm="Tibet"><i>Tibet</i><par n="Mark__np"/></e>
+	<e lm="Tibet"><i>Tibet</i><par n="Barcelona__np"/></e>
 	<e lm="Tigran"><i>Tigran</i><par n="Mark__np"/></e>
 	<e lm="Timotej"><i>Timotej</i><par n="Mark__np"/></e>
 	<e lm="Tinios"><i>Tinios</i><par n="Smith__np"/></e>
@@ -57299,7 +57590,7 @@
 	<e lm="Trg"><i>Trg</i><par n="Linux__np"/></e>
 	<e lm="Trezor"><i>Trezor</i><par n="Smith__np"/></e>
 	<e lm="Treloar"><i>Treloar</i><par n="Linux__np"/></e>
-	<e lm="Triglav"><i>Triglav</i><par n="Linux__np"/></e>
+	<e lm="Triglav"><i>Triglav</i><par n="Barcelona__np"/></e>
 	<e lm="Trigonis"><i>Trigonis</i><par n="Smith__np"/></e>
 	<e lm="Trigranit"><i>Trigranit</i><par n="Smith__np"/></e>
 	<e lm="Tripolis"><i>Tripolis</i><par n="Linux__np"/></e>
@@ -57933,7 +58224,6 @@
 	<e lm="Fokker"><i>Fokker</i><par n="United_Nations__np"/></e>
 	<e lm="Fortuna"><i>Fortuna</i><par n="Wikimedia__np"/></e>
 	<e lm="Fotopoulos"><i>Fotopoulos</i><par n="Smith__np"/></e>
-	<e lm="France"><i>France</i><par n="United_States__np"/></e>
 	<e lm="Francis"><i>Francis</i><par n="Mark__np"/></e>
 	<e lm="Franchini"><i>Franchini</i><par n="Smith__np"/></e>
 	<e lm="Frieden"><i>Frieden</i><par n="Linux__np"/></e>
@@ -58570,7 +58860,7 @@
 	<e lm="Bartenstein"><i>Bartenstein</i><par n="Smith__np"/></e>
 	<e lm="Barrick"><i>Barrick</i><par n="United_Nations__np"/></e>
 	<e lm="Bytyci"><i>Bytyci</i><par n="Smith__np"/></e>
-	<e lm="Brasilia"><i>Brasilia</i><par n="Wikipedia__np"/></e>
+	<e lm="Brasilia"><i>Brasilia</i><par n="Barcelona__np"/></e>
 	<e lm="Bridget"><i>Bridget</i><par n="Mark__np"/></e>
 	<e lm="Vassiliou"><i>Vassiliou</i><par n="Smith__np"/></e>
 	<e lm="Windsor"><i>Windsor</i><par n="United_States__np"/></e>
@@ -59228,7 +59518,7 @@
 	<e lm="Puma"><i>Puma</i><par n="Wikipedia__np"/></e>
 	<e lm="Putevi"><i>Putevi</i><par n="United_Nations__np"/></e>
 	<e lm="Puhaleva"><i>Puhaleva</i><par n="Smith__np"/></e>
-	<e lm="Rab"><i>Rab</i><par n="Mark__np"/></e>
+	<e lm="Rab"><i>Rab</i><par n="Barcelona__np"/></e>
 	<e lm="Ravno"><i>Ravno</i><par n="United_States__np"/></e>
 	<e lm="Rad"><i>Rad</i><par n="United_Nations__np"/></e>
 	<e lm="Radeva"><i>Radeva</i><par n="Smith__np"/></e>
@@ -59949,7 +60239,7 @@
 	<e lm="Morricone"><i>Morricone</i><par n="Smith__np"/></e>
 	<e lm="Mosnews"><i>Mosnews</i><par n="Smith__np"/></e>
 	<e lm="Nexe"><i>Nexe</i><par n="United_States__np"/></e>
-	<e lm="Nemanja"><i>Nemanja</i><par n="Smith__np"/></e>
+	<e lm="Nemanja"><i>Nemanja</i><par n="Mark__np"/></e>
 	<e lm="Ottawa"><i>Ottawa</i><par n="Barcelona__np"/></e>
 	<e lm="Odzak"><i>Odzak</i><par n="Smith__np"/></e>
 	<e lm="Puddington"><i>Puddington</i><par n="United_States__np"/></e>
@@ -60031,7 +60321,6 @@
 	<e lm="Ciocoiu"><i>Ciocoiu</i><par n="Smith__np"/></e>
 	<e lm="Eisenberg"><i>Eisenberg</i><par n="Smith__np"/></e>
 	<e lm="Nis"><i>Nis</i><par n="Smith__np"/></e>
-	<e lm="Washington"><i>Washington</i><par n="United_States__np"/></e>
 	<e lm="Warhol"><i>Warhol</i><par n="Smith__np"/></e>
 	<e lm="Gumball"><i>Gumball</i><par n="Mark__np"/></e>
 	<e lm="Diaconescu"><i>Diaconescu</i><par n="Smith__np"/></e>
@@ -60166,7 +60455,7 @@
 	<e lm="Vitomir"><i>Vitomir</i><par n="Mark__np"/></e>
 	<e lm="Vitorino"><i>Vitorino</i><par n="Mark__np"/></e>
 	<e lm="Vlajko"><i>Vlajko</i><par n="Mark__np"/></e>
-	<e lm="Vojko"><i>Vojko</i><par n="Smith__np"/></e>
+	<e lm="Vojko"><i>Vojko</i><par n="Mark__np"/></e>
 	<e lm="Vosganian"><i>Vosganian</i><par n="Smith__np"/></e>
 	<e lm="Vrbas"><i>Vrbas</i><par n="United_States__np"/></e>
 	<e lm="Vural"><i>Vural</i><par n="Mark__np"/></e>
@@ -60189,7 +60478,7 @@
 	<e lm="Guldiman"><i>Guldiman</i><par n="Smith__np"/></e>
 	<e lm="Gungoren"><i>Gungoren</i><par n="Smith__np"/></e>
 	<e lm="Dainov"><i>Dainov</i><par n="Smith__np"/></e>
-	<e lm="Damjan"><i>Damjan</i><par n="Smith__np"/></e>
+	<e lm="Damjan"><i>Damjan</i><par n="Mark__np"/></e>
 	<e lm="Danailov"><i>Danailov</i><par n="Smith__np"/></e>
 	<e lm="Danev"><i>Danev</i><par n="Smith__np"/></e>
 	<e lm="Danica"><i>Danica</i><par n="Mary__np"/></e>
@@ -60313,7 +60602,7 @@
 	<e lm="Marincea"><i>Marincea</i><par n="Smith__np"/></e>
 	<e lm="Masri"><i>Masri</i><par n="Smith__np"/></e>
 	<e lm="Mateja"><i>Mateja</i><par n="Mary__np"/></e>
-	<e lm="Matija"><i>Matija</i><par n="Mary__np"/></e>
+	<e lm="Matija"><i>Matija</i><par n="Mark__np"/></e>
 	<e lm="Mega"><i>Mega</i><par n="Wikipedia__np"/></e>
 	<e lm="Meksi"><i>Meksi</i><par n="Smith__np"/></e>
 	<e lm="Mensur"><i>Mensur</i><par n="Smith__np"/></e>
@@ -61185,6 +61474,7 @@
 	<e lm="Budapest"><i>Budapest</i><par n="United_States__np"/></e>
 	<e lm="Boutros"><i>Boutros</i><par n="Mark__np"/></e>
 	<e lm="Vanja"><i>Vanja</i><par n="Mary__np"/></e>
+	<e lm="Vanja"><i>Vanja</i><par n="Mark__np"/></e>
 	<e lm="Vanyo"><i>Vanyo</i><par n="Mark__np"/></e>
 	<e lm="Vessela"><i>Vessela</i><par n="Mary__np"/></e>
 	<e lm="Vries"><i>Vries</i><par n="Smith__np"/></e>
@@ -61372,7 +61662,6 @@
 	<e lm="Heidelberg"><i>Heidelberg</i><par n="United_States__np"/></e>
 	<e lm="Herzegovina"><i>Herzegovina</i><par n="Barcelona__np"/></e>
 	<e lm="Christou"><i>Christou</i><par n="Smith__np"/></e>
-	<e lm="Washington"><i>Washington</i><par n="United_States__np"/></e>
 	<e lm="Ecuador"><i>Ecuador</i><par n="United_States__np"/></e>
 	<e lm="Curtis"><i>Curtis</i><par n="Mark__np"/></e>
 	<e lm="LeBeau"><i>LeBeau</i><par n="Smith__np"/></e>
@@ -61942,7 +62231,7 @@
 	<e lm="Ranka"><i>Ranka</i><par n="Mary__np"/></e>
 	<e lm="Recica"><i>Recica</i><par n="Smith__np"/></e>
 	<e lm="Ruijten"><i>Ruijten</i><par n="Smith__np"/></e>
-	<e lm="Sadik"><i>Sadik</i><par n="Mark__np"/></e>
+	<e lm="Sadik"><i>Sadik</i><par n="Smith__np"/></e>
 	<e lm="Sambrakos"><i>Sambrakos</i><par n="Smith__np"/></e>
 	<e lm="Samsun"><i>Samsun</i><par n="United_States__np"/></e>
 	<e lm="Sana"><i>Sana</i><par n="Wikimedia__np"/></e>
@@ -62210,7 +62499,7 @@
 	<e lm="Puhalo"><i>Puhalo</i><par n="Smith__np"/></e>
 	<e lm="Rebraca"><i>Rebraca</i><par n="Smith__np"/></e>
 	<e lm="Ristovski"><i>Ristovski</i><par n="Smith__np"/></e>
-	<e lm="Rus"><i>Rus</i><par n="United_States__np"/></e>
+	<e lm="Rus"><i>Rus</i><par n="Smith__np"/></e>
 	<e lm="Saimir"><i>Saimir</i><par n="Mark__np"/></e>
 	<e lm="Stavrakis"><i>Stavrakis</i><par n="Smith__np"/></e>
 	<e lm="Stanka"><i>Stanka</i><par n="Barcelona__np"/></e>
@@ -62915,7 +63204,7 @@
 	<e lm="Grigoropoulos"><i>Grigoropoulos</i><par n="Smith__np"/></e>
 	<e lm="Danis"><i>Danis</i><par n="Mark__np"/></e>
 	<e lm="Dervishi"><i>Dervishi</i><par n="Smith__np"/></e>
-	<e lm="Drago"><i>Drago</i><par n="Smith__np"/></e>
+	<e lm="Drago"><i>Drago</i><par n="Mark__np"/></e>
 	<e lm="Elshani"><i>Elshani</i><par n="Smith__np"/></e>
 	<e lm="Katarina"><i>Katarina</i><par n="Mary__np"/></e>
 	<e lm="Katerina"><i>Katerina</i><par n="Mary__np"/></e>
@@ -63007,6 +63296,7 @@
 	<e lm="Ternava"><i>Ternava</i><par n="Smith__np"/></e>
 	<e lm="Toska"><i>Toska</i><par n="Smith__np"/></e>
 	<e lm="Una"><i>Una</i><par n="Mary__np"/></e>
+	<e lm="Una"><i>Una</i><par n="Barcelona__np"/></e>
 	<e lm="Florin"><i>Florin</i><par n="Mark__np"/></e>
 	<e lm="Hebrang"><i>Hebrang</i><par n="Smith__np"/></e>
 	<e lm="Hodak"><i>Hodak</i><par n="Smith__np"/></e>
@@ -63358,7 +63648,7 @@
 	<e lm="Zurich"><i>Zurich</i><par n="Linux__np"/></e>
 	<e lm="Christopher"><i>Christopher</i><par n="Mark__np"/></e>
 	<e lm="Adevarul"><i>Adevarul</i><par n="Smith__np"/></e>
-	<e lm="Albin"><i>Albin</i><par n="Smith__np"/></e>
+	<e lm="Albin"><i>Albin</i><par n="Mark__np"/></e>
 	<e lm="Videanu"><i>Videanu</i><par n="Smith__np"/></e>
 	<e lm="Vojislav"><i>Vojislav</i><par n="Mark__np"/></e>
 	<e lm="Gevgelija"><i>Gevgelija</i><par n="Barcelona__np"/></e>
@@ -63666,7 +63956,8 @@
 	<e lm="Lulzim"><i>Lulzim</i><par n="Mark__np"/></e>
 	<e lm="Marmara"><i>Marmara</i><par n="Wikipedia__np"/></e>
 	<e lm="Merdare"><i>Merdare</i><par n="United_States__np"/></e>
-	<e lm="Miro"><i>Miro</i><par n="Linux__np"/></e>
+	<e lm="Miro"><i>Miro</i><par n="Mark__np"/></e>
+	<e lm="Miro"><i>Miro</i><par n="Smith__np"/></e>
 	<e lm="Pancevo"><i>Pancevo</i><par n="United_Nations__np"/></e>
 	<e lm="Paravantes"><i>Paravantes</i><par n="Smith__np"/></e>
 	<e lm="Slavica"><i>Slavica</i><par n="Mary__np"/></e>
@@ -63892,7 +64183,7 @@
 	<e lm="Droutsas"><i>Droutsas</i><par n="Smith__np"/></e>
 	<e lm="Barbu"><i>Barbu</i><par n="Smith__np"/></e>
 	<e lm="Venizelos"><i>Venizelos</i><par n="Smith__np"/></e>
-	<e lm="Eurostat"><i>Eurostat</i><par n="Mark__np"/></e>
+	<e lm="Eurostat"><i>Eurostat</i><par n="Wikimedia__np"/></e>
 	<e lm="Koci"><i>Koci</i><par n="Smith__np"/></e>
 	<e lm="Struga"><i>Struga</i><par n="Barcelona__np"/></e>
 	<e lm="Fiat"><i>Fiat</i><par n="United_Nations__np"/></e>
@@ -63958,7 +64249,7 @@
 	<e lm="Shkullaku"><i>Shkullaku</i><par n="Smith__np"/></e>
 	<e lm="Gent"><i>Gent</i><par n="United_Nations__np"/></e>
 	<e lm="Gracanica"><i>Gracanica</i><par n="Smith__np"/></e>
-	<e lm="Darko"><i>Darko</i><par n="Linux__np"/></e>
+	<e lm="Darko"><i>Darko</i><par n="Mark__np"/></e>
 	<e lm="Enver"><i>Enver</i><par n="Mark__np"/></e>
 	<e lm="Erhard"><i>Erhard</i><par n="Smith__np"/></e>
 	<e lm="EUobserver"><i>EUobserver</i><par n="Linux__np"/></e>
@@ -64027,6 +64318,7 @@
 	<e lm="news"><i>news</i><par n="Linux__np"/></e>
 	<e lm="Gashi"><i>Gashi</i><par n="Smith__np"/></e>
 	<e lm="Novak"><i>Novak</i><par n="Mark__np"/></e>
+	<e lm="Novak"><i>Novak</i><par n="Smith__np"/></e>
 	<e lm="Mircea"><i>Mircea</i><par n="Mary__np"/></e>
 	<e lm="Inzko"><i>Inzko</i><par n="Smith__np"/></e>
 	<e lm="Erlis"><i>Erlis</i><par n="Mark__np"/></e>
@@ -64061,7 +64353,7 @@
 	<e lm="Marina"><i>Marina</i><par n="Mary__np"/></e>
 	<e lm="Davutoglu"><i>Davutoglu</i><par n="Smith__np"/></e>
 	<e lm="Linda"><i>Linda</i><par n="Mary__np"/></e>
-	<e lm="Nabucco"><i>Nabucco</i><par n="Mark__np"/></e>
+	<e lm="Nabucco"><i>Nabucco</i><par n="Linux__np"/></e>
 	<e lm="Laura"><i>Laura</i><par n="Mary__np"/></e>
 	<e lm="Hasani"><i>Hasani</i><par n="Smith__np"/></e>
 	<e lm="Schengen"><i>Schengen</i><par n="United_States__np"/></e>
