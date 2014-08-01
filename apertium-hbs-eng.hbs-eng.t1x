@@ -1701,19 +1701,6 @@
             </concat>
           </let>
         </when>
-        <when>
-          <test>
-            <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj.sint"/></equal>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="whole"/>
-            <concat>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="sl" part="a_adj"/><lit-tag v="adj.sint"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </concat>
-          </let>
-        </when>
         <otherwise>
           <let>
             <clip pos="1" side="tl" part="whole"/>
