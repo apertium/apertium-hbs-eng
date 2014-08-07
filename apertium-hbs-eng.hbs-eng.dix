@@ -918,8 +918,8 @@
     <e><p><l>smjesa<s n="n"/></l><r>mixture<s n="n"/></r></p></e>
     <e><p><l>trasa<s n="n"/></l><r>line<s n="n"/></r></p></e>
     <e><p><l>zavjesa<s n="n"/></l><r>curtain<s n="n"/></r></p></e>
-    <e><p><l>gradnja<s n="n"/></l><r>nodata<s n="n"/></r></p></e>
-    <e><p><l>hitnja<s n="n"/></l><r>construction<s n="n"/></r></p></e>
+    <e><p><l>gradnja<s n="n"/></l><r>construction<s n="n"/></r></p></e>
+    <e><p><l>hitnja<s n="n"/></l><r>hurry<s n="n"/></r></p></e>
     <e><p><l>kretnja<s n="n"/></l><r>motion<s n="n"/></r></p></e>
     <e><p><l>krošnja<s n="n"/></l><r>treetop<s n="n"/></r></p></e>
     <e><p><l>kušnja<s n="n"/></l><r>temptation<s n="n"/></r></p></e>
@@ -957,8 +957,8 @@
     <e><p><l>osuda<s n="n"/></l><r>condemnation<s n="n"/></r></p></e>
     <e><p><l>osuda<s n="n"/></l><r>criticism<s n="n"/></r></p></e>
     <e><p><l>osuda<s n="n"/></l><r>verdict<s n="n"/></r></p></e>
-    <e><p><l>posuda<s n="n"/></l><r>nodata<s n="n"/></r></p></e>
-    <e><p><l>pregrada<s n="n"/></l><r>container<s n="n"/></r></p></e>
+    <e><p><l>posuda<s n="n"/></l><r>container<s n="n"/></r></p></e>
+    <e><p><l>pregrada<s n="n"/></l><r>barrier<s n="n"/></r></p></e>
     <e><p><l>prerada<s n="n"/></l><r>processing<s n="n"/></r></p></e>
     <e><p><l>ruda<s n="n"/></l><r>ore<s n="n"/></r></p></e>
     <e><p><l>susjeda<s n="n"/></l><r>neighbour<s n="n"/></r></p></e>
@@ -1171,6 +1171,102 @@
     <e><p><l>mješavina<s n="n"/></l><r>mixture<s n="n"/></r></p></e>
     <e><p><l>modrina<s n="n"/></l><r>blue<s n="n"/></r></p></e>
     <e><p><l>moždina<s n="n"/></l><r>spinal<b/>cord<s n="n"/></r></p></e>
+
+    <e><p><l>mrcina<s n="n"/></l><r>bastard<s n="n"/></r></p></e>
+    <e><p><l>mrcina<s n="n"/></l><r>carcass<s n="n"/></r></p></e>
+    <e><p><l>neistina<s n="n"/></l><r>untruth<s n="n"/></r></p></e>
+    <e><p><l>oblina<s n="n"/></l><r>curve<s n="n"/></r></p></e>
+    <e><p><l>ogrebotina<s n="n"/></l><r>scratch<s n="n"/></r></p></e>
+    <e><p><l>olupina<s n="n"/></l><r>wreck<s n="n"/></r></p></e>
+    <e><p><l>oštrina<s n="n"/></l><r>sharpness<s n="n"/></r></p></e>
+    <e><p><l>otopina<s n="n"/></l><r>solution<s n="n"/></r></p></e>
+    <e><p><l>patvorina<s n="n"/></l><r>forgery<s n="n"/></r></p></e>
+    <e><p><l>pogrebnina<s n="n"/></l><r>funeral<b/>expenses<s n="n"/></r></p></e>
+    <e><p><l>poluistina<s n="n"/></l><r>half-truth<s n="n"/></r></p></e>
+    <e><p><l>potrepština<s n="n"/></l><r>supply<s n="n"/></r></p></e>
+    <e><p><l>praznina<s n="n"/></l><r>void<s n="n"/></r></p></e>
+    <e><p><l>prljavština<s n="n"/></l><r>dirt<s n="n"/></r></p></e>
+    <e><p><l>pukotina<s n="n"/></l><r>crack<s n="n"/></r></p></e>
+    <e><p><l>ravnina<s n="n"/></l><r>plane<s n="n"/></r></p></e>
+    <e><p><l>rodbina<s n="n"/></l><r>relative<s n="n"/><s n="pl"/></r></p></e>
+    <e><p><l>rogožina<s n="n"/></l><r>mat<s n="n"/></r></p></e>
+    <e><p><l>ruševina<s n="n"/></l><r>ruin<s n="n"/></r></p></e>
+    <e><p><l>širina<s n="n"/></l><r>width<s n="n"/></r></p></e>
+    <e><p><l>sirovina<s n="n"/></l><r>raw<b/>material<s n="n"/></r></p></e>
+    <e><p><l>školarina<s n="n"/></l><r>tuition<s n="n"/></r></p></e>
+    <e><p><l>školarina<s n="n"/></l><r>tuition<b/>fee<s n="n"/></r></p></e>
+    <e><p><l>slavina<s n="n"/></l><r>faucet<s n="n"/></r></p></e>
+    <e><p><l>slavina<s n="n"/></l><r>tap<s n="n"/></r></p></e>
+    <e><p><l>sobetina<s n="n"/></l><r>big<b/>room<s n="n"/></r></p></e>
+    <e><p><l>staklenina<s n="n"/></l><r>glassware<s n="n"/></r></p></e>
+    <e><p><l>starješina<s n="n"/></l><r>elder<s n="n"/></r></p></e>
+    <e><p><l>strmina<s n="n"/></l><r>slope<s n="n"/></r></p></e>
+    <e><p><l>šupljina<s n="n"/></l><r>cavity<s n="n"/></r></p></e>
+    <e><p><l>šupljina<s n="n"/></l><r>hollow<s n="n"/></r></p></e>
+    <e><p><l>svježina<s n="n"/></l><r>freshness<s n="n"/></r></p></e>
+    <e><p><l>tišina<s n="n"/></l><r>silence<s n="n"/></r></p></e>
+    <e><p><l>tmina<s n="n"/></l><r>darkness<s n="n"/></r></p></e>
+    <e><p><l>tratina<s n="n"/></l><r>meadow<s n="n"/></r></p></e>
+    <e><p><l>trošarina<s n="n"/></l><r>excise<s n="n"/></r></p></e>
+    <e><p><l>tvorevina<s n="n"/></l><r>creation<s n="n"/></r></p></e>
+    <e><p><l>udubina<s n="n"/></l><r>hollow<s n="n"/></r></p></e>
+    <e><p><l>udubina<s n="n"/></l><r>recess<s n="n"/></r></p></e>
+    <e><p><l>ulaznina<s n="n"/></l><r>entrance<b/>fee<s n="n"/></r></p></e>
+    <e><p><l>umjetnina<s n="n"/></l><r>artwork<s n="n"/></r></p></e>
+    <e><p><l>užina<s n="n"/></l><r>lunch<s n="n"/></r></p></e>
+    <e><p><l>vedrina<s n="n"/></l><r>optimism<s n="n"/></r></p></e>
+    <e><p><l>vedrina<s n="n"/></l><r>brightness<s n="n"/></r></p></e>
+    <e><p><l>žabokrečina<s n="n"/></l><r>ditch<b/>water<s n="n"/></r></p></e>
+    <e><p><l>tribina<s n="n"/></l><r>stand<s n="n"/></r></p></e>
+    <e><p><l>vatra<s n="n"/></l><r>fire<s n="n"/></r></p></e>
+    <e><p><l>pristojba<s n="n"/></l><r>charge<s n="n"/></r></p></e>
+    <e><p><l>jednadžba<s n="n"/></l><r>equation<s n="n"/></r></p></e>
+    <e><p><l>plovidba<s n="n"/></l><r>sailing<s n="n"/></r></p></e>
+    <e><p><l>pogodba<s n="n"/></l><r>agreement<s n="n"/></r></p></e>
+    <e><p><l>pogodba<s n="n"/></l><r>deal<s n="n"/></r></p></e>
+    <e><p><l>primjedba<s n="n"/></l><r>remark<s n="n"/></r></p></e>
+    <e><p><l>priredba<s n="n"/></l><r>show<s n="n"/></r></p></e>
+    <e><p><l>svadba<s n="n"/></l><r>wedding<s n="n"/></r></p></e>
+    <e><p><l>ženidba<s n="n"/></l><r>wedding<s n="n"/></r></p></e>
+    <e><p><l>posudba<s n="n"/></l><r>loan<s n="n"/></r></p></e>
+    <e><p><l>svjedodžba<s n="n"/></l><r>certificate<s n="n"/></r></p></e>
+    <e><p><l>svjedodžba<s n="n"/></l><r>report<b/>card<s n="n"/></r></p></e>
+    <e><p><l>berba<s n="n"/></l><r>harvest<s n="n"/></r></p></e>
+    <e><p><l>berba<s n="n"/></l><r>vintage<s n="n"/></r></p></e>
+    <e><p><l>molba<s n="n"/></l><r>application<s n="n"/></r></p></e>
+    <e><p><l>molba<s n="n"/></l><r>request<s n="n"/></r></p></e>
+    <e><p><l>neosoba<s n="n"/></l><r>non-person<s n="n"/></r></p></e>
+    <e><p><l>opskrba<s n="n"/></l><r>supply<s n="n"/></r></p></e>
+    <e><p><l>paluba<s n="n"/></l><r>deck<s n="n"/></r></p></e>
+    <e><p><l>predodžba<s n="n"/></l><r>image<s n="n"/></r></p></e>
+    <e><p><l>preobrazba<s n="n"/></l><r>transformation<s n="n"/></r></p></e>
+    <e><p><l>proba<s n="n"/></l><r>rehearsal<s n="n"/></r></p></e>
+    <e><p><l>raščlamba<s n="n"/></l><r>analysis<s n="n"/></r></p></e>
+    <e><p><l>razdioba<s n="n"/></l><r>distribution<s n="n"/></r></p></e>
+    <e><p><l>tegoba<s n="n"/></l><r>difficulty<s n="n"/></r></p></e>
+    <e><p><l>tegoba<s n="n"/></l><r>hardship<s n="n"/></r></p></e>
+    <e><p><l>tjelovježba<s n="n"/></l><r>excercise<s n="n"/></r></p></e>
+    <e><p><l>tjeskoba<s n="n"/></l><r>anxiety<s n="n"/></r></p></e>
+    <e><p><l>tromba<s n="n"/></l><r>tromba<s n="n"/></r></p></e>
+    <e><p><l>tromba<s n="n"/></l><r>marine<b/>trumpet<s n="n"/></r></p></e>
+    <e><p><l>tvorba<s n="n"/></l><r>formation<s n="n"/></r></p></e>
+    <e><p><l>uporaba<s n="n"/></l><r>use<s n="n"/></r></p></e>
+    <e><p><l>zamolba<s n="n"/></l><r>request<s n="n"/></r></p></e>
+    <e><p><l>žurba<s n="n"/></l><r>hurry<s n="n"/></r></p></e>
+    <e><p><l>berza<s n="n"/></l><r>stock<b/>exchange<s n="n"/></r></p></e>
+    <e><p><l>berza<s n="n"/></l><r>stock<b/>market<s n="n"/></r></p></e>
+    <e><p><l>stogodišnjica<s n="n"/></l><r>centenary<s n="n"/></r></p></e>
+    <e><p><l>stogodišnjica<s n="n"/></l><r>centennial<s n="n"/></r></p></e>
+    <e><p><l>bedrenjača<s n="n"/></l><r>femur<s n="n"/></r></p></e>
+    <e><p><l>bedrenjača<s n="n"/></l><r>thigh<b/>bone<s n="n"/></r></p></e>
+    <e><p><l>ispaša<s n="n"/></l><r>pasture<s n="n"/></r></p></e>
+    <e><p><l>kopača<s n="n"/></l><r>shovel<s n="n"/></r></p></e>
+    <e><p><l>kornjača<s n="n"/></l><r>tortoise<s n="n"/></r></p></e>
+    <e><p><l>kornjača<s n="n"/></l><r>turtle<s n="n"/></r></p></e>
+    <e><p><l>krastača<s n="n"/></l><r>toad<s n="n"/></r></p></e>
+    <e><p><l>kutlača<s n="n"/></l><r>ladle<s n="n"/></r></p></e>
+    <e><p><l>leća<s n="n"/></l><r>lens<s n="n"/></r></p></e>
+    <e><p><l>leća<s n="n"/></l><r>lentil<s n="n"/></r></p></e>
 
     <!-- testvoc adjectives -->
 
