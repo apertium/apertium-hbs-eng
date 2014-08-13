@@ -399,7 +399,7 @@
     <e><p><l>rudnik<s n="n"/></l><r>mine<s n="n"/></r></p></e>
     <e><p><l>svjetionik<s n="n"/></l><r>lighthouse<s n="n"/></r></p></e>
     <e><p><l>tjednik<s n="n"/></l><r>magazine<s n="n"/></r></p></e>
-    <e><p><l>troškovnik<s n="n"/></l><r>list<b/>of<b/>expense<s n="n"/></r></p></e>
+    <e><p><l>troškovnik<s n="n"/></l><r>list<g><b/>of<b/>expense</g><s n="n"/></r></p></e>
     <e><p><l>umivaonik<s n="n"/></l><r>washbasin<s n="n"/></r></p></e>
     <e><p><l>umivaonik<s n="n"/></l><r>washstand<s n="n"/></r></p></e>
 
@@ -911,7 +911,7 @@
     <e><p><l>nervoza<s n="n"/></l><r>anxiety<s n="n"/></r></p></e>
     <e><p><l>nervoza<s n="n"/></l><r>nervousness<s n="n"/></r></p></e>
     <e><p><l>princeza<s n="n"/></l><r>princess<s n="n"/></r></p></e>
-    <e><p><l>samohipnoza<s n="n"/></l><r>self-hypnosis<s n="n"/></r></p></e>
+    <e><p><l>samohipnoza<s n="n"/></l><r>autohypnosis<s n="n"/></r></p></e>
     <e><p><l>suza<s n="n"/></l><r>tear<s n="n"/></r></p></e>
     <e><p><l>melisa<s n="n"/></l><r>lemon<b/>balm<s n="n"/></r></p></e>
     <e><p><l>misa<s n="n"/></l><r>mass<s n="n"/></r></p></e>
@@ -1026,7 +1026,7 @@
     <e><p><l>špica<s n="n"/></l><r>rush<b/>hour<s n="n"/></r></p></e>
     <e><p><l>špica<s n="n"/></l><r>peak<s n="n"/></r></p></e>
     <e><p><l>vražica<s n="n"/></l><r>devil<s n="n"/></r></p></e>
-    <e><p><l>zahvalnica<s n="n"/></l><r>letter<b/>of<b/>thanks<s n="n"/></r></p></e>
+    <e><p><l>zahvalnica<s n="n"/></l><r>letter<g><b/>of<b/>thanks</g><s n="n"/></r></p></e>
     <e><p><l>žitnica<s n="n"/></l><r>granary<s n="n"/></r></p></e>
     <e><p><l>kontrolorka<s n="n"/></l><r>controller<s n="n"/></r></p></e>
     <e><p><l>ručica<s n="n"/></l><r>handle<s n="n"/></r></p></e>
@@ -1066,7 +1066,7 @@
     <e><p><l>sljeparija<s n="n"/></l><r>delusion<s n="n"/></r></p></e>
     <e><p><l>stipendija<s n="n"/></l><r>stipend<s n="n"/></r></p></e>
     <e><p><l>svinjarija<s n="n"/></l><r>nastiness<s n="n"/></r></p></e>
-    <e><p><l>varijacija<s n="n"/></l><r>varijacija<s n="n"/></r></p></e>
+    <e><p><l>varijacija<s n="n"/></l><r>variation<s n="n"/></r></p></e>
     <e><p><l>zanatlija<s n="n"/></l><r>artificer<s n="n"/></r></p></e>
     <e><p><l>zanatlija<s n="n"/></l><r>craftsman<s n="n"/></r></p></e>
     <e><p><l>prilika<s n="n"/></l><r>chance<s n="n"/></r></p></e>
@@ -1183,7 +1183,7 @@
     <e><p><l>oštrina<s n="n"/></l><r>sharpness<s n="n"/></r></p></e>
     <e><p><l>otopina<s n="n"/></l><r>solution<s n="n"/></r></p></e>
     <e><p><l>patvorina<s n="n"/></l><r>forgery<s n="n"/></r></p></e>
-    <e><p><l>pogrebnina<s n="n"/></l><r>funeral<b/>expenses<s n="n"/></r></p></e>
+    <e><p><l>pogrebnina<s n="n"/></l><r>funeral<b/>expenses<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>poluistina<s n="n"/></l><r>half-truth<s n="n"/></r></p></e>
     <e><p><l>potrepština<s n="n"/></l><r>supply<s n="n"/></r></p></e>
     <e><p><l>praznina<s n="n"/></l><r>void<s n="n"/></r></p></e>
@@ -1247,7 +1247,7 @@
     <e><p><l>razdioba<s n="n"/></l><r>distribution<s n="n"/></r></p></e>
     <e><p><l>tegoba<s n="n"/></l><r>difficulty<s n="n"/></r></p></e>
     <e><p><l>tegoba<s n="n"/></l><r>hardship<s n="n"/></r></p></e>
-    <e><p><l>tjelovježba<s n="n"/></l><r>excercise<s n="n"/></r></p></e>
+    <e><p><l>tjelovježba<s n="n"/></l><r>exercise<s n="n"/></r></p></e>
     <e><p><l>tjeskoba<s n="n"/></l><r>anxiety<s n="n"/></r></p></e>
     <e><p><l>tromba<s n="n"/></l><r>tromba<s n="n"/></r></p></e>
     <e><p><l>tromba<s n="n"/></l><r>marine<b/>trumpet<s n="n"/></r></p></e>
@@ -1316,8 +1316,9 @@
     <e><p><l>nosilja<s n="n"/></l><r>bearer<s n="n"/></r></p></e>
     <e><p><l>nosilja<s n="n"/></l><r>hen<s n="n"/></r></p></e>
     <e><p><l>postelja<s n="n"/></l><r>bed<s n="n"/></r></p></e>
-    <e><p><l>pratilja<s n="n"/></l><r>runner-up<s n="n"/></r></p></e>
+    <e><p><l>pratilja<s n="n"/></l><r>runner<g>-up</g><s n="n"/></r></p></e>
     <e><p><l>rasprodaja<s n="n"/></l><r>sale<s n="n"/></r></p></e>
+    <e r="RL"><p><l>rodilja<s n="n"/></l><r>woman<b/>in<b/>labor<s n="n"/></r></p></e>
     <e><p><l>rodilja<s n="n"/></l><r>woman<b/>in<b/>labour<s n="n"/></r></p></e>
     <e><p><l>srdobolja<s n="n"/></l><r>dysentery<s n="n"/></r></p></e>
     <e><p><l>vlasulja<s n="n"/></l><r>wig<s n="n"/></r></p></e>
@@ -1335,7 +1336,7 @@
     <e><p><l>pruga<s n="n"/></l><r>stripe<s n="n"/></r></p></e>
     <e><p><l>sloga<s n="n"/></l><r>concord<s n="n"/></r></p></e>
     <e><p><l>vaga<s n="n"/></l><r>Libra<s n="n"/></r></p></e>
-    <e><p><l>vaga<s n="n"/></l><r>scales<s n="n"/></r></p></e>
+    <e><p><l>vaga<s n="n"/></l><r>scales<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>vijuga<s n="n"/></l><r>curve<s n="n"/></r></p></e>
     <e><p><l>vijuga<s n="n"/></l><r>gyrus<s n="n"/></r></p></e>
     <e><p><l>zaprega<s n="n"/></l><r>carriage<s n="n"/></r></p></e>
@@ -1674,7 +1675,7 @@
     <e><p><l>redovnica<s n="n"/></l><r>nun<s n="n"/></r></p></e>
     <e><p><l>ribica<s n="n"/></l><r>guppy<s n="n"/></r></p></e>
     <e><p><l>rupica<s n="n"/></l><r>hole<s n="n"/></r></p></e>
-    <e><p><l>rutvica<s n="n"/></l><r>herb-of-grace<s n="n"/></r></p></e>
+    <e><p><l>rutvica<s n="n"/></l><r>herb<g>-of-grace</g><s n="n"/></r></p></e>
     <e><p><l>rutvica<s n="n"/></l><r>rue<s n="n"/></r></p></e>
 
     <e><p><l>ružica<s n="n"/></l><r>rose<s n="n"/></r></p></e>
@@ -1684,7 +1685,6 @@
     <e><p><l>šarenica<s n="n"/></l><r>iris<s n="n"/></r></p></e>
     <e><p><l>sastavnica<s n="n"/></l><r>component<s n="n"/></r></p></e>
     <e><p><l>saveznica<s n="n"/></l><r>ally<s n="n"/></r></p></e>
-    <e><p><l>sestrica<s n="n"/></l><r>sis<s n="n"/></r></p></e>
     <e><p><l>sestrica<s n="n"/></l><r>little<b/>sister<s n="n"/></r></p></e>
     <e><p><l>šezdesetgodišnjica<s n="n"/></l><r>60th<b/>anniversary<s n="n"/></r></p></e>
     <e><p><l>šezdesetogodišnjica<s n="n"/></l><r>60th<b/>anniversary<s n="n"/></r></p></e>
@@ -1926,7 +1926,7 @@
     <e><p><l>pilotkinja<s n="n"/></l><r>pilot<s n="n"/></r></p></e>
     <e><p><l>vodnica<s n="n"/></l><r>sergeant<s n="n"/></r></p></e>
     <e><p><l>trema<s n="n"/></l><r>stage<b/>fright<s n="n"/></r></p></e>
-    <e><p><l>trema<s n="n"/></l><r>jitters<s n="n"/></r></p></e>
+    <e><p><l>trema<s n="n"/></l><r>jitters<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>kabina<s n="n"/></l><r>cabin<s n="n"/></r></p></e>
     <e><p><l>brava<s n="n"/></l><r>lock<s n="n"/></r></p></e>
     <e><p><l>gljiva<s n="n"/></l><r>mushroom<s n="n"/></r></p></e>
@@ -2123,7 +2123,7 @@
     <e><p><l>blaćenje<s n="n"/></l><r>slur<s n="vblex"/><s n="ger"/></r></p></e>
     <e><p><l>brujenje<s n="n"/></l><r>buzz<s n="vblex"/><s n="ger"/></r></p></e>
     <e><p><l>bubnjanje<s n="n"/></l><r>drum<s n="vblex"/><s n="ger"/></r></p></e>
-    <e><p><l>bučenje<s n="n"/></l><r>making<b/>noise<s n="n"/></r></p></e>
+    <e><p><l>bučenje<s n="n"/></l><r>make<g><b/>noise</g><s n="vblex"/><s n="ger"/></r></p></e>
     <e><p><l>buncanje<s n="n"/></l><r>rave<s n="vblex"/><s n="ger"/></r></p></e>
     <e><p><l>čitanje<s n="n"/></l><r>reading<s n="n"/></r></p></e>
     <e><p><l>crtanje<s n="n"/></l><r>drawing<s n="n"/></r></p></e>
@@ -2178,7 +2178,7 @@
     <e><p><l>proglašenje<s n="n"/></l><r>declaration<s n="n"/></r></p></e>
     <e><p><l>prosjačenje<s n="n"/></l><r>beg<s n="vblex"/><s n="ger"/></r></p></e>
     <e><p><l>pucketanje<s n="n"/></l><r>crackling<s n="n"/></r></p></e>
-    <e><p><l>rascjepljenje<s n="n"/></l><r>tearing<s n="n"/></r></p></e>
+    <e><p><l>rascjepljenje<s n="n"/></l><r>tear<s n="n"/></r></p></e>
     <e><p><l>raslinje<s n="n"/></l><r>vegetation<s n="n"/></r></p></e>
     <e><p><l>razmišljanje<s n="n"/></l><r>thinking<s n="n"/></r></p></e>
     <e><p><l>razrješenje<s n="n"/></l><r>dismissal<s n="n"/></r></p></e>
@@ -2206,7 +2206,7 @@
     <e><p><l>uzvišenje<s n="n"/></l><r>elevation<s n="n"/></r></p></e>
     <e><p><l>vjenčanje<s n="n"/></l><r>wedding<s n="n"/></r></p></e>
     <e><p><l>vježbanje<s n="n"/></l><r>practice<s n="vblex"/><s n="ger"/></r></p></e>
-    <e><p><l>vrebanje<s n="n"/></l><r>preying<s n="n"/></r></p></e>
+    <e><p><l>vrebanje<s n="n"/></l><r>prey<s n="vblex"/><s n="ger"/></r></p></e>
     <e><p><l>začepljenje<s n="n"/></l><r>clog<s n="n"/></r></p></e>
     <e><p><l>začepljenje<s n="n"/></l><r>clog<s n="vblex"/><s n="ger"/></r></p></e>
     <e><p><l>zacjeljivanje<s n="n"/></l><r>healing<s n="n"/></r></p></e>
@@ -2231,7 +2231,7 @@
     <e><p><l>časovničarstvo<s n="n"/></l><r>watchmaking<s n="n"/></r></p></e>
     <e><p><l>cijepljenje<s n="n"/></l><r>vaccination<s n="n"/></r></p></e>
     <e><p><l>činjenje<s n="n"/></l><r>make<s n="vblex"/><s n="ger"/></r></p></e>
-    <e><p><l>dejstvovanje<s n="n"/></l><r>nodata<s n="n"/></r></p></e>
+    <e><p><l>dejstvovanje<s n="n"/></l><r>effect<s n="n"/></r></p></e>
     <e><p><l>elektroinžinjerstvo<s n="n"/></l><r>electrical<b/>engineering<s n="n"/></r></p></e>
     <e><p><l>sufinanciranje<s n="n"/></l><r>co-financing<s n="n"/></r></p></e>
     <e><p><l>garantiranje<s n="n"/></l><r>guarantee<s n="vblex"/><s n="ger"/></r></p></e>
@@ -2295,7 +2295,7 @@
     <e><p><l>sijeno<s n="n"/></l><r>hay<s n="n"/></r></p></e>
     <e><p><l>sječivo<s n="n"/></l><r>blade<s n="n"/></r></p></e>
     <e><p><l>sjedalo<s n="n"/></l><r>seat<s n="n"/></r></p></e>
-    <e><p><l>spolovilo<s n="n"/></l><r>genitals<s n="n"/></r></p></e>
+    <e><p><l>spolovilo<s n="n"/></l><r>genitals<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>stado<s n="n"/></l><r>herd<s n="n"/></r></p></e>
     <e><p><l>strugalo<s n="n"/></l><r>lathe<s n="n"/></r></p></e>
     <e><p><l>sušilo<s n="n"/></l><r>dryer<s n="n"/></r></p></e>
@@ -2339,7 +2339,7 @@
     <e><p><l>nalazište<s n="n"/></l><r>site<s n="n"/></r></p></e>
     <e><p><l>mučilište<s n="n"/></l><r>place<b/>of<b/>torture<s n="n"/></r></p></e><!--fix:-->
     <e><p><l>oficirstvo<s n="n"/></l><r>officerdom<s n="n"/></r></p></e>
-    <e><p><l>ojačavanje<s n="n"/></l><r>strenghtene<s n="vblex"/><s n="ger"/></r></p></e>
+    <e><p><l>ojačavanje<s n="n"/></l><r>strengthen<s n="vblex"/><s n="ger"/></r></p></e>
     <e><p><l>opetovanje<s n="n"/></l><r>repetition<s n="n"/></r></p></e>
     <e><p><l>ophođenje<s n="n"/></l><r>behaviour<s n="n"/></r></p></e>
     <e><p><l>osjećanje<s n="n"/></l><r>feel<s n="vblex"/><s n="ger"/></r></p></e>
