@@ -252,6 +252,10 @@
       <attr-item tags="sp"/>
     </def-attr>
 
+    <def-attr n="cnt">
+      <attr-item tags="unc"/>
+    </def-attr>
+
     <def-attr n="gndr">
       <attr-item tags="mfn"/>
       <attr-item tags="mf"/>
@@ -411,6 +415,36 @@
 <!--        <or> -->
               <equal><clip pos="1" side="sl" part="lemh"/><lit v="policija"/></equal>
 <!--        </or> -->
+          </test>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <when> <!-- plural to uncountable -->
+          <test>
+            <equal><clip pos="1" side="tl" part="cnt"/><lit-tag v="unc"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <when> <!-- singular to plural -->
+          <test>
+            <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
           <let>
