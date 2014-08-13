@@ -2559,6 +2559,30 @@
     <e><p><l>orah<s n="n"/></l><r>walnut<s n="n"/></r></p></e>
     <e><p><l>propuh<s n="n"/></l><r>draft<s n="n"/></r></p></e>
 
+    <e><p><l>razmah<s n="n"/></l><r>swing<s n="n"/></r></p></e>
+    <e><p><l>srh<s n="n"/></l><r>edge<s n="n"/></r></p></e>
+    <e><p><l>srh<s n="n"/><s n="pl"/></l><r>shiver<s n="n"/><s n="pl"/></r></p></e>
+    <e><p><l>tepih<s n="n"/></l><r>carpet<s n="n"/></r></p></e>
+    <e><p><l>peh<s n="n"/></l><r>bad<b/>luck<s n="n"/></r></p></e>
+    <e><p><l>pleh<s n="n"/></l><r>pan<s n="n"/></r></p></e>
+    <e><p><l>trag<s n="n"/></l><r>clue<s n="n"/></r></p></e>
+    <e><p><l>trag<s n="n"/></l><r>trail<s n="n"/></r></p></e>
+    <e><p><l>crv<s n="n"/></l><r>worm<s n="n"/></r></p></e>
+    <e><p><l>đak<s n="n"/></l><r>student<s n="n"/></r></p></e>
+    <e><p><l>divljak<s n="n"/></l><r>savage<s n="n"/></r></p></e>
+    <e><p><l>lisjak<s n="n"/></l><r>astrantia<s n="n"/></r></p></e>
+    <e><p><l>lisjak<s n="n"/></l><r>masterwort<s n="n"/></r></p></e>
+    <e><p><l>lisjak<s n="n"/></l><r>melancholy<b/>gentleman<s n="n"/></r></p></e>
+    <e><p><l>lisjak<s n="n"/></l><r>reynard<s n="n"/></r></p></e>
+    <e><p><l>nećak<s n="n"/></l><r>nephew<s n="n"/></r></p></e>
+    <e><p><l>seljak<s n="n"/></l><r>farmer<s n="n"/></r></p></e>
+    <e><p><l>seljak<s n="n"/></l><r>peasant<s n="n"/></r></p></e>
+    <e><p><l>veseljak<s n="n"/></l><r>jolly<b/>person<s n="n"/></r></p></e>
+    <e><p><l>vojak<s n="n"/></l><r>soldier<s n="n"/></r></p></e>
+    <e><p><l>zemljak<s n="n"/></l><r>compatriot<s n="n"/></r></p></e>
+    <e><p><l>zemljak<s n="n"/></l><r>countryman<s n="n"/></r></p></e>
+    <e><p><l>kopitar<s n="n"/></l><r>ungulate<s n="n"/></r></p></e>
+
     <e><p><l>Ilir<s n="n"/></l><r>Illyrian<s n="n"/></r></p></e>
     <e><p><l>pištolj<s n="n"/></l><r>handgun<s n="n"/></r></p></e>
     <e><p><l>stožac<s n="n"/></l><r>cone<s n="n"/></r></p></e>
@@ -2651,6 +2675,84 @@
     <e><p><l>privatnost<s n="n"/></l><r>privacy<s n="n"/></r></p></e>
     <e><p><l>vino<s n="n"/></l><r>wine<s n="n"/></r></p></e>
     <e><p><l>odlučivanje<s n="n"/></l><r>decision-making<s n="n"/></r></p></e>
+
+    <e><p><l>pribor<g><b/>za<b/>jelo</g><s n="n"/></l><r>cutlery<s n="n"/></r></p></e>
+    <e><p><l>duhan<g><b/>za<b/>šmrkanje</g><s n="n"/></l><r>snuff<s n="n"/></r></p></e>
+    <e><p><l>porez<g><b/>na<b/>dohodak</g><s n="n"/></l><r>income<b/>tax<s n="n"/></r></p></e>
+    <e><p><l>studija<g><b/>izvedivosti</g><s n="n"/></l><r>feasibility<b/>study<s n="n"/></r></p></e>
+    <e><p><l>rukavica<g><b/>samo<b/>s<b/>palcem</g><s n="n"/></l><r>mitten<s n="n"/></r></p></e>
+    <e><p><l>upala<g><b/>pluća</g><s n="n"/></l><r>pneumonia<s n="n"/></r></p></e>
+    <e><p><l>pristojba<g><b/>za<b/>parkiranje</g><s n="n"/></l><r>parking<b/>fee<s n="n"/></r></p></e>
+    <e><p><l>kanta<g><b/>za<b/>smeće</g><s n="n"/></l><r>trash<b/>can<s n="n"/></r></p></e>
+    <e><p><l>sredstvo<g><b/>za<b/>smirenje</g><s n="n"/></l><r>tranquilizer<s n="n"/></r></p></e>
+
+    <e><p><l>rukavica<g><b/>bez<b/>prstiju</g><s n="n"/></l><r>fingerless<b/>glove<s n="n"/></r></p></e>
+    <e><p><l>sredstvo<g><b/>za<b/>uspavljivanje</g><s n="n"/></l><r>sleeping<b/>pill<s n="n"/></r></p></e>
+    <e><p><l>postolar<s n="n"/></l><r>shoemaker<s n="n"/></r></p></e>
+    <e><p><l>šofer<s n="n"/></l><r>chauffeur<s n="n"/></r></p></e>
+    <e><p><l>šofer<s n="n"/></l><r>driver<s n="n"/></r></p></e>
+    <e><p><l>žandar<s n="n"/></l><r>cop<s n="n"/></r></p></e>
+    <e><p><l>žandar<s n="n"/></l><r>gendarme<s n="n"/></r></p></e>
+    <e><p><l>žongler<s n="n"/></l><r>juggler<s n="n"/></r></p></e>
+    <e><p><l>recepcioner<s n="n"/></l><r>receptioner<s n="n"/></r></p></e>
+    <e><p><l>recepcionar<s n="n"/></l><r>receptioner<s n="n"/></r></p></e>
+    <e><p><l>ratar<s n="n"/></l><r>farmer<s n="n"/></r></p></e>
+    <e><p><l>kontrolor<s n="n"/></l><r>controller<s n="n"/></r></p></e>
+    <e><p><l>pozor<s n="n"/></l><r>attention<s n="n"/></r></p></e>
+    <e><p><l>oprez<s n="n"/></l><r>caution<s n="n"/></r></p></e>
+    <e><p><l>transfer<s n="n"/></l><r>transfer<s n="n"/></r></p></e>
+    <e><p><l>doticaj<s n="n"/></l><r>contact<s n="n"/></r></p></e>
+    <e><p><l>nasrtaj<s n="n"/></l><r>assault<s n="n"/></r></p></e>
+    <e><p><l>očaj<s n="n"/></l><r>despair<s n="n"/></r></p></e>
+    <e><p><l>preodgoj<s n="n"/></l><r>correction<s n="n"/></r></p></e>
+    <e><p><l>ustroj<s n="n"/></l><r>structure<s n="n"/></r></p></e>
+    <e><p><l>uzgoj<s n="n"/></l><r>breeding<s n="n"/></r></p></e>
+    <e><p><l>uzgoj<s n="n"/></l><r>cultivation<s n="n"/></r></p></e>
+    <e><p><l>dolazak<s n="n"/></l><r>arrival<s n="n"/></r></p></e>
+    <e><p><l>odlazak<s n="n"/></l><r>departure<s n="n"/></r></p></e>
+    <e><p><l>ulazak<s n="n"/></l><r>entry<s n="n"/></r></p></e>
+    <e><p><l>dronjak<s n="n"/></l><r>rag<s n="n"/></r></p></e>
+    <e><p><l>žižak<s n="n"/></l><r>weevil<s n="n"/></r></p></e>
+    <e><p><l>držak<s n="n"/></l><r>hilt<s n="n"/></r></p></e>
+    <e><p><l>predložak<s n="n"/></l><r>template<s n="n"/></r></p></e>
+    <e><p><l>vlastodržac<s n="n"/></l><r>potentate<s n="n"/></r></p></e>
+    <e><p><l>imutak<s n="n"/></l><r>fortune<s n="n"/></r></p></e>
+    <e><p><l>izuzetak<s n="n"/></l><r>exception<s n="n"/></r></p></e>
+    <e><p><l>kućerak<s n="n"/></l><r>hovel<s n="n"/></r></p></e>
+    <e><p><l>popravak<s n="n"/></l><r>repair<s n="n"/></r></p></e>
+    <e><p><l>proplanak<s n="n"/></l><r>glade<s n="n"/></r></p></e>
+    <e><p><l>ručak<s n="n"/></l><r>lunch<s n="n"/></r></p></e>
+    <e><p><l>visak<s n="n"/></l><r>plumb<s n="n"/></r></p></e>
+    <e><p><l>zadatak<s n="n"/></l><r>task<s n="n"/></r></p></e>
+    <e><p><l>završetak<s n="n"/></l><r>ending<s n="n"/></r></p></e>
+    <e><p><l>četrdesetogodišnjak<s n="n"/></l><r>forty-year-old<b/>man<s n="n"/></r></p></e>
+    <e><p><l>šezdesetogodišnjak<s n="n"/></l><r>sixty-year-old<b/>man<s n="n"/></r></p></e>
+    <e><p><l>imenjak<s n="n"/></l><r>namesake<s n="n"/></r></p></e>
+    <e><p><l>poštenjak<s n="n"/></l><r>honest<b/>man<s n="n"/></r></p></e>
+    <e><p><l>sjevernjak<s n="n"/></l><r>northerner<s n="n"/></r></p></e>
+    <e><p><l>slobodnjak<s n="n"/></l><r>freeman<s n="n"/></r></p></e>
+    <e><p><l>učenjak<s n="n"/></l><r>scholar<s n="n"/></r></p></e>
+    <e><p><l>vršnjak<s n="n"/></l><r>peer<s n="n"/></r></p></e>
+    <e><p><l>zanesenjak<s n="n"/></l><r>enthusiast<s n="n"/></r></p></e>
+    <e><p><l>anđelčić<s n="n"/></l><r>little<b/>angel<s n="n"/></r></p></e>
+    <e><p><l>poremećaj<s n="n"/></l><r>disorder<s n="n"/></r></p></e>
+    <e><p><l>prebačaj<s n="n"/></l><r>overshoot<s n="n"/></r></p></e>
+    <e><p><l>smještaj<s n="n"/></l><r>accomodation<s n="n"/></r></p></e>
+    <e><p><l>odsječak<s n="n"/></l><r>section<s n="n"/></r></p></e>
+    <e><p><l>pristanak<s n="n"/></l><r>consent<s n="n"/></r></p></e>
+    <e><p><l>sanak<s n="n"/></l><r>sleep<s n="n"/></r></p></e>
+    <e><p><l>dečko<s n="n"/></l><r>boy<s n="n"/></r></p></e>
+    <e><p><l>dečko<s n="n"/></l><r>boyfriend<s n="n"/></r></p></e>
+    <e><p><l>gospoda<s n="n"/></l><r>gentleman<s n="n"/><s n="pl"/></r></p></e>
+    <e><p><l>mora<s n="n"/></l><r>nightmare<s n="n"/></r></p></e>
+    <e><p><l>korica<s n="n"/></l><r>crust<s n="n"/></r></p></e>
+    <e><p><l>čarolija<s n="n"/></l><r>magic<s n="n"/></r></p></e>
+    <e><p><l>falsifikacija<s n="n"/></l><r>falsification<s n="n"/></r></p></e>
+    <e><p><l>ilegalnost<s n="n"/></l><r>illegality<s n="n"/></r></p></e>
+    <e><p><l>kompatibilnost<s n="n"/></l><r>compatibility<s n="n"/></r></p></e>
+    <e><p><l>isprika<s n="n"/></l><r>excuse<s n="n"/></r></p></e>
+    <e><p><l>bijelka<s n="n"/></l><r>bream<s n="n"/></r></p></e>
+    <e><p><l>nespokojnost<s n="n"/></l><r>anxiety<s n="n"/></r></p></e>
 
     <!-- testvoc adjectives -->
 
