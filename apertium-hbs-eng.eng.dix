@@ -2679,6 +2679,31 @@
 
   <section id="main" type="standard">
 
+    <!-- testvoc vblex -->
+
+    <e lm="clap"><i>clap</i><par n="step__vblex"/></e>
+    <e lm="chop"><i>chop</i><par n="step__vblex"/></e>
+    <e lm="juggle"><i>juggl</i><par n="liv/e__vblex"/></e>
+    <e lm="tune"><i>tun</i><par n="liv/e__vblex"/></e>
+    <e lm="normalize"><i>normaliz</i><par n="liv/e__vblex"/></e>
+    <e lm="rattle"><i>rattl</i><par n="liv/e__vblex"/></e>
+    <e lm="tease"><i>teas</i><par n="liv/e__vblex"/></e>
+    <e lm="practice"><i>practic</i><par n="liv/e__vblex"/></e>
+    <e lm="soothe"><i>sooth</i><par n="liv/e__vblex"/></e>
+    <e lm="fondle"><i>fondl</i><par n="liv/e__vblex"/></e>
+    <e lm="rave"><i>rav</i><par n="liv/e__vblex"/></e>
+    <e lm="creak"><i>creak</i><par n="accept__vblex"/></e>
+    <e lm="chirp"><i>chirp</i><par n="accept__vblex"/></e>
+    <e lm="prey"><i>prey</i><par n="accept__vblex"/></e>
+    <e lm="whistle"><i>whistl</i><par n="liv/e__vblex"/></e>
+    <e lm="whine"><i>whin</i><par n="liv/e__vblex"/></e>
+    <e lm="prune"><i>prun</i><par n="liv/e__vblex"/></e>
+    <e lm="forge"><i>forg</i><par n="liv/e__vblex"/></e>
+    <e lm="trim"><i>trim</i><par n="program__vblex"/></e>
+    <e lm="drum"><i>drum</i><par n="program__vblex"/></e>
+    <e lm="make noise"><i>ma</i><par n="ma/ke__vblex"/><p><l><b/>noise</l><r><g><b/>noise</g></r></p></e>
+    <e lm="slur"><i>slur</i><par n="occur__vblex"/></e>
+
     <!-- testvoc nouns -->
 
     <e lm="larch"><i>larch</i><par n="access__n"/></e>
@@ -3582,6 +3607,7 @@
     <e lm="inform"><i>inform</i><par n="house__n"/></e>
     <e lm="try"><i>tr</i><par n="bab/y__n"/></e>
     <e lm="other"><i>other</i><par n="house__n"/></e>
+    <e lm="Pasha"><i>Pasha</i><par n="house__n"/></e>
 
     <!-- testvoc adjectives -->
 
@@ -3833,6 +3859,8 @@
     <e lm="counting"><i>counting</i><par n="expensive__adj"/></e>
     <e lm="none"><i>none</i><par n="expensive__adj"/></e>
     <e lm="motor"><i>motor</i><par n="expensive__adj"/></e>
+    <e lm="set"><i>set</i><par n="expensive__adj"/></e>
+    <e lm="tame"><i>tame</i><par n="expensive__adj"/></e>
 
     <!-- testvoc np's -->
 
@@ -4130,6 +4158,7 @@
     <e lm="København"><i>København</i><par n="Barcelona__np"/></e>
     <e lm="Afganistan"><i>Afganistan</i><par n="Barcelona__np"/></e>
     <e lm="Marica"><i>Marica</i><par n="Mary__np"/></e>
+    <e lm="Thumbelina"><i>Thumbelina</i><par n="Mary__np"/></e>
 
     <!-- testvoc numbers -->
 
@@ -15590,7 +15619,7 @@
     <e lm="chandelier"><i>chandelier</i><par n="house__n"/></e>
     <e lm="chatter"><i>chatter</i><par n="house__n"/></e>
     <e lm="cheetah"><i>cheetah</i><par n="house__n"/></e>
-    <e lm="chimney"><i>chimne</i><par n="house__n"/></e>
+    <e lm="chimney"><i>chimney</i><par n="house__n"/></e>
     <e lm="cinematography"><i>cinematograph</i><par n="bab/y__n"/></e>
     <e lm="circular"><i>circular</i><par n="house__n"/></e>
     <e lm="clitoris"><i>clitor</i><par n="analys/is__n"/></e>
@@ -41871,12 +41900,12 @@
     <e lm="might"><i>might</i><par n="will/__vbmod"/></e>
     <e lm="be"><par n="/be__vbser"/></e>
     <e lm="be" r="RL"><par n="/be__vblex"/></e> <!-- for subjuncs -->
-    <e lm="go out"><i></i><par n="/go__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
-    <e lm="go skiing"><i></i><par n="/go__vblex"/><p><l><b/>skiing</l><r><g><b/>skiing</g></r></p></e>
-    <e lm="go to"><i></i><par n="/go__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
-    <e lm="go and get drunk"><i></i><par n="/go__vblex"/><p><l><b/>and<b/>get<b/>drunk</l><r><g><b/>and<b/>get<b/>drunk</g></r></p></e>
-    <e lm="go berserk"><i></i><par n="/go__vblex"/><p><l><b/>berserk</l><r><g><b/>berserk</g></r></p></e>
-    <e lm="go on strike"><i></i><par n="/go__vblex"/><p><l><b/>on<b/>strike</l><r><g><b/>on<b/>strike</g></r></p></e>
+    <e lm="go out"><par n="/go__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="go skiing"><par n="/go__vblex"/><p><l><b/>skiing</l><r><g><b/>skiing</g></r></p></e>
+    <e lm="go to"><par n="/go__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+    <e lm="go and get drunk"><par n="/go__vblex"/><p><l><b/>and<b/>get<b/>drunk</l><r><g><b/>and<b/>get<b/>drunk</g></r></p></e>
+    <e lm="go berserk"><par n="/go__vblex"/><p><l><b/>berserk</l><r><g><b/>berserk</g></r></p></e>
+    <e lm="go on strike"><par n="/go__vblex"/><p><l><b/>on<b/>strike</l><r><g><b/>on<b/>strike</g></r></p></e>
     <e lm="be born"><i></i><par n="/be__vblex"/><p><l><b/>born</l><r><g><b/>born</g></r></p></e>
     <e lm="be valid"><i></i><par n="/be__vblex"/><p><l><b/>valid</l><r><g><b/>valid</g></r></p></e>
     <e lm="be of use"><i></i><par n="/be__vblex"/><p><l><b/>of<b/>use</l><r><g><b/>of<b/>use</g></r></p></e>

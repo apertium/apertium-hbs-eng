@@ -392,7 +392,7 @@
     <e><p><l>neolitik<s n="n"/></l><r>Neolithic<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>ovratnik<s n="n"/></l><r>collar<s n="n"/></r></p></e>
     <e><p><l>polutnik<s n="n"/></l><r>equator<s n="n"/></r></p></e>
-    <e><p><l>poslovnik<s n="n"/></l><r>rules<b/>of<b/>conduct<s n="n"/></r></p></e>
+    <e><p><l>poslovnik<s n="n"/></l><r>rules<b/>of<b/>conduct<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>pravilnik<s n="n"/></l><r>rule<b/>book<s n="n"/></r></p></e>
     <e><p><l>priručnik<s n="n"/></l><r>manual<s n="n"/></r></p></e>
     <e><p><l>priručnik<s n="n"/></l><r>handbook<s n="n"/></r></p></e>
@@ -877,7 +877,7 @@
     <e><p><l>tableta<s n="n"/></l><r>pill<s n="n"/></r></p></e>
     <e><p><l>tableta<s n="n"/></l><r>tablet<s n="n"/></r></p></e>
     <e><p><l>toaleta<s n="n"/></l><r>toilette<s n="n"/></r></p></e>
-    <e><p><l>vata<s n="n"/></l><r>cotton<b/>wool<s n="n"/></r></p></e>
+    <e><p><l>vata<s n="n"/></l><r>cotton<b/>wool<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>vrednota<s n="n"/></l><r>value<s n="n"/></r></p></e>
     <e><p><l>ljepota<s n="n"/></l><r>beauty<s n="n"/></r></p></e>
     <e><p><l>dojava<s n="n"/></l><r>report<s n="n"/></r></p></e>
@@ -938,7 +938,7 @@
     <e><p><l>ropkinja<s n="n"/></l><r>slave<s n="n"/></r></p></e>
     <e><p><l>slutnja<s n="n"/></l><r>hunch<s n="n"/></r></p></e>
     <e><p><l>strankinja<s n="n"/></l><r>foreigner<s n="n"/></r></p></e>
-    <e><p><l>šurjakinja<s n="n"/></l><r>sister-in-law<s n="n"/></r></p></e>
+    <e><p><l>šurjakinja<s n="n"/></l><r>sister<g>-in-law</g><s n="n"/></r></p></e>
     <e><p><l>sutkinja<s n="n"/></l><r>judge<s n="n"/></r></p></e>
     <e><p><l>svinja<s n="n"/></l><r>pig<s n="n"/></r></p></e>
     <e><p><l>tlapnja<s n="n"/></l><r>fantasy<s n="n"/></r></p></e>
@@ -11655,7 +11655,7 @@
     <e><p><l>novine<s n="n"/><s n="mi"/></l><r>newspaper<s n="n"/></r></p></e>
     <e><p><l>novost<s n="n"/><s n="f"/></l><r>news<s n="n"/></r></p></e>
     <e><p><l>novost<s n="n"/><s n="f"/></l><r>novelty<s n="n"/></r></p></e>
-    <e><p><l>pribor<b/>za<b/>jelo<s n="n"/><s n="mi"/></l><r>cutlery<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>pribor<g><b/>za<b/>jelo</g><s n="n"/><s n="mi"/></l><r>cutlery<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>nožarstvo<s n="n"/><s n="nt"/></l><r>knifemaking<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>obala<s n="n"/><s n="f"/></l><r>coast<s n="n"/></r></p></e>
     <e><p><l>obaranje<s n="n"/><s n="nt"/></l><r>toppling<s n="n"/><s n="unc"/></r></p></e>
