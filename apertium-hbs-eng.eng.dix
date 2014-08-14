@@ -3376,7 +3376,7 @@
     <e lm="sticking plaster"><i>sticking<b/>plaster</i><par n="house__n"/></e>
     <e lm="protractor"><i>protractor</i><par n="house__n"/></e>
     <e lm="breviary"><i>breviar</i><par n="bab/y__n"/></e>
-    <e lm="royalty"><i>royalty</i><par n="bab/y__n"/></e>
+    <e lm="royalty"><i>royalt</i><par n="bab/y__n"/></e>
     <e lm="urging"><i>urging</i><par n="house__n"/></e>
     <e lm="newspeak"><i>newspeak</i><par n="east__n"/></e>
     <e lm="aperture"><i>aperture</i><par n="house__n"/></e>
@@ -3608,6 +3608,7 @@
     <e lm="try"><i>tr</i><par n="bab/y__n"/></e>
     <e lm="other"><i>other</i><par n="house__n"/></e>
     <e lm="Pasha"><i>Pasha</i><par n="house__n"/></e>
+    <e lm="bleach"><i>bleach</i><par n="east__n"/></e>
 
     <!-- testvoc adjectives -->
 
