@@ -1256,11 +1256,6 @@
         <when> <!-- pp -->
           <test>
             <and>
-              <or>
-                <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vblex"/></equal>
-                <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
-                <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbhaver"/></equal>
-              </or>
               <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="perf"/></equal>
               <equal><clip pos="1" side="sl" part="trns"/><lit-tag v="tv"/></equal>
               <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pp"/></equal>
@@ -1280,7 +1275,11 @@
         <when> <!-- perf to past -->
           <test>
             <and>
-              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vblex"/></equal>
+              <or>
+                <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vblex"/></equal>
+                <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
+                <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbhaver"/></equal>
+              </or>
               <or>
                 <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="perf"/></equal>
                 <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="imperf"/></equal>
