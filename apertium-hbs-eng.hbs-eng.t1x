@@ -48,6 +48,7 @@
       <cat-item tags="adv"/>
       <cat-item tags="adv.*"/>
       <cat-item tags="preadv"/>
+      <cat-item tags="cnjadv"/>
     </def-cat>
 
     <def-cat n="pr">
@@ -318,7 +319,7 @@
       <attr-item tags="det.ind"/>
       <attr-item tags="det.def"/>
       <attr-item tags="det.qnt"/>
-  </def-attr>
+    </def-attr>
 
     <def-attr n="a_vb">
       <attr-item tags="vblex"/>
@@ -334,9 +335,14 @@
       <attr-item tags="clt"/>
     </def-attr>
 
+    <def-attr n="a_part">
+      <attr-item tags="part"/>
+      <attr-item tags="part.neg"/>
+    </def-attr>
+
     <def-attr n="a_typ">
       <attr-item tags="pos"/>
-  </def-attr>
+    </def-attr>
 
     <def-attr n="tns">
       <attr-item tags="inf"/>
@@ -370,6 +376,7 @@
       <attr-item tags="adv"/>
       <attr-item tags="adv.itg"/>
       <attr-item tags="preadv"/>
+      <attr-item tags="cnjadv"/>
     </def-attr>
 
     <def-attr n="a_deg">
@@ -1943,14 +1950,93 @@
 
     <!-- Adapter for adverbs -->
     <def-macro n="adv_adapter" npar="1">
-      <let>
-	<clip pos="1" side="tl" part="whole"/>
-	<concat>
-	  <clip pos="1" side="tl" part="lemh"/>
-	  <clip pos="1" side="tl" part="a_adv"/>
-	  <clip pos="1" side="tl" part="lemq"/>
-	</concat>
-      </let>
+      <choose>
+        <when> <!-- adv to vblex.pprs -->
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_vb"/><lit-tag v="vblex"/></equal>
+              <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pprs"/></equal>
+            </and>
+          </test>
+	  <let><clip pos="1" side="tl" part="a_vb"/><lit-tag v="vblex"/></let>
+	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pprs"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_vb"/>
+	      <clip pos="1" side="tl" part="tns"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+          </let>
+        </when>
+        <when> <!-- adv to cnjadv -->
+          <test>
+            <equal><clip pos="1" side="tl" part="a_adv"/><lit-tag v="cnjadv"/></equal>
+          </test>
+	  <let><clip pos="1" side="tl" part="a_adv"/><lit-tag v="cnjadv"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adv"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+          </let>
+        </when>
+        <when> <!-- adv to preadv -->
+          <test>
+            <equal><clip pos="1" side="tl" part="a_adv"/><lit-tag v="preadv"/></equal>
+          </test>
+	  <let><clip pos="1" side="tl" part="a_adv"/><lit-tag v="preadv"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adv"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+          </let>
+        </when>
+        <when> <!-- adv to adj -->
+          <test>
+            <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></equal>
+          </test>
+	  <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adj"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+          </let>
+        </when>
+        <when> <!-- adv to pr -->
+          <test>
+            <equal><clip pos="1" side="tl" part="a_pr"/><lit-tag v="pr"/></equal>
+          </test>
+	  <let><clip pos="1" side="tl" part="a_pr"/><lit-tag v="pr"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_pr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adv"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+          </let>
+        </otherwise>
+      </choose>
     </def-macro>
 
     <!-- Adapter for numbers -->
@@ -2218,6 +2304,39 @@
 	</concat>
       </let>
       </otherwise>
+      </choose>
+    </def-macro>
+
+    <!-- Adapter for particles -->
+    <def-macro n="part_adapter" npar="1">
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="lemma"/><lit v="ni"/></equal>
+              <equal><clip pos="1" side="sl" part="a_part"/><lit-tag v="part.neg"/></equal>
+            </and>
+          </test>
+          <let><clip pos="1" side="tl" part="a_adv"/><lit-tag v="adv"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_adv"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_part"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </otherwise>
       </choose>
     </def-macro>
 
@@ -3570,7 +3689,7 @@
             <lu>
               <clip pos="2" side="tl" part="whole"/>
             </lu>
-	        <b pos="1"/>
+	    <b pos="1"/>
             <lu>
               <lit v="like"/>
               <lit-tag v="pr"/>
@@ -3609,7 +3728,7 @@
             <lu>
               <clip pos="2" side="tl" part="whole"/>
             </lu>
-	        <b pos="1"/>
+	    <b pos="1"/>
             <lu>
               <lit v="like"/>
               <lit-tag v="pr"/>
