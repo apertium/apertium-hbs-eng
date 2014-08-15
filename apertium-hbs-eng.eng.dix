@@ -2890,6 +2890,45 @@
     <e lm="butcher"><i>butcher</i><par n="accept__vblex"/></e>
     <e lm="smelt"><i>smelt</i><par n="accept__vblex"/></e>
 
+    <e lm="hold off"><i>h</i><par n="h/old__vblex"/><p><l><b/>off</l><r><g><b/>off</g></r></p></e>
+    <e lm="grow close"><i>gr</i><par n="bl/ow__vblex"/><p><l><b/>close</l><r><g><b/>close</g></r></p></e>
+    <e lm="dig out"><i>d</i><par n="d/ig__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="run late"><i>r</i><par n="r/un__vblex"/><p><l><b/>late</l><r><g><b/>late</g></r></p></e>
+    <e lm="talk out"><i>talk</i><par n="accept__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="tip over"><i>tip</i><par n="step__vblex"/><p><l><b/>over</l><r><g><b/>over</g></r></p></e>
+    <e lm="take the courage"><i>t</i><par n="t/ake__vblex"/><p><l><b/>the<b/>courage</l><r><g><b/>the<b/>courage</g></r></p></e>
+    <e lm="become ingrained"><i>bec</i><par n="bec/ome__vblex"/><p><l><b/>ingrained</l><r><g><b/>ingrained</g></r></p></e>
+    <e lm="rule out"><i>rul</i><par n="liv/e__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="set fire"><i>set</i><par n="cut__vblex"/><p><l><b/>fire</l><r><g><b/>fire</g></r></p></e>
+    <e lm="cheer up"><i>cheer</i><par n="accept__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+    <e lm="pay off"><i>pa</i><par n="pa/y__vblex"/><p><l><b/>off</l><r><g><b/>off</g></r></p></e>
+    <e lm="stumble upon"><i>stumbl</i><par n="liv/e__vblex"/><p><l><b/>upon</l><r><g><b/>upon</g></r></p></e>
+    <e lm="beat up"><i>b</i><par n="b/eat__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+    <e lm="put on"><i>put</i><par n="cut__vblex"/><p><l><b/>on</l><r><g><b/>on</g></r></p></e>
+    <e lm="pull away"><i>pull</i><par n="accept__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>away</l><r><g><b/>away</g></r></p></e>
+    <e lm="sow again"><i>sow</i><par n="hew__vblex"/><p><l><b/>again</l><r><g><b/>again</g></r></p></e>
+    <e lm="throw off"><i>thr</i><par n="bl/ow__vblex"/><p><l><b/>off</l><r><g><b/>off</g></r></p></e>
+    <e lm="be late"><i></i><par n="/be__vblex"/><p><l><b/>late</l><r><g><b/>late</g></r></p></e>
+    <e lm="be on strike"><i></i><par n="/be__vblex"/><p><l><b/>on<b/>strike</l><r><g><b/>on<b/>strike</g></r></p></e>
+    <e lm="catch up"><i>ca</i><par n="ca/tch__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+    <e lm="breathe in"><i>breath</i><par n="liv/e__vblex"/><p><l><b/>in</l><r><g><b/>in</g></r></p></e>
+    <e lm="cry out"><i>cr</i><par n="appl/y__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="fall in love"><i>f</i><par n="f/all__vblex"/><p><l><b/>in<b/>love</l><r><g><b/>in<b/>love</g></r></p></e>
+    <e lm="seek out"><i>s</i><par n="s/eek__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+    <e lm="be wrong"><i></i><par n="/be__vblex"/><p><l><b/>wrong</l><r><g><b/>wrong</g></r></p></e>
+    <e lm="go into debt"><i></i><par n="/go__vblex"/><p><l><b/>into<b/>debt</l><r><g><b/>into<b/>debt</g></r></p></e>
+    <e lm="put down"><i>put</i><par n="cut__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>down</l><r><g><b/>down</g></r></p></e>
+    <e lm="move closer"><i>mov</i><par n="liv/e__vblex"/><p><l><b/>closer</l><r><g><b/>closer</g></r></p></e>
+    <e lm="feel better"><i>fe</i><par n="fe/el__vblex"/><p><l><b/>better</l><r><g><b/>better</g></r></p></e>
+    <e lm="do not satisfy"><i>d</i><par n="d/o__vblex"/><p><l><b/>not<b/>satisfy</l><r><g><b/>not<b/>satisfy</g></r></p></e>
+    <e lm="fall off"><i>f</i><par n="f/all__vblex"/><p><l><b/>off</l><r><g><b/>off</g></r></p></e>
+    <e lm="set in motion"><i>set</i><par n="cut__vblex"/><p><l><b/>in<b/>motion</l><r><g><b/>in<b/>motion</g></r></p></e>
+    <e lm="be imminent"><i></i><par n="/be__vblex"/><p><l><b/>imminent</l><r><g><b/>imminent</g></r></p></e>
+<e lm="set on fire"><i>set</i><par n="cut__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>on<b/>fire</l><r><g><b/>on<b/>fire</g></r></p></e>
+    <e lm="be relieved"><i></i><par n="/be__vblex"/><p><l><b/>relieved</l><r><g><b/>relieved</g></r></p></e>
+    <e lm="be against"><i></i><par n="/be__vblex"/><p><l><b/>against</l><r><g><b/>against</g></r></p></e>
+    <e lm="fall out"><i>f</i><par n="f/all__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+
     <!-- testvoc nouns -->
 
     <e lm="larch"><i>larch</i><par n="access__n"/></e>
@@ -3247,7 +3286,7 @@
     <e lm="hardness"><i>hardness</i><par n="east__n"/></e>
     <e lm="torch"><i>torch</i><par n="access__n"/></e>
     <e lm="place of worship"><i>place</i><par n="house__n"/><p><l><b/>of<b/>worship</l><r><g><b/>of<b/>worship</g></r></p></e>
-    <e lm="runner-up"><i>runner</i><par n="house__n"/><p><l>up</l><r><g>up</g></r></p></e>
+    <e lm="runner-up"><i>runner</i><par n="house__n"/><p><l>-up</l><r><g>-up</g></r></p></e>
     <e lm="woman in labor"><i>wom</i><par n="m/an__n"/><p><l><b/>in<b/>labor</l><r><g><b/>in<b/>labor</g></r></p></e>
     <e lm="woman in labour"><i>wom</i><par n="m/an__n"/><p><l><b/>in<b/>labour</l><r><g><b/>in<b/>labour</g></r></p></e>
     <e lm="wig"><i>wig</i><par n="house__n"/></e>
@@ -4567,29 +4606,29 @@
     <e lm="flourish"><i>flourish</i><par n="accept__vblex"/></e>
     <e lm="overflow"><i>overflow</i><par n="accept__vblex"/></e>
     <e lm="break out"><i>br</i><par n="br/eak__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
-    <e lm="protrude"><i>protrude</i><par n="liv/e__vblex"/></e>
-    <e lm="deviate"><i>deviate</i><par n="liv/e__vblex"/></e>
+    <e lm="protrude"><i>protrud</i><par n="liv/e__vblex"/></e>
+    <e lm="deviate"><i>deviat</i><par n="liv/e__vblex"/></e>
     <e lm="unscrew"><i>unscrew</i><par n="accept__vblex"/></e>
-    <e lm="alienate"><i>alienate</i><par n="liv/e__vblex"/></e>
-    <e lm="invigorate"><i>invigorate</i><par n="liv/e__vblex"/></e>
+    <e lm="alienate"><i>alienat</i><par n="liv/e__vblex"/></e>
+    <e lm="invigorate"><i>invigorat</i><par n="liv/e__vblex"/></e>
     <e lm="talk with"><i>talk</i><par n="accept__vblex"/><p><l><b/>with</l><r><g><b/>with</g></r></p></e>
     <e lm="talk to"><i>talk</i><par n="accept__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
     <e lm="work against"><i>work</i><par n="accept__vblex"/><p><l><b/>against</l><r><g><b/>against</g></r></p></e>
-    <e lm="puke"><i>puke</i><par n="liv/e__vblex"/></e>
+    <e lm="puke"><i>puk</i><par n="liv/e__vblex"/></e>
     <e lm="take a nap"><i>t</i><par n="t/ake__vblex"/><p><l><b/>a<b/>nap</l><r><g><b/>a<b/>nap</g></r></p></e>
-    <e lm="reexamine"><i>reexamine</i><par n="liv/e__vblex"/></e>
-    <e lm="miscalculate"><i>miscalculate</i><par n="liv/e__vblex"/></e>
-    <e lm="presume"><i>presume</i><par n="liv/e__vblex"/></e>
-    <e lm="narrate"><i>narrate</i><par n="liv/e__vblex"/></e>
+    <e lm="reexamine"><i>reexamin</i><par n="liv/e__vblex"/></e>
+    <e lm="miscalculate"><i>miscalculat</i><par n="liv/e__vblex"/></e>
+    <e lm="presume"><i>presum</i><par n="liv/e__vblex"/></e>
+    <e lm="narrate"><i>narrat</i><par n="liv/e__vblex"/></e>
     <e lm="veer"><i>veer</i><par n="accept__vblex"/></e>
     <e lm="start dating"><i>start</i><par n="accept__vblex"/><p><l><b/>dating</l><r><g><b/>dating</g></r></p></e>
     <e lm="start walking"><i>start</i><par n="accept__vblex"/><p><l><b/>walking</l><r><g><b/>walking</g></r></p></e>
-    <e lm="ravage"><i>ravage</i><par n="liv/e__vblex"/></e>
+    <e lm="ravage"><i>ravag</i><par n="liv/e__vblex"/></e>
     <e lm="split up"><i>split</i><par n="cut__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
-    <e lm="sympathize"><i>sympathize</i><par n="liv/e__vblex"/></e>
-    <e lm="disrobe"><i>disrobe</i><par n="liv/e__vblex"/></e>
-    <e lm="meddle"><i>meddle</i><par n="liv/e__vblex"/></e>
-    <e lm="reciprocate"><i>reciprocate</i><par n="liv/e__vblex"/></e>
+    <e lm="sympathize"><i>sympathiz</i><par n="liv/e__vblex"/></e>
+    <e lm="disrobe"><i>disrob</i><par n="liv/e__vblex"/></e>
+    <e lm="meddle"><i>meddl</i><par n="liv/e__vblex"/></e>
+    <e lm="reciprocate"><i>reciprocat</i><par n="liv/e__vblex"/></e>
     
     <e lm="endure"><i>endur</i><par n="liv/e__vblex"/></e>
     <e lm="hold on"><i>h</i><par n="h/old__vblex"/><p><l><b/>on</l><r><g><b/>on</g></r></p></e>
@@ -4648,7 +4687,6 @@
     <e lm="collide"><i>collid</i><par n="liv/e__vblex"/></e>
     <e lm="write out"><i>wr</i><par n="wr/ite__vblex"/><p><l><b/>out</l><r><j/>out<s n="pr"/></r></p></e>
     <e lm="repulse"><i>repulse</i><par n="liv/e__vblex"/></e>
-    <e lm="put on"><i>put<b/>on</i><par n="cut__vblex"/></e>  
 
     <!-- coding challenge -->
   
@@ -16742,6 +16780,7 @@
     <e lm="aircraft"><i>aircraft</i><par n="politics__n"/></e>
     <e lm="airfield"><i>airfield</i><par n="house__n"/></e>
     <e r="LR" lm="airplane"><p><l>airplane</l><r>aeroplane</r></p><par n="house__n"/></e>
+    <e lm="aeroplane"><i>aeroplane</i><par n="house__n"/></e>
     <e lm="aeroplane"><i>aeroplane</i><par n="house__n"/></e>
     <e lm="airport"><i>airport</i><par n="house__n"/></e>
     <e lm="alarm"><i>alarm</i><par n="house__n"/></e>
@@ -43761,7 +43800,7 @@
     <e lm="set"><i>set</i><par n="cut__vblex"/></e>
     <e lm="set off"><i>set</i><par n="cut__vblex"/><p><l><b/>off</l><r><g><b/>off</g></r></p></e>
     <e lm="set up"><i>set</i><par n="cut__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
-	<e lm="set up"><i>set</i><par n="cut__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+    <e lm="set up"><i>set</i><par n="cut__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
     <e lm="set apart"><i>set</i><par n="cut__vblex"/><p><l><b/>apart</l><r><g><b/>apart</g></r></p></e>
     <e lm="settle"><i>settl</i><par n="liv/e__vblex"/></e>
     <e lm="sew"><i>sew</i><par n="hew__vblex"/></e>
