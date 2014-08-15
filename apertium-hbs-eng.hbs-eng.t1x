@@ -1312,310 +1312,382 @@
             </concat>
           </let>
         </when>
-    <when> <!-- biti, pii, p1&p3 -->
-	  <test>
-	    <and>
-	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
-	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
-          <or>
-        	<equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
-	        <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>
-          </or>
-	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
-	    </and>	    
-	  </test>
-      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
-	  <let>
-        <clip pos="1" side="tl" part="whole"/>
-        <concat>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_vb"/>
-	      <clip pos="1" side="tl" part="tns"/>
-	      <clip pos="1" side="tl" part="prs"/>
-	      <clip pos="1" side="tl" part="nbr"/>
-	      <clip pos="1" side="tl" part="lemq"/>
-        </concat>
-	  </let>
-	</when>
-    <when> <!-- biti, pii -->
-	  <test>
-	    <and>
-	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
-	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
-	    </and>	    
-	  </test>
-      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
-	  <let>
-        <clip pos="1" side="tl" part="whole"/>
-        <concat>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_vb"/>
-	      <clip pos="1" side="tl" part="tns"/>
-	      <clip pos="1" side="tl" part="lemq"/>
-        </concat>
-	  </let>
-	</when>
-    <when> <!-- biti, imperativ -->
-	  <test>
-	    <and>
-	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
-	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="imp"/></equal>
-	    </and>	    
-	  </test>
-      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="inf"/></let>
-	  <let>
-        <clip pos="1" side="tl" part="whole"/>
-        <concat>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_vb"/>
-	      <clip pos="1" side="tl" part="tns"/>
-	      <clip pos="1" side="tl" part="lemq"/>
-        </concat>
-	  </let>
-	</when>
-    <when> <!-- biti, futur II -->
-	  <test>
-	    <and>
-	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
-	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="futII"/></equal>
-	    </and>	    
-	  </test>
-      <let><clip pos="1" side="tl" part="lemma"/><lit v="will"/></let>
-      <let><clip pos="1" side="tl" part="a_vb"/><lit-tag v="vaux"/></let>
-      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let>
-	  <let>
-        <clip pos="1" side="tl" part="whole"/>
-        <concat>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_vb"/>
-	      <clip pos="1" side="tl" part="tns"/>
-	      <clip pos="1" side="tl" part="lemq"/>
-        </concat>
-	  </let>
-	</when>
+        <when> <!-- biti, pii, p1&p3 -->
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
+              <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
+              <or>
+                <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
+                <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>
+              </or>
+              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+            </and>	    
+          </test>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="prs"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <when> <!-- biti, pii -->
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
+              <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
+            </and>	    
+          </test>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <when> <!-- biti, imperativ -->
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
+              <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="imp"/></equal>
+            </and>	    
+          </test>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="inf"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <when> <!-- biti, futur II -->
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
+              <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="futII"/></equal>
+            </and>	    
+          </test>
+          <let><clip pos="1" side="tl" part="lemma"/><lit v="will"/></let>
+          <let><clip pos="1" side="tl" part="a_vb"/><lit-tag v="vaux"/></let>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
         <when> <!-- the verb to be, p1&p3 -->
-	  <test>
-	    <and>
-	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
-	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
-	      <or>
-		  <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
-		  <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>		
-	      </or>
-	    </and>	    
-	  </test>
-	  <let>
-	    <clip pos="1" side="tl" part="whole"/>
-	    <concat>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_vb"/>
-	      <clip pos="1" side="tl" part="tns"/>
-	      <clip pos="1" side="tl" part="prs"/>
-          <clip pos="1" side="tl" part="nbr"/>
-	      <clip pos="1" side="tl" part="lemq"/>
-	    </concat>
-	  </let>
-	</when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbser"/></equal>
+              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+              <or>
+                <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
+                <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>
+              </or>
+            </and>	    
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="prs"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
         <when> <!-- the verb to have, pii -->
-	  <test>
-	    <and>
-	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbhaver"/></equal>
-		  <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>		
-	    </and>	    
-	  </test>
-      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
-	  <let>
-	    <clip pos="1" side="tl" part="whole"/>
-	    <concat>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_vb"/>
-	      <clip pos="1" side="tl" part="tns"/>
-	      <clip pos="1" side="tl" part="lemq"/>
-	    </concat>
-	  </let>
-	</when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbhaver"/></equal>
+              <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
+            </and>	    
+          </test>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
         <when> <!-- the verb to have -->
-	  <test>
-	    <and>
-	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbhaver"/></equal>
-		  <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>		
-	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
-	    </and>	    
-	  </test>
-	  <let>
-	    <clip pos="1" side="tl" part="whole"/>
-	    <concat>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_vb"/>
-	      <clip pos="1" side="tl" part="tns"/>
-	      <clip pos="1" side="tl" part="prs"/>
-          <clip pos="1" side="tl" part="nbr"/>
-	      <clip pos="1" side="tl" part="lemq"/>
-	    </concat>
-	  </let>
-	</when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbhaver"/></equal>
+              <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>
+              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+            </and>	    
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="prs"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
         <when> <!-- modal, futur I. -->
-	  <test>
-        <and>
-	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbmod"/></equal>  
-	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="futI"/></equal>  
-        </and>  
-	  </test>
-      <let><clip pos="1" side="tl" part="a_vb"/><lit-tag v="vaux"/></let>
-      <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let>
-	  <let>
-	    <clip pos="1" side="tl" part="whole"/>
-	    <concat>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_vb"/>
-	      <clip pos="1" side="tl" part="tns"/>
-	      <clip pos="1" side="tl" part="lemq"/>
-	    </concat>
-	  </let>
-	</when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vbmod"/></equal>  
+              <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="futI"/></equal>  
+            </and>  
+          </test>
+          <let><clip pos="1" side="tl" part="a_vb"/><lit-tag v="vaux"/></let>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
         <when> <!-- present -->
-	  <test>
-	    <and>
-	      <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vblex"/></equal>
-	      <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pres"/></equal>
-	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
-	   	  <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>		
-	    </and>	    
-	  </test>
-	  <let>
-	    <clip pos="1" side="tl" part="whole"/>
-	    <concat>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_vb"/>
-	      <clip pos="1" side="tl" part="tns"/>
-	      <clip pos="1" side="tl" part="prs"/>
-      	  <clip pos="1" side="tl" part="nbr"/>
-	      <clip pos="1" side="tl" part="lemq"/>
-	    </concat>
-	  </let>
-	</when>
-	<!-- TODO: other tenses -->
-	<otherwise>
-	  <let>
-	    <clip pos="1" side="tl" part="whole"/>
-	    <concat>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_vb"/>
-	      <clip pos="1" side="tl" part="tns"/>
-	      <clip pos="1" side="tl" part="lemq"/>
-	    </concat>
-	  </let>
-	</otherwise>
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vblex"/></equal>
+              <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pres"/></equal>
+              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+              <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>
+            </and>	    
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="prs"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <when> <!-- imperative -->
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vblex"/></equal>
+              <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="imp"/></equal>
+            </and>	    
+          </test>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="inf"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <when> <!-- imperfekt to past -->
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vblex"/></equal>
+              <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
+            </and>	    
+          </test>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <when> <!-- futur I. -->
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vblex"/></equal>  
+              <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="futI"/></equal>  
+            </and>  
+          </test>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="inf"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <when> <!-- pp to past participle -->
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_vb"/><lit-tag v="vblex"/></equal>  
+              <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>  
+            </and>  
+          </test>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pp"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <!-- TODO: other tenses -->
+        <otherwise>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </otherwise>
       </choose>
     </def-macro>
 
     <def-macro n="haver_adapter" npar="1">
       <choose>
         <when> <!-- infinitive -->
-	      <test>
-	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="inf"/></equal>
-	      </test>
-	  <let><clip pos="1" side="tl" part="lemma"/><lit v="not have"/></let>
-	      <let>
+          <test>
+            <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="inf"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="lemma"/><lit v="not have"/></let>
+          <let>
             <clip pos="1" side="tl" part="whole"/>
             <concat>
-	          <clip pos="1" side="tl" part="lemh"/>
-	          <clip pos="1" side="tl" part="a_vb"/>
-	          <clip pos="1" side="tl" part="tns"/>
-	          <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </concat>
           </let>
-	    </when>
+        </when>
         <when> 
           <test> <!-- imperative -->
-	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="imp"/></equal>
-	      </test>
-	  <let><clip pos="1" side="tl" part="lemma"/><lit v="don't have"/></let>
-	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="imp"/></let>
-	      <let>
+            <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="imp"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="lemma"/><lit v="don't have"/></let>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="imp"/></let>
+          <let>
             <clip pos="1" side="tl" part="whole"/>
             <concat>
-	          <clip pos="1" side="tl" part="lemh"/>
-	          <clip pos="1" side="tl" part="a_vb"/>
-	          <clip pos="1" side="tl" part="tns"/>
-	          <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </concat>
           </let>
-	    </when>
+        </when>
         <when> 
           <test> <!-- present -->
-	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pres"/></equal>
-	      </test>
-	  <let><clip pos="1" side="tl" part="lemma"/><lit v="don't have"/></let>
-	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let>
-	      <let>
+            <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pres"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="lemma"/><lit v="don't have"/></let>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let>
+          <let>
             <clip pos="1" side="tl" part="whole"/>
             <concat>
-	          <clip pos="1" side="tl" part="lemh"/>
-	          <clip pos="1" side="tl" part="a_vb"/>
-	          <clip pos="1" side="tl" part="tns"/>
-	          <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </concat>
           </let>
-	    </when>
+        </when>
         <when>
           <test> <!-- past -->
-	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
-	      </test>
-	  <let><clip pos="1" side="tl" part="lemma"/><lit v="didn't have"/></let>
-	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
-	      <let>
+            <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pii"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="lemma"/><lit v="didn't have"/></let>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+          <let>
             <clip pos="1" side="tl" part="whole"/>
             <concat>
-	          <clip pos="1" side="tl" part="lemh"/>
-	          <clip pos="1" side="tl" part="a_vb"/>
-	          <clip pos="1" side="tl" part="tns"/>
-	          <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </concat>
           </let>
-	    </when>
+        </when>
         <when>
           <test> <!-- participle -->
-	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
-	      </test>
-	  <let><clip pos="1" side="tl" part="lemma"/><lit v="didn't have"/></let>
-	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
-	      <let>
+            <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="lemma"/><lit v="didn't have"/></let>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+          <let>
             <clip pos="1" side="tl" part="whole"/>
             <concat>
-	          <clip pos="1" side="tl" part="lemh"/>
-	          <clip pos="1" side="tl" part="a_vb"/>
-	          <clip pos="1" side="tl" part="tns"/>
-	          <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </concat>
           </let>
-	    </when>
+        </when>
         <when>
           <test> <!-- present participle -->
-	        <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pprs"/></equal>
-	      </test>
-	  <let><clip pos="1" side="tl" part="lemma"/><lit v="not having"/></let>
-	  <let><clip pos="1" side="tl" part="tns"/><lit-tag v="ger"/></let>
-	      <let>
+            <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="pprs"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="lemma"/><lit v="not having"/></let>
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="ger"/></let>
+          <let>
             <clip pos="1" side="tl" part="whole"/>
             <concat>
-	          <clip pos="1" side="tl" part="lemh"/>
-	          <clip pos="1" side="tl" part="a_vb"/>
-	          <clip pos="1" side="tl" part="tns"/>
-	          <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </concat>
           </let>
-	    </when>
-    <otherwise>
-      <let>
-	<clip pos="1" side="tl" part="whole"/>
-	<concat>
-	  <clip pos="1" side="tl" part="lemh"/>
-	  <clip pos="1" side="tl" part="a_vb"/>
-	  <clip pos="1" side="tl" part="lemq"/>
-	</concat>
-      </let>
-      </otherwise>
+        </when>
+        <otherwise>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </otherwise>
       </choose>
     </def-macro>
 
@@ -1958,15 +2030,15 @@
 
     <!-- Temporary adapter for numbers
     <def-macro n="num_adapter" npar="1">
-	  <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.sg"/></let>
+      <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.sg"/></let>
       <let>
-	<clip pos="1" side="tl" part="whole"/>
-	<concat>
-	  <clip pos="1" side="tl" part="lemh"/>
-	  <clip pos="1" side="tl" part="a_num"/>
-	  <clip pos="1" side="tl" part="nbr"/>
-	  <clip pos="1" side="tl" part="lemq"/>
-	</concat>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_num"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </concat>
       </let>
     </def-macro> -->
 
@@ -2216,7 +2288,7 @@
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
-	        <b/>
+            <b/>
             <lu>
               <lit v="thing"/>
               <lit-tag v="n"/>
@@ -2275,11 +2347,11 @@
           <chunk name="adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="AdjP"/></tag>
-          </tags>            
+            </tags>            
             <lu>
-                <lit v="the"/>
-                <lit-tag v="det.def"/>
-                <clip pos="1" side="sl" part="nbr"/>
+              <lit v="the"/>
+              <lit-tag v="det.def"/>
+              <clip pos="1" side="sl" part="nbr"/>
             </lu>
             <b/>
             <lu>
@@ -2415,13 +2487,13 @@
             </tags>
 	    <lu>
 	      <clip pos="2" side="tl" part="lemh"/>
-          <lit-tag v="n.sg"/>
+              <lit-tag v="n.sg"/>
 	    </lu>
-        <b pos="1"/>
+            <b pos="1"/>
 	    <lu>
 	      <clip pos="1" side="tl" part="whole"/>
-          <lit-tag v="ord.sg"/>
-        </lu>
+              <lit-tag v="ord.sg"/>
+            </lu>
           </chunk>
         </out>
       </action>
@@ -2574,7 +2646,7 @@
             <tags>
               <tag><lit-tag v="PP"/></tag>
             </tags>
-<!--            <lu>
+<!--        <lu>
               <lit v="of"/>
               <lit-tag v="pr"/>
             </lu>
@@ -2640,7 +2712,7 @@
       <action>
 	<call-macro n="num_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
-<!-        <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.sg"/></let> ->
+<!-     <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.sg"/></let> ->
         <out>
           <chunk name="num_nom" case="caseFirstWord">
             <tags>
@@ -2784,9 +2856,9 @@
 	      <clip pos="1" side="tl" part="whole"/>
             </lu>
 	    <b pos="1"/>
-	        <lu>
+            <lu>
 	      <clip pos="3" side="tl" part="whole"/>
-	        </lu>
+            </lu>
 	    <b pos="2"/>
             <lu>
 	      <clip pos="4" side="tl" part="whole"/>
@@ -2817,9 +2889,9 @@
 	      <clip pos="1" side="tl" part="whole"/>
             </lu>
 	    <b pos="1"/>
-	        <lu>
+            <lu>
 	      <clip pos="3" side="tl" part="whole"/>
-	        </lu>
+            </lu>
 	    <b pos="2"/>
             <lu>
 	      <clip pos="4" side="tl" part="whole"/>
@@ -2844,10 +2916,10 @@
 	    <test>
 	      <equal><clip pos="3" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
 	    </test>
-	<call-macro n="np_adapter"><with-param pos="3"/></call-macro>
+            <call-macro n="np_adapter"><with-param pos="3"/></call-macro>
 	  </when>
 	  <otherwise>
-	<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+            <call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
 	  </otherwise>
 	</choose>
         <out>
@@ -2903,17 +2975,17 @@
 	      </get-case-from>
               <lit-tag v="pr"/>
             </lu>
-	      <b/>
+            <b/>
             <lu>
 	      <get-case-from pos ="2">
               <clip pos="1" side="tl" part="whole"/>
 	      </get-case-from>
             </lu>
-	      <b pos="1"/>
+            <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="whole"/>
             </lu>
-	      <b pos="2"/>
+            <b pos="2"/>
             <lu>
               <clip pos="3" side="tl" part="whole"/>
             </lu>
@@ -2944,32 +3016,32 @@
 	      </get-case-from>
               <lit-tag v="pr"/>
             </lu>
-	      <b/>
+            <b/>
             <lu>
               <lit v="the"/>
               <lit-tag v="det.def.sg"/>
             </lu>
-	      <b/>
+            <b/>
             <lu>
 	      <get-case-from pos ="2">
               <clip pos="1" side="tl" part="whole"/>
 	      </get-case-from>
             </lu>
-	      <b pos="1"/>
+            <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="whole"/>
             </lu>
-	      <b pos="2"/>
+            <b pos="2"/>
             <lu>
               <lit v="of"/>
               <lit-tag v="pr"/>
             </lu>
-	      <b/>
+            <b/>
             <lu>
               <lit v="the"/>
               <lit-tag v="det.def.sg"/>
             </lu>
-	      <b/>
+            <b/>
             <lu>
               <clip pos="3" side="tl" part="whole"/>
             </lu>
@@ -3032,24 +3104,24 @@
             <tags>
               <tag><lit-tag v="SN"/></tag>
             </tags>
-<!--            <lu>
+<!--        <lu>
               <lit v="the"/>
               <lit-tag v="det.def.sg"/>
             </lu>
-	      <b/> -->
+            <b/> -->
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
-	      <b pos="1"/>
+            <b pos="1"/>
             <lu>
               <lit v="of"/>
               <lit-tag v="pr"/>
             </lu>
-	      <b/>
+            <b/>
             <lu>
               <clip pos="2" side="tl" part="whole"/>
             </lu>
-	      <b pos="2"/>
+            <b pos="2"/>
             <lu>
               <clip pos="3" side="tl" part="whole"/>
             </lu>
@@ -3077,16 +3149,16 @@
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
-	      <b pos="1"/>
+            <b pos="1"/>
             <lu>
               <lit v="by"/>
               <lit-tag v="pr"/>
             </lu>
-	      <b/>
+            <b/>
             <lu>
               <clip pos="2" side="tl" part="whole"/>
             </lu>
-	      <b pos="2"/>
+            <b pos="2"/>
             <lu>
               <clip pos="3" side="tl" part="whole"/>
             </lu>
@@ -3156,7 +3228,7 @@
             <lu>
 	      <clip pos="1" side="tl" part="whole"/>
             </lu>
-	      <b pos="1"/>
+            <b pos="1"/>
             <lu>
 	      <clip pos="3" side="tl" part="whole"/>
             </lu>
@@ -3186,15 +3258,15 @@
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
-	      <b pos="1"/>
+            <b pos="1"/>
             <lu>
               <clip pos="4" side="tl" part="whole"/>
             </lu>
-	      <b pos="2"/>
+            <b pos="2"/>
             <lu>
               <clip pos="3" side="tl" part="whole"/>
             </lu>
-	      <b pos="3"/>
+            <b pos="3"/>
             <lu>
               <clip pos="5" side="tl" part="whole"/>
             </lu>
@@ -3230,40 +3302,40 @@
             <lu>
               <clip pos="2" side="tl" part="whole"/>
             </lu>
-	      <b pos="1"/>
+            <b pos="1"/>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
-	      <b pos="2"/>
+            <b pos="2"/>
             <lu>
               <clip pos="3" side="tl" part="whole"/>
               <lit-tag v="preadv"/>
             </lu>
-	      <b pos="3"/>
+            <b pos="3"/>
             <lu>
               <clip pos="4" side="tl" part="whole"/>
             </lu>
-	      <b pos="4"/>
+            <b pos="4"/>
             <lu>
               <clip pos="5" side="tl" part="whole"/>
             </lu>
-	      <b pos="5"/>
+            <b pos="5"/>
             <lu>
               <clip pos="6" side="tl" part="whole"/>
             </lu>
-	      <b pos="6"/>
+            <b pos="6"/>
             <lu>
               <clip pos="7" side="tl" part="whole"/>
             </lu>
-	      <b pos="7"/>
+            <b pos="7"/>
             <lu>
               <clip pos="8" side="tl" part="whole"/>
             </lu>
-	      <b pos="8"/>
+            <b pos="8"/>
             <lu>
               <clip pos="9" side="tl" part="whole"/>
             </lu>
-	      <b/>
+            <b/>
             <lu>
               <lit v="also"/>
               <lit-tag v="adv"/>
@@ -3294,12 +3366,12 @@
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
-	      <b pos="1"/>
+            <b pos="1"/>
             <lu>
               <lit v="nothing"/>
               <lit-tag v="prn.ind.mf.sg"/>
             </lu>
-	      <b/>
+            <b/>
             <lu>
               <lit v="be"/>
               <lit-tag v="vbser"/>
@@ -3307,11 +3379,11 @@
               <clip pos="6" side="tl" part="prs"/>
               <clip pos="6" side="tl" part="nbr"/>
             </lu>
-	      <b/>
+            <b/>
             <lu>
               <clip pos="4" side="tl" part="whole"/>
             </lu>
-	      <b pos="2"/>
+            <b pos="2"/>
             <lu>
               <clip pos="6" side="tl" part="whole"/>
             </lu>
@@ -3362,7 +3434,7 @@
             <lu>
               <clip pos="2" side="tl" part="whole"/>
             </lu>
-	      <b pos="1"/>
+            <b pos="1"/>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
