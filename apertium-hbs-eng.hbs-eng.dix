@@ -99,6 +99,10 @@
 
    <section id="main" type="standard">
 
+    <!-- testvoc particles -->
+
+    <e><p><l>naravno<s n="part"/></l><r>of<b/>course<s n="adv"/></r></p></e>
+
     <!-- testvoc lexical verbs -->
 
     <e><p><l>prihvaćati<s n="vblex"/></l><r>accept<s n="vblex"/></r></p></e>
@@ -7148,6 +7152,9 @@
 
     <!-- testvoc adverbs -->
 
+    <e><p><l>još<s n="adv"/></l><r>also<s n="adv"/></r></p></e>
+    <e><p><l>širom<s n="adv"/></l><r>throughout<s n="adv"/></r></p></e>
+    <e><p><l>čak<s n="adv"/></l><r>even<s n="adv"/></r></p></e>
     <e><p><l>divlje<s n="adv"/></l><r>wildly<s n="adv"/></r></p></e>
     <e><p><l>rano<s n="adv"/></l><r>early<s n="adv"/></r></p></e>
     <e><p><l>koliko<b/>puta<s n="adv"/></l><r>how<b/>many<b/>times<s n="adv"/></r></p></e>
@@ -7607,6 +7614,33 @@
     <e><p><l>odsutno<s n="adv"/></l><r>distantly<s n="adv"/></r></p></e>
     <e><p><l>zarazno<s n="adv"/></l><r>contagiously<s n="adv"/></r></p></e>
     <e><p><l>osebujno<s n="adv"/></l><r>distinctively<s n="adv"/></r></p></e>
+
+    <e><p><l>točnije<s n="adv"/></l><r>more<b/>precisely<s n="adv"/></r></p></e>
+    <e><p><l>još<b/>uvijek<s n="adv"/></l><r>still<s n="adv"/></r></p></e>
+    <e><p><l>četiri<b/>puta<s n="adv"/></l><r>four<b/>times<s n="adv"/></r></p></e>
+    <e><p><l>šest<b/>puta<s n="adv"/></l><r>six<b/>times<s n="adv"/></r></p></e>
+    <e><p><l>odveć<s n="adv"/></l><r>too<s n="adv"/></r></p></e>
+    <e><p><l>odsto<s n="adv"/></l><r>percent<s n="adv"/></r></p></e>
+    <e><p><l>onlajn<s n="adv"/></l><r>online<s n="adv"/></r></p></e>
+    <e><p><l>online<s n="adv"/></l><r>online<s n="adv"/></r></p></e>
+    <e><p><l>po<b/>redu<s n="adv"/></l><r>in<b/>line<s n="adv"/></r></p></e>
+    <e><p><l>tokom<s n="adv"/></l><r>during<s n="adv"/></r></p></e>
+    <e><p><l>ubuduće<s n="adv"/></l><r>in<b/>the<b/>future<s n="adv"/></r></p></e>
+    <e><p><l>uključujući<s n="adv"/></l><r>including<s n="adv"/></r></p></e>
+    <e><p><l>malo-pomalo<s n="adv"/></l><r>little<b/>by<b/>little<s n="adv"/></r></p></e>
+    <e><p><l>nadvoje-natroje<s n="adv"/></l><r>in<b/>two<b/>or<b/>three<b/>parts<s n="adv"/></r></p></e>
+    <e><p><l>namjesto<s n="adv"/></l><r>instead<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>sutradan<s n="adv"/></l><r>tomorrow<s n="adv"/></r></p></e>
+    <e><p><l>više<b/>njih<s n="adv"/></l><r>several<b/>of<s n="adv"/></r></p></e>
+    <e><p><l>što<b/>prije<s n="adv"/></l><r>as<b/>soon<b/>as<b/>possible<s n="adv"/></r></p></e>
+    <e><p><l>čim<b/>više<s n="adv"/></l><r>all<b/>the<b/>more<s n="adv"/></r></p></e>
+    <e><p><l>zadovoljavajuće<s n="adv"/></l><r>satisfactorily<s n="adv"/></r></p></e>
+    <e><p><l>četvrti<b/>put<s n="adv"/></l><r>fourth<b/>time<s n="adv"/></r></p></e>
+    <e><p><l>čarobno<s n="adv"/></l><r>magically<s n="adv"/></r></p></e>
+    <e><p><l>čipkasto<s n="adv"/></l><r>lacy<s n="adj"/></r></p></e>
+    <e><p><l>čitljivo<s n="adv"/></l><r>intelligibly<s n="adv"/></r></p></e>
+    <e><p><l>čučečke<s n="adv"/></l><r>while<b/>squatting<s n="adv"/></r></p></e>
+    <e><p><l>ćuteći<s n="adv"/></l><r>silently<s n="adv"/></r></p></e>
 
     <!-- testvoc numbers -->
 
@@ -16309,8 +16343,8 @@
 
     <e><p><l>se<s n="ref"/></l><r><s n="ref"/></r></p></e>
 
-    <e><p><l>no<s n="part"/></l><r>but<s n="part"/></r></p></e>
-    <e><p><l>i<s n="part"/></l><r>also<s n="part"/></r></p></e>
+    <e><p><l>no<s n="part"/></l><r>but<s n="cnjcoo"/></r></p></e>
+    <e><p><l>i<s n="part"/></l><r>also<s n="adv"/></r></p></e>
 
     <!-- PREPOSITIONS -->
 

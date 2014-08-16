@@ -82,6 +82,11 @@
       <cat-item tags="part.*"/>
     </def-cat>
 
+    <def-cat n="ij">
+      <cat-item tags="ij"/>
+      <cat-item tags="ij.*"/>
+    </def-cat>
+
     <def-cat n="abbr">
       <cat-item tags="abbr"/>
       <cat-item tags="abbr.*"/>
@@ -130,6 +135,10 @@
 
     <def-cat n="ne">
       <cat-item lemma="ne" tags="part.neg"/>
+    </def-cat>
+
+    <def-cat n="li">
+      <cat-item lemma="li" tags="part.itg"/>
     </def-cat>
 
     <def-cat n="ništa">
@@ -338,6 +347,15 @@
     <def-attr n="a_part">
       <attr-item tags="part"/>
       <attr-item tags="part.neg"/>
+    </def-attr>
+
+    <def-attr n="a_ij">
+      <attr-item tags="ij"/>
+    </def-attr>
+
+    <def-attr n="a_cnj">
+      <attr-item tags="cnjcoo"/>
+      <attr-item tags="cnjsub"/>
     </def-attr>
 
     <def-attr n="a_typ">
@@ -2310,7 +2328,7 @@
     <!-- Adapter for particles -->
     <def-macro n="part_adapter" npar="1">
       <choose>
-        <when>
+        <when> <!-- part.neg to adv -->
           <test>
             <and>
               <equal><clip pos="1" side="sl" part="lemma"/><lit v="ni"/></equal>
@@ -2323,6 +2341,48 @@
             <concat>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_adv"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <when> <!-- part to adv -->
+          <test>
+            <equal><clip pos="1" side="tl" part="a_adv"/><lit-tag v="adv"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_adv"/><lit-tag v="adv"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_adv"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <when> <!-- part to ij -->
+          <test>
+            <equal><clip pos="1" side="tl" part="a_ij"/><lit-tag v="ij"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_ij"/><lit-tag v="ij"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_ij"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
+        <when> <!-- part to cnjcoo -->
+          <test>
+            <equal><clip pos="1" side="tl" part="a_cnj"/><lit-tag v="cnjcoo"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_cnj"/><lit-tag v="cnjcoo"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_cnj"/>
               <clip pos="1" side="tl" part="lemq"/>
             </concat>
           </let>
@@ -2356,6 +2416,47 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- želiš li -->
+    <rule comment="vb_li">
+      <pattern>
+	<pattern-item n="vb"/>
+	<pattern-item n="li"/>
+      </pattern>      
+      <action>
+	<call-macro n="vb_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="vb_li" case="variableCase">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+	      <get-case-from pos ="1">
+              <lit v="do"/>
+	      </get-case-from>
+              <lit-tag v="vbdo"/>
+              <clip pos="1" side="sl" part="tns"/>
+              <clip pos="1" side="sl" part="gndr"/>
+            </lu>
+	    <b/>
+<!--TODO:   <lu>
+              <lit v="prpers"/>
+              <lit-tag v="prn.subj"/>
+              <clip pos="1" side="sl" part="prs"/>
+              <clip pos="1" side="sl" part="gndr"/>
+              <clip pos="1" side="sl" part="nbr"/>
+            </lu>
+	    <b/> -->
+            <lu>
+	      <get-case-from pos ="2">
+              <clip pos="1" side="tl" part="whole"/>
+	      </get-case-from>
             </lu>
           </chunk>
         </out>
@@ -2653,6 +2754,25 @@
           <chunk name="num" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="NUM"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="part">
+      <pattern>
+	<pattern-item n="part"/>
+      </pattern>      
+      <action>
+	<call-macro n="part_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="part" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PART"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>

@@ -3005,7 +3005,9 @@
     <e lm="as much"><i>as<b/>much</i><par n="maybe__adv"/></e>
     <e lm="any time"><i>any<b/>time</i><par n="maybe__adv"/></e>
     <e lm="next time"><i>next<b/>time</i><par n="maybe__adv"/></e>
+    <e lm="four times"><i>four<b/>times</i><par n="maybe__adv"/></e>
     <e lm="five times"><i>five<b/>times</i><par n="maybe__adv"/></e>
+    <e lm="six times"><i>six<b/>times</i><par n="maybe__adv"/></e>
     <e lm="seven times"><i>seven<b/>times</i><par n="maybe__adv"/></e>
     <e lm="eight times"><i>eight<b/>times</i><par n="maybe__adv"/></e>
     <e lm="nine times"><i>nine<b/>times</i><par n="maybe__adv"/></e>
@@ -3029,6 +3031,13 @@
     <e lm="some other time"><i>some<b/>other<b/>time</i><par n="maybe__adv"/></e>
     <e lm="as many"><i>as<b/>many</i><par n="maybe__adv"/></e>
     <e lm="in the mean time"><i>in<b/>the<b/>mean<b/>time</i><par n="maybe__adv"/></e>
+    <e lm="in line"><i>in<b/>line</i><par n="maybe__adv"/></e>
+    <e lm="little by little"><i>little<b/>by<b/>little</i><par n="maybe__adv"/></e>
+    <e lm="as soon as possible"><i>as<b/>soon<b/>as<b/>possible</i><par n="maybe__adv"/></e>
+    <e lm="fourth time"><i>fourth<b/>time</i><par n="maybe__adv"/></e>
+    <e lm="magically"><i>magically</i><par n="maybe__adv"/></e>
+    <e lm="intelligibly"><i>intelligibly</i><par n="maybe__adv"/></e>
+    <e lm="while squatting"><i>while<b/>squatting</i><par n="maybe__adv"/></e>
 
     <!-- testvoc vblex -->
 
@@ -4857,6 +4866,7 @@
 
     <!-- testvoc prepositions -->
 
+    <e lm="instead of"><i>instead<b/>of</i><par n="at__pr"/></e>
     <e lm="close to"><i>close<b/>to</i><par n="at__pr"/></e>
     <e lm="across"><i>across</i><par n="at__pr"/></e>
     <e lm="down"><i>down</i><par n="at__pr"/></e>
@@ -17636,7 +17646,7 @@
     <e lm="brake"><i>brake</i><par n="house__n"/></e>
     <e lm="branch"><i>branch</i><par n="access__n"/></e>
     <e lm="brand"><i>brand</i><par n="house__n"/></e>
-    <e lm="breach"><i>breach</i><par n="house__n"/></e>
+    <e lm="breach"><i>breach</i><par n="access__n"/></e>
     <e lm="bread"><i>bread</i><par n="house__n"/></e>
     <e lm="leaf-bread"><i>leaf-bread</i><par n="house__n"/></e>
     <e lm="break"><i>break</i><par n="house__n"/></e>
@@ -26103,17 +26113,12 @@
     <e lm="DNS"><i>DNS</i><par n="BBC__n"/></e>
     <e lm="DNSR"><i>DNSR</i><par n="BBC__n"/></e>
     <e lm="DO"><i>DO</i><par n="BBC__n"/></e>
-    <e lm="DO"><i>DO</i><par n="BBC__n"/></e>
     <e lm="DO-RITE"><i>DO-RITE</i><par n="BBC__n"/></e>
     <e lm="DOA"><i>DOA</i><par n="BBC__n"/></e>
     <e lm="DOC"><i>DOC</i><par n="BBC__n"/></e>
     <e lm="DOCD"><i>DOCD</i><par n="BBC__n"/></e>
     <e lm="DOCL"><i>DOCL</i><par n="BBC__n"/></e>
     <e lm="DOD"><i>DOD</i><par n="BBC__n"/></e>
-    <e lm="DOD"><i>DOD</i><par n="BBC__n"/></e>
-    <e lm="DOE"><i>DOE</i><par n="BBC__n"/></e>
-    <e lm="DOE"><i>DOE</i><par n="BBC__n"/></e>
-    <e lm="DOE"><i>DOE</i><par n="BBC__n"/></e>
     <e lm="DOE"><i>DOE</i><par n="BBC__n"/></e>
     <e lm="DOE QECPR"><i>DOE QECPR</i><par n="BBC__n"/></e>
     <e lm="DOE-ALO"><i>DOE-ALO</i><par n="BBC__n"/></e>
@@ -44640,7 +44645,6 @@
     <e lm="alone"><i>alone</i><par n="maybe__adv"/></e>
     <e lm="already"><i>already</i><par n="maybe__adv"/></e>
     <e lm="alright"><i>alright</i><par n="maybe__adv"/></e>
-    <e lm="also"><i>also</i><par n="maybe__adv"/></e>
     <e lm="always"><i>always</i><par n="maybe__adv"/></e>
     <e lm="amid a lot of hype"><i>amid<b/>a<b/>lot<b/>of<b/>hype</i><par n="maybe__adv"/></e>
     <e lm="annually"><i>annually</i><par n="maybe__adv"/></e>
