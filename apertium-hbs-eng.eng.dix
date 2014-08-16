@@ -220,7 +220,7 @@
       <e><i>vii</i><par n="numeros_romanos"/></e>
       <e><i>viii</i><par n="numeros_romanos"/></e>
       <e><i>ix</i><par n="numeros_romanos"/></e>
-      <e><i>xx</i><par n="numeros_romanos"/></e>
+      <e><i>x</i><par n="numeros_romanos"/></e>
 
       <e><i>I</i><par n="numeros_romanos"/></e>
       <e><i>II</i><par n="numeros_romanos"/></e>
@@ -231,7 +231,7 @@
       <e><i>VII</i><par n="numeros_romanos"/></e>
       <e><i>VIII</i><par n="numeros_romanos"/></e>
       <e><i>IX</i><par n="numeros_romanos"/></e>
-      <e><i>XX</i><par n="numeros_romanos"/></e>
+      <e><i>X</i><par n="numeros_romanos"/></e>
 
     </pardef>
     
@@ -2681,6 +2681,7 @@
 
     <!-- testvoc adverbs -->
 
+    <e lm="honourably"><i>honourably</i><par n="maybe__adv"/></e>
     <e lm="wildly"><i>wildly</i><par n="maybe__adv"/></e>
     <e lm="early"><i>early</i><par n="maybe__adv"/></e>
     <e lm="hastily"><i>hastily</i><par n="maybe__adv"/></e>
@@ -3311,6 +3312,7 @@
 
     <!-- testvoc nouns -->
 
+    <e lm="pickle"><i>pickle</i><par n="house__n"/></e>
     <e lm="larch"><i>larch</i><par n="access__n"/></e>
     <e lm="groat"><i>groat</i><par n="house__n"/></e>
     <e lm="goulash"><i>goulash</i><par n="staff__n"/></e>
@@ -4238,6 +4240,7 @@
     <e lm="ironed"><i>ironed</i><par n="expensive__adj"/></e>
     <e lm="embellished"><i>embellished</i><par n="expensive__adj"/></e>
     <e lm="coloured"><i>coloured</i><par n="expensive__adj"/></e>
+    <e lm="giro"><i>giro</i><par n="expensive__adj"/></e>
     <e lm="creepy"><i>creep</i><par n="happ/y__adj"/></e>
     <e lm="eerie"><i>eerie</i><par n="expensive__adj"/></e>
     <e lm="spooky"><i>spook</i><par n="happ/y__adj"/></e>
@@ -4405,14 +4408,11 @@
     <e lm="this big"><i>this<b/>big</i><par n="expensive__adj"/></e>
     <e lm="some kind of"><i>some<b/>kind<b/>of</i><par n="expensive__adj"/></e>
     <e lm="Alpine"><i>Alpine</i><par n="expensive__adj"/></e>
-    <e lm="american"><i>american</i><par n="expensive__adj"/></e>
     <e lm="Atlantic"><i>Atlantic</i><par n="expensive__adj"/></e>
     <e lm="Montenegrin"><i>Montenegrin</i><par n="expensive__adj"/></e>
     <e lm="francophone"><i>francophone</i><par n="expensive__adj"/></e>
-    <e lm="Islamist"><i>Islamist</i><par n="expensive__adj"/></e>
     <e lm="South-eastern"><i>South-eastern</i><par n="expensive__adj"/></e>
     <e lm="Libyan"><i>Libyan</i><par n="expensive__adj"/></e>
-    <e lm="Mediterranean"><i>Mediterranean</i><par n="expensive__adj"/></e>
     <e lm="Neolithic"><i>Neolithic</i><par n="expensive__adj"/></e>
     <e lm="candid"><i>candid</i><par n="expensive__adj"/></e>
     <e lm="unlocked"><i>unlocked</i><par n="expensive__adj"/></e>
@@ -34533,12 +34533,9 @@
     <e lm="SNL"><i>SNL</i><par n="BBC__n"/></e>
     <e lm="SNLL"><i>SNLL</i><par n="BBC__n"/></e>
     <e lm="SNM"><i>SNM</i><par n="BBC__n"/></e>
-    <e lm="SNM"><i>SNM</i><par n="BBC__n"/></e>
     <e lm="SNMP"><i>SNMP</i><par n="BBC__n"/></e>
     <e lm="SNOOPY"><i>SNOOPY</i><par n="BBC__n"/></e>
     <e lm="SNPO"><i>SNPO</i><par n="BBC__n"/></e>
-    <e lm="SNR"><i>SNR</i><par n="BBC__n"/></e>
-    <e lm="SNR"><i>SNR</i><par n="BBC__n"/></e>
     <e lm="SNR"><i>SNR</i><par n="BBC__n"/></e>
     <e lm="SNR-I"><i>SNR-I</i><par n="BBC__n"/></e>
     <e lm="SNR-II"><i>SNR-II</i><par n="BBC__n"/></e>
@@ -34546,11 +34543,7 @@
     <e lm="SNS"><i>SNS</i><par n="BBC__n"/></e>
     <e lm="SNUR"><i>SNUR</i><par n="BBC__n"/></e>
     <e lm="SO"><i>SO</i><par n="BBC__n"/></e>
-    <e lm="SO"><i>SO</i><par n="BBC__n"/></e>
-    <e lm="SO"><i>SO</i><par n="BBC__n"/></e>
-    <e lm="SO"><i>SO</i><par n="BBC__n"/></e>
     <e lm="SO TEST"><i>SO TEST</i><par n="BBC__n"/></e>
-    <e lm="SOC"><i>SOC</i><par n="BBC__n"/></e>
     <e lm="SOC"><i>SOC</i><par n="BBC__n"/></e>
     <e lm="SOCC"><i>SOCC</i><par n="BBC__n"/></e>
     <e lm="SOCCS"><i>SOCCS</i><par n="BBC__n"/></e>
@@ -40132,7 +40125,6 @@
     <e lm="social-democratic"><i>social-democratic</i><par n="expensive__adj"/></e>
     <e lm="software"><i>software</i><par n="expensive__adj"/></e>
     <e lm="solo"><i>solo</i><par n="expensive__adj"/></e>
-    <e lm="south-eastern"><i>south-eastern</i><par n="expensive__adj"/></e>
     <e lm="sponsored"><i>sponsored</i><par n="expensive__adj"/></e>
     <e lm="spring"><i>spring</i><par n="expensive__adj"/></e>
     <e lm="spy"><i>spy</i><par n="expensive__adj"/></e>
@@ -45082,8 +45074,6 @@
     <e lm="objectively"><i>objectively</i><par n="maybe__adv"/></e>
     <e lm="obviously"><i>obviously</i><par n="maybe__adv"/></e>
     <e lm="occasionally"><i>occasionally</i><par n="maybe__adv"/></e>
-    <e lm="of course"><i>of<b/>course</i><par n="maybe__adv"/></e>
-    <e lm="of course"><i>of<b/>course</i><par n="maybe__adv"/></e>
     <e lm="of course"><i>of<b/>course</i><par n="maybe__adv"/></e>
     <e lm="of like mind"><i>of<b/>like<b/>mind</i><par n="maybe__adv"/></e>
     <e lm="off"><i>off</i><par n="maybe__adv"/></e>
@@ -65174,7 +65164,6 @@
 	<e lm="Guido"><i>Guido</i><par n="Mark__np"/></e>
 	<e lm="Locher"><i>Locher</i><par n="Smith__np"/></e>
 	<e lm="Stein"><i>Stein</i><par n="Smith__np"/></e>
-	<e lm="Mediterranean"><i>Mediterranean</i><par n="Linux__np"/></e>
 	<e lm="Abu"><i>Abu</i><par n="United_States__np"/></e>
 	<e lm="Aktar"><i>Aktar</i><par n="Mark__np"/></e>
 	<e lm="Artan"><i>Artan</i><par n="Mark__np"/></e>

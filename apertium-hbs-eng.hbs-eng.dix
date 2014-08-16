@@ -102,6 +102,24 @@
     <!-- testvoc particles -->
 
     <e><p><l>naravno<s n="part"/></l><r>of<b/>course<s n="adv"/></r></p></e>
+    <e><p><l>eno<s n="part"/></l><r>there<s n="ij"/></r></p></e>
+    <e><p><l>opet<s n="part"/></l><r>again<s n="adv"/></r></p></e>
+    <e><p><l>čak<s n="part"/></l><r>even<s n="adv"/></r></p></e>
+    <e><p><l>jedino<s n="part"/></l><r>only<s n="adv"/></r></p></e>
+    <e><p><l>tako<s n="part"/></l><r>like<b/>that<s n="adv"/></r></p></e>
+    <e><p><l>vjerojatno<s n="part"/></l><r>probably<s n="adv"/></r></p></e>
+    <e><p><l>nažalost<s n="part"/></l><r>unfortunately<s n="adv"/></r></p></e>
+    <e><p><l>inače<s n="part"/></l><r>otherwise<s n="adv"/></r></p></e>
+    <e><p><l>baš<s n="part"/></l><r>right<s n="adv"/></r></p></e>
+    <e><p><l>zapravo<s n="part"/></l><r>actually<s n="adv"/></r></p></e>
+    <e><p><l>tek<s n="part"/></l><r>just<s n="adv"/></r></p></e>
+    <e><p><l>niti<s n="part"/></l><r>not<b/>even<s n="adv"/></r></p></e>
+    <e><p><l>osobito<s n="part"/></l><r>especially<s n="adv"/></r></p></e>
+    <e><p><l>jedva<s n="part"/></l><r>barely<s n="adv"/></r></p></e>
+    <e><p><l>skoro<s n="part"/></l><r>almost<s n="adv"/></r></p></e>
+    <e><p><l>dakle<s n="part"/></l><r>so<s n="cnjadv"/></r></p></e>
+    <e><p><l>svakako<s n="part"/></l><r>of<b/>course<s n="adv"/></r></p></e>
+    <e><p><l>možda<s n="part"/></l><r>maybe<s n="adv"/></r></p></e>
 
     <!-- testvoc lexical verbs -->
 
@@ -2027,6 +2045,7 @@
     <e><p><l>krastavac<s n="n"/></l><r>cucumber<s n="n"/></r></p></e>
     <e><p><l>puzavac<s n="n"/></l><r>creeper<s n="n"/></r></p></e>
     <e><p><l>suzavac<s n="n"/></l><r>pepper<b/>spray<s n="n"/></r></p></e>
+    <e><p><l>škripac<s n="n"/></l><r>pickle<s n="n"/></r></p></e>
     <e><p><l>stupac<s n="n"/></l><r>column<s n="n"/></r></p></e>
     <e><p><l>udarac<s n="n"/></l><r>hit<s n="n"/></r></p></e>
     <e><p><l>lonac<s n="n"/></l><r>pot<s n="n"/></r></p></e>
@@ -4234,6 +4253,8 @@
     <e><p><l>uključenje<s n="n"/></l><r>inclusion<s n="n"/></r></p></e>
     <e><p><l>suodlučivanje<s n="n"/></l><r>co-decision<s n="n"/></r></p></e>
     <e><p><l>uzgoj<g><b/>riba</g><s n="n"/></l><r>fish<b/>farming<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>živac<s n="n"/></l><r>nerve<s n="n"/></r></p></e>
+    <e><p><l>marš<s n="n"/></l><r>march<s n="n"/></r></p></e>
 
     <!-- testvoc adjectives -->
 
@@ -4260,6 +4281,7 @@
     <e><p><l>gorak<s n="adj"/></l><r>bitter<s n="adj"/></r></p></e>
     <e><p><l>žarak<s n="adj"/></l><r>bright<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>žarak<s n="adj"/></l><r>fervent<s n="adj"/></r></p></e>
+    <e><p><l>žiro<s n="adj"/></l><r>giro<s n="adj"/></r></p></e>
     <e><p><l>krepak<s n="adj"/></l><r>racy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>krepak<s n="adj"/></l><r>strapping<s n="adj"/></r></p></e>
     <e><p><l>krotak<s n="adj"/></l><r>meek<s n="adj"/><s n="sint"/></r></p></e>
@@ -6800,14 +6822,22 @@
     <e><p><l>Dragutin<s n="np"/></l><r>Dragutin<s n="np"/></r></p></e>
     <e><p><l>Hrvatska<s n="np"/></l><r>Croatia<s n="np"/></r></p></e>
     <e><p><l>Mađarska<s n="np"/></l><r>Hungary<s n="np"/></r></p></e>
+    <e><p><l>Češka<s n="np"/></l><r>Czech<b/>Republic<s n="np"/></r></p></e>
+    <e><p><l>Štajerska<s n="np"/></l><r>Styria<s n="np"/></r></p></e>
+    <e><p><l>Škotska<s n="np"/></l><r>Scotland<s n="np"/></r></p></e>
     <e><p><l>Danska<s n="np"/></l><r>Denmark<s n="np"/></r></p></e>
     <e><p><l>Irska<s n="np"/></l><r>Ireland<s n="np"/></r></p></e>
     <e><p><l>Moravska<s n="np"/></l><r>Moravia<s n="np"/></r></p></e>
     <e><p><l>Koruška<s n="np"/></l><r>Carinthia<s n="np"/></r></p></e>
     <e><p><l>Turska<s n="np"/></l><r>Turkey<s n="np"/></r></p></e>
     <e><p><l>Bugarska<s n="np"/></l><r>Bulgaria<s n="np"/></r></p></e>
+    <e><p><l>Finska<s n="np"/></l><r>Finland<s n="np"/></r></p></e>
     <e><p><l>Francuska<s n="np"/></l><r>France<s n="np"/></r></p></e>
+    <e><p><l>Švedska<s n="np"/></l><r>Sweden<s n="np"/></r></p></e>
     <e><p><l>Španija<s n="np"/></l><r>Spain<s n="np"/></r></p></e>
+    <e><p><l>Španjolska<s n="np"/></l><r>Spain<s n="np"/></r></p></e>
+    <e><p><l>Švicarska<s n="np"/></l><r>Switzerland<s n="np"/></r></p></e>
+    <e><p><l>Švajcarska<s n="np"/></l><r>Switzerland<s n="np"/></r></p></e>
     <e><p><l>Srbija<s n="np"/></l><r>Serbia<s n="np"/></r></p></e>
     <e><p><l>Viktorija<s n="np"/></l><r>Viktorija<s n="np"/></r></p></e>
     <e><p><l>Viktorija<s n="np"/></l><r>Victoria<s n="np"/></r></p></e>
@@ -6848,6 +6878,7 @@
     <e><p><l>Slavonija<s n="np"/></l><r>Slavonia<s n="np"/></r></p></e>
     <e><p><l>Bosna<s n="np"/></l><r>Bosnia<s n="np"/></r></p></e>
     <e><p><l>Malta<s n="np"/></l><r>Malta<s n="np"/></r></p></e>
+    <e><p><l>Pula<s n="np"/></l><r>Pula<s n="np"/></r></p></e>
     <e><p><l>Šandalja<s n="np"/></l><r>Šandalja<s n="np"/></r></p></e>
     <e><p><l>Šandalja<s n="np"/></l><r>San<b/>Daniele<s n="np"/></r></p></e>
     <e><p><l>Krapina<s n="np"/></l><r>Krapina<s n="np"/></r></p></e>
@@ -7152,6 +7183,7 @@
 
     <!-- testvoc adverbs -->
 
+    <e><p><l>baš<s n="adv"/></l><r>right<s n="adv"/></r></p></e>
     <e><p><l>još<s n="adv"/></l><r>also<s n="adv"/></r></p></e>
     <e><p><l>širom<s n="adv"/></l><r>throughout<s n="adv"/></r></p></e>
     <e><p><l>čak<s n="adv"/></l><r>even<s n="adv"/></r></p></e>
@@ -7223,6 +7255,7 @@
     <e><p><l>odobravajući<s n="adv"/></l><r>approve<s n="vblex"/><s n="pprs"/></r></p></e>
     <e><p><l>održavajući<s n="adv"/></l><r>maintain<s n="vblex"/><s n="pprs"/></r></p></e>
     <e><p><l>počasno<s n="adv"/></l><r>honorary<s n="adj"/></r></p></e>
+    <e><p><l>časno<s n="adv"/></l><r>honourably<s n="adj"/></r></p></e>
     <e><p><l>podsjećajući<s n="adv"/></l><r>remind<s n="vblex"/><s n="pprs"/></r></p></e>
     <e><p><l>pod<b/>uvjetom<s n="adv"/></l><r>provided<s n="cnjadv"/></r></p></e>
     <e><p><l>ponižavajući<s n="adv"/></l><r>humiliate<s n="vblex"/><s n="pprs"/></r></p></e>
@@ -7636,6 +7669,7 @@
     <e><p><l>čim<b/>više<s n="adv"/></l><r>all<b/>the<b/>more<s n="adv"/></r></p></e>
     <e><p><l>zadovoljavajuće<s n="adv"/></l><r>satisfactorily<s n="adv"/></r></p></e>
     <e><p><l>četvrti<b/>put<s n="adv"/></l><r>fourth<b/>time<s n="adv"/></r></p></e>
+    <e><p><l>četvrti<b/>puta<s n="adv"/></l><r>fourth<b/>time<s n="adv"/></r></p></e>
     <e><p><l>čarobno<s n="adv"/></l><r>magically<s n="adv"/></r></p></e>
     <e><p><l>čipkasto<s n="adv"/></l><r>lacy<s n="adj"/></r></p></e>
     <e><p><l>čitljivo<s n="adv"/></l><r>intelligibly<s n="adv"/></r></p></e>
@@ -7949,6 +7983,7 @@
 
     <!-- testvoc abbrevations -->
 
+    <e><p><l>NEK<s n="abbr"/></l><r>NEK<s n="abbr"/></r></p></e>
     <e><p><l>NATO<s n="abbr"/></l><r>NATO<s n="abbr"/></r></p></e>
     <e><p><l>SAD<s n="abbr"/></l><r>USA<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>UNMIK<s n="abbr"/></l><r>UNMIK<s n="abbr"/></r></p></e>
@@ -8145,6 +8180,10 @@
     <e><p><l>onkraj<s n="pr"/></l><r>close<b/>to<s n="pr"/></r></p></e>
     <e><p><l>na<b/>kraju<s n="pr"/></l><r>in<b/>the<b/>end<s n="pr"/></r></p></e>
     <e><p><l>na<b/>kraju<s n="pr"/></l><r>at<b/>the<b/>end<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>unatoč<s n="pr"/></l><r>despite<s n="pr"/></r></p></e>
+    <e><p><l>duž<s n="pr"/></l><r>along<s n="pr"/></r></p></e>
+    <e><p><l>uzduž<s n="pr"/></l><r>along<s n="pr"/></r></p></e>
+    <e><p><l>na<b/>koncu<s n="pr"/></l><r>in<b/>the<b/>end<s n="pr"/></r></p></e>
 
     <!-- testvoc interjections -->
 
@@ -8233,6 +8272,7 @@
     <e><p><l>ako<b/>je<s n="cnjsub"/></l><r>if<s n="cnjsub"/></r></p></e>
     <e><p><l>mada<b/>i<s n="cnjsub"/></l><r>even<b/>though<s n="cnjadv"/></r></p></e>
     <e><p><l>kao<b/>i<s n="cnjsub"/></l><r>just<b/>like<s n="cnjadv"/></r></p></e>
+    <e><p><l>čim<s n="cnjsub"/></l><r>as<b/>soon<b/>as<s n="adv"/></r></p></e>
 
     <!-- testvoc coordinating conjunctions -->
 
@@ -14480,11 +14520,11 @@
     <e><p><l>jutarnji<s n="adj"/></l><r>morning<s n="adj"/></r></p></e>
     <e><p><l>južni<s n="adj"/></l><r>south<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>južni<s n="adj"/></l><r>southern<s n="adj"/></r></p></e>
-    <e><p><l>južnoafrički<s n="adj"/></l><r>South African<s n="adj"/></r></p></e>
-    <e><p><l>južnoeuropski<s n="adj"/></l><r>South European<s n="adj"/></r></p></e>
-    <e><p><l>južnoevropski<s n="adj"/></l><r>South European<s n="adj"/></r></p></e>
-    <e><p><l>južnokorejski<s n="adj"/></l><r>South Korean<s n="adj"/></r></p></e>
-    <e><p><l>južnoslavenski<s n="adj"/></l><r>South Slavic<s n="adj"/></r></p></e>
+    <e><p><l>južnoafrički<s n="adj"/></l><r>South<b/>African<s n="adj"/></r></p></e>
+    <e><p><l>južnoeuropski<s n="adj"/></l><r>South<b/>European<s n="adj"/></r></p></e>
+    <e><p><l>južnoevropski<s n="adj"/></l><r>South<b/>European<s n="adj"/></r></p></e>
+    <e><p><l>južnokorejski<s n="adj"/></l><r>South<b/>Korean<s n="adj"/></r></p></e>
+    <e><p><l>južnoslavenski<s n="adj"/></l><r>South<b/>Slavic<s n="adj"/></r></p></e>
     <e><p><l>kabelski<s n="adj"/></l><r>Kabul<s n="adj"/></r></p></e>
     <e><p><l>kadrovski<s n="adj"/></l><r>personnel<s n="adj"/></r></p></e>
     <e><p><l>kaligrafski<s n="adj"/></l><r>caligraphic<s n="adj"/></r></p></e>
@@ -16345,6 +16385,7 @@
 
     <e><p><l>no<s n="part"/></l><r>but<s n="cnjcoo"/></r></p></e>
     <e><p><l>i<s n="part"/></l><r>also<s n="adv"/></r></p></e>
+    <e><p><l>li<s n="part"/></l><r>if<s n="adv"/></r></p></e>
 
     <!-- PREPOSITIONS -->
 
@@ -16412,7 +16453,7 @@
     <e><p><l>VII<s n="num"/></l><r>VII<s n="num"/></r></p></e>
     <e><p><l>VIII<s n="num"/></l><r>VIII<s n="num"/></r></p></e>
     <e><p><l>IX<s n="num"/></l><r>IX<s n="num"/></r></p></e>
-    <e><p><l>XX<s n="num"/></l><r>XX<s n="num"/></r></p></e>
+    <e><p><l>X<s n="num"/></l><r>X<s n="num"/></r></p></e>
 
     <e><p><l>i<s n="num"/></l><r>i<s n="num"/></r></p></e>
     <e><p><l>ii<s n="num"/></l><r>ii<s n="num"/></r></p></e>
@@ -16423,7 +16464,7 @@
     <e><p><l>vii<s n="num"/></l><r>vii<s n="num"/></r></p></e>
     <e><p><l>viii<s n="num"/></l><r>viii<s n="num"/></r></p></e>
     <e><p><l>ix<s n="num"/></l><r>ix<s n="num"/></r></p></e>
-    <e><p><l>xx<s n="num"/></l><r>xx<s n="num"/></r></p></e>
+    <e><p><l>x<s n="num"/></l><r>x<s n="num"/></r></p></e>
 
     </section>
 
