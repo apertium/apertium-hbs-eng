@@ -1,4 +1,4 @@
-Ned Kol 17 20:54:03 CEST 2014
+Ned Kol 17 22:35:23 CEST 2014
 ===============================================
 POS	Total	Clean	With @	With #	Clean %
 adj	2281150	 2281150	0	0	100
@@ -17,7 +17,7 @@ rel	739	 739	0	0	100
 vbser	152	 152	0	0	100
 vbhaver	148	 148	0	0	100
 ij	55	 55	0	0	100
-cnjsub	31	 31	0	0	100
+cnjsub	32	 32	0	0	100
 cnjcoo	30	 30	0	0	100
 cnjadv	19	 19	0	0	100
 preadv	3	 3	0	0	100

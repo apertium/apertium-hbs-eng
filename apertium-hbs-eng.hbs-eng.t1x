@@ -3464,7 +3464,17 @@
 	<pattern-item n="vb"/>
       </pattern>      
       <action>
-	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
+            </test>
+	    <call-macro n="np_adapter"><with-param pos="1"/></call-macro>
+          </when>
+          <otherwise>
+	    <call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+          </otherwise>
+        </choose>
 	<call-macro n="adv_adapter"><with-param pos="3"/></call-macro>
 	<call-macro n="vb_adapter"><with-param pos="4"/></call-macro>
         <out>
