@@ -7991,7 +7991,7 @@
     <e><p><l>nečiji<s n="prn"/><s n="ind"/></l><r>someone's<s n="prn"/></r></p></e>
     <e><p><l>kojekakav<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
     <e><p><l>bilo<b/>kakav<s n="prn"/><s n="ind"/></l><r>any<b/>kind<b/>of<s n="pr"/></r></p></e>
-    <e><p><l>ikakav<s n="prn"/><s n="ind"/></l><r>any<s n="det"/></r></p></e>
+    <e><p><l>ikakav<s n="prn"/><s n="ind"/></l><r>any<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
     <e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>some<b/>kind<b/>of<s n="adj"/></r></p></e>
     <e><p><l>poneki<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
@@ -8010,7 +8010,6 @@
     <e><p><l>itko<s n="prn"/><s n="ind"/></l><r>anyone<s n="prn"/></r></p></e>
     <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>somebody<s n="prn"/></r></p></e>
     <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>someone<s n="prn"/></r></p></e>
-    <e><p><l>ikakav<s n="prn"/><s n="ind"/></l><r>any<s n="det"/></r></p></e>
     <e><p><l>tko<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/></r></p></e>
     <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>why<s n="adv"/></r></p></e>
     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>myself<s n="prn"/></r></p></e>
@@ -8658,7 +8657,7 @@
     <e><p><l>iznimka<s n="n"/></l><r>exception<s n="n"/></r></p></e>
     <e><p><l>kratkotrajan<s n="adj"/></l><r>short-term<s n="adj"/></r></p></e>
     <e><p><l>sjetiti<s n="vblex"/></l><r>remember<s n="vblex"/></r></p></e>
-    <e><p><l>svaki<s n="prn"/></l><r>every<s n="det"/></r></p></e>
+    <e><p><l>svaki<s n="prn"/></l><r>every<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>glasovati<s n="vblex"/></l><r>vote<s n="vblex"/></r></p></e>
     <e><p><l>Agence<b/>France<b/>Presse<s n="np"/></l><r>Agence<b/>France<b/>Presse<s n="np"/></r></p></e>
     <e><p><l>umjeren<s n="adj"/></l><r>moderate<s n="adj"/></r></p></e>
@@ -8672,7 +8671,7 @@
     <e><p><l>dovršiti<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
     <e><p><l>uistinu<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
     <e><p><l>tada<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
-    <e><p><l>takav<s n="prn"/></l><r>such<s n="det"/></r></p></e>
+    <e><p><l>takav<s n="prn"/><s n="dem"/></l><r>such<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>razmatrati<s n="vblex"/></l><r>consider<s n="vblex"/></r></p></e>
     <e><p><l>ponovno<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
     <e><p><l>zgroziti<s n="vblex"/></l><r>shudder<s n="vblex"/></r></p></e>

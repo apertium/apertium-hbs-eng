@@ -983,12 +983,7 @@
         </when>
         <when><!-- prn->det: svaki, takav, svakoji, ikakav -->
           <test>
-            <or>
-              <equal><clip pos="1" side="sl" part="lemh"/><lit v="svaki"/></equal>
-              <equal><clip pos="1" side="sl" part="lemh"/><lit v="takav"/></equal>
-              <equal><clip pos="1" side="sl" part="lemh"/><lit v="svakoji"/></equal>
-              <equal><clip pos="1" side="sl" part="lemh"/><lit v="ikakav"/></equal>
-            </or>
+            <equal><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.ind"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.ind"/></let>
           <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
@@ -2678,6 +2673,32 @@
             <tags>
               <tag><lit-tag v="SV"/></tag>
             </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- odgovoran je -->
+    <rule comment="adj_clt">
+      <pattern>
+	<pattern-item n="adj"/>
+	<pattern-item n="vbsclt"/>
+      </pattern>      
+      <action>
+	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="vb_adapter"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="adj_clt" case="variableCase">
+            <tags>
+              <tag><lit-tag v="AdjP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+	    <b pos="1"/>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>

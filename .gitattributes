@@ -43,6 +43,9 @@ texts/eval-translator.txt -text
 texts/final1.eng.txt -text
 texts/final1.hbs-eng.txt -text
 texts/final1.hbs.txt -text
+texts/final2.eng.txt -text
+texts/final2.hbs-eng.txt -text
+texts/final2.hbs.txt -text
 texts/midterm1.eng.txt -text
 texts/midterm1.hbs-eng.txt -text
 texts/midterm1.hbs.txt -text
