@@ -7967,50 +7967,50 @@
 
     <!-- testvoc pronouns -->
 
-    <e><p><l>oboje<s n="prn"/><s n="tot"/></l><r>both<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>oboje<s n="prn"/><s n="tot"/></l><r>both<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>onolik<s n="prn"/><s n="dem"/></l><r>that<b/>big<s n="adj"/></r></p></e>
-    <e><p><l>onolik<s n="prn"/><s n="dem"/><s n="nt"/></l><r>as<b/>much<s n="det"/></r></p></e>
+    <e><p><l>onolik<s n="prn"/><s n="dem"/><s n="nt"/></l><r>as<b/>much<s n="det"/><s n="qnt"/><s n="sg"/></r></p></e>
     <e><p><l>onakav<s n="prn"/><s n="dem"/></l><r>that<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>tolik<s n="prn"/><s n="dem"/></l><r>this<b/>big<s n="adj"/></r></p></e>
-    <e><p><l>tolik<s n="prn"/><s n="dem"/></l><r>such<s n="det"/></r></p></e>
+    <e><p><l>tolik<s n="prn"/><s n="dem"/></l><r>such<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
     <e><p><l>ovolik<s n="prn"/><s n="dem"/></l><r>this<b/>big<s n="adj"/></r></p></e>
     <e><p><l>ovakav<s n="prn"/><s n="dem"/></l><r>this<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>svakoliki<s n="prn"/><s n="tot"/></l><r>all<b/>kinds<b/>of<s n="pr"/></r></p></e>
     <e><p><l>svačiji<s n="prn"/><s n="tot"/></l><r>everyone's<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>svakakav<s n="prn"/><s n="tot"/></l><r>all<b/>kinds<b/>of<s n="pr"/></r></p></e>
-    <e><p><l>svakoji<s n="prn"/><s n="tot"/></l><r>every<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>svakoji<s n="prn"/><s n="tot"/></l><r>every<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
     <e><p><l>svašta<s n="prn"/><s n="tot"/></l><r>all<b/>sorts<b/>of<b/>things<s n="n"/></r></p></e>
     <e><p><l>svatko<s n="prn"/><s n="tot"/></l><r>everyone<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>nikoliki<s n="prn"/><s n="neg"/></l><r>nothing<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>nikoliki<s n="prn"/><s n="neg"/></l><r>nothing<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>ničiji<s n="prn"/><s n="neg"/></l><r>no<b/>one's<s n="prn"/><s n="pos"/></r></p></e>
-    <e><p><l>nikoji<s n="prn"/><s n="neg"/></l><r>not<b/>any<s n="prn"/></r></p></e>
+    <e><p><l>nikoji<s n="prn"/><s n="neg"/></l><r>not<b/>any<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>nitko<s n="prn"/><s n="neg"/></l><r>no<b/>one<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>ikoliki<s n="prn"/><s n="ind"/></l><r>any<b/>amount<b/>of<s n="pr"/></r></p></e>
-    <e><p><l>ponečiji<s n="prn"/><s n="ind"/></l><r>someone's<s n="prn"/></r></p></e>
-    <e><p><l>ičiji<s n="prn"/><s n="ind"/></l><r>anyone's<s n="prn"/></r></p></e>
-    <e><p><l>nečiji<s n="prn"/><s n="ind"/></l><r>someone's<s n="prn"/></r></p></e>
-    <e><p><l>kojekakav<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
+    <e><p><l>ponečiji<s n="prn"/><s n="ind"/></l><r>someone's<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>ičiji<s n="prn"/><s n="ind"/></l><r>anyone's<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>nečiji<s n="prn"/><s n="ind"/></l><r>someone's<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>kojekakav<s n="prn"/><s n="ind"/></l><r>some<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>bilo<b/>kakav<s n="prn"/><s n="ind"/></l><r>any<b/>kind<b/>of<s n="pr"/></r></p></e>
-    <e><p><l>ikakav<s n="prn"/><s n="ind"/></l><r>any<s n="det"/><s n="ind"/></r></p></e>
-    <e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
+    <e><p><l>ikakav<s n="prn"/><s n="ind"/></l><r>any<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+    <e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>some<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>nekakav<s n="prn"/><s n="ind"/></l><r>some<b/>kind<b/>of<s n="adj"/></r></p></e>
-    <e><p><l>poneki<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
-    <e><p><l>gdjekoji<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
-    <e><p><l>pokoji<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
-    <e><p><l>ikoji<s n="prn"/><s n="ind"/></l><r>any<s n="det"/></r></p></e>
-    <e><p><l>nekoji<s n="prn"/><s n="ind"/></l><r>some<s n="det"/></r></p></e>
+    <e><p><l>poneki<s n="prn"/><s n="ind"/></l><r>some<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>gdjekoji<s n="prn"/><s n="ind"/></l><r>some<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>pokoji<s n="prn"/><s n="ind"/></l><r>some<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>ikoji<s n="prn"/><s n="ind"/></l><r>any<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+    <e><p><l>nekoji<s n="prn"/><s n="ind"/></l><r>some<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>koješta<s n="prn"/><s n="ind"/></l><r>all<b/>sorts<b/>of<b/>things<s n="n"/></r></p></e>
     <e><p><l>štošta<s n="prn"/><s n="ind"/></l><r>all<b/>sorts<b/>of<b/>things<s n="n"/></r></p></e>
-    <e><p><l>išta<s n="prn"/><s n="ind"/></l><r>anything<s n="prn"/></r></p></e>
-    <e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/></l><r>anything<s n="prn"/></r></p></e>
-    <e><p><l>nešto<s n="prn"/><s n="ind"/></l><r>something<s n="prn"/></r></p></e>
+    <e><p><l>išta<s n="prn"/><s n="ind"/></l><r>anything<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/></l><r>anything<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>nešto<s n="prn"/><s n="ind"/></l><r>something<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
     <e><p><l>ponešto<s n="prn"/><s n="ind"/></l><r>some<b/>things<s n="n"/></r></p></e>
-    <e><p><l>mnogo<b/>tko<s n="prn"/><s n="ind"/></l><r>many<s n="prn"/></r></p></e>
-    <e><p><l>bilo<b/>tko<s n="prn"/><s n="ind"/></l><r>anyone<s n="prn"/></r></p></e>
-    <e><p><l>itko<s n="prn"/><s n="ind"/></l><r>anyone<s n="prn"/></r></p></e>
-    <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>somebody<s n="prn"/></r></p></e>
-    <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>someone<s n="prn"/></r></p></e>
-    <e><p><l>tko<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/></r></p></e>
+    <e><p><l>mnogo<b/>tko<s n="prn"/><s n="ind"/></l><r>many<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>bilo<b/>tko<s n="prn"/><s n="ind"/></l><r>anyone<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>itko<s n="prn"/><s n="ind"/></l><r>anyone<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>somebody<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>someone<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>tko<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>why<s n="adv"/></r></p></e>
     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>myself<s n="prn"/></r></p></e>
 <!--    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>yourself<s n="prn"/></r></p></e>
@@ -8554,7 +8554,7 @@
     <e><p><l>i<b/>dalje<s n="adv"/></l><r>still<s n="adv"/></r></p></e>
     <e><p><l>gdje<s n="adv"/></l><r>where<s n="adv"/></r></p></e>
     <e><p><l>gdje<s n="cnjsub"/></l><r>where<s n="adv"/></r></p></e>
-    <e><p><l>ništa<s n="prn"/></l><r>nothing<s n="prn"/></r></p></e>
+    <e><p><l>ništa<s n="prn"/></l><r>nothing<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>lako<s n="adv"/></l><r>easily<s n="adv"/></r></p></e>
     <e><p><l>obavljati<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
     <e><p><l>kod<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
@@ -8633,7 +8633,7 @@
     <e><p><l>htjeti<s n="vbmod"/></l><r>will<s n="vbmod"/></r></p></e>
     <e><p><l>htjeti<s n="vbmod"/><s n="pprs"/></l><r>want<s n="vblex"/><s n="pprs"/></r></p></e>
     <e><p><l>voditelj<s n="n"/></l><r>head<s n="n"/></r></p></e>
-    <e><p><l>neki<s n="prn"/></l><r>some<s n="prn"/></r></p></e>
+    <e><p><l>neki<s n="prn"/></l><r>some<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>teško<s n="adv"/></l><r>hard<s n="adv"/></r></p></e>
     <e><p><l>suprotstaviti<s n="vblex"/></l><r>stand<g><b/>against</g><s n="vblex"/></r></p></e>
     <e><p><l>nego<s n="adv"/></l><r>than<s n="adv"/></r></p></e>
@@ -8648,16 +8648,16 @@
     <e><p><l>isprva<s n="adv"/></l><r>initially<s n="adv"/></r></p></e>
     <e><p><l>izraziti<s n="vblex"/></l><r>express<s n="vblex"/></r></p></e>
     <e><p><l>zaustaviti<s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
-    <e><p><l>bilo<b/>koji<s n="prn"/></l><r>any<s n="prn"/></r></p></e>
+    <e><p><l>bilo<b/>koji<s n="prn"/></l><r>any<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>troje<s n="num"/></l><r>three<s n="num"/></r></p></e>
-    <e><p><l>koliki<s n="prn"/></l><r>how<b/>big<s n="prn"/></r></p></e><!-- fix: -->
+    <e><p><l>koliki<s n="prn"/></l><r>how<b/>big<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e><!-- fix: -->
     <e><p><l>slati<s n="vblex"/></l><r>send<s n="vblex"/></r></p></e>
     <e><p><l>ostvariti<s n="vblex"/></l><r>achieve<s n="vblex"/></r></p></e>
     <e><p><l>Grčka<s n="np"/></l><r>Greece<s n="np"/></r></p></e>
     <e><p><l>iznimka<s n="n"/></l><r>exception<s n="n"/></r></p></e>
     <e><p><l>kratkotrajan<s n="adj"/></l><r>short-term<s n="adj"/></r></p></e>
     <e><p><l>sjetiti<s n="vblex"/></l><r>remember<s n="vblex"/></r></p></e>
-    <e><p><l>svaki<s n="prn"/></l><r>every<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>svaki<s n="prn"/></l><r>every<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
     <e><p><l>glasovati<s n="vblex"/></l><r>vote<s n="vblex"/></r></p></e>
     <e><p><l>Agence<b/>France<b/>Presse<s n="np"/></l><r>Agence<b/>France<b/>Presse<s n="np"/></r></p></e>
     <e><p><l>umjeren<s n="adj"/></l><r>moderate<s n="adj"/></r></p></e>
@@ -8671,7 +8671,7 @@
     <e><p><l>dovršiti<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
     <e><p><l>uistinu<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
     <e><p><l>tada<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
-    <e><p><l>takav<s n="prn"/><s n="dem"/></l><r>such<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>takav<s n="prn"/><s n="dem"/></l><r>such<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
     <e><p><l>razmatrati<s n="vblex"/></l><r>consider<s n="vblex"/></r></p></e>
     <e><p><l>ponovno<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
     <e><p><l>zgroziti<s n="vblex"/></l><r>shudder<s n="vblex"/></r></p></e>
@@ -16049,7 +16049,7 @@
     <e><p><l>karijera<s n="n"/></l><r>career<s n="n"/></r></p></e>
     <e><p><l>kasnije<s n="adv"/></l><r>later<s n="adv"/></r></p></e>
     <e><p><l>koji<s n="cnjsub"/></l><r>who<s n="prn"/><s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>  <!-- ? -->
-    <e><p><l>koji<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>koji<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>koji<s n="prn"/><s n="rel"/></l><r>which<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>kompilacija<s n="n"/></l><r>compilation<s n="n"/></r></p></e>
     <e><p><l>konac<s n="n"/></l><r>end<s n="n"/></r></p></e>
@@ -16181,7 +16181,7 @@
     <e><p><l>kao<b/>što<s n="cnjcoo"/></l><r>like<s n="cnjcoo"/></r></p></e>  
 
 <!--    <e><p><l>čemu<s n="pr"/></l><r>what<s n="pr"/></r></p></e>  -->
-    <e><p><l>što<s n="prn"/></l><r>what<s n="prn"/></r></p></e>  
+    <e><p><l>što<s n="prn"/></l><r>what<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>  
     <e><p><l>čiji<s n="cnjcoo"/></l><r>whose<s n="cnjcoo"/></r></p></e> 
     
     
@@ -16221,7 +16221,7 @@
     <e><p><l>tijek<s n="n"/></l><r>course<s n="n"/></r></p></e>
     <e><p><l>let<s n="n"/></l><r>flight<s n="n"/></r></p></e>
     <e><p><l>kraj<s n="pr"/></l><r>next<b/>to<s n="pr"/></r></p></e>
-    <e><p><l>čiji<s n="prn"/></l><r>whose<s n="prn"/></r></p></e> 
+    <e><p><l>čiji<s n="prn"/></l><r>whose<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e> 
 <!--    <e><p><l>free<s n="prn"/><s n="ref"/></l><r>whose<s n="prn"/></r></p></e> -->
     <e><p><l>dati<s n="vblex"/></l><r>give<s n="vblex"/></r></p></e> 
     <e><p><l>ne<s n="part"/><s n="neg"/></l><r>not<s n="adv"/></r></p></e> 
