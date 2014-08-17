@@ -154,7 +154,7 @@
     <e><p><l>ISAF<s n="abbr"/></l><r>ISAF<s n="abbr"/></r></p></e>
     <e><p><l>povišen<s n="adj"/></l><r>hightened<s n="adj"/></r></p></e>
     <e><p><l>pripremljenost<s n="n"/></l><r>preparation<s n="n"/></r></p></e>
-    <e><p><l>spremnost<s n="n"/></l><r>readiness<s n="n"/></r></p></e>
+    <e><p><l>spremnost<s n="n"/></l><r>readiness<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>poboljšavati<s n="vblex"/></l><r>improve<s n="vblex"/></r></p></e>
     <e><p><l>ugled<s n="n"/></l><r>prestige<s n="n"/></r></p></e>
     <e><p><l>Linda<s n="np"/></l><r>Linda<s n="np"/></r></p></e>
@@ -10164,7 +10164,7 @@
     <e><p><l>zasjedati<s n="vblex"/></l><r>sit<s n="vblex"/></r></p></e>
     <e><p><l>zasmetati<s n="vblex"/></l><r>bother<s n="vblex"/></r></p></e>
     <e><p><l>zauzimati<s n="vblex"/></l><r>occupy<s n="vblex"/></r></p></e>
-    <e><p><l>zauzimati<s n="vblex"/></l><r>take<b/>over<s n="vblex"/></r></p></e>
+    <e><p><l>zauzimati<s n="vblex"/></l><r>take<g><b/>over</g><s n="vblex"/></r></p></e>
 
     <!-- SH_MK+MK_EN NOUNS -->
 
