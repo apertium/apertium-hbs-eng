@@ -163,11 +163,11 @@
 <!--
       <e><re>[0-9][0-9]</re><p><l>/</l><r>\/</r></p><re>[0-9][0-9]</re><p><l>/</l><r>\/</r></p><re>[0-9][0-9][0-9][0-9]</re><p><l/><r><s n="num"/></r></p></e>
 -->
-      <e>       <re>[0-9]+([.,][0-9]+)?</re><i>-</i><re>[0-9]+([.,][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e>       <re>[0-9]+([., ][0-9]+)?</re><i>-</i><re>[0-9]+([.,][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
       <e>       <re>[0-9]+([0-9]+)?</re><p><l>°C</l><r>°C<s n="num"/></r></p></e>
       <e>       <i>-</i><re>[0-9]+([0-9]+)?</re><p><l>°C</l><r>°C<s n="num"/></r></p></e>
-      <e>       <re>[0-9]+([.,][0-9]+)?</re>      <p>        <l><b/>o'clock</l>        <r><b/>o'clock<s n="num"/></r></p></e>
-      <e>       <re>[0-9]+([.,][0-9]+)?[:.][0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e>       <re>[0-9]+([., ][0-9]+)?</re>      <p>        <l><b/>o'clock</l>        <r><b/>o'clock<s n="num"/></r></p></e>
+      <e>       <re>[0-9]+([., ][0-9]+)?[:.][0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
       <e r="RL"><re>[0-9]+</re><p><l><b/><a/>BCE</l><r><b/>BCE<s n="num"/></r></p></e>
       <e r="LR"><re>[0-9]+</re><p><l><b/>BCE</l><r><b/>BCE<s n="num"/></r></p></e>
       <e r="RL"><re>[0-9]+</re><p><l><b/><a/>CE</l><r><b/>CE<s n="num"/><s n="sg"/></r></p></e>
@@ -2679,6 +2679,29 @@
 
   <section id="main" type="standard">
 
+    <!-- final evaluation -->
+
+    <e lm="peacekeeping"><i>peacekeeping</i><par n="politics__n"/></e>
+    <e lm="ALTEA"><i>ALTEA</i><par n="e.g.__abbr"/></e>
+    <e lm="Mirče"><i>Mirče</i><par n="Mark__np"/></e>
+    <e lm="Gjorgoski"><i>Gjorgoski</i><par n="Smith__np"/></e>
+    <e lm="Gjorgjoski"><i>Gjorgjoski</i><par n="Smith__np"/></e>
+    <e lm="Butmir"><i>Butmir</i><par n="Barcelona__np"/></e>
+    <e lm="high-risk"><i>high-risk</i><par n="expensive__adj"/></e>
+    <e lm="Hadži"><i>Hadži</i><par n="Smith__np"/></e>
+    <e lm="Janev"><i>Janev</i><par n="Smith__np"/></e>
+    <e lm="Pehr"><i>Pehr</i><par n="Smith__np"/></e>
+    <e lm="Bjeloš"><i>Bjeloš</i><par n="Smith__np"/></e>
+    <e lm="Hide"><i>Hide</i><par n="Smith__np"/></e>
+    <e lm="ISAF"><i>ISAF</i><par n="e.g.__abbr"/></e>
+    <e lm="hightened"><i>hightened</i><par n="expensive__adj"/></e>
+    <e lm="combat"><i>combat</i><par n="expensive__adj"/></e>
+    <e lm="command"><i>command</i><par n="expensive__adj"/></e>
+    <e lm="accommodation"><i>accommodation</i><par n="expensive__adj"/></e>
+    <e lm="male"><i>male</i><par n="expensive__adj"/></e>
+    <e lm="support"><i>support</i><par n="expensive__adj"/></e>
+    <e lm="logistics"><i>logistics</i><par n="expensive__adj"/></e>
+
     <!-- testvoc adverbs -->
 
     <e lm="honourably"><i>honourably</i><par n="maybe__adv"/></e>
@@ -2722,13 +2745,7 @@
     <e lm="wander"><i>wander</i><par n="maybe__adv"/></e>
     <e lm="so"><i>so</i><par n="maybe__adv"/></e>
     <e lm="near"><i>near</i><par n="maybe__adv"/></e>
-    <e lm="include"><i>include</i><par n="maybe__adv"/></e>
-    <e lm="discard"><i>discard</i><par n="maybe__adv"/></e>
-    <e lm="approve"><i>approve</i><par n="maybe__adv"/></e>
-    <e lm="maintain"><i>maintain</i><par n="maybe__adv"/></e>
-    <e lm="remind"><i>remind</i><par n="maybe__adv"/></e>
     <e lm="provided"><i>provided</i><par n="maybe__adv"/></e>
-    <e lm="humiliate"><i>humiliate</i><par n="maybe__adv"/></e>
     <e lm="sleepily"><i>sleepily</i><par n="maybe__adv"/></e>
     <e lm="excessively"><i>excessively</i><par n="maybe__adv"/></e>
     <e lm="unnecessarily"><i>unnecessarily</i><par n="maybe__adv"/></e>
@@ -3250,7 +3267,6 @@
     <e lm="silence"><i>silenc</i><par n="liv/e__vblex"/></e>
     <e lm="butcher"><i>butcher</i><par n="accept__vblex"/></e>
     <e lm="smelt"><i>smelt</i><par n="accept__vblex"/></e>
-    <e lm="approve"><i>approv</i><par n="liv/e__vblex"/></e>
 
     <e lm="hold off"><i>h</i><par n="h/old__vblex"/><p><l><b/>off</l><r><g><b/>off</g></r></p></e>
     <e lm="grow close"><i>gr</i><par n="bl/ow__vblex"/><p><l><b/>close</l><r><g><b/>close</g></r></p></e>
@@ -4232,6 +4248,7 @@
     <e lm="fervent"><i>fervent</i><par n="expensive__adj"/></e>
     <e lm="racy"><i>rac</i><par n="happ/y__adj"/></e>
     <e lm="meek"><i>meek</i><par n="long/__adj"/></e>
+    <e lm="gender"><i>gender</i><par n="expensive__adj"/></e>
     <e lm="slender"><i>slender</i><par n="common/__adj"/></e>
     <e lm="formulated"><i>formulated</i><par n="expensive__adj"/></e>
     <e lm="red-haired"><i>red-haired</i><par n="expensive__adj"/></e>
@@ -4632,17 +4649,17 @@
     <e lm="Pivka"><i>Pivka</i><par n="Mary__np"/></e>
     <e lm="Mojstrovka"><i>Mojstrovka</i><par n="Barcelona__np"/></e>
     <e lm="Marjeta"><i>Marjeta</i><par n="Mary__np"/></e>
-    <e lm="The Drava"><i>The<b/>Drava</i><par n="Barcelona__np"/></e>
+    <e lm="the Drava"><i>the<b/>Drava</i><par n="Barcelona__np"/></e>
     <e lm="Drave"><i>Drave</i><par n="Barcelona__np"/></e>
-    <e lm="The Drina"><i>The<b/>Drina</i><par n="Barcelona__np"/></e>
-    <e lm="The Kokra"><i>The<b/>Kokra</i><par n="Barcelona__np"/></e>
-    <e lm="The Mura"><i>The<b/>Mura</i><par n="Barcelona__np"/></e>
-    <e lm="The Sava"><i>The<b/>Sava</i><par n="Barcelona__np"/></e>
-    <e lm="The Soča"><i>The<b/>Soča</i><par n="Barcelona__np"/></e>
+    <e lm="the Drina"><i>the<b/>Drina</i><par n="Barcelona__np"/></e>
+    <e lm="the Kokra"><i>the<b/>Kokra</i><par n="Barcelona__np"/></e>
+    <e lm="the Mura"><i>the<b/>Mura</i><par n="Barcelona__np"/></e>
+    <e lm="the Sava"><i>the<b/>Sava</i><par n="Barcelona__np"/></e>
+    <e lm="the Soča"><i>the<b/>Soča</i><par n="Barcelona__np"/></e>
     <e lm="Isonzo"><i>Isonzo</i><par n="Barcelona__np"/></e>
-    <e lm="The Sotla"><i>The<b/>Sotla</i><par n="Barcelona__np"/></e>
-    <e lm="The Sutla"><i>The<b/>Sutla</i><par n="Barcelona__np"/></e>
-    <e lm="The Visla"><i>The<b/>Visla</i><par n="Barcelona__np"/></e>
+    <e lm="the Sotla"><i>the<b/>Sotla</i><par n="Barcelona__np"/></e>
+    <e lm="the Sutla"><i>the<b/>Sutla</i><par n="Barcelona__np"/></e>
+    <e lm="the Visla"><i>the<b/>Visla</i><par n="Barcelona__np"/></e>
     <e lm="Etna"><i>Etna</i><par n="Barcelona__np"/></e>
     <e lm="Sodom"><i>Sodom</i><par n="Barcelona__np"/></e>
     <e lm="Emona"><i>Emona</i><par n="Barcelona__np"/></e>
@@ -4657,10 +4674,10 @@
     <e lm="Trenta"><i>Trenta</i><par n="Barcelona__np"/></e>
     <e lm="Gora"><i>Gora</i><par n="Barcelona__np"/></e>
     <e lm="Hawaii"><i>Hawaii</i><par n="Barcelona__np"/></e>
-    <e lm="The Pyrenees"><i>The<b/>Pyrenees</i><par n="United_States__np"/></e>
-    <e lm="The Carpathians"><i>The<b/>Carpathians</i><par n="United_States__np"/></e>
+    <e lm="the Pyrenees"><i>the<b/>Pyrenees</i><par n="United_States__np"/></e>
+    <e lm="the Carpathians"><i>the<b/>Carpathians</i><par n="United_States__np"/></e>
     <e lm="Ravne"><i>Ravne</i><par n="United_States__np"/></e>
-    <e lm="The Alps"><i>The<b/>Alps</i><par n="United_States__np"/></e>
+    <e lm="the Alps"><i>the<b/>Alps</i><par n="United_States__np"/></e>
     <e lm="Begunje"><i>Begunje</i><par n="United_States__np"/></e>
     <e lm="Bloke"><i>Bloke</i><par n="United_States__np"/></e>
     <e lm="Brežice"><i>Brežice</i><par n="United_States__np"/></e>
@@ -4679,9 +4696,9 @@
     <e lm="Dovje"><i>Dovje</i><par n="Barcelona__np"/></e>
     <e lm="Grosuplje"><i>Grosuplje</i><par n="Barcelona__np"/></e>
     <e lm="Pohorje"><i>Pohorje</i><par n="Barcelona__np"/></e>
-    <e lm="The Mediterranean"><i>The<b/>Mediterranean</i><par n="Barcelona__np"/></e>
+    <e lm="the Mediterranean"><i>the<b/>Mediterranean</i><par n="Barcelona__np"/></e>
     <e lm="Velenje"><i>Velenje</i><par n="Barcelona__np"/></e>
-    <e lm="The Netherlands"><i>The<b/>Netherlands</i><par n="United_States__np"/></e>
+    <e lm="the Netherlands"><i>the<b/>Netherlands</i><par n="United_States__np"/></e>
     <e lm="Dolska"><i>Dolska</i><par n="Barcelona__np"/></e>
     <e lm="Gorenjska"><i>Gorenjska</i><par n="Barcelona__np"/></e>
     <e lm="Notranjska"><i>Notranjska</i><par n="Barcelona__np"/></e>
@@ -4700,9 +4717,9 @@
     <e lm="Trbiž"><i>Trbiž</i><par n="Barcelona__np"/></e>
     <e lm="Vič"><i>Vič</i><par n="Barcelona__np"/></e>
     <e lm="Nesactium"><i>Nesactium</i><par n="Barcelona__np"/></e>
-    <e lm="The Atlantic"><i>The<b/>Atlantic</i><par n="Barcelona__np"/></e>
-    <e lm="The Balkans"><i>The<b/>Balkans</i><par n="United_States__np"/></e>
-    <e lm="The Baltic"><i>The<b/>Baltic</i><par n="Barcelona__np"/></e>
+    <e lm="the Atlantic"><i>the<b/>Atlantic</i><par n="Barcelona__np"/></e>
+    <e lm="the Balkans"><i>the<b/>Balkans</i><par n="United_States__np"/></e>
+    <e lm="the Baltic"><i>the<b/>Baltic</i><par n="Barcelona__np"/></e>
     <e lm="Beograd"><i>Beograd</i><par n="Barcelona__np"/></e>
     <e lm="Bovec"><i>Bovec</i><par n="Barcelona__np"/></e>
     <e lm="Brnik"><i>Brnik</i><par n="Barcelona__np"/></e>
@@ -4712,8 +4729,8 @@
     <e lm="Haag"><i>Haag</i><par n="Barcelona__np"/></e>
     <e lm="Hambourg"><i>Hambourg</i><par n="Barcelona__np"/></e>
     <e lm="Hrib"><i>Hrib</i><par n="Barcelona__np"/></e>
-    <e lm="The Adriatic"><i>The<b/>Adriatic</i><par n="Barcelona__np"/></e>
-    <e lm="The Pacific"><i>The<b/>Pacific</i><par n="Barcelona__np"/></e>
+    <e lm="the Adriatic"><i>the<b/>Adriatic</i><par n="Barcelona__np"/></e>
+    <e lm="the Pacific"><i>the<b/>Pacific</i><par n="Barcelona__np"/></e>
     <e lm="Pad"><i>Pad</i><par n="Barcelona__np"/></e>
     <e lm="Ren"><i>Ren</i><par n="Barcelona__np"/></e>
     <e lm="Tacen"><i>Tacen</i><par n="Barcelona__np"/></e>
@@ -4723,8 +4740,8 @@
     <e lm="Torino"><i>Torino</i><par n="Barcelona__np"/></e>
     <e lm="Zalog"><i>Zalog</i><par n="Barcelona__np"/></e>
     <e lm="Srijem"><i>Srijem</i><par n="Barcelona__np"/></e>
-    <e lm="The Danube"><i>The<b/>Danube</i><par n="Barcelona__np"/></e>
-    <e lm="The Antarctic"><i>The<b/>Antarctic</i><par n="Barcelona__np"/></e>
+    <e lm="the Danube"><i>the<b/>Danube</i><par n="Barcelona__np"/></e>
+    <e lm="the Antarctic"><i>the<b/>Antarctic</i><par n="Barcelona__np"/></e>
     <e lm="Corsica"><i>Corsica</i><par n="Barcelona__np"/></e>
     <e lm="Vrhnika"><i>Vrhnika</i><par n="Barcelona__np"/></e>
     <e lm="Jasenka"><i>Jasenka</i><par n="Mary__np"/></e>
@@ -4763,7 +4780,7 @@
     <e lm="Schulz"><i>Schulz</i><par n="Smith__np"/></e>
     <e lm="Malmström"><i>Malmström</i><par n="Smith__np"/></e>
     <e lm="Romov"><i>Romov</i><par n="Smith__np"/></e>
-    <e lm="The Ukraine"><i>The<b/>Ukraine</i><par n="Barcelona__np"/></e>
+    <e lm="the Ukraine"><i>the<b/>Ukraine</i><par n="Barcelona__np"/></e>
     <e lm="København"><i>København</i><par n="Barcelona__np"/></e>
     <e lm="Afganistan"><i>Afganistan</i><par n="Barcelona__np"/></e>
     <e lm="Marica"><i>Marica</i><par n="Mary__np"/></e>
@@ -4936,7 +4953,7 @@
 	<e lm="Getty Images"><i>Getty<b/>Images</i><par n="United_Nations__np"/></e>
 	<e lm="Priština"><i>Priština</i><par n="Barcelona__np"/></e>
     <e lm="OESS"><i>OESS</i><par n="e.g.__abbr"/></e>
-	<e lm="The Times"><i>The<b/>Times</i><par n="United_Nations__np"/></e>
+	<e lm="the Times"><i>the<b/>Times</i><par n="United_Nations__np"/></e>
     <e lm="relating to"><i>relating<b/>to</i><par n="maybe__adv"/></e>
     <e lm="defendant"><i>defendant</i><par n="house__n"/></e>
     <e lm="setting up"><i>setting<b/>up</i><par n="east__n"/></e>
@@ -13580,7 +13597,7 @@
     <e lm="Zagreb"><i>Zagreb</i><par n="Barcelona__np"/></e>
     <e lm="Helsinki"><i>Helsinki</i><par n="Barcelona__np"/></e>
     <e lm="Pristina"><i>Pristina</i><par n="Barcelona__np"/></e>
-    <e lm="The Hague"><i>The<b/>Hague</i><par n="Barcelona__np"/></e>
+    <e lm="the Hague"><i>the<b/>Hague</i><par n="Barcelona__np"/></e>
     <e lm="Podgorica"><i>Podgorica</i><par n="Barcelona__np"/></e>
     <e lm="Thessaloniki"><i>Thessaloniki</i><par n="Barcelona__np"/></e>
     <e lm="Mostar"><i>Mostar</i><par n="Barcelona__np"/></e>

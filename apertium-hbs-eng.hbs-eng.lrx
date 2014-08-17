@@ -1,79 +1,91 @@
 <rules>
+
   <rule>
-       <or>
-	    <match lemma="lijepo" tags="adj.*"/>
-	    <match lemma="ružno" tags="adj.*"/>
-       </or>
-	  <match lemma="vrijeme" tags="n.*">
-	    <select lemma="weather" tags="n.*"/>
-	  </match>
+    <or>
+      <match lemma="lijepo" tags="adj.*"/>
+      <match lemma="ružno" tags="adj.*"/>
+    </or>
+    <match lemma="vrijeme" tags="n.*">
+      <select lemma="weather" tags="n.*"/>
+    </match>
   </rule>
 
   <rule>
-	  <match lemma="grad" tags="n.*"/>
-	  <match lemma="rijeka" tags="n.*">
-	    <select lemma="Rijeka" tags="np.*"/>
-	  </match>
+    <match lemma="grad" tags="n.*"/>
+    <match lemma="rijeka" tags="n.*">
+      <select lemma="Rijeka" tags="np.*"/>
+    </match>
   </rule>
     
    <rule>
-	  <match lemma="sastav" tags="n.*">        
-	    <select lemma="composition" tags="n.*"/>
-      </match>
-	  <match tags="n.*.*.gen"/>	
+    <match lemma="sastav" tags="n.*">        
+      <select lemma="composition" tags="n.*"/>
+    </match>
+    <match tags="n.*.*.gen"/>	
   </rule>
 
-<!--  <rule>
-	  <match lemma="održati" tags="vblex.*"/>
-      <match/>
-      <match/>
-	  <match lemma="govor" tags="n.*">
-	    <select lemma="speech" tags="n.*"/>
-	  </match>
+<!--<rule>
+    <match lemma="održati" tags="vblex.*"/>
+    <match/>
+    <match/>
+    <match lemma="govor" tags="n.*">
+      <select lemma="speech" tags="n.*"/>
+    </match>
   </rule> -->
 
   <rule>
-	  <match lemma="u" tags="*">
-	    <select lemma="on" tags="*"/>
-	  </match>
-       <or>
-	    <match lemma="ponedjeljak" tags="n.*"/>
-	    <match lemma="utorak" tags="n.*"/>
-	    <match lemma="srijeda" tags="n.*"/>
-	    <match lemma="četvrtak" tags="n.*"/>
-	    <match lemma="petak" tags="n.*"/>
-	    <match lemma="subota" tags="n.*"/>
-	    <match lemma="nedjelja" tags="n.*"/>
-       </or>
+    <match lemma="u" tags="*">
+      <select lemma="on" tags="*"/>
+    </match>
+    <or>
+      <match lemma="ponedjeljak" tags="n.*"/>
+      <match lemma="utorak" tags="n.*"/>
+      <match lemma="srijeda" tags="n.*"/>
+      <match lemma="četvrtak" tags="n.*"/>
+      <match lemma="petak" tags="n.*"/>
+      <match lemma="subota" tags="n.*"/>
+      <match lemma="nedjelja" tags="n.*"/>
+    </or>
   </rule>
 
   <rule>
-	  <match lemma="kraljevski" tags="adj.*">
-	    <select lemma="royal" tags="adj.*"/>
-	  </match>
-       <or>
-	    <match lemma="dinastija" tags="n.*"/>
-	    <match lemma="krv" tags="n.*"/>
-	    <match lemma="obitelj" tags="n.*"/>
-       </or>
+    <match lemma="kraljevski" tags="adj.*">
+      <select lemma="royal" tags="adj.*"/>
+    </match>
+    <or>
+      <match lemma="dinastija" tags="n.*"/>
+      <match lemma="krv" tags="n.*"/>
+      <match lemma="obitelj" tags="n.*"/>
+    </or>
   </rule>
 
   <rule>
-      <match lemma="izazvati" tags="vblex.*"/>
-      <match lemma="reakcija" tags="n.*"/>
-      <match lemma="kod" tags="*">
-	    <select lemma="from" tags="*"/>
-	  </match>
+    <match lemma="izazvati" tags="vblex.*"/>
+    <match lemma="reakcija" tags="n.*"/>
+    <match lemma="kod" tags="*">
+      <select lemma="from" tags="*"/>
+    </match>
   </rule>
 
   <rule>
-      <match lemma="izdavati" tags="vblex.*">
-	    <select lemma="betray" tags="vblex.*"/>
-      </match>
-      <match/>
-      <match lemma="interes" tags="n.*"/>
+    <match lemma="izdavati" tags="vblex.*">
+      <select lemma="betray" tags="vblex.*"/>
+    </match>
+    <match/>
+    <match lemma="interes" tags="n.*"/>
   </rule>
 
+  <rule>
+    <match lemma="naglasak" tags="n.*">
+      <select lemma="emphasis" tags="n.*"/>
+    </match>
+  </rule>
+
+  <rule>
+    <match lemma="ozbiljan" tags="adj.*">
+      <select lemma="serious" tags="adj.*"/>
+    </match>
+  </rule>
 
 <rule>
     <match lemma="administracija" tags="n.f.*"><select lemma="administration" tags="n.*"/></match>

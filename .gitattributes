@@ -40,6 +40,9 @@ dev/testvoc/testvoc.sh -text
 /hbs-eng.prob -text svneol=unset#unset
 /modes.xml -text
 texts/eval-translator.txt -text
+texts/final1.eng.txt -text
+texts/final1.hbs-eng.txt -text
+texts/final1.hbs.txt -text
 texts/midterm1.eng.txt -text
 texts/midterm1.hbs-eng.txt -text
 texts/midterm1.hbs.txt -text
