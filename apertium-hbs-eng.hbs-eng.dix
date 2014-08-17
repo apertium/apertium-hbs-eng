@@ -8038,7 +8038,7 @@
     <!-- testvoc rel -->
 
     <e><p><l>tko<s n="prn"/><s n="rel"/></l><r>who<s n="prn"/><s n="rel"/></r></p></e>
-    <e><p><l>kakav<s n="prn"/><s n="itg"/></l><r>what<b/>kind<b/>of<s n="adv"/></r></p></e>
+    <e><p><l>kakav<s n="prn"/><s n="itg"/></l><r>what<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>kakav<s n="prn"/><s n="rel"/></l><r>some<s n="adj"/></r></p></e><!--fix:-->
 
     <!-- testvoc vbser -->

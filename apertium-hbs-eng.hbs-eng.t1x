@@ -267,6 +267,10 @@
       <attr-item tags="sp"/>
     </def-attr>
 
+    <def-attr n="prsnbr">
+      <attr-item tags="p3.sg"/>
+    </def-attr>
+
     <def-attr n="cnt">
       <attr-item tags="unc"/>
     </def-attr>
@@ -2089,15 +2093,18 @@
 	  </let>
 	</when>
         <when><!-- num->det.ind: oba -->
-	  <test>
-	    <equal><clip pos="1" side="sl" part="lemh"/><lit v="oba"/></equal>
-	  </test>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.ind"/></equal>
+              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+            </and>
+          </test>
           <let><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.ind"/></let>
           <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
-	  <let>
-	    <clip pos="1" side="tl" part="whole"/>
-	    <concat>
-	      <clip pos="1" side="tl" part="lemh"/>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	      <clip pos="1" side="tl" part="lemq"/>
@@ -2537,6 +2544,12 @@
             </test>
             <let><clip pos="2" side="tl" part="tns"/><lit-tag v="past"/></let>
           </when>
+          <when>
+            <test>
+              <equal><clip pos="2" side="sl" part="prs"/><lit-tag v="p3"/></equal>
+            </test>
+            <let><clip pos="2" side="tl" part="prs"/><lit-tag v="p3"/></let>
+          </when>
         </choose>
         <out>
           <chunk name="vb_li" case="variableCase">
@@ -2549,7 +2562,6 @@
 	      </get-case-from>
               <lit-tag v="vbdo"/>
               <clip pos="2" side="sl" part="tns"/>
-              <clip pos="2" side="sl" part="gndr"/>
             </lu>
 	    <b/>
 <!--TODO:   <lu>
@@ -2578,6 +2590,15 @@
       </pattern>      
       <action>
 	<call-macro n="vb_adapter"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="tns"/><lit-tag v="inf"/></let>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="2" side="sl" part="prs"/><lit-tag v="p3"/></equal>
+            </test>
+            <let><clip pos="2" side="tl" part="prsnbr"/><lit-tag v="p3.sg"/></let>
+          </when>
+        </choose>
         <out>
           <chunk name="vb_li" case="variableCase">
             <tags>
@@ -2589,7 +2610,7 @@
 	      </get-case-from>
               <lit-tag v="vbdo"/>
               <clip pos="1" side="sl" part="tns"/>
-              <clip pos="1" side="sl" part="gndr"/>
+              <clip pos="1" side="sl" part="prsnbr"/>
             </lu>
 	    <b/>
 <!--TODO:   <lu>
@@ -2602,8 +2623,11 @@
 	    <b/> -->
             <lu>
 	      <get-case-from pos ="2">
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lemh"/>
 	      </get-case-from>
+              <clip pos="1" side="tl" part="a_vb"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
