@@ -36,6 +36,10 @@
       <cat-item tags="vaux.*"/>
     </def-cat>
 
+    <def-cat n="vbsclt">
+      <cat-item tags="vbser.clt.*"/>
+    </def-cat>
+
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
     </def-cat>
@@ -2634,6 +2638,48 @@
 	      <get-case-from pos ="2">
               <clip pos="1" side="tl" part="whole"/>
 	      </get-case-from>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- su glasali -->
+    <rule comment="vb_past">
+      <pattern>
+	<pattern-item n="vbsclt"/>
+	<pattern-item n="vb"/>
+      </pattern>      
+      <action>
+	<call-macro n="vb_adapter"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="vb_past" case="variableCase">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- glasali su -->
+    <rule comment="vb_past">
+      <pattern>
+	<pattern-item n="vb"/>
+	<pattern-item n="vbsclt"/>
+      </pattern>      
+      <action>
+	<call-macro n="vb_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="vb_past" case="variableCase">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
