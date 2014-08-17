@@ -350,6 +350,10 @@
       <attr-item tags="vaux"/>
     </def-attr>
 
+    <def-attr n="a_inf">
+      <attr-item tags="inf"/>
+    </def-attr>
+
     <def-attr n="a_clt">
       <attr-item tags="clt"/>
     </def-attr>
@@ -2548,7 +2552,7 @@
             <test>
               <equal><clip pos="2" side="sl" part="prs"/><lit-tag v="p3"/></equal>
             </test>
-            <let><clip pos="2" side="tl" part="prs"/><lit-tag v="p3"/></let>
+            <let><clip pos="2" side="tl" part="prsnbr"/><lit-tag v="p3.sg"/></let>
           </when>
         </choose>
         <out>
@@ -2561,7 +2565,8 @@
               <lit v="do"/>
 	      </get-case-from>
               <lit-tag v="vbdo"/>
-              <clip pos="2" side="sl" part="tns"/>
+              <clip pos="2" side="tl" part="tns"/>
+              <clip pos="2" side="tl" part="prsnbr"/>
             </lu>
 	    <b/>
 <!--TODO:   <lu>
@@ -2574,8 +2579,11 @@
 	    <b/> -->
             <lu>
 	      <get-case-from pos ="2">
-              <clip pos="2" side="tl" part="whole"/>
+              <clip pos="2" side="tl" part="lemh"/>
 	      </get-case-from>
+              <clip pos="2" side="tl" part="a_vb"/>
+              <clip pos="2" side="tl" part="a_inf"/><lit-tag v="inf"/>
+              <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -2590,13 +2598,23 @@
       </pattern>      
       <action>
 	<call-macro n="vb_adapter"><with-param pos="1"/></call-macro>
-        <let><clip pos="1" side="tl" part="tns"/><lit-tag v="inf"/></let>
         <choose>
           <when>
             <test>
-              <equal><clip pos="2" side="sl" part="prs"/><lit-tag v="p3"/></equal>
+              <or>
+                <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="perf"/></equal>
+                <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="imperf"/></equal>
+                <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="aor"/></equal>
+                <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
+              </or>
             </test>
-            <let><clip pos="2" side="tl" part="prsnbr"/><lit-tag v="p3.sg"/></let>
+            <let><clip pos="1" side="tl" part="tns"/><lit-tag v="past"/></let>
+          </when>
+          <when>
+            <test>
+              <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p3"/></equal>
+            </test>
+            <let><clip pos="1" side="tl" part="prsnbr"/><lit-tag v="p3.sg"/></let>
           </when>
         </choose>
         <out>
@@ -2609,8 +2627,8 @@
               <lit v="do"/>
 	      </get-case-from>
               <lit-tag v="vbdo"/>
-              <clip pos="1" side="sl" part="tns"/>
-              <clip pos="1" side="sl" part="prsnbr"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="prsnbr"/>
             </lu>
 	    <b/>
 <!--TODO:   <lu>
@@ -2626,7 +2644,7 @@
               <clip pos="1" side="tl" part="lemh"/>
 	      </get-case-from>
               <clip pos="1" side="tl" part="a_vb"/>
-              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="a_inf"/><lit-tag v="inf"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
