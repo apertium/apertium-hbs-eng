@@ -2117,28 +2117,7 @@
         </when>
         <when>
           <test>
-            <or>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="prvi"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="drugi"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="treći"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="četvrti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="peti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="šesti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="sedmi"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="osmi"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="deveti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="deseti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="jedanaesti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="dvanaesti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="trinaesti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="četrnaesti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="petnaesti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="šesnaesti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="sedamnaesti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="osamnaesti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="devetnaesti"/></equal>
-	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="dvadeseti"/></equal>
-	    </or>
+	    <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj.ord"/></equal>
 	  </test>
 	  <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj.ord"/></let>
 	  <let>

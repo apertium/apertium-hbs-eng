@@ -1479,6 +1479,8 @@
 
     <!-- testvoc nouns -->
 
+    <e><p><l>entitet<s n="n"/></l><r>entity<s n="n"/></r></p></e>
+    <e><p><l>zamjenik<s n="n"/></l><r>deputy<s n="n"/></r></p></e>
     <e><p><l>unaprjeđenje<s n="n"/></l><r>promotion<s n="n"/></r></p></e>
     <e><p><l>indie<s n="n"/></l><r>indie<s n="n"/><s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>seks<s n="n"/></l><r>sex<s n="n"/></r></p></e>
@@ -4930,6 +4932,11 @@
 
     <e><p><l>pos<s n="adj"/></l><r>'s<s n="sfx"/></r></p></e>
 
+    <e><p><l>Abdullah<s n="np"/></l><r>Abdullah<s n="np"/></r></p></e>
+    <e><p><l>Gul<s n="np"/></l><r>Gul<s n="np"/></r></p></e>
+    <e><p><l>Olli<s n="np"/></l><r>Olli<s n="np"/></r></p></e>
+    <e><p><l>Thaci<s n="np"/></l><r>Thaci<s n="np"/></r></p></e>
+    <e><p><l>SAA<s n="abbr"/></l><r>SAA<s n="abbr"/></r></p></e>
     <e><p><l>Palčica<s n="np"/></l><r>Thumbelina<s n="np"/></r></p></e>
     <e><p><l>del<b/>Ponte<s n="np"/></l><r>del<b/>Ponte<s n="np"/></r></p></e>
     <e><p><l>Janko<s n="np"/><s n="ant"/></l><r>Janko<s n="np"/><s n="ant"/></r></p></e>
