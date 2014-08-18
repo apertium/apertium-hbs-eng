@@ -36,6 +36,11 @@
       <cat-item tags="vaux.*"/>
     </def-cat>
 
+    <def-cat n="vbinf">
+      <cat-item tags="vbser.perf.tv.inf.*"/>
+      <cat-item tags="vbser.perf.iv.inf.*"/>
+    </def-cat>
+
     <def-cat n="vbsclt">
       <cat-item tags="vbser.clt.*"/>
     </def-cat>
@@ -662,6 +667,31 @@
             </concat>
           </let>
         </when>
+        <when><!-- myself -->
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.ref"/></equal>
+              <equal><clip pos="1" side="tl" part="prs"/><lit-tag v="p1"/></equal>
+              <equal><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></equal>
+              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+            </and> 
+          </test>
+          <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.ref"/></let>
+          <let><clip pos="1" side="tl" part="prs"/><lit-tag v="p1"/></let>
+          <let><clip pos="1" side="tl" part="gndr"/><lit-tag v="mf"/></let>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+          <let>
+            <clip pos="1" side="tl" part="whole"/>
+            <concat>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="prs"/>
+              <clip pos="1" side="tl" part="gndr"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </concat>
+          </let>
+        </when>
         <when><!-- prn->prn.itg: čiji, koji, što, tko -->
           <test>
             <and>
@@ -1095,15 +1125,9 @@
             </concat>
           </let>
         </when>
-        <when> <!-- prn->adv: kakav, zašto -->
+        <when> <!-- prn->adv: zašto -->
           <test>
-            <or>
-              <and>    
-                <equal><clip pos="1" side="sl" part="lemh"/><lit v="kakav"/></equal>
-                <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.itg"/></equal>
-              </and>
-              <equal><clip pos="1" side="sl" part="lemh"/><lit v="zašto"/></equal>
-            </or>
+            <equal><clip pos="1" side="tl" part="a_adv"/><lit-tag v="adv.itg"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_adv"/><lit-tag v="adv.itg"/></let>
           <let>
@@ -3372,7 +3396,7 @@
       <pattern>
 	<pattern-item n="clitic"/>
 	<pattern-item n="vb"/>
-	<pattern-item n="vb"/>
+	<pattern-item n="vbinf"/>
       </pattern>      
       <action>
 	<call-macro n="vb_adapter"><with-param pos="2"/></call-macro>
@@ -3738,22 +3762,12 @@
     <!-- poklonika nadahnute različitosti -->
     <rule comment="nom_adj_nom">
       <pattern>
-	<pattern-item n="nom"/>
+	<pattern-item n="n"/>
 	<pattern-item n="adj_gen"/>
 	<pattern-item n="nom_gen"/>
       </pattern>      
       <action>
-        <choose>
-          <when>
-            <test>
-              <equal><clip pos="1" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
-            </test>
-	    <call-macro n="np_adapter"><with-param pos="1"/></call-macro>
-          </when>
-          <otherwise>
-	    <call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
-          </otherwise>
-        </choose>
+	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="adj_adapter"><with-param pos="2"/></call-macro>
         <choose>
           <when>

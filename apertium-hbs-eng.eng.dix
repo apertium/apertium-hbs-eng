@@ -4494,6 +4494,7 @@
     <e lm="del Ponte"><i>del<b/>Ponte</i><par n="Smith__np"/></e>
     <e lm="Janko"><i>Janko</i><par n="Mark__np"/></e>
     <e lm="Janko"><i>Janko</i><par n="Smith__np"/></e>
+    <e lm="Sequi"><i>Sequi</i><par n="Smith__np"/></e>
     <e lm="Broadway"><i>Broadway</i><par n="Barcelona__np"/></e>
     <e lm="Kramberger"><i>Kramberger</i><par n="Smith__np"/></e>
     <e lm="Hušnjak"><i>Hušnjak</i><par n="Smith__np"/></e>
@@ -62100,6 +62101,7 @@
 	<e lm="Triantaphyllou"><i>Triantaphyllou</i><par n="Smith__np"/></e>
 	<e lm="Schaeuble"><i>Schaeuble</i><par n="Smith__np"/></e>
 	<e lm="SETimes"><i>SETimes</i><par n="United_Nations__np"/></e>
+	<e lm="SE Times"><i>SE<b/>Times</i><par n="United_Nations__np"/></e>
 	<e lm="Southeast European Times"><i>Southeast<b/>European<b/>Times</i><par n="United_Nations__np"/></e>
 	<e lm="Philadelphia"><i>Philadelphia</i><par n="Barcelona__np"/></e>
 	<e lm="Steinmeier"><i>Steinmeier</i><par n="Smith__np"/></e>

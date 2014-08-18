@@ -15,6 +15,9 @@
     <sdef n="tot"/>
     <sdef n="cog"/>
     <sdef n="sep"/>
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="p3"/>
     <sdef n="rel"  c="Relative"/>
     <sdef n="sp"  c="Singular/plural"/>
     <sdef n="an"  c="Animate/inanimate"/>
@@ -4936,6 +4939,7 @@
     <e><p><l>Gul<s n="np"/></l><r>Gul<s n="np"/></r></p></e>
     <e><p><l>Olli<s n="np"/></l><r>Olli<s n="np"/></r></p></e>
     <e><p><l>Thaci<s n="np"/></l><r>Thaci<s n="np"/></r></p></e>
+    <e><p><l>Sequi<s n="np"/></l><r>Sequi<s n="np"/></r></p></e>
     <e><p><l>SAA<s n="abbr"/></l><r>SAA<s n="abbr"/></r></p></e>
     <e><p><l>Palčica<s n="np"/></l><r>Thumbelina<s n="np"/></r></p></e>
     <e><p><l>del<b/>Ponte<s n="np"/></l><r>del<b/>Ponte<s n="np"/></r></p></e>
@@ -7328,7 +7332,7 @@
     <e><p><l>odobravajući<s n="adv"/></l><r>approve<s n="vblex"/><s n="pprs"/></r></p></e>
     <e><p><l>održavajući<s n="adv"/></l><r>maintain<s n="vblex"/><s n="pprs"/></r></p></e>
     <e><p><l>počasno<s n="adv"/></l><r>honorary<s n="adj"/></r></p></e>
-    <e><p><l>časno<s n="adv"/></l><r>honourably<s n="adj"/></r></p></e>
+    <e><p><l>časno<s n="adv"/></l><r>honourably<s n="adv"/></r></p></e>
     <e><p><l>podsjećajući<s n="adv"/></l><r>remind<s n="vblex"/><s n="pprs"/></r></p></e>
     <e><p><l>pod<b/>uvjetom<s n="adv"/></l><r>provided<s n="cnjadv"/></r></p></e>
     <e><p><l>ponižavajući<s n="adv"/></l><r>humiliate<s n="vblex"/><s n="pprs"/></r></p></e>
@@ -8019,8 +8023,8 @@
     <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>somebody<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>netko<s n="prn"/><s n="ind"/></l><r>someone<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>tko<s n="prn"/><s n="itg"/></l><r>who<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>why<s n="adv"/></r></p></e>
-    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>myself<s n="prn"/></r></p></e>
+    <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>why<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 <!--    <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>yourself<s n="prn"/></r></p></e>
     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>herself<s n="prn"/></r></p></e>
     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>himself<s n="prn"/></r></p></e>
@@ -8541,6 +8545,7 @@
     <e><p><l>značaj<s n="n"/></l><r>character<s n="n"/></r></p></e>
     <e><p><l>izjaviti<s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
     <e><p><l>SETimes<s n="np"/></l><r>SETimes<s n="np"/></r></p></e>
+    <e><p><l>SE<b/>Times<s n="np"/></l><r>SE<b/>Times<s n="np"/></r></p></e>
     <e><p><l>Iulian<s n="np"/></l><r>Iulian<s n="np"/></r></p></e>
     <e><p><l>Pruteanu<s n="np"/></l><r>Pruteanu<s n="np"/></r></p></e>
     <e><p><l>Isacescu<s n="np"/></l><r>Isacescu<s n="np"/></r></p></e>
