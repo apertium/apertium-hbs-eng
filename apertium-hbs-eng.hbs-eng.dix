@@ -7753,7 +7753,7 @@
 
     <e><p><l>pedesetak<s n="num"/></l><r>around<b/>fifty<s n="num"/><s n="sg"/></r></p></e>
 
-    <e><p><l>jedan<s n="num"/></l><r>one<s n="num"/></r></p></e>
+    <e><p><l>jedan<s n="num"/></l><r>one<s n="num"/><s n="sg"/></r></p></e>
     <e><p><l>dva<s n="num"/></l><r>two<s n="num"/></r></p></e>
     <e><p><l>tri<s n="num"/></l><r>three<s n="num"/></r></p></e>
     <e><p><l>četiri<s n="num"/></l><r>four<s n="num"/></r></p></e>
@@ -16191,7 +16191,7 @@
 
 <!--    <e><p><l>čemu<s n="pr"/></l><r>what<s n="pr"/></r></p></e>  -->
     <e><p><l>što<s n="prn"/></l><r>what<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>  
-    <e><p><l>čiji<s n="cnjcoo"/></l><r>whose<s n="cnjcoo"/></r></p></e> 
+    <e><p><l>čiji<s n="cnjcoo"/></l><r>whose<s n="prn"/><s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e> 
     
     
     <e><p><l>bilježiti<s n="vblex"/></l><r>mark<s n="vblex"/></r></p></e>
@@ -16369,7 +16369,7 @@
 			<e><p><l>odgovoriti<s n="vblex"/></l><r>respond<s n="vblex"/></r></p></e>
 			<e><p><l>naci<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
 			<e><p><l>dolaziti<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
-			<e><p><l>evo<s n="part"/></l><r>here is<s n="part"/></r></p></e>
+			<e><p><l>evo<s n="part"/></l><r>here<s n="adv"/></r></p></e>
 			<e><p><l>sjedi<s n="vblex"/></l><r>sit<s n="vblex"/></r></p></e>
 			<e><p><l>drzi<s n="vblex"/></l><r>hold<s n="vblex"/></r></p></e>
 			<e><p><l>zacuti<s n="vblex"/></l><r>hear<s n="vblex"/></r></p></e>
@@ -16457,7 +16457,7 @@
 
     <e><p><l>no<s n="part"/></l><r>but<s n="cnjcoo"/></r></p></e>
     <e><p><l>i<s n="part"/></l><r>also<s n="adv"/></r></p></e>
-    <e><p><l>li<s n="part"/></l><r>if<s n="adv"/></r></p></e>
+    <e><p><l>li<s n="part"/><s n="itg"/></l><r>if<s n="adv"/></r></p></e>
 
     <!-- PREPOSITIONS -->
 

@@ -158,8 +158,9 @@
     </pardef>
     
     <pardef n="numeros">
-      <e r="RL"><re>[0-9]+([., ][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
-      <e>       <re>[0-9]+([.,][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
+<!--      <e r="RL"><re>[0-9]+([., ][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e>       <re>[0-9]+([.,][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e> -->
+    <e><re>[0-9]+([., ][0-9]+)*[., ]*</re><p><l></l><r><s n="num"/></r></p></e>
 <!--
       <e><re>[0-9][0-9]</re><p><l>/</l><r>\/</r></p><re>[0-9][0-9]</re><p><l>/</l><r>\/</r></p><re>[0-9][0-9][0-9][0-9]</re><p><l/><r><s n="num"/></r></p></e>
 -->
@@ -5337,6 +5338,7 @@
     <e lm="enchanted"><i>enchanted</i><par n="expensive__adj"/></e>
     <e lm="keep"><i>ke</i><par n="ke/ep__vblex"/></e>
     <e lm="whose"><i>whose</i><par n="whose__prn"/></e>
+    <e lm="whose"><i>whose</i><par n="that__rel"/></e>
     <e lm="reveal"><i>reveal</i><par n="accept__vblex"/></e>
     <e lm="revealed"><i>revealed</i><par n="expensive__adj"/></e>
     <e lm="expand"><i>expand</i><par n="accept__vblex"/></e>
@@ -44877,7 +44879,6 @@
     <e lm="hardly"><i>hardly</i><par n="maybe__adv"/></e>
     <e lm="headed by"><i>headed<b/>by</i><par n="maybe__adv"/></e>
     <e lm="heavily"><i>heavily</i><par n="maybe__adv"/></e>
-    <e lm="here"><i>here</i><par n="maybe__adv"/></e>
     <e lm="high"><i>high</i><par n="maybe__adv"/></e>
     <e lm="highly"><i>highly</i><par n="maybe__adv"/></e>
     <e lm="historically"><i>historically</i><par n="maybe__adv"/></e>

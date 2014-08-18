@@ -2117,6 +2117,25 @@
         </when>
         <when>
           <test>
+            <and>
+	      <equal><clip pos="1" side="tl" part="a_num"/><lit-tag v="num"/></equal>
+	      <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+            </and>
+	  </test>
+	  <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num"/></let>
+	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_num"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </concat>
+	  </let>
+	</when>
+        <when>
+          <test>
 	    <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj.ord"/></equal>
 	  </test>
 	  <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj.ord"/></let>
@@ -2380,7 +2399,7 @@
     <!-- Adapter for conjunctions -->
     <def-macro n="cnj_adapter" npar="1">
       <choose>
-        <when> <!-- koji -> who -->
+        <when> <!-- koji -> who, čiji -> whose -->
           <test>
             <and>
               <equal><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.rel.an"/></equal>
@@ -2747,7 +2766,17 @@
       </pattern>      
       <action>
         <call-macro n="np_adapter"><with-param pos="1"/></call-macro>
-        <call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="3" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
+            </test>
+	    <call-macro n="np_adapter"><with-param pos="3"/></call-macro>
+          </when>
+          <otherwise>
+	    <call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+          </otherwise>
+        </choose>
         <out>
           <chunk name="np-adj_nom" case="caseFirstWord">
             <tags>
@@ -3038,18 +3067,18 @@
     </rule>
 
     <!-- visok 4 metra -->
-    <rule comment="visok_num_nom">
+    <rule comment="visok_num_n">
       <pattern>
 	<pattern-item n="visok"/>
 	<pattern-item n="num"/>
-	<pattern-item n="nom"/>
+	<pattern-item n="n"/>
       </pattern>      
       <action>
 	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="num_adapter"><with-param pos="2"/></call-macro>
 	<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
         <out>
-          <chunk name="visok_num_nom" case="caseFirstWord">
+          <chunk name="visok_num_n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="AdjP"/></tag>
             </tags>
@@ -3091,7 +3120,6 @@
             <b pos="1"/>
 	    <lu>
 	      <clip pos="1" side="tl" part="whole"/>
-              <lit-tag v="ord.sg"/>
             </lu>
           </chunk>
         </out>
@@ -3102,7 +3130,7 @@
     <rule comment="date_year">
       <pattern>
 	<pattern-item n="numord"/>
-	<pattern-item n="nom"/>
+	<pattern-item n="months"/>
 	<pattern-item n="numord"/>
 	<pattern-item n="godine"/>
       </pattern>      
@@ -3157,7 +3185,7 @@
 <!--    <rule comment="date_year">
       <pattern>
 	<pattern-item n="numord"/>
-	<pattern-item n="nom"/>
+	<pattern-item n="months"/>
 	<pattern-item n="numord"/>
 	<pattern-item n="godine"/>
       </pattern>      
@@ -3310,7 +3338,17 @@
       </pattern>      
       <action>
 	<call-macro n="num_adapter"><with-param pos="1"/></call-macro>
-	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="2" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
+            </test>
+	    <call-macro n="np_adapter"><with-param pos="2"/></call-macro>
+          </when>
+          <otherwise>
+	    <call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+          </otherwise>
+        </choose>
 <!-     <let><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.sg"/></let> ->
         <out>
           <chunk name="num_nom" case="caseFirstWord">
@@ -3511,28 +3549,18 @@
     </rule>
 
    <!-- od početka djelovanja -->
-   <rule comment="pr_n_nom">
+   <rule comment="pr_n_n">
       <pattern>
 	<pattern-item n="pr"/>
 	<pattern-item n="n"/>
-	<pattern-item n="nom"/>
+	<pattern-item n="n"/>
       </pattern>      
       <action>
 	<call-macro n="pr_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
-	<choose>
-	  <when>
-	    <test>
-	      <equal><clip pos="3" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
-	    </test>
-            <call-macro n="np_adapter"><with-param pos="3"/></call-macro>
-	  </when>
-	  <otherwise>
-            <call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
-	  </otherwise>
-	</choose>
+        <call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
         <out>
-          <chunk name="pr_n_nom" case="caseFirstWord">
+          <chunk name="pr_n_n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="PP"/></tag>
             </tags>
@@ -3669,7 +3697,17 @@
       <action>
 	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
 	<call-macro n="num_adapter"><with-param pos="2"/></call-macro>
-	<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal><clip pos="3" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
+	    </test>
+            <call-macro n="np_adapter"><with-param pos="3"/></call-macro>
+	  </when>
+	  <otherwise>
+            <call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+	  </otherwise>
+	</choose>
 	<out>
           <chunk name="cijel_jedan_nom" case="caseFirstWord">
             <tags>
@@ -3705,9 +3743,29 @@
 	<pattern-item n="nom_gen"/>
       </pattern>      
       <action>
-	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
+            </test>
+	    <call-macro n="np_adapter"><with-param pos="1"/></call-macro>
+          </when>
+          <otherwise>
+	    <call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+          </otherwise>
+        </choose>
 	<call-macro n="adj_adapter"><with-param pos="2"/></call-macro>
-	<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="3" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
+            </test>
+	    <call-macro n="np_adapter"><with-param pos="3"/></call-macro>
+          </when>
+          <otherwise>
+	    <call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+          </otherwise>
+        </choose>
 	<out>
           <chunk name="nom_adj_nom" case="caseFirstWord">
             <tags>
@@ -3749,7 +3807,17 @@
       <action>
 	<call-macro n="adj_adapter"><with-param pos="1"/><with-param pos="2"/></call-macro>
 	<call-macro n="adj_adapter"><with-param pos="2"/><with-param pos="2"/></call-macro>
-	<call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="3" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
+            </test>
+	    <call-macro n="np_adapter"><with-param pos="3"/></call-macro>
+          </when>
+          <otherwise>
+	    <call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+          </otherwise>
+        </choose>
         <out>
           <chunk name="adj_adjins_nomins" case="caseFirstWord">
             <tags>
@@ -3902,7 +3970,17 @@
 	<call-macro n="adj_adapter"><with-param pos="3"/></call-macro>
 	<call-macro n="adj_adapter"><with-param pos="4"/></call-macro>
 	<call-macro n="adj_adapter"><with-param pos="6"/></call-macro>
-	<call-macro n="nom_adapter"><with-param pos="7"/></call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="7" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
+            </test>
+	    <call-macro n="np_adapter"><with-param pos="7"/></call-macro>
+          </when>
+          <otherwise>
+	    <call-macro n="nom_adapter"><with-param pos="7"/></call-macro>
+          </otherwise>
+        </choose>
 	<out>
           <chunk name="nisu_samo_nego" case="caseFirstWord">
             <tags>
@@ -4059,7 +4137,17 @@
         <pattern-item n="n"/>
       </pattern>
       <action>
-	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="2" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
+            </test>
+	    <call-macro n="np_adapter"><with-param pos="2"/></call-macro>
+          </when>
+          <otherwise>
+	    <call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+          </otherwise>
+        </choose>
         <out>
           <chunk name="dem-n" case="variableCase">
             <tags>
@@ -4098,7 +4186,17 @@
         <pattern-item n="n"/>
       </pattern>
       <action>
-	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="2" side="sl" part="a_nom"/><lit-tag v="np"/></equal>
+            </test>
+	    <call-macro n="np_adapter"><with-param pos="2"/></call-macro>
+          </when>
+          <otherwise>
+	    <call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+          </otherwise>
+        </choose>
         <out>
           <chunk name="dem-n" case="variableCase">
             <tags>
