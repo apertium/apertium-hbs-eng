@@ -4940,6 +4940,7 @@
     <e><p><l>Olli<s n="np"/></l><r>Olli<s n="np"/></r></p></e>
     <e><p><l>Thaci<s n="np"/></l><r>Thaci<s n="np"/></r></p></e>
     <e><p><l>Sequi<s n="np"/></l><r>Sequi<s n="np"/></r></p></e>
+    <e><p><l>Tae-Se<s n="np"/></l><r>Tae-Se<s n="np"/></r></p></e>
     <e><p><l>SAA<s n="abbr"/></l><r>SAA<s n="abbr"/></r></p></e>
     <e><p><l>Palčica<s n="np"/></l><r>Thumbelina<s n="np"/></r></p></e>
     <e><p><l>del<b/>Ponte<s n="np"/></l><r>del<b/>Ponte<s n="np"/></r></p></e>
@@ -6915,7 +6916,7 @@
     <e><p><l>Španjolska<s n="np"/></l><r>Spain<s n="np"/></r></p></e>
     <e><p><l>Švicarska<s n="np"/></l><r>Switzerland<s n="np"/></r></p></e>
     <e><p><l>Švajcarska<s n="np"/></l><r>Switzerland<s n="np"/></r></p></e>
-    <e><p><l>Srbija<s n="np"/></l><r>Serbia<s n="np"/></r></p></e>
+    <e><p><l>Srbija<s n="np"/></l><r>Serbia<s n="np"/><s n="top"/><s n="sg"/></r></p></e>
     <e><p><l>Viktorija<s n="np"/></l><r>Viktorija<s n="np"/></r></p></e>
     <e><p><l>Viktorija<s n="np"/></l><r>Victoria<s n="np"/></r></p></e>
     <e><p><l>Polinezija<s n="np"/></l><r>Polynesia<s n="np"/></r></p></e>
@@ -8037,7 +8038,7 @@
     <e><p><l>nikakav<s n="prn"/><s n="neg"/></l><r>no<b/>kind<b/>of<s n="pr"/></r></p></e>
     <e><p><l>nikakav<s n="prn"/><s n="neg"/></l><r>no<b/>kind<b/>of<s n="pr"/></r></p></e>
 <!--    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>prpers<s n="prn"/></r></p></e>  -->
-    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>myself<s n="prn"/></r></p></e>
+    <e><p><l>clitic<s n="prn"/><s n="ref"/><s n="pers"/></l><r>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 <!--    <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>yourself<s n="prn"/></r></p></e>
     <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>herself<s n="prn"/></r></p></e>
     <e><p><l>clitic<s n="prn"/><s n="ref"/></l><r>himself<s n="prn"/></r></p></e>
@@ -8059,6 +8060,7 @@
 
     <!-- testvoc abbrevations -->
 
+    <e><p><l>SEWRC<s n="abbr"/></l><r>SEWRC<s n="abbr"/></r></p></e>
     <e><p><l>NEK<s n="abbr"/></l><r>NEK<s n="abbr"/></r></p></e>
     <e><p><l>NATO<s n="abbr"/></l><r>NATO<s n="abbr"/></r></p></e>
     <e><p><l>SAD<s n="abbr"/></l><r>USA<s n="np"/><s n="top"/></r></p></e>

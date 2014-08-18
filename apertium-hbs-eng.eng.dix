@@ -4495,6 +4495,7 @@
     <e lm="Janko"><i>Janko</i><par n="Mark__np"/></e>
     <e lm="Janko"><i>Janko</i><par n="Smith__np"/></e>
     <e lm="Sequi"><i>Sequi</i><par n="Smith__np"/></e>
+    <e lm="Tae-Se"><i>Tae-Se</i><par n="Smith__np"/></e>
     <e lm="Broadway"><i>Broadway</i><par n="Barcelona__np"/></e>
     <e lm="Kramberger"><i>Kramberger</i><par n="Smith__np"/></e>
     <e lm="Hušnjak"><i>Hušnjak</i><par n="Smith__np"/></e>
@@ -4812,6 +4813,7 @@
     <!-- testvoc abbrevations -->
 
     <e lm="KNPVP"><i>KNPVP</i><par n="e.g.__abbr"/></e>
+    <e lm="SEWRC"><i>SEWRC</i><par n="e.g.__abbr"/></e>
     <e lm="http"><i>http</i><par n="e.g.__abbr"/></e>
     <e lm="EGS"><i>EGS</i><par n="e.g.__abbr"/></e>
     <e lm="EFSA"><i>EFSA</i><par n="e.g.__abbr"/></e>
