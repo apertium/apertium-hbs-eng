@@ -55,3 +55,8 @@ texts/rasskaz.hbs.txt -text
 texts/wiki_let3.eng.txt -text
 texts/wiki_let3.hbs-eng.txt -text
 texts/wiki_let3.hbs.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
