@@ -98,6 +98,9 @@
     <sdef n="time"      c="Time"/>
     <sdef n="conj"      c="Conjunction"/>
     <sdef n="punct"     c="punctuation"/>
+    <sdef n="prperf"    c="Present Perfect"/>
+    <sdef n="prcont"    c="Present Continuous"/>
+    <sdef n="presneg"   c="Present Negative"/>
 
   </sdefs>
 
