@@ -95,7 +95,7 @@
     <sdef n="ND"        c="Number to be determined"/>
     <sdef n="GD"        c="Gender to be determined"/>
 
-    <sdef n="probj"     c=""/>
+    <sdef n="probj"/>
     <sdef n="plc"/>
     <sdef n="inst"/>
     <sdef n="time"      c="Time"/>
@@ -108,6 +108,8 @@
     <sdef n="stop"/>
 
     <sdef n="sfx"/>
+
+    <!-- Visit: http://wiki.apertium.org/wiki/List_of_symbols for more symbols -->
   </sdefs>
 
   <pardefs>    
