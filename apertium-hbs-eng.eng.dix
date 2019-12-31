@@ -94,14 +94,20 @@
     <sdef n="sym"       c="Symbol"/>
     <sdef n="ND"        c="Number to be determined"/>
     <sdef n="GD"        c="Gender to be determined"/>
-    <sdef n="obj"       c="Object"/>
+
+    <sdef n="probj"     c=""/>
+    <sdef n="plc"/>
+    <sdef n="inst"/>
     <sdef n="time"      c="Time"/>
-    <sdef n="conj"      c="Conjunction"/>
-    <sdef n="punct"     c="punctuation"/>
     <sdef n="prperf"    c="Present Perfect"/>
     <sdef n="prcont"    c="Present Continuous"/>
     <sdef n="presneg"   c="Present Negative"/>
+    <sdef n="p4"/>
+    <sdef n="conj"      c="Conjunction"/>
+    <sdef n="punct"     c="punctuation"/>
+    <sdef n="stop"/>
 
+    <sdef n="sfx"/>
   </sdefs>
 
   <pardefs>    
