@@ -2,7 +2,6 @@
 ## Makefile for Serbo-Croatian--English
 ###############################################################################
 
-VERSION=0.5.0
 LANG1=hbs
 LANG1a=hbs_BS
 LANG1b=hbs_HR
