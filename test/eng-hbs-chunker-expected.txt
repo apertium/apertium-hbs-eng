@@ -1,0 +1,18 @@
+[3w3_3_5Erxu6#0] ^unknown<unknown>{^*yos$}$
+[/3w3_3_5Erxu6]
+[DkzTEndDms50#0] ^unknown<unknown>{^*soGT$}$
+[/DkzTEndDms50]
+[JFGJUjhefxMP#0] ^n<N>{^@ö<n><pl>$}$
+[/JFGJUjhefxMP]
+[Mn7JKjuyaj7v#0] ^n<N>{^@9s<n><pl>$}$
+[/Mn7JKjuyaj7v]
+[O5ynH83WmdcH#0] ^default<default>{^51..<num>$}$
+[/O5ynH83WmdcH]
+[X-zrZv_IbzjZ#0] ^default<default>{^0<num>$}$
+[/X-zrZv_IbzjZ]
+[k6iUXjUmyjj_#0] ^unknown<unknown>{^*Ogia$}$
+[/k6iUXjUmyjj_]
+[tRpSIxho1oGX#0] ^unknown<unknown>{^*hezínndMA$}$
+[/tRpSIxho1oGX]
+[u3IIvJtdfATx#0] ^sent<SENT>{^!<sent>$}$
+[/u3IIvJtdfATx]

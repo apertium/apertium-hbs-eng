@@ -1,0 +1,28 @@
+[--ekMkfDrmS6#0] ^'<apos>/'<apos>$
+[/--ekMkfDrmS6]
+[0DUCxD10owuT#0] ^,<cm>/,<cm>$
+[/0DUCxD10owuT]
+[20hx392l9-9d#0] ^oboje<prn><tot><nt><sp><nom>/both<prn><ind><mf><pl><nt><sp><nom>$
+[/20hx392l9-9d]
+[3lpveBFuymLX#0] ^V<num>/V<num>/V<num>$
+[/3lpveBFuymLX]
+[7MdJOLYpH09G#0] ^*ćbj/*ćbj$
+[/7MdJOLYpH09G]
+[BIumT6-jOpoX#0] ^četrnaesti<num><ord><f><sg><acc>/fourteenth<adj><ord><f><sg><acc>$
+[/BIumT6-jOpoX]
+[EZAjLKVVU228#0] ^*Købenev/*Købenev$
+[/EZAjLKVVU228]
+[Jl_aF6NGEbFT#0] ^'<apos>/'<apos>$
+[/Jl_aF6NGEbFT]
+[LXEWQrcmsEQB#0] ^x<num>/x<num>$
+[/LXEWQrcmsEQB]
+[QbgF6nrAFOI1#0] ^;<sent>/;<sent>$
+[/QbgF6nrAFOI1]
+[UOch5JwBPwDG#0] ^w<abbr>/w<abbr>$
+[/UOch5JwBPwDG]
+[XrHw-UM6C29h#0] ^IX<num>/IX<num>/IX<num>$
+[/XrHw-UM6C29h]
+[Zw5RDg3xmBCp#0] ^*preraemne/*preraemne$
+[/Zw5RDg3xmBCp]
+[x0Lv-qu6sxuJ#0] ^*Afganznoiu/*Afganznoiu$
+[/x0Lv-qu6sxuJ]

@@ -1,0 +1,10 @@
+{
+    "eng-hbs": {
+        "input": "eng-hbs-input.txt",
+        "mode": "eng-hbs"
+    },
+    "hbs-eng": {
+        "input": "hbs-eng-input.txt",
+        "mode": "hbs-eng"
+    }
+}
